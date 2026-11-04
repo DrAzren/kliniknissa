@@ -14,7 +14,7 @@ Times are final-video seconds. Every scene is an AI 3D animation clip: still fro
 | I | 45.23–50.26 | "Jadi, emosi ini sangat penting…" | Light pulses travel from brain to heart | "EMOSI BUKAN KELEMAHAN — Ia isyarat penting daripada otak" |
 | J | 50.26–57.67 | "Tapi, kalau anda rasa kosong…" | Young adult sitting numbly on bed at dusk (calm, no self-harm) | Red-flag checklist ticks in sync: kosong / minat / perasaan / >2 minggu → "Mungkin tanda kemurungan" |
 | K | 57.67–60.48 | "Dapatkan penilaian profesional." | Doctor listening warmly, patient relieved | NHMS 2023 card: ≈1 juta rakyat Malaysia alami kemurungan |
-| END | 60.48–66.04 | "Klinik Nissa, Nilai… saringan kesihatan mental." | (blurred brain-heart background) | Official logo (original file), "Konsultasi & Saringan Kesihatan Mental", WhatsApp 012-608 1411, address, Talian HEAL 15555, education disclaimer |
+| END | 60.48–66.04 | "Klinik Nissa, Nilai… saringan kesihatan mental." | (blurred brain-heart background) | Official logo (original file), "Konsultasi & Saringan Kesihatan Mental", WhatsApp 012-608 1411, address, education disclaimer (Talian HEAL line removed at user request) |
 
 Subtitles: Montserrat Black 66 px, white with navy stroke, keywords in brand yellow, max 2 lines, y≈1250–1510 (clear of TikTok/Reels UI). Logo badge top-left from 3.2 s.
 Audio: Dr Azren narration (pauses tightened, 1.05× tempo, pitch preserved), ElevenLabs Music v2.5 instrumental bed (vocal check: none detected) side-chain ducked under voice, whoosh on each cut, soft pops on reveals. Loudness −15 LUFS integrated.
