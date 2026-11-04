@@ -1,0 +1,892 @@
+{
+ "tempo": 1.05,
+ "cuts": [
+  [
+   9.14345,
+   9.40331
+  ],
+  [
+   10.831,
+   11.2788
+  ],
+  [
+   14.0033,
+   14.1798
+  ],
+  [
+   15.809800000000001,
+   15.929400000000001
+  ],
+  [
+   18.5052,
+   18.5975
+  ],
+  [
+   26.3173,
+   26.5007
+  ],
+  [
+   27.2791,
+   27.2855
+  ],
+  [
+   29.6706,
+   29.7013
+  ],
+  [
+   32.354099999999995,
+   32.4853
+  ],
+  [
+   37.105199999999996,
+   37.2057
+  ],
+  [
+   39.418099999999995,
+   39.4421
+  ],
+  [
+   43.7467,
+   43.8509
+  ],
+  [
+   46.2251,
+   46.2466
+  ],
+  [
+   49.188399999999994,
+   49.323800000000006
+  ],
+  [
+   54.3698,
+   54.408100000000005
+  ],
+  [
+   64.1085,
+   64.1172
+  ]
+ ],
+ "keep": [
+  [
+   0,
+   9.14345
+  ],
+  [
+   9.40331,
+   10.831
+  ],
+  [
+   11.2788,
+   14.0033
+  ],
+  [
+   14.1798,
+   15.809800000000001
+  ],
+  [
+   15.929400000000001,
+   18.5052
+  ],
+  [
+   18.5975,
+   26.3173
+  ],
+  [
+   26.5007,
+   27.2791
+  ],
+  [
+   27.2855,
+   29.6706
+  ],
+  [
+   29.7013,
+   32.354099999999995
+  ],
+  [
+   32.4853,
+   37.105199999999996
+  ],
+  [
+   37.2057,
+   39.418099999999995
+  ],
+  [
+   39.4421,
+   43.7467
+  ],
+  [
+   43.8509,
+   46.2251
+  ],
+  [
+   46.2466,
+   49.188399999999994
+  ],
+  [
+   49.323800000000006,
+   54.3698
+  ],
+  [
+   54.408100000000005,
+   64.1085
+  ],
+  [
+   64.1172,
+   68.91102
+  ]
+ ],
+ "voice_end": 63.83872380952376,
+ "words": [
+  {
+   "text": "Bayangkan...",
+   "start": 0.076,
+   "end": 0.952
+  },
+  {
+   "text": "satu",
+   "start": 1.143,
+   "end": 1.371
+  },
+  {
+   "text": "hari",
+   "start": 1.448,
+   "end": 1.6
+  },
+  {
+   "text": "nanti,",
+   "start": 1.638,
+   "end": 2.286
+  },
+  {
+   "text": "semua",
+   "start": 2.514,
+   "end": 2.895
+  },
+  {
+   "text": "manusia",
+   "start": 2.971,
+   "end": 3.352
+  },
+  {
+   "text": "di",
+   "start": 3.39,
+   "end": 3.429
+  },
+  {
+   "text": "dunia",
+   "start": 3.505,
+   "end": 3.657
+  },
+  {
+   "text": "ini",
+   "start": 3.733,
+   "end": 3.962
+  },
+  {
+   "text": "bangun",
+   "start": 4.038,
+   "end": 4.495
+  },
+  {
+   "text": "tanpa",
+   "start": 4.571,
+   "end": 4.952
+  },
+  {
+   "text": "emosi.",
+   "start": 5.029,
+   "end": 5.943
+  },
+  {
+   "text": "Tak",
+   "start": 5.969,
+   "end": 6.019
+  },
+  {
+   "text": "ada",
+   "start": 6.095,
+   "end": 6.171
+  },
+  {
+   "text": "gembira.",
+   "start": 6.248,
+   "end": 7.01
+  },
+  {
+   "text": "Tak",
+   "start": 7.035,
+   "end": 7.086
+  },
+  {
+   "text": "ada",
+   "start": 7.124,
+   "end": 7.162
+  },
+  {
+   "text": "sedih.",
+   "start": 7.238,
+   "end": 7.924
+  },
+  {
+   "text": "Tak",
+   "start": 7.95,
+   "end": 8.0
+  },
+  {
+   "text": "ada",
+   "start": 8.076,
+   "end": 8.152
+  },
+  {
+   "text": "takut.",
+   "start": 8.229,
+   "end": 8.819
+  },
+  {
+   "text": "Bunyi",
+   "start": 8.857,
+   "end": 9.048
+  },
+  {
+   "text": "macam",
+   "start": 9.124,
+   "end": 9.276
+  },
+  {
+   "text": "tenang,",
+   "start": 9.353,
+   "end": 9.695
+  },
+  {
+   "text": "kan?",
+   "start": 9.733,
+   "end": 9.962
+  },
+  {
+   "text": "Sebenarnya...",
+   "start": 10.352,
+   "end": 11.517
+  },
+  {
+   "text": "ia",
+   "start": 11.593,
+   "end": 11.669
+  },
+  {
+   "text": "satu",
+   "start": 11.707,
+   "end": 11.897
+  },
+  {
+   "text": "bencana.",
+   "start": 11.936,
+   "end": 12.507
+  },
+  {
+   "text": "Pertama,",
+   "start": 12.796,
+   "end": 13.482
+  },
+  {
+   "text": "diri",
+   "start": 13.558,
+   "end": 13.672
+  },
+  {
+   "text": "kita.",
+   "start": 13.71,
+   "end": 14.215
+  },
+  {
+   "text": "Tanpa",
+   "start": 14.358,
+   "end": 14.587
+  },
+  {
+   "text": "rasa",
+   "start": 14.663,
+   "end": 14.815
+  },
+  {
+   "text": "takut,",
+   "start": 14.892,
+   "end": 15.425
+  },
+  {
+   "text": "kita",
+   "start": 15.463,
+   "end": 15.654
+  },
+  {
+   "text": "tak",
+   "start": 15.704,
+   "end": 15.806
+  },
+  {
+   "text": "elak",
+   "start": 15.882,
+   "end": 16.035
+  },
+  {
+   "text": "bahaya.",
+   "start": 16.111,
+   "end": 16.668
+  },
+  {
+   "text": "Kajian",
+   "start": 16.785,
+   "end": 17.166
+  },
+  {
+   "text": "pada",
+   "start": 17.204,
+   "end": 17.318
+  },
+  {
+   "text": "pesakit",
+   "start": 17.394,
+   "end": 17.775
+  },
+  {
+   "text": "yang",
+   "start": 17.851,
+   "end": 17.928
+  },
+  {
+   "text": "bahagian",
+   "start": 18.004,
+   "end": 18.232
+  },
+  {
+   "text": "otak",
+   "start": 18.309,
+   "end": 18.537
+  },
+  {
+   "text": "pemproses",
+   "start": 18.613,
+   "end": 18.994
+  },
+  {
+   "text": "emosinya",
+   "start": 19.07,
+   "end": 19.451
+  },
+  {
+   "text": "rosak,",
+   "start": 19.566,
+   "end": 20.061
+  },
+  {
+   "text": "menunjukkan",
+   "start": 20.137,
+   "end": 20.594
+  },
+  {
+   "text": "mereka",
+   "start": 20.67,
+   "end": 20.899
+  },
+  {
+   "text": "sukar",
+   "start": 20.975,
+   "end": 21.356
+  },
+  {
+   "text": "buat",
+   "start": 21.432,
+   "end": 21.509
+  },
+  {
+   "text": "keputusan",
+   "start": 21.585,
+   "end": 21.966
+  },
+  {
+   "text": "yang",
+   "start": 22.042,
+   "end": 22.118
+  },
+  {
+   "text": "baik,",
+   "start": 22.156,
+   "end": 22.575
+  },
+  {
+   "text": "walaupun",
+   "start": 22.651,
+   "end": 23.032
+  },
+  {
+   "text": "mereka",
+   "start": 23.109,
+   "end": 23.337
+  },
+  {
+   "text": "masih",
+   "start": 23.413,
+   "end": 23.566
+  },
+  {
+   "text": "bijak.",
+   "start": 23.642,
+   "end": 24.153
+  },
+  {
+   "text": "Kedua,",
+   "start": 24.203,
+   "end": 24.61
+  },
+  {
+   "text": "tiada",
+   "start": 24.909,
+   "end": 25.137
+  },
+  {
+   "text": "kasih",
+   "start": 25.213,
+   "end": 25.366
+  },
+  {
+   "text": "sayang,",
+   "start": 25.442,
+   "end": 26.052
+  },
+  {
+   "text": "tiada",
+   "start": 26.09,
+   "end": 26.28
+  },
+  {
+   "text": "empati.",
+   "start": 26.394,
+   "end": 26.89
+  },
+  {
+   "text": "Keluarga",
+   "start": 27.165,
+   "end": 27.546
+  },
+  {
+   "text": "dan",
+   "start": 27.622,
+   "end": 27.699
+  },
+  {
+   "text": "kawan,",
+   "start": 27.737,
+   "end": 28.308
+  },
+  {
+   "text": "jadi",
+   "start": 28.422,
+   "end": 28.537
+  },
+  {
+   "text": "macam",
+   "start": 28.613,
+   "end": 28.765
+  },
+  {
+   "text": "orang",
+   "start": 28.841,
+   "end": 28.918
+  },
+  {
+   "text": "asing.",
+   "start": 28.994,
+   "end": 29.56
+  },
+  {
+   "text": "Ketiga,",
+   "start": 29.707,
+   "end": 30.164
+  },
+  {
+   "text": "dalam",
+   "start": 30.469,
+   "end": 30.697
+  },
+  {
+   "text": "kerja,",
+   "start": 30.888,
+   "end": 31.307
+  },
+  {
+   "text": "tiada",
+   "start": 31.383,
+   "end": 31.612
+  },
+  {
+   "text": "motivasi.",
+   "start": 31.688,
+   "end": 32.297
+  },
+  {
+   "text": "Tiada",
+   "start": 32.526,
+   "end": 32.755
+  },
+  {
+   "text": "semangat",
+   "start": 32.831,
+   "end": 33.135
+  },
+  {
+   "text": "berpasukan.",
+   "start": 33.212,
+   "end": 33.821
+  },
+  {
+   "text": "Keempat,",
+   "start": 34.106,
+   "end": 34.792
+  },
+  {
+   "text": "kesan",
+   "start": 34.906,
+   "end": 35.173
+  },
+  {
+   "text": "kepada",
+   "start": 35.249,
+   "end": 35.478
+  },
+  {
+   "text": "negara.",
+   "start": 35.554,
+   "end": 35.935
+  },
+  {
+   "text": "Bila",
+   "start": 36.217,
+   "end": 36.445
+  },
+  {
+   "text": "banjir",
+   "start": 36.56,
+   "end": 36.826
+  },
+  {
+   "text": "melanda,",
+   "start": 36.903,
+   "end": 37.512
+  },
+  {
+   "text": "siapa",
+   "start": 37.588,
+   "end": 37.893
+  },
+  {
+   "text": "nak",
+   "start": 37.969,
+   "end": 38.045
+  },
+  {
+   "text": "turun",
+   "start": 38.084,
+   "end": 38.198
+  },
+  {
+   "text": "membantu,",
+   "start": 38.236,
+   "end": 38.884
+  },
+  {
+   "text": "kalau",
+   "start": 38.922,
+   "end": 39.036
+  },
+  {
+   "text": "tiada",
+   "start": 39.074,
+   "end": 39.265
+  },
+  {
+   "text": "rasa",
+   "start": 39.341,
+   "end": 39.455
+  },
+  {
+   "text": "simpati?",
+   "start": 39.493,
+   "end": 40.026
+  },
+  {
+   "text": "Dan",
+   "start": 40.308,
+   "end": 40.461
+  },
+  {
+   "text": "apa",
+   "start": 40.537,
+   "end": 40.765
+  },
+  {
+   "text": "berlaku",
+   "start": 40.841,
+   "end": 41.146
+  },
+  {
+   "text": "kepada",
+   "start": 41.222,
+   "end": 41.451
+  },
+  {
+   "text": "seluruh",
+   "start": 41.565,
+   "end": 41.908
+  },
+  {
+   "text": "dunia?",
+   "start": 41.946,
+   "end": 42.289
+  },
+  {
+   "text": "Tanpa",
+   "start": 42.573,
+   "end": 42.802
+  },
+  {
+   "text": "belas",
+   "start": 42.878,
+   "end": 43.031
+  },
+  {
+   "text": "kasihan,",
+   "start": 43.107,
+   "end": 43.792
+  },
+  {
+   "text": "kemanusiaan",
+   "start": 43.831,
+   "end": 44.478
+  },
+  {
+   "text": "pun",
+   "start": 44.554,
+   "end": 44.707
+  },
+  {
+   "text": "hilang.",
+   "start": 44.783,
+   "end": 45.088
+  },
+  {
+   "text": "Jadi,",
+   "start": 45.48,
+   "end": 46.102
+  },
+  {
+   "text": "emosi",
+   "start": 46.178,
+   "end": 46.559
+  },
+  {
+   "text": "ini",
+   "start": 46.673,
+   "end": 46.787
+  },
+  {
+   "text": "sangat",
+   "start": 46.863,
+   "end": 47.321
+  },
+  {
+   "text": "penting.",
+   "start": 47.397,
+   "end": 48.083
+  },
+  {
+   "text": "Ia",
+   "start": 48.121,
+   "end": 48.235
+  },
+  {
+   "text": "signal",
+   "start": 48.387,
+   "end": 48.54
+  },
+  {
+   "text": "penting",
+   "start": 48.616,
+   "end": 48.921
+  },
+  {
+   "text": "daripada",
+   "start": 48.997,
+   "end": 49.302
+  },
+  {
+   "text": "otak",
+   "start": 49.378,
+   "end": 49.53
+  },
+  {
+   "text": "kita.",
+   "start": 49.568,
+   "end": 50.179
+  },
+  {
+   "text": "Tapi,",
+   "start": 50.332,
+   "end": 50.789
+  },
+  {
+   "text": "kalau",
+   "start": 50.865,
+   "end": 51.017
+  },
+  {
+   "text": "anda",
+   "start": 51.094,
+   "end": 51.17
+  },
+  {
+   "text": "rasa",
+   "start": 51.246,
+   "end": 51.475
+  },
+  {
+   "text": "kosong,",
+   "start": 51.627,
+   "end": 52.237
+  },
+  {
+   "text": "hilang",
+   "start": 52.313,
+   "end": 52.541
+  },
+  {
+   "text": "minat,",
+   "start": 52.656,
+   "end": 53.151
+  },
+  {
+   "text": "atau",
+   "start": 53.265,
+   "end": 53.456
+  },
+  {
+   "text": "macam",
+   "start": 53.532,
+   "end": 53.76
+  },
+  {
+   "text": "tiada",
+   "start": 53.913,
+   "end": 54.141
+  },
+  {
+   "text": "perasaan",
+   "start": 54.179,
+   "end": 54.598
+  },
+  {
+   "text": "lebih",
+   "start": 54.637,
+   "end": 54.827
+  },
+  {
+   "text": "dua",
+   "start": 54.865,
+   "end": 54.941
+  },
+  {
+   "text": "minggu,",
+   "start": 54.979,
+   "end": 55.665
+  },
+  {
+   "text": "itu",
+   "start": 55.856,
+   "end": 56.046
+  },
+  {
+   "text": "mungkin",
+   "start": 56.084,
+   "end": 56.503
+  },
+  {
+   "text": "tanda",
+   "start": 56.579,
+   "end": 56.808
+  },
+  {
+   "text": "kemurungan.",
+   "start": 56.858,
+   "end": 57.646
+  },
+  {
+   "text": "Dapatkan",
+   "start": 57.684,
+   "end": 58.103
+  },
+  {
+   "text": "penilaian",
+   "start": 58.179,
+   "end": 58.484
+  },
+  {
+   "text": "profesional.",
+   "start": 58.56,
+   "end": 59.39
+  },
+  {
+   "text": "Klinik",
+   "start": 59.428,
+   "end": 59.695
+  },
+  {
+   "text": "Nissa,",
+   "start": 59.733,
+   "end": 59.962
+  },
+  {
+   "text": "Nilai,",
+   "start": 60.0,
+   "end": 60.457
+  },
+  {
+   "text": "sedia",
+   "start": 60.495,
+   "end": 60.685
+  },
+  {
+   "text": "membantu",
+   "start": 60.723,
+   "end": 61.219
+  },
+  {
+   "text": "untuk",
+   "start": 61.295,
+   "end": 61.447
+  },
+  {
+   "text": "konsultasi",
+   "start": 61.485,
+   "end": 62.133
+  },
+  {
+   "text": "dan",
+   "start": 62.209,
+   "end": 62.362
+  },
+  {
+   "text": "saringan",
+   "start": 62.438,
+   "end": 62.743
+  },
+  {
+   "text": "kesihatan",
+   "start": 62.819,
+   "end": 63.123
+  },
+  {
+   "text": "mental.",
+   "start": 63.2,
+   "end": 63.885
+  }
+ ]
+}

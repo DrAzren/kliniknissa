@@ -1,0 +1,77 @@
+{
+ "total": 66.039,
+ "scenes": [
+  {
+   "clip": "c00",
+   "start": 0.0,
+   "end": 5.95,
+   "label": "A hook city"
+  },
+  {
+   "clip": "c01",
+   "start": 5.95,
+   "end": 12.66,
+   "label": "B brain greys"
+  },
+  {
+   "clip": "c02",
+   "start": 12.66,
+   "end": 16.69,
+   "label": "C crossroads"
+  },
+  {
+   "clip": "c03",
+   "start": 16.69,
+   "end": 24.18,
+   "label": "D decision study"
+  },
+  {
+   "clip": "c04",
+   "start": 24.18,
+   "end": 29.59,
+   "label": "E family"
+  },
+  {
+   "clip": "c05",
+   "start": 29.59,
+   "end": 33.96,
+   "label": "F office"
+  },
+  {
+   "clip": "c06",
+   "start": 33.96,
+   "end": 40.17,
+   "label": "G flood"
+  },
+  {
+   "clip": "c07",
+   "start": 40.17,
+   "end": 45.23,
+   "label": "H earth"
+  },
+  {
+   "clip": "c08",
+   "start": 45.23,
+   "end": 50.26,
+   "label": "I brain-heart"
+  },
+  {
+   "clip": "c09",
+   "start": 50.26,
+   "end": 57.67,
+   "label": "J numbness"
+  },
+  {
+   "clip": "c10",
+   "start": 57.67,
+   "end": 60.48,
+   "label": "K consultation"
+  },
+  {
+   "clip": "c08",
+   "start": 60.48,
+   "end": 66.039,
+   "label": "END bg"
+  }
+ ]
+}

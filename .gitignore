@@ -1,0 +1,9 @@
+# Intermediate build artifacts (regenerate with work/scripts/*)
+work/base.mp4
+work/video_noaudio.mp4
+work/clips/seg*.mp4
+work/clips/list.txt
+work/preview/
+work/render_log.txt
+work/audio/*.wav
+work/render/lib/lib
