@@ -513,6 +513,7 @@ function frame(t) {
   }
   if (world.sky) world.sky.position.copy(cam.position);
   renderer.render(world.scene, cam);
+  if (window.BG_ONLY) { ov.begin(); ov.end(); return; } // clean 3D still for thumbnails
   ov.vignette(0.18);
   if (t < TL.voice_end) {
     logoBadge(t);

@@ -1,7 +1,7 @@
 {
  "tempo": 1.06,
- "voice_end": 99.554,
- "total": 104.154,
+ "voice_end": 99.271,
+ "total": 103.871,
  "segments": [
   {
    "id": "A1",
@@ -67,7 +67,7 @@
    "id": "K",
    "kind": "lip",
    "start": 91.054,
-   "end": 99.554
+   "end": 99.271
   }
  ],
  "words": [
@@ -1196,80 +1196,80 @@
   {
    "seg": "K",
    "text": "Nilai,",
-   "start": 92.168,
-   "end": 92.602
+   "start": 92.017,
+   "end": 92.413
   },
   {
    "seg": "K",
    "text": "sedia",
-   "start": 92.809,
-   "end": 93.092
+   "start": 92.526,
+   "end": 92.809
   },
   {
    "seg": "K",
    "text": "membantu,",
-   "start": 93.092,
-   "end": 93.639
+   "start": 92.809,
+   "end": 93.338
   },
   {
    "seg": "K",
    "text": "untuk",
-   "start": 93.941,
-   "end": 94.149
+   "start": 93.658,
+   "end": 93.866
   },
   {
    "seg": "K",
    "text": "ujian",
-   "start": 94.149,
-   "end": 94.545
+   "start": 93.866,
+   "end": 94.262
   },
   {
    "seg": "K",
    "text": "FBC",
-   "start": 94.545,
-   "end": 95.073
+   "start": 94.262,
+   "end": 94.771
   },
   {
    "seg": "K",
    "text": "dan",
-   "start": 95.073,
-   "end": 95.413
+   "start": 94.771,
+   "end": 95.111
   },
   {
    "seg": "K",
    "text": "pemeriksaan",
-   "start": 95.413,
-   "end": 96.073
+   "start": 95.111,
+   "end": 95.771
   },
   {
    "seg": "K",
    "text": "demam.",
-   "start": 96.073,
-   "end": 96.507
+   "start": 95.771,
+   "end": 96.205
   },
   {
    "seg": "K",
    "text": "Hapuskan",
-   "start": 96.696,
-   "end": 97.319
+   "start": 96.394,
+   "end": 97.017
   },
   {
    "seg": "K",
    "text": "Aedes,",
-   "start": 97.319,
-   "end": 97.621
+   "start": 97.017,
+   "end": 97.338
   },
   {
    "seg": "K",
    "text": "selamatkan",
-   "start": 97.96,
-   "end": 98.526
+   "start": 97.677,
+   "end": 98.243
   },
   {
    "seg": "K",
    "text": "keluarga!",
-   "start": 98.526,
-   "end": 99.017
+   "start": 98.243,
+   "end": 98.734
   }
  ]
 }

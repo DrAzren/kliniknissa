@@ -17,6 +17,7 @@ ap.add_argument('--tempo', type=float, default=1.0)
 ap.add_argument('--gap', type=float, default=0.32)
 ap.add_argument('--end-hold', type=float, default=4.6)
 ap.add_argument('--model', default='small')
+ap.add_argument('--enhance', action='store_true', help='clean the voice: rumble/hiss filters, denoise, EQ, de-ess, soft gate, light compression')
 a = ap.parse_args()
 EP = a.ep
 segs = json.load(open(os.path.join(EP, 'segments.json')))
@@ -83,7 +84,10 @@ for n, s in enumerate(segs):
     a1 = min(dur(src), ref[-1][2] + 0.25)
     span = a1 - a0 + a.gap
     p = os.path.join(EP, 'audio', 'parts', f'{n:02d}.wav')
-    subprocess.run(['ffmpeg', '-y', '-v', 'error', '-i', src, '-af', f'atrim={a0}:{a1},asetpts=PTS-STARTPTS,apad=pad_dur={a.gap},atrim=0:{span}', '-ar', '44100', '-ac', '1', p], check=True)
+    fx = ('highpass=f=95:poles=2,lowpass=f=11500,afftdn=nr=18:nf=-40:tn=1,equalizer=f=220:t=q:w=1.0:g=-3,'
+          'equalizer=f=3200:t=q:w=1.4:g=2.5,deesser=i=0.3,agate=threshold=0.015:ratio=3:attack=3:release=120:range=0.12,'
+          'acompressor=threshold=0.1:ratio=2.5:attack=8:release=120:makeup=1.5,') if a.enhance else ''
+    subprocess.run(['ffmpeg', '-y', '-v', 'error', '-i', src, '-af', f'{fx}atrim={a0}:{a1},asetpts=PTS-STARTPTS,apad=pad_dur={a.gap},atrim=0:{span}', '-ar', '44100', '-ac', '1', p], check=True)
     parts.append(p)
     L = span / a.tempo
     for x in words:

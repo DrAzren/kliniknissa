@@ -251,7 +251,7 @@ for p in pops:
     place(sfx, pop(0.22), p - 0.08, pan=0.1)
 for p in [w('E', 'penutup'), w('K', 'ujian'), END + 0.3]:
     place(sfx, chime(0.18), p - 0.1)
-place(sfx, alarm(SEG['G']['end'] - SEG['G']['start'] - 0.4, 0.035), SEG['G']['start'] + 0.2)
+place(sfx, alarm(SEG['G']['end'] - SEG['G']['start'] - 0.4, 0.015), SEG['G']['start'] + 0.2)
 
 # ---- narration + ducking
 narr = np.zeros((N, 2))
@@ -261,10 +261,12 @@ if os.path.exists(npath) and not TL.get('placeholder'):
     v = np.frombuffer(raw, dtype=np.float32)[:N]
     narr[:len(v), 0] = narr[:len(v), 1] = v
     lvl = lowpass(np.abs(narr[:, 0]), 6)
-    duck = 1 - 0.6 * np.clip(lvl / (lvl.max() * 0.15 + 1e-9), 0, 1)
+    duck = 1 - 0.78 * np.clip(lvl / (lvl.max() * 0.12 + 1e-9), 0, 1)
     duck = lowpass(duck, 3)
     music *= duck[:, None]
-    gm = 0.55
+    sfx_duck = 1 - 0.55 * np.clip(lvl / (lvl.max() * 0.12 + 1e-9), 0, 1)
+    sfx *= lowpass(sfx_duck, 3)[:, None]
+    gm = 0.5
 else:
     gm = 0.9  # no voice yet: music a little louder for the preview
 
