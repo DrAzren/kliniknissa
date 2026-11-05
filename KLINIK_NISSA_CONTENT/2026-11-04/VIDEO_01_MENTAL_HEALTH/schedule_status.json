@@ -1,21 +1,62 @@
 {
   "video_id": "2026-11-04_VIDEO_01_MENTAL_HEALTH_tiada-emosi",
-  "metricool_brand": {"label": "Klinik Nissa", "brandId": 7840561, "timezone": "Asia/Kuala_Lumpur",
-    "networks": {"facebook": "522718507588597", "instagram": "kliniknissa", "tiktok": "kliniknissanilai"}},
+  "metricool_brand": {
+    "label": "Klinik Nissa",
+    "brandId": 7840561,
+    "timezone": "Asia/Kuala_Lumpur",
+    "networks": {
+      "facebook": "522718507588597",
+      "instagram": "kliniknissa",
+      "tiktok": "kliniknissanilai"
+    }
+  },
   "approval_gate": {
     "medical_accuracy": "PENDING",
     "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR exists in the user's own ElevenLabs workspace and was requested by the user)",
     "brand_logo": "VERIFIED (original 'Klinik Nissa Logo Clean.png' from Drive, pixels unaltered)",
     "whatsapp_number": "PENDING_CONFIRMATION (012-608 1411 = registered clinic phone in SPDP document; WhatsApp not confirmed)",
-    "advertising_compliance_MAB": "PENDING"
+    "advertising_compliance_MAB": "PENDING",
+    "publishing_instruction": "User (clinic) instructed scheduling on 2026-11-05 10:58 MYT"
   },
-  "status": "REVIEW_READY_NOT_SCHEDULED",
+  "status": "SCHEDULED",
   "best_times_source": "Metricool getBestTimeToPostByNetwork, fetched 2026-11-04 for 2026-11-05..11 (dayOfWeek 4 = Thursday)",
   "proposed_slots_after_approval": [
-    {"network": "facebook",  "local_time": "10:00", "basis": "Metricool best time (Thu score 12351, daily peak)", "provisional": false},
-    {"network": "tiktok",    "local_time": "18:00", "basis": "Metricool best time (Thu score 1378; 10:00 = 1471 is the alternative)", "provisional": false},
-    {"network": "instagram", "local_time": "12:00", "basis": "No Best Times data (all zeros) - general estimate only", "provisional": true}
+    {
+      "network": "facebook",
+      "local_time": "10:00",
+      "basis": "Metricool best time (Thu score 12351, daily peak)",
+      "provisional": false
+    },
+    {
+      "network": "tiktok",
+      "local_time": "18:00",
+      "basis": "Metricool best time (Thu score 1378; 10:00 = 1471 is the alternative)",
+      "provisional": false
+    },
+    {
+      "network": "instagram",
+      "local_time": "12:00",
+      "basis": "No Best Times data (all zeros) - general estimate only",
+      "provisional": true
+    }
   ],
-  "scheduled_posts": [],
-  "notes": "Nothing has been sent to Metricool. Scheduling requires approval of all gate items, plus a publicly reachable media URL for the MP4/thumbnail."
+  "scheduled_posts": [
+    {
+      "metricool_post_id": 417272574,
+      "uuid": "6942996357770920536",
+      "publication": "2026-11-05T12:30:00 Asia/Kuala_Lumpur",
+      "networks": {
+        "facebook": "REEL / PENDING",
+        "instagram": "REEL (AI-generated label) / PENDING",
+        "tiktok": "PUBLIC, AIGC label, own-brand commercial disclosure / PENDING"
+      },
+      "autoPublish": true,
+      "caption_file": "caption_scheduled_all_platforms.txt",
+      "media": "https://static.metricool.com/planner/202611/7705651-file-12246550638008531408.mp4",
+      "thumbnail": "https://static.metricool.com/planner/202611/7705651-file-5803741745166361122.jpeg",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7840561&openWithPostUuid=6942996357770920536",
+      "verified_via": "getScheduledPosts 2026-11-05"
+    }
+  ],
+  "notes": "Scheduled at the user's explicit request. Status is PENDING until Metricool publishes; publication itself is not yet confirmed."
 }
