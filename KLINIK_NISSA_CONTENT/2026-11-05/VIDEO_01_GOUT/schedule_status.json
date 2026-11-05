@@ -1,7 +1,15 @@
 {
   "video_id": "2026-11-05_VIDEO_01_GOUT_dr-aminah-3d",
-  "metricool_brand": {"label": "Klinik Nissa", "brandId": 7840561, "timezone": "Asia/Kuala_Lumpur",
-    "networks": {"facebook": "522718507588597", "instagram": "kliniknissa", "tiktok": "kliniknissanilai"}},
+  "metricool_brand": {
+    "label": "Klinik Nissa",
+    "brandId": 7840561,
+    "timezone": "Asia/Kuala_Lumpur",
+    "networks": {
+      "facebook": "522718507588597",
+      "instagram": "kliniknissa",
+      "tiktok": "kliniknissanilai"
+    }
+  },
   "approval_gate": {
     "script": "APPROVED_BY_USER (2026-11-05, 'teruskan')",
     "medical_accuracy": "PENDING",
@@ -11,7 +19,22 @@
     "advertising_compliance_MAB": "PENDING",
     "ai_content_label": "RECOMMENDED (all visuals AI-generated)"
   },
-  "status": "REVIEW_READY_NOT_SCHEDULED",
-  "scheduled_posts": [],
-  "notes": "Nothing has been sent to Metricool. Use the same Best Times as the 4 Nov batch after approval (FB 10:00, TikTok 18:00, IG 12:00 provisional), re-checking Metricool on the posting day."
+  "status": "SCHEDULED_BY_USER_REQUEST",
+  "scheduled_posts": [
+    {
+      "metricool_post_id": 417286313,
+      "uuid": "6953139883848974631",
+      "publication": "2026-11-05T15:00:00 Asia/Kuala_Lumpur",
+      "networks": {
+        "facebook": "REEL",
+        "instagram": "REEL (isAiGenerated=true)",
+        "tiktok": "PUBLIC_TO_EVERYONE (isAigc=true)"
+      },
+      "text": "Ibu jari kaki tiba-tiba bengkak? Dr Aminah ada jawapannya 👣\n\nKlinik Nissa, Nilai · WhatsApp 012-608 1411",
+      "thumbnail": "custom cover (thumbnail.jpg)",
+      "autoPublish": true,
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7840561&openWithPostUuid=6953139883848974631"
+    }
+  ],
+  "notes": "Scheduled on the user's instruction (5 Nov 2026, 15:00 MYT) with a short caption. Approval-gate items above were still open when it was scheduled. Media was hosted on the user's Higgsfield media storage (public CloudFront URL) for Metricool to fetch; Metricool copied it to its own storage."
 }
