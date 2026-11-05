@@ -7,3 +7,10 @@ work/preview/
 work/render_log.txt
 work/audio/*.wav
 work/render/lib/lib
+# code-driven explainer build artifacts
+explainer/node_modules/
+explainer/episodes/*/stills/
+explainer/episodes/*/output/video_silent.mp4
+explainer/episodes/*/output/mix.wav
+explainer/episodes/*/audio/parts/
+explainer/lab/*/stills/

@@ -1,4 +1,17 @@
 # Credit estimate: Nyamuk Aedes & denggi (Dr Aminah, eleven_v4), 2026-11-05
+
+## CHOSEN: Pakej Percuma (code-driven explainer, The Curious Affan style), ≈ 2,570 credits (≈ US$0.47)
+Every frame is drawn by code (three.js in headless Chromium, `explainer/episodes/denggi/`). The characters, sets and motion graphics
+cost 0 credits, and so do the music and SFX (synthesised with numpy). The only paid item is Dr Aminah's voice:
+| Item | Model | Basis | Credits |
+|---|---|---|---|
+| Narration, 11 segments × 2 takes (ElevenLabs default) | eleven_v4 (Dr Aminah) | 1,406 chars × 2 × 0.913 (ElevenLabs estimate: segment G, 185 chars × 2 takes = 338 credits) | ≈ 2,570 |
+| Subtitle timing | faster-whisper (local) | | 0 |
+| Pictures, music, SFX | code | | 0 |
+Zero-credit alternative: Dr Aminah records the script herself (phone voice memo, one file per segment) and the same pipeline uses it.
+
+---
+Earlier options (AI-generated video, not chosen):
 Unit prices are taken from the actual ElevenLabs charges on the Gout video (`claude/eager-johnson-68g9es`, DAILY_PRODUCTION_REPORT.md). 61,711 credits ≈ US$11.22, so 1,000 credits ≈ US$0.18.
 Draft script: 11 segments, 1,406 characters, 200 words. Estimated narration ≈ 96 s, plus a 4.6 s end card ≈ 100 s.
 

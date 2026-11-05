@@ -1,0 +1,15 @@
+{
+  "name": "kliniknissa-explainer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Klinik Nissa code-driven 3D health explainers (Bahasa Melayu)",
+  "license": "UNLICENSED",
+  "scripts": {
+    "render": "node tools/render.js"
+  },
+  "dependencies": {
+    "three": "0.170.0",
+    "@fontsource/fredoka": "5.1.0",
+    "@fontsource/baloo-2": "5.1.1"
+  }
+}
