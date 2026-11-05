@@ -1,7 +1,15 @@
 {
   "video_id": "2026-11-05_VIDEO_02_DENGGI_dr-aminah-explainer",
-  "metricool_brand": {"label": "Klinik Nissa", "brandId": 7840561, "timezone": "Asia/Kuala_Lumpur",
-    "networks": {"facebook": "522718507588597", "instagram": "kliniknissa", "tiktok": "kliniknissanilai"}},
+  "metricool_brand": {
+    "label": "Klinik Nissa",
+    "brandId": 7840561,
+    "timezone": "Asia/Kuala_Lumpur",
+    "networks": {
+      "facebook": "522718507588597",
+      "instagram": "kliniknissa",
+      "tiktok": "kliniknissanilai"
+    }
+  },
   "approval_gate": {
     "script": "USED_AS_DRAFTED (user approved the voice spend on 2026-11-05; no script edits requested)",
     "medical_accuracy": "PENDING",
@@ -11,7 +19,21 @@
     "advertising_compliance_MAB": "PENDING (CTA promotes the FBC test)",
     "ai_content_label": "RECOMMENDED (computer-generated animation and AI voice)"
   },
-  "status": "REVIEW_READY_NOT_SCHEDULED",
-  "scheduled_posts": [],
-  "notes": "Nothing has been sent to Metricool. After approval, use the brand's Best Times (FB 10:00, TikTok 18:00, IG 12:00 provisional), re-checking Metricool on the posting day."
+  "status": "SCHEDULED_BY_USER_REQUEST",
+  "scheduled_posts": [
+    {
+      "metricool_post_id": 417356917,
+      "uuid": "-6676264032882045916",
+      "publication": "2026-11-05T18:00:00 Asia/Kuala_Lumpur",
+      "networks": [
+        "facebook REEL",
+        "instagram REEL (isAiGenerated)",
+        "tiktok (isAigc, commercialContentOwnBrand)"
+      ],
+      "status_at_creation": "PENDING",
+      "planner_url": "https://app.metricool.com/planner/calendar?blogId=7840561&openWithPostUuid=-6676264032882045916",
+      "text": "Satu gigitan nyamuk Aedes boleh ubah segalanya 🦟 Dr Aminah kongsi tanda denggi dan cara cegah.\n\nUjian darah penuh (FBC) di Klinik Nissa, Nilai. WhatsApp: 0126081411"
+    }
+  ],
+  "notes": "Scheduled on 2026-11-05 at the user's explicit request ('post pada pukul 6 petang hari ini di Metricool'). Medical review, voice/likeness consent and KKLIU items were still PENDING at that time."
 }
