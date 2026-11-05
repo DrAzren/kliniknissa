@@ -524,10 +524,16 @@ function frame(t) {
 // Thumbnail: worried mother by Adam's bed, a swarm silhouette, big title
 function thumbnail() {
   ov.begin();
-  const t = SEG.A2.end - 1.0;
-  const world = SC.A2(t, SEG.A2);
-  lookCam(V(3.9, 3.9, 4.2), V(0.6, 1.6, -1.0), 44);
-  renderer.render(world.scene, cam);
+  const t = SEG.D.start + 2.0;
+  const Y = yard;
+  Y.aminah.root.visible = false;
+  Y.aedes.root.visible = true;
+  Y.aedes.update(t, { flap: 0 });
+  Y.larvae.forEach((l) => l.update(t));
+  const P = Y.aedes.root.position;
+  lookCam(V(P.x + 0.25, P.y + 0.42, P.z + 1.25), V(P.x, P.y + 0.02, P.z), 40);
+  yard.sky.position.copy(cam.position);
+  renderer.render(yard.scene, cam);
   ov.begin();
   const g = ov.g;
   const top = g.createLinearGradient(0, 0, 0, 900);
@@ -536,8 +542,8 @@ function thumbnail() {
   g.fillStyle = top;
   g.fillRect(0, 0, W, 900);
   ov.vignette(0.35);
-  ov.bubble('thT', 'AWAS\nNYAMUK AEDES!', { x: W / 2, y: 470, r: -2 }, { size: 120, top: '#ffffff', bot: '#ffd2d2', stroke: '#7a0f1f' });
-  ov.tag('thS', 'TANDA DENGGI & CARA CEGAH', { x: W / 2, y: 720 }, { bg: '#e53950' });
+  ov.bubble('thT', 'AWAS\nNYAMUK AEDES!', { x: W / 2, y: 430, r: -2 }, { size: 120, top: '#ffffff', bot: '#ffd2d2', stroke: '#7a0f1f' });
+  ov.tag('thS', 'TANDA DENGGI & CARA CEGAH', { x: W / 2, y: 680 }, { bg: '#e53950' });
   ov.html('thLogo', `<div class="badge"><img src="/shared/brand/logo_crop.png" style="width:190px;height:204px"></div>`, { x: W / 2, y: 1500 });
   ov.end();
 }
