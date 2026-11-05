@@ -1,0 +1,1092 @@
+{
+ "tempo": 1.06,
+ "voice_end": 81.376,
+ "total": 85.976,
+ "segments": [
+  {
+   "id": "A",
+   "kind": "cut",
+   "take": "A2",
+   "start": 0.0,
+   "end": 8.717
+  },
+  {
+   "id": "B",
+   "kind": "lip",
+   "take": "B2",
+   "start": 8.717,
+   "end": 19.113
+  },
+  {
+   "id": "C",
+   "kind": "lip",
+   "take": "C1",
+   "start": 19.113,
+   "end": 25.811
+  },
+  {
+   "id": "D",
+   "kind": "cut",
+   "take": "D2",
+   "start": 25.811,
+   "end": 33.113
+  },
+  {
+   "id": "E",
+   "kind": "lip",
+   "take": "E2",
+   "start": 33.113,
+   "end": 45.923
+  },
+  {
+   "id": "F",
+   "kind": "cut",
+   "take": "F1",
+   "start": 45.923,
+   "end": 52.847
+  },
+  {
+   "id": "G",
+   "kind": "lip",
+   "take": "G1",
+   "start": 52.847,
+   "end": 64.149
+  },
+  {
+   "id": "H",
+   "kind": "cut",
+   "take": "H1",
+   "start": 64.149,
+   "end": 73.074
+  },
+  {
+   "id": "I",
+   "kind": "lip",
+   "take": "I2",
+   "start": 73.074,
+   "end": 81.376
+  }
+ ],
+ "words": [
+  {
+   "seg": "A",
+   "text": "Pernah",
+   "start": 0.0,
+   "end": 0.509
+  },
+  {
+   "seg": "A",
+   "text": "tak...",
+   "start": 0.509,
+   "end": 0.679
+  },
+  {
+   "seg": "A",
+   "text": "tengah",
+   "start": 1.075,
+   "end": 1.34
+  },
+  {
+   "seg": "A",
+   "text": "malam,",
+   "start": 1.34,
+   "end": 1.925
+  },
+  {
+   "seg": "A",
+   "text": "tiba-tiba",
+   "start": 1.925,
+   "end": 2.679
+  },
+  {
+   "seg": "A",
+   "text": "ibu",
+   "start": 2.679,
+   "end": 3.019
+  },
+  {
+   "seg": "A",
+   "text": "jari",
+   "start": 3.019,
+   "end": 3.245
+  },
+  {
+   "seg": "A",
+   "text": "kaki",
+   "start": 3.245,
+   "end": 3.528
+  },
+  {
+   "seg": "A",
+   "text": "bengkak,",
+   "start": 3.528,
+   "end": 4.245
+  },
+  {
+   "seg": "A",
+   "text": "merah,",
+   "start": 4.34,
+   "end": 4.906
+  },
+  {
+   "seg": "A",
+   "text": "dan",
+   "start": 4.906,
+   "end": 5.113
+  },
+  {
+   "seg": "A",
+   "text": "sakit",
+   "start": 5.113,
+   "end": 5.755
+  },
+  {
+   "seg": "A",
+   "text": "sangat?",
+   "start": 5.755,
+   "end": 5.981
+  },
+  {
+   "seg": "A",
+   "text": "Sampai",
+   "start": 5.981,
+   "end": 6.811
+  },
+  {
+   "seg": "A",
+   "text": "kena",
+   "start": 6.811,
+   "end": 6.962
+  },
+  {
+   "seg": "A",
+   "text": "selimut",
+   "start": 6.962,
+   "end": 7.434
+  },
+  {
+   "seg": "A",
+   "text": "pun,",
+   "start": 7.434,
+   "end": 7.623
+  },
+  {
+   "seg": "A",
+   "text": "tak",
+   "start": 7.623,
+   "end": 7.943
+  },
+  {
+   "seg": "A",
+   "text": "tahan!",
+   "start": 7.943,
+   "end": 8.377
+  },
+  {
+   "seg": "B",
+   "text": "Assalamualaikum!",
+   "start": 8.717,
+   "end": 9.792
+  },
+  {
+   "seg": "B",
+   "text": "Saya",
+   "start": 10.302,
+   "end": 10.528
+  },
+  {
+   "seg": "B",
+   "text": "Dr",
+   "start": 10.528,
+   "end": 10.712
+  },
+  {
+   "seg": "B",
+   "text": "Aminah,",
+   "start": 10.712,
+   "end": 11.264
+  },
+  {
+   "seg": "B",
+   "text": "dari",
+   "start": 11.264,
+   "end": 11.698
+  },
+  {
+   "seg": "B",
+   "text": "Klinik",
+   "start": 11.698,
+   "end": 12.057
+  },
+  {
+   "seg": "B",
+   "text": "Nissa.",
+   "start": 12.057,
+   "end": 12.887
+  },
+  {
+   "seg": "B",
+   "text": "Sakit",
+   "start": 12.887,
+   "end": 13.377
+  },
+  {
+   "seg": "B",
+   "text": "macam",
+   "start": 13.377,
+   "end": 13.566
+  },
+  {
+   "seg": "B",
+   "text": "tu,",
+   "start": 13.566,
+   "end": 14.0
+  },
+  {
+   "seg": "B",
+   "text": "mungkin...",
+   "start": 14.0,
+   "end": 14.83
+  },
+  {
+   "seg": "B",
+   "text": "gout.",
+   "start": 14.83,
+   "end": 15.962
+  },
+  {
+   "seg": "B",
+   "text": "Jom",
+   "start": 16.377,
+   "end": 16.642
+  },
+  {
+   "seg": "B",
+   "text": "kita",
+   "start": 16.642,
+   "end": 16.792
+  },
+  {
+   "seg": "B",
+   "text": "tengok,",
+   "start": 16.792,
+   "end": 17.17
+  },
+  {
+   "seg": "B",
+   "text": "apa",
+   "start": 17.17,
+   "end": 17.604
+  },
+  {
+   "seg": "B",
+   "text": "yang",
+   "start": 17.604,
+   "end": 17.774
+  },
+  {
+   "seg": "B",
+   "text": "berlaku",
+   "start": 17.774,
+   "end": 18.151
+  },
+  {
+   "seg": "B",
+   "text": "dalam",
+   "start": 18.151,
+   "end": 18.321
+  },
+  {
+   "seg": "B",
+   "text": "sendi.",
+   "start": 18.321,
+   "end": 18.774
+  },
+  {
+   "seg": "C",
+   "text": "Bila",
+   "start": 19.113,
+   "end": 19.415
+  },
+  {
+   "seg": "C",
+   "text": "asid",
+   "start": 19.415,
+   "end": 19.736
+  },
+  {
+   "seg": "C",
+   "text": "urik",
+   "start": 19.736,
+   "end": 20.057
+  },
+  {
+   "seg": "C",
+   "text": "dalam",
+   "start": 20.057,
+   "end": 20.245
+  },
+  {
+   "seg": "C",
+   "text": "darah",
+   "start": 20.245,
+   "end": 20.66
+  },
+  {
+   "seg": "C",
+   "text": "terlalu",
+   "start": 20.66,
+   "end": 21.0
+  },
+  {
+   "seg": "C",
+   "text": "tinggi,",
+   "start": 21.0,
+   "end": 21.774
+  },
+  {
+   "seg": "C",
+   "text": "ia",
+   "start": 21.792,
+   "end": 21.962
+  },
+  {
+   "seg": "C",
+   "text": "boleh",
+   "start": 21.962,
+   "end": 22.189
+  },
+  {
+   "seg": "C",
+   "text": "membentuk",
+   "start": 22.189,
+   "end": 22.755
+  },
+  {
+   "seg": "C",
+   "text": "kristal",
+   "start": 22.755,
+   "end": 23.189
+  },
+  {
+   "seg": "C",
+   "text": "tajam,",
+   "start": 23.189,
+   "end": 23.717
+  },
+  {
+   "seg": "C",
+   "text": "macam",
+   "start": 23.83,
+   "end": 24.075
+  },
+  {
+   "seg": "C",
+   "text": "jarum,",
+   "start": 24.075,
+   "end": 24.585
+  },
+  {
+   "seg": "C",
+   "text": "dalam",
+   "start": 24.585,
+   "end": 24.981
+  },
+  {
+   "seg": "C",
+   "text": "sendi.",
+   "start": 24.981,
+   "end": 25.472
+  },
+  {
+   "seg": "D",
+   "text": "Badan",
+   "start": 25.811,
+   "end": 26.151
+  },
+  {
+   "seg": "D",
+   "text": "kita",
+   "start": 26.151,
+   "end": 26.358
+  },
+  {
+   "seg": "D",
+   "text": "anggap",
+   "start": 26.358,
+   "end": 26.849
+  },
+  {
+   "seg": "D",
+   "text": "kristal",
+   "start": 26.849,
+   "end": 27.34
+  },
+  {
+   "seg": "D",
+   "text": "ni",
+   "start": 27.34,
+   "end": 27.434
+  },
+  {
+   "seg": "D",
+   "text": "penceroboh.",
+   "start": 27.434,
+   "end": 28.226
+  },
+  {
+   "seg": "D",
+   "text": "Sel",
+   "start": 28.34,
+   "end": 28.547
+  },
+  {
+   "seg": "D",
+   "text": "imun",
+   "start": 28.547,
+   "end": 28.962
+  },
+  {
+   "seg": "D",
+   "text": "pun",
+   "start": 28.962,
+   "end": 29.17
+  },
+  {
+   "seg": "D",
+   "text": "menyerang,",
+   "start": 29.17,
+   "end": 29.736
+  },
+  {
+   "seg": "D",
+   "text": "dan",
+   "start": 29.736,
+   "end": 30.132
+  },
+  {
+   "seg": "D",
+   "text": "sendi",
+   "start": 30.132,
+   "end": 30.585
+  },
+  {
+   "seg": "D",
+   "text": "jadi",
+   "start": 30.585,
+   "end": 30.792
+  },
+  {
+   "seg": "D",
+   "text": "merah,",
+   "start": 30.792,
+   "end": 31.434
+  },
+  {
+   "seg": "D",
+   "text": "panas,",
+   "start": 31.528,
+   "end": 32.075
+  },
+  {
+   "seg": "D",
+   "text": "dan",
+   "start": 32.075,
+   "end": 32.302
+  },
+  {
+   "seg": "D",
+   "text": "bengkak.",
+   "start": 32.302,
+   "end": 32.774
+  },
+  {
+   "seg": "E",
+   "text": "Siapa",
+   "start": 33.113,
+   "end": 33.472
+  },
+  {
+   "seg": "E",
+   "text": "yang",
+   "start": 33.472,
+   "end": 33.642
+  },
+  {
+   "seg": "E",
+   "text": "berisiko?",
+   "start": 33.642,
+   "end": 34.189
+  },
+  {
+   "seg": "E",
+   "text": "Berat",
+   "start": 34.566,
+   "end": 34.962
+  },
+  {
+   "seg": "E",
+   "text": "badan",
+   "start": 34.962,
+   "end": 35.283
+  },
+  {
+   "seg": "E",
+   "text": "berlebihan.",
+   "start": 35.283,
+   "end": 35.906
+  },
+  {
+   "seg": "E",
+   "text": "Minuman",
+   "start": 36.208,
+   "end": 36.585
+  },
+  {
+   "seg": "E",
+   "text": "manis,",
+   "start": 36.585,
+   "end": 37.151
+  },
+  {
+   "seg": "E",
+   "text": "dan",
+   "start": 37.151,
+   "end": 37.509
+  },
+  {
+   "seg": "E",
+   "text": "alkohol.",
+   "start": 37.509,
+   "end": 38.283
+  },
+  {
+   "seg": "E",
+   "text": "Terlebih",
+   "start": 38.283,
+   "end": 39.019
+  },
+  {
+   "seg": "E",
+   "text": "makan",
+   "start": 39.019,
+   "end": 39.264
+  },
+  {
+   "seg": "E",
+   "text": "daging",
+   "start": 39.264,
+   "end": 39.585
+  },
+  {
+   "seg": "E",
+   "text": "merah,",
+   "start": 39.585,
+   "end": 40.075
+  },
+  {
+   "seg": "E",
+   "text": "organ",
+   "start": 40.377,
+   "end": 40.585
+  },
+  {
+   "seg": "E",
+   "text": "dalaman,",
+   "start": 40.585,
+   "end": 41.132
+  },
+  {
+   "seg": "E",
+   "text": "dan",
+   "start": 41.132,
+   "end": 41.585
+  },
+  {
+   "seg": "E",
+   "text": "makanan",
+   "start": 41.585,
+   "end": 41.981
+  },
+  {
+   "seg": "E",
+   "text": "laut.",
+   "start": 41.981,
+   "end": 42.283
+  },
+  {
+   "seg": "E",
+   "text": "Juga,",
+   "start": 42.283,
+   "end": 43.038
+  },
+  {
+   "seg": "E",
+   "text": "sesetengah",
+   "start": 43.038,
+   "end": 43.792
+  },
+  {
+   "seg": "E",
+   "text": "ubat,",
+   "start": 43.792,
+   "end": 44.132
+  },
+  {
+   "seg": "E",
+   "text": "seperti",
+   "start": 44.132,
+   "end": 44.453
+  },
+  {
+   "seg": "E",
+   "text": "ubat",
+   "start": 44.453,
+   "end": 45.057
+  },
+  {
+   "seg": "E",
+   "text": "diuretik.",
+   "start": 45.057,
+   "end": 45.623
+  },
+  {
+   "seg": "F",
+   "text": "Bila",
+   "start": 45.923,
+   "end": 46.206
+  },
+  {
+   "seg": "F",
+   "text": "serangan",
+   "start": 46.206,
+   "end": 46.508
+  },
+  {
+   "seg": "F",
+   "text": "datang,",
+   "start": 46.508,
+   "end": 47.131
+  },
+  {
+   "seg": "F",
+   "text": "rehatkan",
+   "start": 47.432,
+   "end": 47.866
+  },
+  {
+   "seg": "F",
+   "text": "sendi,",
+   "start": 47.866,
+   "end": 48.357
+  },
+  {
+   "seg": "F",
+   "text": "tuam",
+   "start": 48.602,
+   "end": 48.885
+  },
+  {
+   "seg": "F",
+   "text": "dengan",
+   "start": 48.885,
+   "end": 49.074
+  },
+  {
+   "seg": "F",
+   "text": "ais,",
+   "start": 49.074,
+   "end": 49.546
+  },
+  {
+   "seg": "F",
+   "text": "dan",
+   "start": 49.546,
+   "end": 49.81
+  },
+  {
+   "seg": "F",
+   "text": "jumpa",
+   "start": 49.81,
+   "end": 50.263
+  },
+  {
+   "seg": "F",
+   "text": "doktor",
+   "start": 50.263,
+   "end": 50.527
+  },
+  {
+   "seg": "F",
+   "text": "cepat.",
+   "start": 50.527,
+   "end": 50.942
+  },
+  {
+   "seg": "F",
+   "text": "Jangan",
+   "start": 51.168,
+   "end": 51.489
+  },
+  {
+   "seg": "F",
+   "text": "ambil",
+   "start": 51.489,
+   "end": 51.772
+  },
+  {
+   "seg": "F",
+   "text": "ubat",
+   "start": 51.772,
+   "end": 51.961
+  },
+  {
+   "seg": "F",
+   "text": "sendiri,",
+   "start": 51.961,
+   "end": 52.225
+  },
+  {
+   "seg": "F",
+   "text": "ya.",
+   "start": 52.225,
+   "end": 52.508
+  },
+  {
+   "seg": "G",
+   "text": "Kalau",
+   "start": 52.847,
+   "end": 53.074
+  },
+  {
+   "seg": "G",
+   "text": "serangan",
+   "start": 53.074,
+   "end": 53.451
+  },
+  {
+   "seg": "G",
+   "text": "berulang,",
+   "start": 53.451,
+   "end": 54.357
+  },
+  {
+   "seg": "G",
+   "text": "doktor",
+   "start": 54.357,
+   "end": 54.697
+  },
+  {
+   "seg": "G",
+   "text": "boleh",
+   "start": 54.697,
+   "end": 54.904
+  },
+  {
+   "seg": "G",
+   "text": "mulakan",
+   "start": 54.904,
+   "end": 55.338
+  },
+  {
+   "seg": "G",
+   "text": "ubat",
+   "start": 55.338,
+   "end": 55.678
+  },
+  {
+   "seg": "G",
+   "text": "penurun",
+   "start": 55.678,
+   "end": 56.017
+  },
+  {
+   "seg": "G",
+   "text": "asid",
+   "start": 56.017,
+   "end": 56.432
+  },
+  {
+   "seg": "G",
+   "text": "urik.",
+   "start": 56.432,
+   "end": 56.896
+  },
+  {
+   "seg": "G",
+   "text": "Sasarannya,",
+   "start": 56.896,
+   "end": 58.055
+  },
+  {
+   "seg": "G",
+   "text": "bawah",
+   "start": 58.055,
+   "end": 58.47
+  },
+  {
+   "seg": "G",
+   "text": "360",
+   "start": 58.47,
+   "end": 59.074
+  },
+  {
+   "seg": "G",
+   "text": "\u00b5mol/L.",
+   "start": 59.074,
+   "end": 61.395
+  },
+  {
+   "seg": "G",
+   "text": "Teruskan",
+   "start": 61.395,
+   "end": 61.829
+  },
+  {
+   "seg": "G",
+   "text": "makan",
+   "start": 61.829,
+   "end": 62.017
+  },
+  {
+   "seg": "G",
+   "text": "ubat,",
+   "start": 62.017,
+   "end": 62.432
+  },
+  {
+   "seg": "G",
+   "text": "walaupun",
+   "start": 62.602,
+   "end": 63.093
+  },
+  {
+   "seg": "G",
+   "text": "dah",
+   "start": 63.093,
+   "end": 63.281
+  },
+  {
+   "seg": "G",
+   "text": "tak",
+   "start": 63.281,
+   "end": 63.414
+  },
+  {
+   "seg": "G",
+   "text": "sakit.",
+   "start": 63.414,
+   "end": 63.81
+  },
+  {
+   "seg": "H",
+   "text": "Gout",
+   "start": 64.149,
+   "end": 64.432
+  },
+  {
+   "seg": "H",
+   "text": "juga",
+   "start": 64.432,
+   "end": 64.791
+  },
+  {
+   "seg": "H",
+   "text": "selalu",
+   "start": 64.791,
+   "end": 65.281
+  },
+  {
+   "seg": "H",
+   "text": "datang",
+   "start": 65.281,
+   "end": 65.64
+  },
+  {
+   "seg": "H",
+   "text": "bersama",
+   "start": 65.64,
+   "end": 65.961
+  },
+  {
+   "seg": "H",
+   "text": "darah",
+   "start": 65.961,
+   "end": 66.281
+  },
+  {
+   "seg": "H",
+   "text": "tinggi,",
+   "start": 66.281,
+   "end": 66.885
+  },
+  {
+   "seg": "H",
+   "text": "kencing",
+   "start": 66.885,
+   "end": 67.319
+  },
+  {
+   "seg": "H",
+   "text": "manis,",
+   "start": 67.319,
+   "end": 67.866
+  },
+  {
+   "seg": "H",
+   "text": "kolesterol,",
+   "start": 68.074,
+   "end": 68.546
+  },
+  {
+   "seg": "H",
+   "text": "dan",
+   "start": 68.546,
+   "end": 69.036
+  },
+  {
+   "seg": "H",
+   "text": "masalah",
+   "start": 69.036,
+   "end": 69.489
+  },
+  {
+   "seg": "H",
+   "text": "buah",
+   "start": 69.489,
+   "end": 69.753
+  },
+  {
+   "seg": "H",
+   "text": "pinggang.",
+   "start": 69.753,
+   "end": 70.225
+  },
+  {
+   "seg": "H",
+   "text": "Jadi,",
+   "start": 70.414,
+   "end": 70.961
+  },
+  {
+   "seg": "H",
+   "text": "saringan",
+   "start": 70.961,
+   "end": 71.734
+  },
+  {
+   "seg": "H",
+   "text": "sangat",
+   "start": 71.734,
+   "end": 72.187
+  },
+  {
+   "seg": "H",
+   "text": "penting.",
+   "start": 72.187,
+   "end": 72.734
+  },
+  {
+   "seg": "I",
+   "text": "Klinik",
+   "start": 73.074,
+   "end": 73.451
+  },
+  {
+   "seg": "I",
+   "text": "Nissa,",
+   "start": 73.451,
+   "end": 74.187
+  },
+  {
+   "seg": "I",
+   "text": "Nilai,",
+   "start": 74.187,
+   "end": 74.583
+  },
+  {
+   "seg": "I",
+   "text": "sedia",
+   "start": 74.583,
+   "end": 75.055
+  },
+  {
+   "seg": "I",
+   "text": "membantu,",
+   "start": 75.055,
+   "end": 75.583
+  },
+  {
+   "seg": "I",
+   "text": "untuk",
+   "start": 75.583,
+   "end": 76.112
+  },
+  {
+   "seg": "I",
+   "text": "pemeriksaan",
+   "start": 76.112,
+   "end": 76.847
+  },
+  {
+   "seg": "I",
+   "text": "asid",
+   "start": 76.847,
+   "end": 77.112
+  },
+  {
+   "seg": "I",
+   "text": "urik",
+   "start": 77.112,
+   "end": 77.451
+  },
+  {
+   "seg": "I",
+   "text": "dan",
+   "start": 77.451,
+   "end": 77.64
+  },
+  {
+   "seg": "I",
+   "text": "konsultasi",
+   "start": 77.64,
+   "end": 78.244
+  },
+  {
+   "seg": "I",
+   "text": "gout.",
+   "start": 78.244,
+   "end": 78.961
+  },
+  {
+   "seg": "I",
+   "text": "Jaga",
+   "start": 78.961,
+   "end": 79.395
+  },
+  {
+   "seg": "I",
+   "text": "sendi,",
+   "start": 79.395,
+   "end": 79.753
+  },
+  {
+   "seg": "I",
+   "text": "langkah",
+   "start": 79.753,
+   "end": 80.395
+  },
+  {
+   "seg": "I",
+   "text": "pun",
+   "start": 80.395,
+   "end": 80.583
+  },
+  {
+   "seg": "I",
+   "text": "ringan!",
+   "start": 80.583,
+   "end": 81.036
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "2026-11-05_VIDEO_01_GOUT_dr-aminah-3d",
+  "metricool_brand": {"label": "Klinik Nissa", "brandId": 7840561, "timezone": "Asia/Kuala_Lumpur",
+    "networks": {"facebook": "522718507588597", "instagram": "kliniknissa", "tiktok": "kliniknissanilai"}},
+  "approval_gate": {
+    "script": "APPROVED_BY_USER (2026-11-05, 'teruskan')",
+    "medical_accuracy": "PENDING",
+    "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Aminah' uFdZbpnXsSJhPEhajxEx exists in the user's ElevenLabs workspace and was requested by the user; the 3D likeness and name tag also present her as a Klinik Nissa doctor)",
+    "brand_logo": "VERIFIED (original logo file, pixels unaltered)",
+    "whatsapp_number": "PENDING_CONFIRMATION (012-608 1411 = registered clinic phone in SPDP document)",
+    "advertising_compliance_MAB": "PENDING",
+    "ai_content_label": "RECOMMENDED (all visuals AI-generated)"
+  },
+  "status": "REVIEW_READY_NOT_SCHEDULED",
+  "scheduled_posts": [],
+  "notes": "Nothing has been sent to Metricool. Use the same Best Times as the 4 Nov batch after approval (FB 10:00, TikTok 18:00, IG 12:00 provisional), re-checking Metricool on the posting day."
+}

@@ -7,3 +7,9 @@ work/preview/
 work/render_log.txt
 work/audio/*.wav
 work/render/lib/lib
+work_gout/base.mp4
+work_gout/video_noaudio.mp4
+work_gout/clips/seg/
+work_gout/render_log.txt
+work_gout/audio/*.wav
+work_gout/audio/tts_words.json.bak

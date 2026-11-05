@@ -1,11 +1,11 @@
 # Klinik Nissa — rolling 30-day editorial calendar (draft, 5 Nov – 4 Dec 2026)
-A = mental health (Dr Azren) · B = general health (Dr Aminah, **voice clone not yet in ElevenLabs, so B videos are blocked**) · C = facts / myth-busting (voice per subject).
+A = mental health (Dr Azren) · B = general health (Dr Aminah, voice clone `uFdZbpnXsSJhPEhajxEx` available since 5 Nov; 3D host format) · C = facts / myth-busting (voice per subject).
 Local hooks: year-end monsoon & floods (Nov–Jan), dengue, school holidays (late Nov/Dec), year-end festive eating, World Diabetes Day 14 Nov, World AIDS Day 1 Dec.
 
 | Date | A — Mental health | B — General health | C — Facts / myths |
 |---|---|---|---|
 | 04 Nov ✔ | Apa jadi kalau manusia tiada emosi? *(produced)* | — | — |
-| 05 Nov | Serangan panik: kenapa jantung berdebar tiba-tiba? | Banjir: penyakit kencing tikus (leptospirosis) | Mitos atau Fakta: "Stres hanya dalam kepala" |
+| 05 Nov | Serangan panik: kenapa jantung berdebar tiba-tiba? | Gout: kenapa ibu jari kaki tiba-tiba bengkak? *(produced, 3D Dr Aminah)* · Banjir: leptospirosis → moved | Mitos atau Fakta: "Stres hanya dalam kepala" |
 | 06 Nov | Burnout vs penat biasa | Demam denggi: 3 tanda bahaya | Tahukah Anda? Kenapa kita menguap |
 | 07 Nov | Tidur & kesihatan mental | Air banjir & cirit-birit: bila perlu ke klinik | Apa jadi kalau tak tidur 24 jam? |
 | 08 Nov | Kemurungan senyap pada lelaki | Darah tinggi: kenapa tiada simptom | Mitos: "Ubat darah tinggi rosakkan buah pinggang" |
@@ -19,7 +19,7 @@ Local hooks: year-end monsoon & floods (Nov–Jan), dengue, school holidays (lat
 | 16 Nov | Teknik pernafasan 4-7-8: bukti & had | Batuk lebih 2 minggu: bila risau | Kenapa batuk makin teruk waktu malam? |
 | 17 Nov | Bipolar: bukan sekadar "moody" | Asma: tanda serangan teruk | Apa jadi kalau inhaler digunakan salah? |
 | 18 Nov | Kesihatan mental remaja & media sosial | Nutrisi: pinggan sihat Malaysia | Mitos: "Nasi putih mesti dielak sepenuhnya" |
-| 19 Nov | Kesunyian & kesihatan | Gout: makanan & pencetus | Tahukah Anda? Asid urik & buah pinggang |
+| 19 Nov | Kesunyian & kesihatan | Banjir: penyakit kencing tikus (leptospirosis) | Tahukah Anda? Asid urik & buah pinggang |
 | 20 Nov | Imposter syndrome | Sakit kepala: bila perlu ke klinik | 3 tanda sakit kepala yang bahaya |
 | 21 Nov | Self-care sebenar vs "self-care" viral | Cuti sekolah: keselamatan & demam kanak-kanak | Bila demam kanak-kanak perlu jumpa doktor? |
 | 22 Nov | Kesedihan (grief) yang berpanjangan | HFMD (penyakit tangan, kaki & mulut) | Mitos: "HFMD hanya kena kanak-kanak" |

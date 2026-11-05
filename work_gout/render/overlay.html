@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="ms">
+<head>
+<meta charset="utf-8">
+<title>Klinik Nissa – Gout (overlay composition)</title>
+<style>
+@font-face{font-family:M;src:url(fonts/Montserrat-600.ttf);font-weight:600}
+@font-face{font-family:M;src:url(fonts/Montserrat-800.ttf);font-weight:800}
+@font-face{font-family:M;src:url(fonts/Montserrat-900.ttf);font-weight:900}
+:root{--navy:#052751;--teal:#4CDFDA;--yellow:#FAE24E;--red:#ef5350}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;background:transparent;overflow:hidden;font-family:M,sans-serif;color:#fff}
+.abs{position:absolute}
+#badge{left:44px;top:170px;width:132px;height:132px;border-radius:30px;overflow:hidden;background:var(--navy);
+  box-shadow:0 8px 30px rgba(0,0,0,.45);border:3px solid rgba(76,223,218,.55);opacity:0}
+#badge img{width:100%;height:100%;object-fit:cover}
+/* hook */
+#hookShade{left:0;top:0;width:1080px;height:1150px;background:linear-gradient(180deg,rgba(5,39,81,.94) 0%,rgba(5,39,81,.78) 50%,rgba(5,39,81,0) 100%)}
+#hookText{left:70px;top:330px;width:940px}
+#hookText .k{font-weight:800;font-size:34px;letter-spacing:4px;color:var(--teal);margin-bottom:18px}
+#hookText .l1{font-weight:900;font-size:100px;line-height:1.0}
+#hookText .l2{font-weight:900;font-size:118px;line-height:1.0;color:var(--yellow)}
+#hookText .by{margin-top:26px;display:inline-block;font-weight:900;font-size:44px;background:var(--red);padding:10px 26px;border-radius:16px}
+/* chips */
+.chip{left:200px;top:186px;height:96px;padding:0 34px 0 18px;border-radius:48px;background:var(--navy);
+  display:flex;align-items:center;gap:18px;font-weight:900;font-size:40px;letter-spacing:1px;
+  border:3px solid var(--teal);box-shadow:0 10px 30px rgba(0,0,0,.4);opacity:0;white-space:nowrap}
+.chip .n{width:66px;height:66px;border-radius:50%;background:var(--yellow);color:var(--navy);display:flex;align-items:center;justify-content:center;font-size:36px}
+.card{background:rgba(5,39,81,.9);border:3px solid rgba(76,223,218,.75);border-radius:34px;padding:28px 34px;box-shadow:0 14px 40px rgba(0,0,0,.45);opacity:0}
+/* name tag */
+#name{left:60px;top:1040px;padding:18px 34px 20px 30px;border-left:12px solid var(--yellow);background:rgba(5,39,81,.92);border-radius:0 26px 26px 0;opacity:0}
+#name .a{font-weight:900;font-size:54px}
+#name .b{font-weight:700;font-size:30px;color:var(--teal);margin-top:2px}
+/* risk list */
+#risk{left:40px;top:640px;width:600px;padding:24px 28px}
+#risk .h{font-weight:900;font-size:40px;color:var(--yellow);margin-bottom:10px}
+.ri{display:flex;align-items:center;gap:16px;font-weight:800;font-size:34px;margin:10px 0;opacity:0}
+.ri .c{flex:none;width:50px;height:50px;border-radius:50%;background:var(--red);display:flex;align-items:center;justify-content:center;font-size:30px;font-weight:900}
+/* flare steps */
+#steps{left:60px;top:330px;width:960px;padding:26px 28px 24px}
+#steps .row{display:flex;gap:18px;justify-content:space-between}
+.st{flex:1;text-align:center;background:rgba(76,223,218,.14);border-radius:24px;padding:18px 6px;opacity:0}
+.st .i{font-size:60px;line-height:1}
+.st .t{font-weight:900;font-size:34px;margin-top:8px}
+#steps .no{margin-top:18px;text-align:center;font-weight:900;font-size:38px;color:#fff;opacity:0}
+#steps .no span{background:var(--red);padding:6px 18px;border-radius:14px}
+/* target */
+#target{left:60px;top:930px;width:620px;text-align:center;padding:24px 26px}
+#target .a{font-weight:800;font-size:32px;color:var(--teal);letter-spacing:2px}
+#target .b{font-weight:900;font-size:104px;line-height:1.0;color:var(--yellow);margin-top:6px}
+#target .b small{font-size:52px;color:#fff}
+#target .s{font-weight:600;font-size:24px;color:#b9cbe0;margin-top:8px}
+/* comorbid */
+#comor{left:60px;top:330px;width:960px;padding:24px 28px}
+#comor .row{display:flex;flex-wrap:wrap;gap:14px;justify-content:center}
+.cm{font-weight:900;font-size:36px;padding:12px 24px;border-radius:40px;background:rgba(250,226,78,.16);border:2px solid var(--yellow);opacity:0}
+#comor .r{margin-top:18px;text-align:center;font-weight:900;font-size:48px;opacity:0}
+#comor .r span{color:var(--yellow)}
+/* CTA pill */
+#cta{left:60px;top:1060px;width:960px;text-align:center;padding:22px 20px;border-radius:30px;background:var(--yellow);color:var(--navy);
+  font-weight:900;font-size:46px;line-height:1.12;box-shadow:0 14px 40px rgba(0,0,0,.4);opacity:0}
+/* subtitles */
+#subs{left:60px;top:1250px;width:960px;height:260px;display:flex;align-items:center;justify-content:center;text-align:center}
+#sub{font-weight:900;font-size:66px;line-height:1.16;color:#fff;-webkit-text-stroke:12px #071a33;paint-order:stroke fill;text-shadow:0 6px 18px rgba(0,0,0,.55)}
+#sub .k{color:var(--yellow)}
+/* end card */
+#end{left:0;top:0;width:1080px;height:1920px;opacity:0}
+#endBg{left:0;top:0;width:1080px;height:1920px;background:rgba(5,39,81,.93)}
+#endLogo{left:270px;top:200px;width:540px;height:540px}
+#endLogo img{width:100%;height:100%}
+#endT{left:70px;top:770px;width:940px;text-align:center}
+#endT .a{font-weight:800;font-size:40px;color:var(--teal);letter-spacing:3px}
+#endT .b{font-weight:900;font-size:68px;line-height:1.1;margin-top:14px}
+#endT .b span{color:var(--yellow)}
+#wa{left:110px;top:1080px;width:860px;height:150px;border-radius:75px;background:var(--yellow);color:var(--navy);
+  display:flex;align-items:center;justify-content:center;gap:26px;box-shadow:0 14px 40px rgba(0,0,0,.4)}
+#wa svg{width:84px;height:84px}
+#wa .t{font-weight:900;font-size:62px;letter-spacing:1px}
+#wa .t small{display:block;font-size:30px;font-weight:800;letter-spacing:3px;margin-bottom:-4px}
+#addr{left:70px;top:1260px;width:940px;text-align:center;font-weight:600;font-size:34px;line-height:1.35;color:#dfe9f5}
+#addr b{font-weight:800;color:#fff}
+#foot{left:70px;top:1400px;width:940px;text-align:center;font-weight:600;font-size:27px;line-height:1.4;color:#b9cbe0}
+</style>
+</head>
+<body>
+<div id="badge" class="abs"><img src="logo_crop.png" alt="Klinik Nissa"></div>
+
+<div id="hook" class="abs" style="left:0;top:0;width:1080px;height:1920px">
+  <div id="hookShade" class="abs"></div>
+  <div id="hookText" class="abs">
+    <div class="k">KLINIK NISSA · KESIHATAN AM</div>
+    <div class="l1">IBU JARI KAKI</div>
+    <div class="l2">TIBA-TIBA BENGKAK?</div>
+    <div class="by">Mungkin ini GOUT</div>
+  </div>
+</div>
+
+<div id="name" class="abs"><div class="a">Dr Aminah</div><div class="b">Klinik Nissa, Nilai</div></div>
+
+<div class="chip abs" id="chC"><div class="n">1</div>ASID URIK ↑ = KRISTAL</div>
+<div class="chip abs" id="chD"><div class="n">2</div>SENDI MERADANG</div>
+<div class="chip abs" id="chE"><div class="n">3</div>SIAPA BERISIKO?</div>
+<div class="chip abs" id="chF"><div class="n">4</div>BILA SERANGAN</div>
+<div class="chip abs" id="chG"><div class="n">5</div>RAWATAN JANGKA PANJANG</div>
+<div class="chip abs" id="chH"><div class="n">6</div>SARINGAN</div>
+
+<div id="risk" class="card abs">
+  <div class="h">Faktor risiko gout</div>
+  <div class="ri" id="r1"><div class="c">!</div>Berat badan berlebihan</div>
+  <div class="ri" id="r2"><div class="c">!</div>Minuman manis &amp; alkohol</div>
+  <div class="ri" id="r3"><div class="c">!</div>Daging merah &amp; organ dalaman</div>
+  <div class="ri" id="r4"><div class="c">!</div>Makanan laut berlebihan</div>
+  <div class="ri" id="r5"><div class="c">!</div>Ubat diuretik</div>
+</div>
+
+<div id="steps" class="card abs">
+  <div class="row">
+    <div class="st" id="s1"><div class="i">🛋️</div><div class="t">REHAT</div></div>
+    <div class="st" id="s2"><div class="i">🧊</div><div class="t">TUAM AIS</div></div>
+    <div class="st" id="s3"><div class="i">🩺</div><div class="t">JUMPA DOKTOR</div></div>
+  </div>
+  <div class="no" id="sNo"><span>✕ Jangan ambil ubat sendiri</span></div>
+</div>
+
+<div id="target" class="card abs">
+  <div class="a">SASARAN ASID URIK</div>
+  <div class="b">&lt;360 <small>µmol/L</small></div>
+  <div class="s">CPG Pengurusan Gout (Edisi ke-2), KKM</div>
+</div>
+
+<div id="comor" class="card abs">
+  <div class="row">
+    <div class="cm" id="m1">Darah tinggi</div>
+    <div class="cm" id="m2">Kencing manis</div>
+    <div class="cm" id="m3">Kolesterol</div>
+    <div class="cm" id="m4">Buah pinggang</div>
+  </div>
+  <div class="r" id="mR">Saringan <span>sangat penting</span></div>
+</div>
+
+<div id="cta" class="abs">Pemeriksaan Asid Urik &amp; Konsultasi Gout</div>
+
+<div id="subs" class="abs"><div id="sub"></div></div>
+
+<div id="end" class="abs">
+  <div id="endBg" class="abs"></div>
+  <div id="endLogo" class="abs"><img src="logo_full.png" alt="Klinik Nissa"></div>
+  <div id="endT" class="abs">
+    <div class="a">KLINIK NISSA, NILAI</div>
+    <div class="b">Pemeriksaan <span>Asid Urik</span> &amp; Konsultasi Gout</div>
+  </div>
+  <div id="wa" class="abs">
+    <svg viewBox="0 0 64 64" aria-hidden="true"><path fill="#052751" d="M32 4C16.5 4 4 15.6 4 30c0 7.2 3.2 13.7 8.4 18.4L10 60l12.7-6.6c2.9.9 6.1 1.4 9.3 1.4 15.5 0 28-11.6 28-26S47.5 4 32 4z"/><path fill="#FAE24E" d="M24.6 19.5c.8 0 1.4.4 1.8 1.3l2 4.6c.3.8.2 1.6-.4 2.2l-1.6 1.8c1.6 3.1 4 5.6 7.2 7.3l1.8-1.6c.6-.6 1.5-.7 2.2-.4l4.6 2c.9.4 1.4 1.2 1.2 2.1-.6 3.2-3.3 5.2-6.4 5-9.7-.8-17.3-8.4-18-18-.2-3.2 1.8-5.8 5-6.3h.6z"/></svg>
+    <div class="t"><small>WHATSAPP</small>012-608 1411</div>
+  </div>
+  <div id="addr" class="abs"><b>Klinik Nissa</b><br>9697, Jalan BBN 1/3C, Pusat Bandar Putra Point,<br>71800 Nilai, Negeri Sembilan</div>
+  <div id="foot" class="abs">Video ini untuk pendidikan kesihatan, bukan diagnosis.<br>Dapatkan nasihat doktor untuk rawatan.</div>
+</div>
+
+<script src="lib/gsap.min.js"></script>
+<script>
+window.__ready = fetch('subs.json').then(r=>r.json()).then(D=>{
+  const W=D.words, SUBS=D.subs, S={}; D.segments.forEach(s=>S[s.id]=s);
+  const END=D.voice_end, TOTAL=D.total;
+  const bare=s=>s.toLowerCase().replace(/[^\p{L}\p{N}]/gu,'');
+  const at=(seg,word)=>{const w=W.find(x=>x.seg===seg&&bare(x.text)===word);return w?w.start:S[seg].start};
+  const tl=gsap.timeline({paused:true});
+  const inOut=(sel,s,e,from={opacity:0,y:30},ease='back.out(1.8)')=>{
+    tl.fromTo(sel,from,{opacity:1,x:0,y:0,scale:1,duration:.45,ease},s).to(sel,{opacity:0,duration:.3},e-0.3);};
+
+  tl.fromTo('#badge',{opacity:0,scale:.6},{opacity:.95,scale:1,duration:.5,ease:'back.out(2)'},3.0)
+    .to('#badge',{opacity:0,duration:.3},END-0.3);
+
+  // hook visible on frame 0
+  tl.set('#hook',{opacity:1},0)
+    .fromTo('#hookText .l2',{scale:1},{scale:1.05,transformOrigin:'left center',duration:3.0,ease:'none'},0)
+    .to('#hook',{opacity:0,y:-40,duration:.45,ease:'power2.in'},3.0);
+
+  // B name tag
+  inOut('#name',at('B','saya')-0.1,at('B','sakit')-0.1,{opacity:0,x:-80});
+
+  // chips per section
+  [['#chC','C'],['#chD','D'],['#chE','E'],['#chF','F'],['#chG','G'],['#chH','H']].forEach(([id,s])=>
+    inOut(id,S[s].start+0.05,S[s].end,{opacity:0,scale:.5,x:-30},'back.out(2.2)'));
+
+  // E risk list in sync
+  tl.fromTo('#risk',{opacity:0,y:30},{opacity:1,y:0,duration:.4},at('E','berat')-0.3);
+  [['#r1','berat'],['#r2','minuman'],['#r3','daging'],['#r4','makanan'],['#r5','diuretik']].forEach(([id,w])=>
+    tl.fromTo(id,{opacity:0,x:-40},{opacity:1,x:0,duration:.3,ease:'back.out(2)'},at('E',w)-0.12));
+  tl.to('#risk',{opacity:0,duration:.3},S.E.end-0.3);
+
+  // F steps
+  tl.fromTo('#steps',{opacity:0,y:30},{opacity:1,y:0,duration:.4},S.F.start+0.1);
+  [['#s1','rehatkan'],['#s2','tuam'],['#s3','jumpa']].forEach(([id,w])=>
+    tl.fromTo(id,{opacity:0,scale:.6},{opacity:1,scale:1,duration:.35,ease:'back.out(2.4)'},at('F',w)-0.12));
+  tl.fromTo('#sNo',{opacity:0,scale:.8},{opacity:1,scale:1,duration:.35,ease:'back.out(2)'},at('F','jangan')-0.1)
+    .to('#steps',{opacity:0,duration:.3},S.F.end-0.3);
+
+  // G target
+  inOut('#target',at('G','sasarannya')-0.15,S.G.end,{opacity:0,scale:.7});
+
+  // H comorbidities
+  tl.fromTo('#comor',{opacity:0,y:30},{opacity:1,y:0,duration:.4},S.H.start+0.1);
+  [['#m1','darah'],['#m2','kencing'],['#m3','kolesterol'],['#m4','buah']].forEach(([id,w])=>
+    tl.fromTo(id,{opacity:0,scale:.6},{opacity:1,scale:1,duration:.3,ease:'back.out(2.4)'},at('H',w)-0.1));
+  tl.fromTo('#mR',{opacity:0,scale:.85},{opacity:1,scale:1,duration:.35,ease:'back.out(2)'},at('H','saringan')-0.15)
+    .to('#comor',{opacity:0,duration:.3},S.H.end-0.3);
+
+  // I CTA
+  inOut('#cta',at('I','pemeriksaan')-0.15,END,{opacity:0,scale:.8});
+
+  // subtitles
+  const sub=document.getElementById('sub');
+  const esc=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;');
+  SUBS.forEach(c=>{
+    const html=c.w.map(w=>w.k?`<span class="k">${esc(w.t)}</span>`:esc(w.t)).join(' ');
+    tl.call(()=>{sub.innerHTML=html},null,c.s)
+      .fromTo('#sub',{scale:.86,opacity:0},{scale:1,opacity:1,duration:.16,ease:'back.out(2.5)',immediateRender:false},c.s)
+      .call(()=>{if(sub.innerHTML===html) sub.innerHTML=''},null,c.e);
+  });
+  tl.set('#subs',{opacity:0},END);
+
+  // end card
+  tl.fromTo('#end',{opacity:0},{opacity:1,duration:.5},END)
+    .fromTo('#endLogo',{scale:.7,opacity:0},{scale:1,opacity:1,duration:.8,ease:'back.out(1.6)'},END+0.15)
+    .fromTo('#endT',{y:40,opacity:0},{y:0,opacity:1,duration:.5,ease:'power2.out'},END+0.6)
+    .fromTo('#wa',{scale:.6,opacity:0},{scale:1,opacity:1,duration:.55,ease:'back.out(2.2)'},END+1.0)
+    .to('#wa',{scale:1.05,duration:.5,yoyo:true,repeat:3,ease:'sine.inOut'},END+1.7)
+    .fromTo('#addr',{opacity:0},{opacity:1,duration:.5},END+1.3)
+    .fromTo('#foot',{opacity:0},{opacity:1,duration:.5},END+1.6)
+    .set({}, {}, TOTAL);
+
+  window.__tl=tl;
+  window.__seek=t=>{tl.seek(t,false);};
+  return {duration:TOTAL};
+});
+</script>
+</body>
+</html>
