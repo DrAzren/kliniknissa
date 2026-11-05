@@ -1,0 +1,101 @@
+{
+ "A1_1": {
+  "score": 1.0,
+  "heard": "Di sebalik air bertakung beribu-ribu nyamuk sedang menunggu."
+ },
+ "A1_2": {
+  "score": 1.0,
+  "heard": "Di sebalik air bertakung... beribu-ribu nyamuk sedang menunggu."
+ },
+ "A1_chosen": 1,
+ "A2_1": {
+  "score": 1.0,
+  "heard": "Satu gigitan, dan beberapa hari kemudian, Adam demam panas. Ibunya hanya mampu menggenggam tangannya, dan berdoa."
+ },
+ "A2_2": {
+  "score": 1.0,
+  "heard": "Satu gigitan, dan beberapa hari kemudian, Adam demam panas. Ibunya hanya mampu menggenggam tangannya, dan berdoa."
+ },
+ "A2_chosen": 1,
+ "B_1": {
+  "score": 1.0,
+  "heard": "Assalamualaikum, saya Dr Aminah, dari Klinik Nissa. Puncanya, nyamuk Aedes. Jom kenali musuh kita."
+ },
+ "B_2": {
+  "score": 1.0,
+  "heard": "Assalamualaikum, saya Dr Aminah, dari Klinik Nissa. Puncanya, nyamuk Aedes. Jom, kenali musuh kita."
+ },
+ "B_chosen": 1,
+ "C_1": {
+  "score": 0.944,
+  "heard": "Kenali tiga jenis nyamuk. Anopheles bawa malaria. Culex bawa radang otak JE, dan kaki gajah. Aedes, pembawa dengi."
+ },
+ "C_2": {
+  "score": 0.944,
+  "heard": "Kenali tiga jenis nyamuk. Anopheles bawa malaria. Culex bawa radang otak JE, dan kaki gajah. Aedes, pembawa dengi."
+ },
+ "C_chosen": 1,
+ "D_1": {
+  "score": 1.0,
+  "heard": "Aedes berbadan hitam, berbelang putih pada kaki dan badan. Ia menggigit waktu siang, terutama awal pagi dan lewat petang."
+ },
+ "D_2": {
+  "score": 1.0,
+  "heard": "Aedes berbadan hitam, berbelang putih pada kaki dan badan. Ia menggigit waktu siang, terutama awal pagi, dan lewat petang."
+ },
+ "D_chosen": 1,
+ "E_1": {
+  "score": 1.0,
+  "heard": "Ia bertelur dalam air jernih yang bertakung. Pasu bunga, tayar buruk, malah penutup botol pun cukup!"
+ },
+ "E_2": {
+  "score": 1.0,
+  "heard": "Ia bertelur dalam air jernih yang bertakung. Pasu bunga, tayar buruk, malah penutup botol pun cukup!"
+ },
+ "E_chosen": 1,
+ "F_1": {
+  "score": 0.96,
+  "heard": "Tanda dengi. Demam panas mengejut, sakit kepala, sakit belakang mata, sakit otot dan sendi, dan ruam. Minum banyak air, jangan makan ubat tahan sakit sendiri."
+ },
+ "F_2": {
+  "score": 0.96,
+  "heard": "Tanda dengi. Demam panas mengejut, sakit kepala, sakit belakang mata, sakit otot dan sendi, dan ruam. Minum banyak air, jangan makan ubat tahan sakit sendiri."
+ },
+ "F_chosen": 1,
+ "G_1": {
+  "score": 1.0,
+  "heard": "Hati-hati! Bila demam mula turun, itulah fasa kritikal. Segera ke klinik atau hospital jika sakit perut teruk, muntah berterusan, berdarah, atau terlalu lemah."
+ },
+ "G_2": {
+  "score": 1.0,
+  "heard": "Hati-hati! Bila demam mula turun, itulah fasa kritikal. Segera ke klinik atau hospital jika sakit perut teruk, muntah berterusan, berdarah, atau terlalu lemah."
+ },
+ "G_chosen": 1,
+ "H_1": {
+  "score": 1.0,
+  "heard": "Cegah dengan sepuluh minit seminggu. Cari dan musnahkan air bertakung, tutup bekas air, dan bersihkan longkang. Guna penghalau nyamuk, dan pakai baju lengan panjang."
+ },
+ "H_2": {
+  "score": 1.0,
+  "heard": "Cegah dengan sepuluh minit seminggu, cari dan musnahkan air bertakung, tutup bekas air, dan bersihkan longkang. Guna penghalau nyamuk, dan pakai baju lengan panjang."
+ },
+ "H_chosen": 1,
+ "J_1": {
+  "score": 1.0,
+  "heard": "Demam tiba-tiba? Jangan tunggu. Ujian darah penuh, atau FBC, boleh semak platelet, sel darah putih, dan hematokrit, supaya doktor dapat pantau anda."
+ },
+ "J_2": {
+  "score": 1.0,
+  "heard": "Demam tiba-tiba? Jangan tunggu. Ujian darah penuh, atau FBC, boleh semak platelet, sel darah putih, dan hematokrit, supaya doktor dapat pantau anda."
+ },
+ "J_chosen": 1,
+ "K_1": {
+  "score": 1.0,
+  "heard": "Klinik Nissa, Nilai, sedia membantu, untuk ujian FBC dan pemeriksaan demam. Hapuskan Aedes, selamatkan keluarga!"
+ },
+ "K_2": {
+  "score": 1.0,
+  "heard": "Klinik Nissa, Nilai, sedia membantu, untuk ujian FBC dan pemeriksaan demam. Hapuskan Aedes, selamatkan keluarga!"
+ },
+ "K_chosen": 1
+}

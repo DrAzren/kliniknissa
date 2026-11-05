@@ -1,0 +1,17 @@
+{
+  "video_id": "2026-11-05_VIDEO_02_DENGGI_dr-aminah-explainer",
+  "metricool_brand": {"label": "Klinik Nissa", "brandId": 7840561, "timezone": "Asia/Kuala_Lumpur",
+    "networks": {"facebook": "522718507588597", "instagram": "kliniknissa", "tiktok": "kliniknissanilai"}},
+  "approval_gate": {
+    "script": "USED_AS_DRAFTED (user approved the voice spend on 2026-11-05; no script edits requested)",
+    "medical_accuracy": "PENDING",
+    "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Aminah' uFdZbpnXsSJhPEhajxEx in the user's ElevenLabs workspace, requested by the user; the 3D character and name tag present her as a Klinik Nissa doctor)",
+    "brand_logo": "VERIFIED (original logo file, pixels unaltered)",
+    "whatsapp_number": "PENDING_CONFIRMATION (012-608 1411 = registered clinic phone in SPDP document)",
+    "advertising_compliance_MAB": "PENDING (CTA promotes the FBC test)",
+    "ai_content_label": "RECOMMENDED (computer-generated animation and AI voice)"
+  },
+  "status": "REVIEW_READY_NOT_SCHEDULED",
+  "scheduled_posts": [],
+  "notes": "Nothing has been sent to Metricool. After approval, use the brand's Best Times (FB 10:00, TikTok 18:00, IG 12:00 provisional), re-checking Metricool on the posting day."
+}

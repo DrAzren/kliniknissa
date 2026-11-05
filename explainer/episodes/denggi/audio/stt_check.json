@@ -1,0 +1,46 @@
+{
+ "A1": {
+  "match": 0.824,
+  "heard": "Di sebalik air bertakung beribu -ribu nyamuk sedang menunggu."
+ },
+ "A2": {
+  "match": 1.0,
+  "heard": "Satu gigitan, dan beberapa hari kemudian, Adam demam panas. Ibunya hanya mampu menggenggam tangannya, dan berdoa."
+ },
+ "B": {
+  "match": 1.0,
+  "heard": "Assalamualaikum, saya Dr Aminah, dari Klinik Nissa. Puncanya, nyamuk Aedes. Jom kenali musuh kita."
+ },
+ "C": {
+  "match": 0.944,
+  "heard": "Kenali tiga jenis nyamuk. Anopheles bawa malaria. Culex bawa radang otak JE, dan kaki gajah. Aedes, pembawa dengi."
+ },
+ "D": {
+  "match": 1.0,
+  "heard": "Aedes berbadan hitam, berbelang putih pada kaki dan badan. Ia menggigit waktu siang, terutama awal pagi dan lewat petang."
+ },
+ "E": {
+  "match": 1.0,
+  "heard": "Ia bertelur dalam air jernih yang bertakung. Pasu bunga, tayar buruk, malah penutup botol pun cukup!"
+ },
+ "F": {
+  "match": 0.96,
+  "heard": "Tanda dengi. Demam panas mengejut, sakit kepala, sakit belakang mata, sakit otot dan sendi, dan ruam. Minum banyak air, jangan makan ubat tahan sakit sendiri."
+ },
+ "G": {
+  "match": 0.936,
+  "heard": "Hati -hati! Bila demam mula turun, itulah fasa kritikal. Segera ke klinik atau hospital jika sakit perut teruk, muntah berterusan, berdarah, atau terlalu lemah."
+ },
+ "H": {
+  "match": 1.0,
+  "heard": "Cegah dengan sepuluh minit seminggu. Cari dan musnahkan air bertakung, tutup bekas air, dan bersihkan longkang. Guna penghalau nyamuk, dan pakai baju lengan panjang."
+ },
+ "J": {
+  "match": 0.933,
+  "heard": "Demam tiba -tiba? Jangan tunggu. Ujian darah penuh, atau FBC, boleh semak platelet, sel darah putih, dan hematokrit, supaya doktor dapat pantau anda."
+ },
+ "K": {
+  "match": 1.0,
+  "heard": "Klinik Nissa, Nilai, sedia membantu, untuk ujian FBC dan pemeriksaan demam. Hapuskan Aedes, selamatkan keluarga!"
+ }
+}

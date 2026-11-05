@@ -2,7 +2,7 @@
 **Title:** Nyamuk Aedes & denggi: kenali, cegah, periksa
 **Presenter / voice:** Dr Aminah (3D animated host; ElevenLabs cloned voice `uFdZbpnXsSJhPEhajxEx`, model `eleven_v4`)
 **Date accessed:** 2026-11-05
-**Status:** SCRIPT DRAFT. Awaiting user approval, then doctor review. Do not publish before sign-off.
+**Status:** VIDEO RENDERED. Awaiting doctor review. Do not publish before sign-off.
 
 Sources:
 - **CPG Management of Dengue Infection in Adults (Third Edition), MaHTAS, MOH Malaysia, 2015.** https://jknjohor.moh.gov.my/jknj/wp-content/uploads/2023/02/CPG-Dengue-Adult.pdf
@@ -30,6 +30,8 @@ Sources:
 - [ ] "Jangan makan ubat tahan sakit sendiri". Keep it, or say "Untuk demam, paracetamol sahaja; elak aspirin & ubat NSAID".
 - [ ] Should the CTA also mention an NS1 dengue test (if the clinic offers it), since FBC alone does not diagnose dengue?
 - [ ] "Culex → kaki gajah" simplification.
+- [ ] On-screen card "DEMAM MULA TURUN = FASA KRITIKAL (hari 3–7)" (day range from the CPG critical-phase description).
+- [ ] Child (Adam) shown being treated at a GP clinic with an FBC. Confirm the clinic does paediatric FBC, and that the wording fits.
 - [ ] Consent from Dr Aminah for her voice clone, name and 3D likeness.
 - [ ] WhatsApp 012-608 1411 (registered clinic phone in the SPDP document). Confirm it is the WhatsApp line.
 - [ ] Advertising compliance (KKLIU / Medicine Advertisements Board) for the FBC service CTA.

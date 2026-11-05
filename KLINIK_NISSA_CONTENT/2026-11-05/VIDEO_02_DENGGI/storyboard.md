@@ -1,21 +1,22 @@
-# Storyboard (DRAF): Nyamuk Aedes & denggi (anggaran ±100 s, 1080×1920, 30 fps)
-Template: same format as `VIDEO_01_GOUT` (branch `claude/eager-johnson-68g9es`). A 3D Pixar-style host, **Dr Aminah**, talks to camera with lip-sync. A recurring family, **Adam (7) and his mother**, acts out the story in cutaways.
-Pipeline (ElevenLabs): reuse the Gout character `am2.png` (Dr Aminah) → new designs for Adam and his mother `gemini-3-pro-image` → scene stills `gemini-3.1-flash-image` with character references → lip-sync `minimax-h3-max-lipsync` 768p (image + Dr Aminah `eleven_v4` audio) → cutaways `kling-2.5-turbo` → music `eleven_music_v2_5` + mosquito-buzz SFX → GSAP overlay + ffmpeg (`work_denggi/`, copied from `work_gout/`).
-Times are estimates. Final times come from the chosen takes.
+# Storyboard: Nyamuk Aedes & denggi (104.2 s, 1080×1920, 30 fps)
+Format: code-driven 3D explainer in The Curious Affan style. Every frame is drawn by three.js in headless Chromium (`explainer/episodes/denggi/`). There are no AI images or AI video. The cast is procedural: **Dr Aminah** (tudung, white coat, stethoscope, name badge), **Adam (7)** and **his mother** (baju kurung, tudung). Mosquitoes are procedural too: Aedes, Culex, Anopheles, a swarm of 1,100 instances, and larvae.
+Narration: Dr Aminah, ElevenLabs `eleven_v4`, take 1 of each segment (chosen with a local Whisper check), whole programme at 1.06× tempo. Music and SFX are synthesised with numpy. Subtitles are word-timed with local faster-whisper.
 
-| # | Type | Picture | Narration (Dr Aminah) | Graphics |
+| # | Time (s) | Picture | Narration | Graphics |
 |---|---|---|---|---|
-| A1 | Cutaway (Kling 5 s) | Dusk in a Nilai housing estate: a swarm of thousands of mosquitoes rises from tyres, pots and a clogged drain and drifts toward a lit window | "Di sebalik air bertakung… beribu-ribu nyamuk sedang menunggu." | Hook title on frame 0: "SATU GIGITAN… BOLEH UBAH SEGALANYA"; mosquito-buzz SFX swelling |
-| A2 | Cutaway (Kling 10 s) | Bedroom: Adam lies feverish; his mother holds his hand and presses a cool cloth to his forehead, eyes glistening | "Satu gigitan… Adam demam panas… dan berdoa." | Text "AWAS DENGGI"; logo badge from 3 s |
-| B | Lip-sync | Dr Aminah in the consultation room, concerned → smile | "Assalamualaikum… Jom kenali musuh kita." | Name tag "Dr Aminah · Klinik Nissa, Nilai" |
-| C | Lip-sync | Dr Aminah beside three giant hologram mosquitoes | "Kenali tiga jenis nyamuk…" | Chip "1 · JENIS NYAMUK" + 3 cards: ANOPHELES → Malaria · CULEX → JE & kaki gajah · AEDES → Denggi (Aedes highlighted red) |
-| D | Cutaway (Kling 10 s) | Macro 3D Aedes: black body, white bands on legs and body, on the rim of a water container | "Aedes berbadan hitam, berbelang putih…" | Chip "2 · KENALI AEDES" + callouts "Hitam + belang putih" · "Gigit waktu SIANG" · clock icons "Awal pagi / Lewat petang" |
-| E | Cutaway (Kling 10 s) | Low camera glide through a yard: larvae wriggling in a flower pot, old tyre, plastic container, bottle cap | "Ia bertelur dalam air jernih yang bertakung…" | Labels pop on each container; "Penutup botol pun cukup!" |
-| F | Cutaway (Kling 10 s) | Adam in bed; hologram symptom icons appear around him; mother hands him a glass of water | "Tanda denggi: demam panas mengejut…" | Chip "3 · TANDA DENGGI" + checklist ticking in sync (5 items) + "✕ Jangan makan ubat tahan sakit sendiri" |
-| G | Lip-sync | Dr Aminah, serious, beside a red hologram warning board | "Hati-hati! Bila demam mula turun, itulah fasa kritikal…" | Red chip "⚠ TANDA BAHAYA" + 4 items: Sakit perut teruk / Muntah berterusan / Berdarah / Terlalu lemah → "SEGERA KE KLINIK / HOSPITAL" |
-| H | Lip-sync | Dr Aminah in a yard holding an upturned pail and repellent bottle; covered water drum behind | "Cegah dengan sepuluh minit seminggu…" | Chip "4 · PENCEGAHAN" + timer "10 MINIT / MINGGU" + steps CARI & MUSNAH / TUTUP / BERSIHKAN / PENGHALAU / LENGAN PANJANG |
-| J | Cutaway (Kling 10 s) | Klinik Nissa: Dr Aminah shows a hologram FBC report to the mother; Adam smiles with a plaster on his arm | "Demam tiba-tiba? Jangan tunggu. Ujian darah penuh, atau FBC…" | Chip "5 · UJIAN FBC" + card PLATELET · SEL DARAH PUTIH · HEMATOKRIT |
-| K | Lip-sync | Dr Aminah waving at the Klinik Nissa reception | "Klinik Nissa, Nilai, sedia membantu…" | CTA pill "Ujian Darah Penuh (FBC) & Pemeriksaan Demam" |
-| END | End card | (blurred reception background) | — | Original logo, "Ujian Darah Penuh (FBC) & Pemeriksaan Demam", WhatsApp 012-608 1411, address, education disclaimer |
+| A1 | 0.00–4.61 | Dusk housing estate: a swarm rises from tyres, pots, a tub and a bottle cap and drifts to a lit window | "Di sebalik air bertakung… beribu-ribu nyamuk sedang menunggu." | Hook on frame 0: "SATU GIGITAN…" + "BOLEH UBAH SEGALANYA"; swarm buzz |
+| A2 | 4.61–13.81 | Macro: an Aedes lands on skin and bites. Then Adam, feverish in bed with a cool cloth, while his mother holds his hand, cries and prays | "Satu gigitan… Adam demam panas… dan berdoa." | Card "39°C DEMAM PANAS"; heartbeat in the score |
+| B | 13.81–21.71 | Dr Aminah in the Klinik Nissa consultation room, waves and talks | "Assalamualaikum… Jom kenali musuh kita." | Name tag; "NYAMUK AEDES" |
+| C | 21.71–31.42 | Hologram lab: three mosquitoes on stacked holo pads; Dr Aminah points to each | "Kenali tiga jenis nyamuk…" | Chip 1; cards ANOPHELES → Malaria, CULEX → Radang otak JE & kaki gajah, AEDES → DENGGI (red) |
+| D | 31.42–40.08 | Macro Aedes on the rim of a water tub, slow orbit | "Aedes berbadan hitam, berbelang putih…" | Chip 2; HITAM + BELANG PUTIH; ☀ SIANG; AWAL PAGI / LEWAT PETANG |
+| E | 40.08–47.17 | Low glide over a pot, a tyre and a tub with wriggling larvae, ending on a bottle cap | "Ia bertelur dalam air jernih…" | PASU BUNGA, TAYAR BURUK, JENTIK-JENTIK; "PENUTUP BOTOL PUN CUKUP!" |
+| F | 47.17–58.25 | Adam feverish; his mother brings a glass of water | "Tanda denggi…" | Chip 3; symptom checklist ticking in sync; "Minum banyak air" / "✕ Jangan makan ubat tahan sakit sendiri" |
+| G | 58.25–69.38 | Dr Aminah, serious; red alarm light pulses | "Hati-hati! Bila demam mula turun…" | HATI-HATI chip; "DEMAM MULA TURUN = FASA KRITIKAL (hari 3–7)"; red list SEGERA KE KLINIK / HOSPITAL (4 items) |
+| H | 69.38–80.35 | Yard: Dr Aminah tips water out of a pail, the drum lid closes, she holds up repellent | "Cegah dengan sepuluh minit seminggu…" | Chip 4; "10 MINIT SEMINGGU" timer; 5-step checklist |
+| J | 80.35–91.05 | Clinic: Adam (well again, plaster on his arm) and his mother; Dr Aminah explains | "Demam tiba-tiba? Jangan tunggu…" | "DEMAM TIBA-TIBA? JANGAN TUNGGU!"; chip 5; FBC card (Platelet, Sel darah putih, Hematokrit) |
+| K | 91.05–99.55 | Klinik Nissa reception; Dr Aminah waves | "Klinik Nissa, Nilai, sedia membantu…" | CTA "Ujian Darah Penuh (FBC) & Pemeriksaan Demam"; "HAPUSKAN AEDES, SELAMATKAN KELUARGA!" |
+| END | 99.55–104.15 | End card | — | Original logo, KLINIK NISSA, NILAI, FBC & Pemeriksaan Demam, WhatsApp 012-608 1411, address, education disclaimer |
 
-Subtitles and audio as for Gout: Montserrat Black 66 px, keywords in brand yellow, y≈1250–1510; music bed side-chain ducked, whoosh on cuts, pops on reveals, −14 LUFS.
+Logo badge top-right from 3 s. Captions: Fredoka 64 px in a navy pill at y≈1430, keywords in brand yellow, warnings in red.
+Audio: emotional A-minor piano, pad and heartbeat for the hook; warm C-major pluck groove; A-minor tension under G with a soft alarm; resolve chord under the end card. Mosquito buzz in A1/A2, whoosh on every cut, pops on reveals. Music is ducked under the voice. Mix −14 LUFS.
+Rebuild: `cd explainer && ./episodes/denggi/make.sh` (after `npm install`). New voice takes: `episodes/denggi/pick_takes.py` → `tools/build_timeline.py episodes/denggi --tempo 1.06` → `make.sh`.

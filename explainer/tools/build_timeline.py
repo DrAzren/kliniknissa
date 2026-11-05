@@ -28,11 +28,16 @@ def dur(p):
 
 
 from faster_whisper import WhisperModel
+
+import subprocess as _sp, numpy as _np
+def load16k(path):
+    raw = _sp.run(['ffmpeg', '-v', 'error', '-i', path, '-f', 'f32le', '-ac', '1', '-ar', '16000', '-'], capture_output=True, check=True).stdout
+    return _np.frombuffer(raw, dtype=_np.float32).copy()
 model = WhisperModel(a.model, device='cpu', compute_type='int8')
 
 
 def stt(path, prompt):
-    res, _ = model.transcribe(path, language='ms', word_timestamps=True, initial_prompt=prompt, vad_filter=False)
+    res, _ = model.transcribe(load16k(path), language='ms', word_timestamps=True, initial_prompt=prompt, vad_filter=False)
     return [(x.word.strip(), x.start, x.end) for s in res for x in s.words]
 
 
