@@ -1,0 +1,11 @@
+{
+  "video_id": "2026-11-06_VIDEO_01_MENTAL_HEALTH_dunia-tanpa-kesihatan-mental",
+  "status": "REVIEW_READY",
+  "approval_gate": {
+    "medical_accuracy": "PENDING",
+    "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
+    "advertising_compliance_MAB": "PENDING (no clinic-service CTA in this video)"
+  },
+  "scheduled_posts": [],
+  "notes": "Not scheduled. Produced locally with Remotion (SVG animation, no AI imagery). Source project: animasi/ (topic dunia-tanpa-kesihatan-mental, avatar dr-azren)."
+}

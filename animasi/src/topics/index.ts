@@ -1,0 +1,19 @@
+import React from 'react';
+import {ScriptFile, WordsFile} from '../lib/timeline';
+import {AvatarPreset} from '../components/Avatar';
+import {SceneProps, SCENES as S1} from './dunia-tanpa-kesihatan-mental/scenes';
+import {Cover as Cover1} from './dunia-tanpa-kesihatan-mental/Cover';
+import script1 from '../../topics/dunia-tanpa-kesihatan-mental/script.json';
+import words1 from '../../topics/dunia-tanpa-kesihatan-mental/words.json';
+
+export type Topic = {
+  script: ScriptFile;
+  words: WordsFile;
+  scenes: Record<string, React.FC<SceneProps>>;
+  Cover: React.FC<{preset: AvatarPreset; script: ScriptFile}>;
+};
+
+// Daftar topik baharu di sini (salin folder topik sedia ada sebagai templat)
+export const TOPICS: Record<string, Topic> = {
+  'dunia-tanpa-kesihatan-mental': {script: script1 as ScriptFile, words: words1 as WordsFile, scenes: S1, Cover: Cover1},
+};

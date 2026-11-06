@@ -30,3 +30,10 @@ python3 scripts/mix_audio.py
 ```
 
 Nothing is scheduled or published until medical, voice, brand and advertising approvals are recorded in `schedule_status.json`.
+
+## Animasi SVG (Remotion) — `animasi/`
+Sistem video animasi yang boleh diulang, dengan avatar Dr. Azren (`config/avatars.json` → `dr-azren`). Lihat `animasi/README.md`.
+
+```bash
+cd animasi && npm install && npm run render -- --avatar=dr-azren
+```
