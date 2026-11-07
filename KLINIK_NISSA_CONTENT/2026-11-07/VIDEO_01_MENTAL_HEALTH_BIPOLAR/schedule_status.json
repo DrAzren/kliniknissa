@@ -1,11 +1,39 @@
 {
  "video_id": "2026-11-07_VIDEO_01_MENTAL_HEALTH_kenali-bipolar",
- "status": "REVIEW_READY",
+ "status": "SCHEDULED",
  "approval_gate": {
   "medical_accuracy": "PENDING (medical_references.md)",
   "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
-  "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding, per user 2026-11-07)"
+  "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding, per user 2026-11-07)",
+  "publishing_instruction": "User instructed scheduling on 2026-11-07 for 20:20 MYT"
  },
- "scheduled_posts": [],
- "notes": "Not scheduled. Produced with animasi/ (Remotion SVG, topic kenali-bipolar, avatar dr-azren)."
+ "scheduled_posts": [
+  {
+   "metricool_post_id": 419897766,
+   "uuid": "-407921038455779653",
+   "publication": "2026-11-07T20:26:00 Asia/Kuala_Lumpur",
+   "requested": "2026-11-07T20:20:00 Asia/Kuala_Lumpur (missed by a session restart; scheduled at the next safe minute)",
+   "networks": {
+    "facebook": "REEL / PENDING",
+    "instagram": "REEL (AI-generated label) / PENDING",
+    "tiktok": "PUBLIC, AIGC label, no commercial disclosure / PENDING"
+   },
+   "autoPublish": true,
+   "caption_file": "caption_scheduled_all_platforms.txt",
+   "media": "https://static.metricool.com/planner/202611/7705651-file-3647881273421079511.mp4",
+   "thumbnail": "https://static.metricool.com/planner/202611/7705651-file-7985891910511661161.jpeg",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7840561&openWithPostUuid=-407921038455779653"
+  }
+ ],
+ "notes": "Scheduled at the user's request. Publication itself not yet confirmed. Medical review still pending.",
+ "metricool_brand": {
+  "label": "Klinik Nissa",
+  "brandId": 7840561,
+  "timezone": "Asia/Kuala_Lumpur",
+  "networks": {
+   "facebook": "522718507588597",
+   "instagram": "kliniknissa",
+   "tiktok": "klinik_nissa"
+  }
+ }
 }
