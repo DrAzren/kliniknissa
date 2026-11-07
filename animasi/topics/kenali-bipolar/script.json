@@ -6,7 +6,8 @@
   "voice_name": "Dr Azren",
   "model_id": "eleven_v4",
   "fallback_model_id": "eleven_v3",
-  "text": "[storytelling] Sejak seminggu ni, Aina, dua puluh empat tahun, berubah. [curious] Hari-hari ada parcel sampai depan rumah. Kasut baru. Beg baru. Telefon baru. [concerned] Kad kredit hampir penuh. Tapi Aina cuma ketawa, [excited] \"Rilekslah mak, Aina nak buka bisnes besar!\" [concerned] Malam, dia tidur dua jam saja. Tapi pagi, masih penuh tenaga. Cakap laju, idea melompat-lompat, cepat marah bila ditegur. [worried] Mak dan ayah makin risau. Akhirnya, mereka bawa Aina berjumpa doktor. [serious] Selepas penilaian, doktor sahkan... Aina sedang mengalami episod mania. Diagnosisnya, Bipolar Mood Disorder. [warmly] Jadi, apa itu bipolar? Ia bukan sekadar \"moody\". Bipolar ialah gangguan mood, di mana mood berubah secara ekstrem, antara dua kutub. Kutub atas, mania. Tidur sedikit tapi tak penat, rasa diri terlalu hebat, bercakap laju, berbelanja atau ambil risiko berlebihan. Berterusan sekurang-kurangnya seminggu. Kutub bawah, kemurungan. Sedih, hilang minat, rasa tak berguna, sekurang-kurangnya dua minggu. [reassuring] Ingat, suka shopping saja tidak bermaksud bipolar. Yang penting ialah perubahan mood dan tingkah laku yang jelas berbeza daripada biasa. Berita baiknya, bipolar boleh dirawat. Dengan ubat penstabil mood, terapi, rutin tidur yang teratur dan sokongan keluarga, ramai pesakit hidup stabil dan berjaya. [warmly] Kalau anda atau keluarga ada tanda-tanda ini, jangan tunggu. Klinik Nissa, Nilai, sedia membantu untuk konsultasi dan saringan kesihatan mental."
+  "text": "[storytelling] Sejak seminggu ni, Aina, dua puluh empat tahun, berubah.\n\n[curious] Hari-hari ada parcel sampai depan rumah. Kasut baru. Beg baru. Telefon baru.\n\n[concerned] Kad kredit hampir penuh. Tapi Aina cuma ketawa, [excited] \"Rilekslah mak, Aina nak buka bisnes besar!\"\n\n[concerned] Malam, dia tidur dua jam saja. Tapi pagi, masih penuh tenaga. Cakap laju, idea melompat-lompat, cepat marah bila ditegur.\n\n[worried] Mak dan ayah makin risau. Akhirnya, mereka bawa Aina berjumpa doktor.\n\n[serious] Selepas penilaian, doktor sahkan... Aina sedang mengalami episod mania. Diagnosisnya, Bipo-lar Mood Disorder.\n\n[warmly] Jadi, apa itu bipo-lar? Ia bukan sekadar \"moody\". Bipo-lar ialah gangguan mood, di mana mood berubah secara ekstrem, antara dua kutub.\n\nKutub atas, mania. Tidur sedikit tapi tak penat, rasa diri terlalu hebat, bercakap laju, berbelanja atau ambil risiko berlebihan. Berterusan sekurang-kurangnya seminggu.\n\nKutub bawah, kemurungan. Sedih, hilang minat, rasa tak berguna, sekurang-kurangnya dua minggu.\n\n[reassuring] Ingat, suka shopping saja tidak bermaksud bipo-lar. Yang penting ialah perubahan mood dan tingkah laku yang jelas berbeza daripada biasa.\n\nBerita baiknya, bipo-lar boleh dirawat. Dengan ubat penstabil mood, terapi, rutin tidur yang teratur dan sokongan keluarga, ramai pesakit hidup stabil dan berjaya.\n\n[warmly] Kalau anda atau keluarga ada tanda-tanda ini, jangan tunggu. Dapatkan bantuan profesional. Saya Doktor Azren.",
+  "pronunciation_note": "\"bipolar\" ditulis \"bipo-lar\" dalam teks suara supaya disebut -lar (bukan -ler); kapsyen tetap \"bipolar\""
  },
  "scenes": [
   {
@@ -100,12 +101,14 @@
   "sokongan keluarga",
   "stabil",
   "jangan tunggu",
-  "Klinik Nissa"
+  "bantuan profesional",
+  "Dr. Azren"
  ],
  "corrections": {
   "dua puluh empat tahun": "24 tahun",
   "dua jam": "2 jam",
-  "dua minggu": "2 minggu"
+  "dua minggu": "2 minggu",
+  "Doktor Azren": "Dr. Azren"
  },
  "cover": {
   "kicker": "KENALI",

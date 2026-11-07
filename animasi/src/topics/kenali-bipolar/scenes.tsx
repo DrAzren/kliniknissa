@@ -1,5 +1,5 @@
 import React from 'react';
-import {AbsoluteFill, Img, interpolate, random, staticFile, useCurrentFrame, Easing} from 'remotion';
+import {AbsoluteFill, interpolate, random, useCurrentFrame, Easing} from 'remotion';
 import {C, FONT} from '../../theme';
 import {Avatar, AvatarPreset} from '../../components/Avatar';
 import {Camera, clamp, Glow, NightSky, Pill, Pop, popScale, popOpacity} from '../../components/common';
@@ -536,11 +536,13 @@ export const Risau: React.FC<SceneProps> = (p) => {
         <div style={{position: 'absolute', left: 1080, top: 0, width: 1080, height: 1920, background: `linear-gradient(180deg, ${C.violet[3]} 0%, ${C.pink[0]} 100%)`}} />
         <div style={{position: 'absolute', left: 1080, top: 1440, width: 1080, height: 500, background: C.night[2]}} />
         <div style={{position: 'absolute', left: 1080 + 120, top: 640, width: 840, height: 800, background: '#F5EEF9', borderRadius: '30px 30px 0 0'}} />
-        <div style={{position: 'absolute', left: 1080 + 160, top: 680, width: 760, height: 150, background: C.navy, borderRadius: 24, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 22}}>
-          <Img src={staticFile('brand/klinik_nissa_logo.png')} style={{height: 120, borderRadius: 12}} />
-          <Txt size={58} color={C.yellow}>
-            KLINIK <span style={{color: '#4FD8D8'}}>NISSA</span>
-          </Txt>
+        <div style={{position: 'absolute', left: 1080 + 160, top: 680, width: 760, height: 150, background: C.navy, borderRadius: 24, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 26}}>
+          <svg width={96} height={96} viewBox="0 0 96 96">
+            <rect x={0} y={0} width={96} height={96} rx={20} fill="#fff" />
+            <rect x={36} y={14} width={24} height={68} rx={6} fill={C.labelPink} />
+            <rect x={14} y={36} width={68} height={24} rx={6} fill={C.labelPink} />
+          </svg>
+          <Txt size={64} color={C.yellow}>KLINIK</Txt>
         </div>
         <div style={{position: 'absolute', left: 1080 + 420, top: 980, width: 240, height: 460, background: '#4FD8D8', borderRadius: '20px 20px 0 0', opacity: 0.85}} />
         {[0, 1].map((i) => <div key={i} style={{position: 'absolute', left: 1080 + [190, 720][i], top: 960, width: 170, height: 200, borderRadius: 18, background: C.violet[3]}} />)}
@@ -837,31 +839,31 @@ export const Rawat: React.FC<SceneProps> = (p) => {
   );
 };
 
-/* ================= 11 — Penutup: Klinik Nissa, Nilai ================= */
+/* ================= 11 — Penutup: jangan tunggu, dapatkan bantuan profesional (tiada CTA klinik) ================= */
 export const Penutup: React.FC<SceneProps> = (p) => {
   const f = useCurrentFrame();
   const aTunggu = at(p, 'jangan tunggu', 2.6);
-  const aKlinik = at(p, 'klinik nissa', 3.6);
-  const aKons = at(p, 'konsultasi', 5.9);
+  const aBantu = at(p, 'dapatkan', 3.6);
+  const aSaya = at(p, 'saya doktor', 5.4);
   return (
-    <Camera dur={p.dur} to={1.05} panY={-10}>
-      <NightSky seed={23} glow={C.pink[0]} />
-      <Glow x={540} y={820} r={520} color={C.green} opacity={0.25} />
-      <Pop at={aTunggu} style={{left: 0, width: 1080, top: 478, display: 'flex', justifyContent: 'center', opacity: interpolate(f, [aKons - 8, aKons], [1, 0], clamp)}}>
-        <Pill text="Jangan tunggu" bg={C.labelPink} size={54} />
+    <Camera dur={p.dur} to={1.06} panY={-15}>
+      <AbsoluteFill style={{background: `linear-gradient(180deg, ${C.night[1]} 0%, ${C.violet[0]} 60%, ${C.pink[2]} 100%)`}} />
+      <NightSky seed={23} glow={C.pink[0]} top="transparent" bottom="transparent" stars={50} />
+      <Glow x={540} y={1000} r={560} color={C.green} opacity={0.25} />
+      <Pop at={aTunggu} style={{left: 0, width: 1080, top: 500, display: 'flex', justifyContent: 'center'}}>
+        <Pill text="Jangan tunggu" bg={C.labelPink} size={58} />
       </Pop>
-      <Pop at={aKlinik} style={{left: 0, width: 1080, top: 600, display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-        <div style={{background: '#06274F', borderRadius: 40, padding: 18, boxShadow: '0 24px 60px rgba(18,11,51,.6)'}}>
-          <Img src={staticFile('brand/klinik_nissa_logo.png')} style={{width: 300, display: 'block'}} />
+      <Pop at={aBantu} style={{left: 0, width: 1080, top: 640, display: 'flex', justifyContent: 'center'}}>
+        <div style={{display: 'flex', alignItems: 'center', gap: 16, background: C.green, padding: '14px 34px 14px 18px', borderRadius: 44, boxShadow: '0 14px 34px rgba(18,11,51,.45)'}}>
+          <Icon name="family" size={80} />
+          <Txt size={44}>Dapatkan bantuan profesional</Txt>
         </div>
-        <Txt size={50} style={{marginTop: 18}}>Klinik Nissa, Nilai</Txt>
       </Pop>
-      <Pop at={aKons} style={{left: 0, width: 1080, top: 1060, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 14}}>
-        <Pill text="Konsultasi & saringan kesihatan mental" bg={C.green} size={36} />
-        <Pill text="WhatsApp 012-608 1411" bg={C.yellow} color={C.navy} size={40} />
+      <Who preset={p.preset} x={250} y={880} w={580} mood="happy" pose={f >= aSaya ? 'wave' : 'clasp'} />
+      <Pop at={aSaya} style={{left: 0, width: 1080, top: 1440 - 40, display: 'flex', justifyContent: 'center'}}>
+        <Pill text="Dr. Azren" bg={C.labelPink} size={58} />
       </Pop>
-      <Who preset={p.preset} x={30} y={1230} w={400} mood="happy" pose={f >= aKlinik ? 'point' : 'wave'} />
-      <div style={{position: 'absolute', left: 430, top: 1560, width: 620, textAlign: 'center', opacity: interpolate(f, [aKons, aKons + 10], [0, 1], clamp)}}>
+      <div style={{position: 'absolute', left: 0, top: 1650, width: 1080, textAlign: 'center', opacity: interpolate(f, [aSaya, aSaya + 10], [0, 1], clamp)}}>
         <Txt size={30} color={C.violet[4]}>Video ini untuk pendidikan, bukan diagnosis.</Txt>
       </div>
     </Camera>
