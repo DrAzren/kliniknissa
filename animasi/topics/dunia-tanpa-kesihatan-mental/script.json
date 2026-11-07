@@ -1,0 +1,108 @@
+{
+  "id": "dunia-tanpa-kesihatan-mental",
+  "title": "Apa jadi kepada dunia kalau tiada kesihatan mental?",
+  "voice": {
+    "voice_id": "lN6exnzhuXDOyNQfsVSR",
+    "voice_name": "Dr Azren",
+    "model_id": "eleven_v4",
+    "fallback_model_id": "eleven_v3",
+    "text": "[warm, friendly Malaysian doctor, conversational, curious, steady pace] Apa jadi kepada dunia... kalau tiada kesihatan mental? Jom kita bayangkan. Satu. Pagi Isnin, satu bandar tak mampu bangun. Badan ada, tapi semangat entah ke mana. Dua. Pejabat lengang. Hakikatnya, setiap tahun dunia dah hilang dua belas bilion hari kerja, sebab kemurungan dan kebimbangan. Tiga. Benda kecil pun jadi gaduh besar. Rumah tak lagi rasa tenang. Empat. Telefon penuh mesej... [deadpan] tapi semua orang tetap rasa sunyi. Lima. Badan pun terkesan. Stres berpanjangan ganggu tidur, jantung, dan daya tahan badan. [softer, gentle] Dunia jadi kelabu. [warm, reassuring] Tapi berita baiknya, kesihatan mental BOLEH dijaga, dan BOLEH dirawat. Kalau rasa tak okey lebih dua minggu, jangan tunggu. Ingat, tiada kesihatan tanpa kesihatan mental. Saya Doktor Azren. Jaga minda, ya."
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "marker": null
+    },
+    {
+      "id": "bandar",
+      "marker": "Satu",
+      "n": 1,
+      "label": "Bandar tak bangun"
+    },
+    {
+      "id": "pejabat",
+      "marker": "Dua",
+      "n": 2,
+      "label": "Ekonomi lumpuh"
+    },
+    {
+      "id": "rumah",
+      "marker": "Tiga",
+      "n": 3,
+      "label": "Hubungan retak"
+    },
+    {
+      "id": "sunyi",
+      "marker": "Empat",
+      "n": 4,
+      "label": "Sunyi dalam ramai"
+    },
+    {
+      "id": "badan",
+      "marker": "Lima",
+      "n": 5,
+      "label": "Badan terkesan"
+    },
+    {
+      "id": "kelabu",
+      "marker": "Dunia jadi kelabu"
+    },
+    {
+      "id": "penutup",
+      "marker": "Tapi berita"
+    }
+  ],
+  "numberWords": [
+    "Satu",
+    "Dua",
+    "Tiga",
+    "Empat",
+    "Lima",
+    "Enam",
+    "Tujuh",
+    "Lapan",
+    "Sembilan",
+    "Sepuluh"
+  ],
+  "keywords": [
+    "kesihatan mental",
+    "bangun",
+    "semangat",
+    "lengang",
+    "12 bilion",
+    "kemurungan",
+    "kebimbangan",
+    "gaduh besar",
+    "tenang",
+    "sunyi",
+    "terkesan",
+    "kelabu",
+    "BOLEH",
+    "dijaga",
+    "dirawat",
+    "2 minggu",
+    "jangan tunggu",
+    "Dr. Azren"
+  ],
+  "corrections": {
+    "Doktor Azren": "Dr. Azren",
+    "dua belas bilion": "12 bilion",
+    "dua minggu": "2 minggu",
+    "stress": "Stres"
+  },
+  "cover": {
+    "kicker": "APA JADI",
+    "headline": [
+      "KALAU DUNIA",
+      "TIADA"
+    ],
+    "highlight": "KESIHATAN MENTAL?",
+    "sub": "5 kesan yang ramai tak sangka",
+    "tags": [
+      "Bandar tak bangun",
+      "12 bilion hari kerja",
+      "Sunyi dalam ramai",
+      "Badan terkesan"
+    ]
+  }
+}

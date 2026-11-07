@@ -1,0 +1,13 @@
+{
+  "video_id": "2026-11-07_VIDEO_01_MENTAL_HEALTH_kenali-bipolar",
+  "status": "REVIEW_READY",
+  "approval_gate": {
+    "medical_accuracy": "PENDING (medical_references.md)",
+    "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
+    "brand_logo": "VERIFIED (original Klinik Nissa logo, pixels unaltered)",
+    "whatsapp_number": "PENDING_CONFIRMATION (012-608 1411, same as 2026-11-04 end card)",
+    "advertising_compliance_MAB": "PENDING (clinic-service CTA present)"
+  },
+  "scheduled_posts": [],
+  "notes": "Not scheduled. Produced with animasi/ (Remotion SVG, topic kenali-bipolar, avatar dr-azren)."
+}
