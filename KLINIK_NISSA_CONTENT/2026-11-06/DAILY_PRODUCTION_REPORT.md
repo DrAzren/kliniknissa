@@ -8,7 +8,7 @@ Batch scope: one video requested by the user ("Apa terjadi kepada dunia jika tia
 - **Duration:** 51.10 s (voice + 0.5 s)
 - **Files:** `final_video.mp4` (1080×1920, 30 fps, H.264 8.3 Mbps, AAC 48 kHz, −14.0 LUFS, true peak −2.4 dB), `final_video_cover_intro.mp4` (thumbnail as the first 0.5 s, for picking the TikTok cover frame), `thumbnail.png`, `voiceover.mp3`, captions, storyboard, medical references
 - **Medical review:** PENDING (`medical_references.md`)
-- **Approval status:** REVIEW-READY. Not scheduled.
+- **Approval status:** SCHEDULED at the user's request on Metricool (post 419648783) for 2026-11-07 12:00 MYT on FB Reel, IG Reel and TikTok. Medical review still pending.
 
 ## Usage (verified from tool responses)
 - **ElevenLabs:** 855 credits (eleven_v4 TTS, 1 take, approved by the user). Scribe transcription 0 credits
