@@ -21,7 +21,7 @@ Batch scope: one video requested by the user ("Kenali eczema", storytelling hook
 - **Production:** `animasi/` Remotion (Violet Flat SVG), topic `jenis-nyamuk`, avatar `dr-azren`; new `<Mosquito>` component (4 species) and story characters Hafiz, his child and wife. **New:** optional `audio` block in `script.json` (background music + SFX cued to words + whoosh on scene cuts), supported by `src/Video.tsx` for every topic.
 - **Voice:** Dr Azren (`lN6exnzhuXDOyNQfsVSR`, `eleven_v4`, emotion tags), **1 take only**, 105.68 s. Scribe word timings.
 - **Music & SFX (new for this series):** ElevenLabs Music v2.5 instrumental, 107 s, 1 take; 4 SFX (mosquito buzz, slap, suspense sting, chime), 1 take each; whoosh and pop reused from `work/audio`.
-- **Duration:** 106.22 s (voice + 0.5 s). Longer than the 87 s eczema video because of the 4-type format.
+- **Duration:** 106.24 s (voice + 0.5 s), 1080×1920, 30 fps, H.264 6.4 Mbps (2-pass re-encode of the 8 Mbps render to stay under GitHub’s 100 MB limit, 87.7 MB), AAC 48 kHz, −15.0 LUFS, true peak −1.3 dB (gain-only; the slap/whoosh peaks stop it reaching −14 LUFS without a limiter). Longer than the 87 s eczema video because of the 4-type format.
 - **Files:** `final_video.mp4`, `thumbnail.png/.jpg`, `voiceover.mp3`, `music.mp3`, captions, storyboard, medical references
 - **Medical review:** PENDING (`medical_references.md`, 3 items flagged: JE vector, malaria in Malaysia, Mansonia/filariasis)
 - **Approval status:** REVIEW-READY. Not scheduled.
