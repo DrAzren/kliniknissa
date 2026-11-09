@@ -3,8 +3,15 @@ export type Word = {text: string; start: number; end: number};
 export type WordsFile = {source: string; duration: number; words: Word[]};
 
 export type SceneDef = {id: string; marker: string | null; n?: number; label?: string};
+export type SfxCue = {file: string; at: string | number; offset?: number; volume?: number};
+export type AudioConfig = {
+  music?: {file: string; volume: number; fadeIn?: number; fadeOut?: number; endVolume?: number};
+  whooshOnCuts?: number; // kelantangan whoosh pada setiap potongan babak (0 = tiada)
+  sfx?: SfxCue[]; // `at` = frasa dalam words.json (masa perkataan pertama) atau saat
+};
 export type ScriptFile = {
   id: string;
+  audio?: AudioConfig;
   title: string;
   scenes: SceneDef[];
   numberWords: string[];

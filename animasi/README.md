@@ -20,7 +20,7 @@ Semua animasi dilukis dengan kod (SVG dalam React/Remotion) dan dirender di komp
 | `npm run stills -- --late` | PNG pertengahan & hujung setiap babak + `contact.jpg` untuk semakan visual. |
 | `npm run studio` | Buka Remotion Studio untuk pratonton. |
 
-Topik lalai ialah `dunia-tanpa-kesihatan-mental`. Topik lain: `kenali-bipolar`, `kenali-eczema`. Guna `--topic=<id>` untuk topik lain.
+Topik lalai ialah `dunia-tanpa-kesihatan-mental`. Topik lain: `kenali-bipolar`, `kenali-eczema`, `jenis-nyamuk`. Guna `--topic=<id>` untuk topik lain.
 
 Render menghasilkan 1080×1920, 30 fps, H.264 ~8 Mbps. Kelantangan dinaikkan dengan gain biasa ke ~-14 LUFS (true peak kekal bawah -1 dB, tiada compressor/limiter). Skrip juga menyemak resolusi, tempoh (suara + 0.5 s) dan aliran audio dengan ffprobe.
 
@@ -61,6 +61,13 @@ Tambah satu objek dalam `config/avatars.json` (salin `dr-azren`, tukar `id` dan 
    - Struktur "N perkara bernombor + penutup" boleh diguna semula. Perkataan nombor ("Satu.", "Dua." …) dipaparkan sendiri, kuning 110px.
 3. Lukis babak dalam `scenes.tsx` (satu komponen bagi setiap `id` babak) dan daftarkan topik dalam `src/topics/index.ts`.
 4. `npm run voice -- --topic=<id>`, semak transkrip, kemudian `npm run stills -- --topic=<id> --late` dan `npm run render -- --topic=<id> --avatar=dr-azren`.
+
+### Muzik latar & SFX (pilihan)
+Tambah blok `audio` dalam `script.json` (contoh: `topics/jenis-nyamuk/script.json`). Fail diletak dalam `public/topics/<id>/` (`music.mp3`, `sfx/*.mp3`).
+- `music`: `{file, volume, fadeIn, fadeOut, endVolume}`. `volume` ~0.16 = lebih kurang −16 dB di bawah suara; `endVolume` ialah kelantangan selepas suara tamat.
+- `whooshOnCuts`: kelantangan `sfx/whoosh.mp3` pada setiap potongan babak (0 = tiada).
+- `sfx`: `[{file, at, offset, volume}]`. `at` ialah frasa dalam words.json (bermula pada perkataan pertama yang sepadan) atau masa dalam saat.
+SFX baharu elok dinormalkan dulu ke ~−20 LUFS dengan gain biasa supaya `volume` 0.5–0.9 sesuai.
 
 Kalau suara dijana melalui ElevenLabs Flows (bukan API): letak MP3 di `public/topics/<id>/voice.mp3` dan transkrip Scribe di `topics/<id>/scribe_words.json`, kemudian `npm run words -- --topic=<id> --from-scribe=topics/<id>/scribe_words.json`.
 

@@ -1,0 +1,16 @@
+# Medical references — Jenis-jenis Nyamuk di Malaysia & Kesannya
+Status: **PENDING doctor review.** Claims are standard public-health content, simplified for a lay audience.
+
+| # | Claim in video | Source | Note for reviewer |
+|---|---|---|---|
+| 1 | Mosquitoes are the "most dangerous animal"; mosquito-borne disease kills hundreds of thousands of people each year | WHO *Vector-borne diseases* fact sheet (>700,000 deaths/yr from vector-borne diseases); WHO *World Malaria Report 2024* (~597,000 malaria deaths in 2023) | "Most dangerous animal" is a popular framing (deaths caused), not a formal ranking. "Ratusan ribu" is conservative. |
+| 2 | Dengue: high fever, headache, pain behind the eyes, severe joint/muscle pain, ~5 days after bites | WHO *Dengue and severe dengue* fact sheet (incubation 4–10 days); MOH *CPG Management of Dengue Infection in Adults* (3rd ed.) | Story is fictional (Hafiz), time compressed. Diagnosis by blood test (NS1/serology, FBC). |
+| 3 | Aedes: black with white markings; bites in the day, peaks morning and late afternoon; breeds in clean stagnant water in containers (pots, tyres, open containers); transmits dengue, chikungunya, Zika | WHO *Dengue*, *Zika virus*, *Chikungunya* fact sheets; MOH Malaysia iDengue / "Cari dan Musnah" | Covers *Ae. aegypti* and *Ae. albopictus*. |
+| 4 | Culex: commonest house mosquito, night-biting, breeds in drains and polluted water; can transmit Japanese encephalitis (brain inflammation) | WHO *Japanese encephalitis* fact sheet; MOH Malaysia JE guidance | **Check:** the main JE vectors are *Cx. tritaeniorhynchus* / *Cx. gelidus* near rice fields and pig farms, not the urban *Cx. quinquefasciatus*. The script says "boleh menyebarkan" (genus level). JE in Malaysia is reported mostly from Sarawak. |
+| 5 | Anopheles: rests at an angle with abdomen raised ("menonggeng"); bites dusk to night; forest and interior areas; transmits malaria, including monkey malaria (*P. knowlesi*), mainly Sabah & Sarawak | WHO *Malaria* fact sheet; WHO *World Malaria Report* (Malaysia: zero indigenous human malaria since 2018; *P. knowlesi* cases continue, most in Sabah & Sarawak) | **Check:** "Ia menyebarkan malaria" is true in general; in Malaysia today most local cases are *P. knowlesi* (zoonotic) plus imported human malaria. |
+| 6 | Mansonia: breeds in swamps and ponds with aquatic plants such as water lettuce (kiambang, *Pistia stratiotes*); main vector of lymphatic filariasis (kaki gajah) | MOH Malaysia *Program Penghapusan Filariasis Limfatik*; WHO *Lymphatic filariasis* fact sheet | **Check:** "penyebar utama" refers to *Brugia malayi* (the predominant filariasis in Malaysia). Urban *Wuchereria bancrofti* is carried by *Culex*. |
+| 7 | Spend 10 minutes every week to search for and destroy stagnant water | MOH Malaysia campaign "10 Minit Cari dan Musnah" (weekly; Aedes egg-to-adult ≈ 7–10 days) | — |
+| 8 | Long sleeves, mosquito repellent lotion, bed nets, window screens | WHO *Vector-borne diseases* / *Dengue* (personal protection measures) | Repellent ingredients (DEET, picaridin) not named. |
+| 9 | Fever after mosquito bites → seek treatment promptly | MOH dengue CPG (early assessment and warning signs) | General safety message; no clinic CTA. |
+
+Story disclaimer: "Hafiz" and his family are fictional. The end card says the video is for education, not diagnosis.

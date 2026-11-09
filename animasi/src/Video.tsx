@@ -1,7 +1,7 @@
 import React from 'react';
-import {AbsoluteFill, Audio, Sequence, staticFile, useVideoConfig} from 'remotion';
+import {AbsoluteFill, Audio, interpolate, Sequence, staticFile, useVideoConfig} from 'remotion';
 import {TOPICS} from './topics';
-import {phrases, sceneTimings} from './lib/timeline';
+import {norm, phrases, sceneTimings, wordTime} from './lib/timeline';
 import {BottomLabel, Captions} from './components/Caption';
 import {AvatarPreset} from './components/Avatar';
 import avatars from '../config/avatars.json';
@@ -51,6 +51,7 @@ export const Video: React.FC<VideoProps> = ({topic, avatar, coverIntro, silent})
           <Audio src={staticFile(`topics/${topic}/voice.mp3`)} />
         </Sequence>
       ) : null}
+      {!silent && T.script.audio ? <AudioBed topic={topic} offF={offF} scenes={scenes} /> : null}
     </AbsoluteFill>
   );
 };
@@ -58,4 +59,46 @@ export const Video: React.FC<VideoProps> = ({topic, avatar, coverIntro, silent})
 export const CoverStill: React.FC<{topic: string; avatar: string}> = ({topic, avatar}) => {
   const T = TOPICS[topic];
   return <T.Cover preset={getPreset(avatar)} script={T.script} />;
+};
+
+// Muzik latar + SFX (pilihan, dari script.json "audio")
+const AudioBed: React.FC<{topic: string; offF: number; scenes: ReturnType<typeof sceneTimings>}> = ({topic, offF, scenes}) => {
+  const {fps, durationInFrames} = useVideoConfig();
+  const T = TOPICS[topic];
+  const a = T.script.audio!;
+  const src = (f: string) => staticFile(`topics/${topic}/${f}`);
+  const voiceEndF = offF + Math.round(T.words.duration * fps);
+  const cues = (a.sfx ?? []).map((c, i) => {
+    const t = typeof c.at === 'number' ? c.at : wordTime(T.words, c.at, 0, -1);
+    if (t < 0) throw new Error(`SFX "${c.file}": frasa "${c.at}" tiada dalam words.json`);
+    return {...c, key: `${i}-${norm(String(c.at))}`, from: offF + Math.max(0, Math.round((t + (c.offset ?? 0)) * fps))};
+  });
+  const m = a.music;
+  return (
+    <>
+      {m ? (
+        <Audio
+          src={src(m.file)}
+          volume={(f) => {
+            const fin = interpolate(f, [0, (m.fadeIn ?? 0) * fps], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+            const fout = interpolate(f, [durationInFrames - (m.fadeOut ?? 0) * fps, durationInFrames], [1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+            const tail = interpolate(f, [voiceEndF, voiceEndF + 8], [m.volume, m.endVolume ?? m.volume], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+            return tail * fin * fout;
+          }}
+        />
+      ) : null}
+      {a.whooshOnCuts
+        ? scenes.slice(1).map((s) => (
+            <Sequence key={`w${s.id}`} from={offF + Math.max(0, Math.round(s.start * fps) - 6)} durationInFrames={fps * 2}>
+              <Audio src={src('sfx/whoosh.mp3')} volume={a.whooshOnCuts} />
+            </Sequence>
+          ))
+        : null}
+      {cues.map((c) => (
+        <Sequence key={c.key} from={c.from} durationInFrames={fps * 4}>
+          <Audio src={src(`sfx/${c.file}`)} volume={c.volume ?? 1} />
+        </Sequence>
+      ))}
+    </>
+  );
 };
