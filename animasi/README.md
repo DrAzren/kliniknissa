@@ -20,7 +20,7 @@ Semua animasi dilukis dengan kod (SVG dalam React/Remotion) dan dirender di komp
 | `npm run stills -- --late` | PNG pertengahan & hujung setiap babak + `contact.jpg` untuk semakan visual. |
 | `npm run studio` | Buka Remotion Studio untuk pratonton. |
 
-Topik lalai ialah `dunia-tanpa-kesihatan-mental`. Topik lain: `kenali-bipolar`. Guna `--topic=<id>` untuk topik lain.
+Topik lalai ialah `dunia-tanpa-kesihatan-mental`. Topik lain: `kenali-bipolar`, `kenali-eczema`. Guna `--topic=<id>` untuk topik lain.
 
 Render menghasilkan 1080×1920, 30 fps, H.264 ~8 Mbps. Kelantangan dinaikkan dengan gain biasa ke ~-14 LUFS (true peak kekal bawah -1 dB, tiada compressor/limiter). Skrip juga menyemak resolusi, tempoh (suara + 0.5 s) dan aliran audio dengan ffprobe.
 

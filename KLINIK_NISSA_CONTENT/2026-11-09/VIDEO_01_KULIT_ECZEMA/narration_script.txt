@@ -1,0 +1,20 @@
+# Kenali Eczema — narration (Dr Azren, ElevenLabs eleven_v4, 1 take)
+# Tag [ ] ialah arahan emosi (tidak dibaca). "ekzema" = ejaan Melayu untuk sebutan; kapsyen guna "eczema".
+
+[storytelling] Naufal, enam tahun, budak yang sentiasa ceria. Tapi minggu lepas, kulitnya tiba-tiba berubah.
+
+[concerned] Muncul tompok merah dan kering di lipatan siku dan belakang lutut. Gatalnya tak tertahan. Malam-malam, Naufal garu sampai luka, sampai tak boleh tidur.
+
+[worried] Ibu cuba tukar sabun, sapu macam-macam krim. Tapi makin teruk. Akhirnya, ibu bawa Naufal berjumpa doktor.
+
+[serious] Selepas pemeriksaan, doktor sahkan... Naufal menghidap ekzema atopik.
+
+[warmly] Jadi, apa itu ekzema? Ia keradangan kulit yang berpanjangan. Lapisan pelindung kulit jadi lemah, jadi kulit cepat kering dan mudah meradang. Dan ingat, ekzema tidak berjangkit.
+
+Tanda-tandanya: kulit kering dan sangat gatal, terutamanya waktu malam. Ruam merah di lipatan siku, belakang lutut, leher atau muka. Kalau kerap digaru, kulit jadi tebal, bersisik atau berair.
+
+[curious] Siapa lebih berisiko? Anak yang ahli keluarganya ada ekzema, asma atau resdung. Pencetusnya pula: sabun berpewangi, peluh dan cuaca panas, habuk, dan pakaian kasar.
+
+[reassuring] Berita baiknya, ekzema boleh dikawal. Mandi air suam, tak lebih sepuluh minit. Guna sabun lembut tanpa pewangi. Sapu pelembap sejurus lepas mandi, sekurang-kurangnya dua kali sehari. Pakai baju kapas yang longgar, dan potong kuku pendek. Kalau doktor beri krim, gunakan seperti yang diarahkan.
+
+[warmly] Kalau anak anda ada tanda-tanda ini, jangan tunggu. Dapatkan rawatan awal. Saya Doktor Azren.

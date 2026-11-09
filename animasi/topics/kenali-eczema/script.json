@@ -1,0 +1,49 @@
+{
+ "id": "kenali-eczema",
+ "title": "Kenali Eczema",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "fallback_model_id": "eleven_v3",
+  "text": "[storytelling] Naufal, enam tahun, budak yang sentiasa ceria. Tapi minggu lepas, kulitnya tiba-tiba berubah.\n\n[concerned] Muncul tompok merah dan kering di lipatan siku dan belakang lutut. Gatalnya tak tertahan. Malam-malam, Naufal garu sampai luka, sampai tak boleh tidur.\n\n[worried] Ibu cuba tukar sabun, sapu macam-macam krim. Tapi makin teruk. Akhirnya, ibu bawa Naufal berjumpa doktor.\n\n[serious] Selepas pemeriksaan, doktor sahkan... Naufal menghidap ekzema atopik.\n\n[warmly] Jadi, apa itu ekzema? Ia keradangan kulit yang berpanjangan. Lapisan pelindung kulit jadi lemah, jadi kulit cepat kering dan mudah meradang. Dan ingat, ekzema tidak berjangkit.\n\nTanda-tandanya: kulit kering dan sangat gatal, terutamanya waktu malam. Ruam merah di lipatan siku, belakang lutut, leher atau muka. Kalau kerap digaru, kulit jadi tebal, bersisik atau berair.\n\n[curious] Siapa lebih berisiko? Anak yang ahli keluarganya ada ekzema, asma atau resdung. Pencetusnya pula: sabun berpewangi, peluh dan cuaca panas, habuk, dan pakaian kasar.\n\n[reassuring] Berita baiknya, ekzema boleh dikawal. Mandi air suam, tak lebih sepuluh minit. Guna sabun lembut tanpa pewangi. Sapu pelembap sejurus lepas mandi, sekurang-kurangnya dua kali sehari. Pakai baju kapas yang longgar, dan potong kuku pendek. Kalau doktor beri krim, gunakan seperti yang diarahkan.\n\n[warmly] Kalau anak anda ada tanda-tanda ini, jangan tunggu. Dapatkan rawatan awal. Saya Doktor Azren.",
+  "pronunciation_note": "\"eczema\" ditulis \"ekzema\" (ejaan Melayu) dalam teks suara supaya sebutan natural; kapsyen dan tajuk guna \"eczema\". Satu take sahaja dijana (permintaan pengguna, jimat kredit)."
+ },
+ "scenes": [
+  {"id": "intro", "marker": null},
+  {"id": "gatal", "marker": "Muncul"},
+  {"id": "ibu", "marker": "Ibu cuba"},
+  {"id": "diagnosis", "marker": "Selepas pemeriksaan"},
+  {"id": "apa", "marker": "Jadi apa itu"},
+  {"id": "tanda", "marker": "Tanda-tandanya", "n": 1, "label": "Tanda-tanda"},
+  {"id": "ruam", "marker": "Ruam merah", "n": 1, "label": "Tanda-tanda"},
+  {"id": "risiko", "marker": "Siapa lebih", "n": 2, "label": "Faktor risiko"},
+  {"id": "cegah", "marker": "Berita baiknya", "n": 3, "label": "Langkah pencegahan"},
+  {"id": "cegah2", "marker": "Sapu pelembap", "n": 3, "label": "Langkah pencegahan"},
+  {"id": "penutup", "marker": "Kalau anak anda"}
+ ],
+ "numberWords": [],
+ "keywords": [
+  "6 tahun", "ceria", "berubah", "tompok merah", "kering", "siku", "lutut", "tak tertahan", "luka", "tak boleh tidur",
+  "makin teruk", "doktor", "eczema atopik", "eczema", "keradangan kulit", "berpanjangan", "lapisan pelindung", "lemah", "meradang",
+  "tidak berjangkit", "sangat gatal", "waktu malam", "ruam merah", "leher", "muka", "tebal", "bersisik", "berair",
+  "berisiko", "asma", "resdung", "sabun berpewangi", "peluh", "cuaca panas", "habuk", "pakaian kasar",
+  "boleh dikawal", "air suam", "10 minit", "sabun lembut", "pelembap", "2 kali sehari", "baju kapas", "longgar",
+  "kuku pendek", "krim", "diarahkan", "jangan tunggu", "rawatan awal", "Dr. Azren"
+ ],
+ "corrections": {
+  "ekzema atopik": "eczema atopik",
+  "ekzema": "eczema",
+  "enam tahun": "6 tahun",
+  "sepuluh minit": "10 minit",
+  "dua kali": "2 kali",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "cover": {
+  "kicker": "KENALI",
+  "headline": ["ECZEMA"],
+  "highlight": "Kulit kering & gatal",
+  "sub": "Tanda • Risiko • Pencegahan",
+  "tags": ["Tanda-tanda", "Faktor risiko", "Langkah pencegahan"]
+ }
+}

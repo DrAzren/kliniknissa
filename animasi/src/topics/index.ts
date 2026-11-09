@@ -9,6 +9,10 @@ import {SCENES as S2} from './kenali-bipolar/scenes';
 import {Cover as Cover2} from './kenali-bipolar/Cover';
 import script2 from '../../topics/kenali-bipolar/script.json';
 import words2 from '../../topics/kenali-bipolar/words.json';
+import {SCENES as S3} from './kenali-eczema/scenes';
+import {Cover as Cover3} from './kenali-eczema/Cover';
+import script3 from '../../topics/kenali-eczema/script.json';
+import words3 from '../../topics/kenali-eczema/words.json';
 
 export type Topic = {
   script: ScriptFile;
@@ -21,4 +25,5 @@ export type Topic = {
 export const TOPICS: Record<string, Topic> = {
   'dunia-tanpa-kesihatan-mental': {script: script1 as ScriptFile, words: words1 as WordsFile, scenes: S1, Cover: Cover1},
   'kenali-bipolar': {script: script2 as ScriptFile, words: words2 as WordsFile, scenes: S2, Cover: Cover2},
+  'kenali-eczema': {script: script3 as ScriptFile, words: words3 as WordsFile, scenes: S3, Cover: Cover3},
 };
