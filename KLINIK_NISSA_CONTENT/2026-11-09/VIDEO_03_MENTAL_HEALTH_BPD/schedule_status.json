@@ -1,0 +1,12 @@
+{
+ "video_id": "2026-11-09_VIDEO_03_MENTAL_HEALTH_bpd",
+ "status": "REVIEW_READY",
+ "approval_gate": {
+  "medical_accuracy": "PENDING (medical_references.md, 3 items flagged)",
+  "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
+  "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding, same as Kenali Bipolar)",
+  "helpline": "NOT_SHOWN (user decision, 9 Nov 2026: no helpline line, although sign #4 mentions self-harm)"
+ },
+ "scheduled_posts": [],
+ "notes": "Not scheduled. Produced with animasi/ (Remotion SVG, topic kenali-bpd, avatar dr-azren). Voice, music (60 s, crossfade-looped) and 4 SFX generated once each (ElevenLabs Flow ER57XFWW7fIzQRPYMId2)."
+}

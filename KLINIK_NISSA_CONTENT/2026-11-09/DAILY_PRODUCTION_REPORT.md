@@ -33,3 +33,21 @@ Batch scope: one video requested by the user ("Kenali eczema", storytelling hook
   - SFX × 4, 1 take each: 10.0 + 3.3 + 8.3 + 6.7 = 28.3
   - Scribe transcription: 0
 - **Higgsfield:** 0 credits
+
+## Video 3 — VIDEO_03_MENTAL_HEALTH_BPD
+- **Topic:** Kenali Borderline Personality Disorder (BPD). Hook: "Pagi tadi, Sofea kata Danial lelaki paling sempurna… Malam ini, dia menjerit 'Aku benci kau!'… Umurnya baru 20 tahun." Story: Sofea (20, fictional) panics when Danial is 10 minutes late replying (20 messages, 5 calls), mood swings within hours (happy, angry, empty), friends drift away; her sister takes her to the doctor; diagnosis BPD. Dr. Azren explains what BPD is ("bukan drama, bukan sengaja cari perhatian"), 5 main signs, causes, treatment (psychotherapy such as DBT), and that many improve over time. Sofea, a year later, calmer and not alone. Closes "jangan tunggu, dapatkan bantuan profesional, saya Doktor Azren". **No clinic CTA. No helpline** (user decision, although sign #4 mentions self-harm; flagged in `medical_references.md`).
+- **Production:** `animasi/` Remotion (Violet Flat SVG), topic `kenali-bpd`, avatar `dr-azren`, same concept as `jenis-nyamuk`. 17 scenes; new story characters Sofea, Danial, kakak and 2 friends; new flat icons (cracking heart, chat phone, mood faces, mood gauge, DNA/brain/teddy, DBT skills).
+- **Voice:** Dr Azren (`lN6exnzhuXDOyNQfsVSR`, `eleven_v4`, emotion tags), **1 take only**, 107.44 s. Scribe word timings.
+- **Music & SFX:** ElevenLabs Music v2.5 instrumental, **60 s, 1 take, crossfade-looped to 117 s** (user choice to save credits). 4 new SFX (glass crack, heartbeat, message pings, empty drone), 1 take each, normalised to −20 LUFS; whoosh, pop, sting and chime reused from `jenis-nyamuk`.
+- **Duration:** 108.01 s (voice + 0.5 s), 1080×1920, 30 fps, H.264 6.4 Mbps (2-pass re-encode of the 8 Mbps render to stay under GitHub's 100 MB limit, 89.4 MB), AAC 48 kHz, −15.0 LUFS, true peak −1.0 dB (gain only; heartbeat and glass-crack levels were lowered once so the mix reaches −15).
+- **Files:** `final_video.mp4`, `thumbnail.png/.jpg`, `voiceover.mp3`, `music.mp3`, captions, storyboard, medical references
+- **Medical review:** PENDING (`medical_references.md`, 3 items flagged: no helpline with self-harm mention, "5 tanda utama" vs 9 DSM criteria, simplified causes)
+- **Approval status:** REVIEW-READY. Not scheduled.
+
+### Usage (verified from tool responses)
+- **ElevenLabs:** 2,670.9 credits (estimate given before approval: ~2,670-2,690 with 60 s looped music)
+  - eleven_v4 TTS, 1 take: 1,737.8
+  - Music v2.5, 60 s, 1 take: 899.8 (the pre-run estimator quoted 1,650; actual followed ≈15 credits/s)
+  - SFX × 4, 1 take each: 8.3 + 10.0 + 5.0 + 10.0 = 33.3
+  - Scribe transcription: 0
+- **Higgsfield:** 0 credits
