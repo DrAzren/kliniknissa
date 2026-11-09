@@ -1,11 +1,34 @@
 {
  "video_id": "2026-11-09_VIDEO_01_KULIT_kenali-eczema",
- "status": "REVIEW_READY",
+ "status": "SCHEDULED",
  "approval_gate": {
   "medical_accuracy": "PENDING (medical_references.md)",
   "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
-  "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding, same as Kenali Bipolar)"
+  "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding, same as Kenali Bipolar)",
+  "publishing_instruction": "User instructed scheduling on 2026-11-09 for 15:30 MYT with a short caption"
  },
- "scheduled_posts": [],
- "notes": "Not scheduled. Produced with animasi/ (Remotion SVG, topic kenali-eczema, avatar dr-azren)."
+ "scheduled_posts": [
+  {
+   "metricool_post_id": 421442936,
+   "uuid": "-1523198322612220870",
+   "publication": "2026-11-09T15:30:00 Asia/Kuala_Lumpur",
+   "networks": {
+    "facebook": "REEL / PENDING",
+    "instagram": "REEL (AI-generated label) / PENDING",
+    "tiktok": "PUBLIC, title 'Kenali Eczema', AIGC label, no commercial disclosure / PENDING"
+   },
+   "autoPublish": true,
+   "caption_file": "caption_scheduled_all_platforms.txt",
+   "media": "https://static.metricool.com/planner/202611/7705651-file-7438866834357374060.mp4",
+   "thumbnail": "https://static.metricool.com/planner/202611/7705651-file-6202085164943161657.jpeg",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7840561&openWithPostUuid=-1523198322612220870"
+  }
+ ],
+ "notes": "Scheduled at the user's request. Media hosted on the user's Higgsfield media storage (public CloudFront URL) for Metricool to fetch; Metricool copied it to its own storage. Publication itself not yet confirmed. Medical review still pending.",
+ "metricool_brand": {
+  "label": "Klinik Nissa",
+  "brandId": 7840561,
+  "timezone": "Asia/Kuala_Lumpur",
+  "networks": {"facebook": "522718507588597", "instagram": "kliniknissa", "tiktok": "klinik_nissa"}
+ }
 }

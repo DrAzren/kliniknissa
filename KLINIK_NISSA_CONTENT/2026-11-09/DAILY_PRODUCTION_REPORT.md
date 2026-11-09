@@ -8,7 +8,7 @@ Batch scope: one video requested by the user ("Kenali eczema", storytelling hook
 - **Duration:** 87.77 s (voice + 0.5 s), under the 90 s limit. 1080×1920, 30 fps, H.264 8 Mbps, AAC 48 kHz, −14.0 LUFS, true peak −1.3 dB.
 - **Files:** `final_video.mp4`, `thumbnail.png/.jpg`, `voiceover.mp3`, captions, storyboard, medical references
 - **Medical review:** PENDING (`medical_references.md`, 2 items flagged)
-- **Approval status:** REVIEW-READY. Not scheduled.
+- **Approval status:** SCHEDULED in Metricool for 2026-11-09 15:30 MYT (FB Reel, IG Reel, TikTok), post 421442936, short caption. Medical review still pending.
 
 ## Usage (verified from tool responses)
 - **ElevenLabs:** 1,439.9 credits
