@@ -1,11 +1,29 @@
 {
  "video_id": "2026-11-09_VIDEO_02_KESIHATAN_jenis-nyamuk",
- "status": "REVIEW_READY",
+ "status": "SCHEDULED",
  "approval_gate": {
   "medical_accuracy": "PENDING (medical_references.md, 3 items flagged)",
   "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
-  "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding, same as Kenali Bipolar)"
+  "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding, same as Kenali Bipolar)",
+  "publishing_instruction": "User instructed scheduling on 2026-11-10 for 15:00 MYT on FB, IG and TikTok, with thumbnail and a short description"
  },
- "scheduled_posts": [],
- "notes": "Not scheduled. Produced with animasi/ (Remotion SVG, topic jenis-nyamuk, avatar dr-azren). Voice, music and 4 SFX generated once each (ElevenLabs Flow dL4pARPibj6UtUBe9IU5)."
+ "scheduled_posts": [
+  {
+   "metricool_post_id": 422761134,
+   "uuid": "-7653904124545580082",
+   "publication": "2026-11-10T15:00:00 Asia/Kuala_Lumpur",
+   "networks": {
+    "facebook": "REEL / PENDING",
+    "instagram": "REEL (AI-generated label) / PENDING",
+    "tiktok": "PUBLIC, AIGC label, no commercial disclosure, title 'Kenali 4 jenis nyamuk di Malaysia & kesannya' / PENDING"
+   },
+   "autoPublish": true,
+   "caption_file": "caption_scheduled_all_platforms.txt",
+   "media": "https://static.metricool.com/planner/202611/7705651-file-3299283532511901426.mp4",
+   "thumbnail": "https://static.metricool.com/planner/202611/7705651-file-230272610200618736.jpeg",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7840561&openWithPostUuid=-7653904124545580082"
+  }
+ ],
+ "notes": "Scheduled at the user's request. Media hosted on the user's Higgsfield media storage (public CloudFront URL) for Metricool to fetch; Metricool copied it to its own storage. Publication itself not yet confirmed. Medical review still pending.",
+ "metricool_brand": {"label": "Klinik Nissa", "brandId": 7840561, "timezone": "Asia/Kuala_Lumpur"}
 }

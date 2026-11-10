@@ -24,7 +24,7 @@ Batch scope: one video requested by the user ("Kenali eczema", storytelling hook
 - **Duration:** 106.24 s (voice + 0.5 s), 1080×1920, 30 fps, H.264 6.4 Mbps (2-pass re-encode of the 8 Mbps render to stay under GitHub’s 100 MB limit, 87.7 MB), AAC 48 kHz, −15.0 LUFS, true peak −1.3 dB (gain-only; the slap/whoosh peaks stop it reaching −14 LUFS without a limiter). Longer than the 87 s eczema video because of the 4-type format.
 - **Files:** `final_video.mp4`, `thumbnail.png/.jpg`, `voiceover.mp3`, `music.mp3`, captions, storyboard, medical references
 - **Medical review:** PENDING (`medical_references.md`, 3 items flagged: JE vector, malaria in Malaysia, Mansonia/filariasis)
-- **Approval status:** REVIEW-READY. Not scheduled.
+- **Approval status:** SCHEDULED on Metricool (post 422761134) for **10 Nov 2026, 15:00 MYT** on Facebook Reel, Instagram Reel (AI label) and TikTok (AIGC label), with custom thumbnail and short caption, at the user's request. Medical review still pending.
 
 ### Usage (verified from tool responses)
 - **ElevenLabs:** 3,318.8 credits
