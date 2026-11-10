@@ -1,12 +1,36 @@
 {
  "video_id": "2026-11-09_VIDEO_03_MENTAL_HEALTH_bpd",
- "status": "REVIEW_READY",
+ "status": "SCHEDULED",
  "approval_gate": {
   "medical_accuracy": "PENDING (medical_references.md, 3 items flagged)",
   "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
   "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding, same as Kenali Bipolar)",
-  "helpline": "NOT_SHOWN (user decision, 9 Nov 2026: no helpline line, although sign #4 mentions self-harm)"
+  "helpline": "NOT_SHOWN (user decision, 9 Nov 2026: no helpline line, although sign #4 mentions self-harm)",
+  "publishing_instruction": "User instructed scheduling on 2026-11-10 for 14:00 MYT (FB, IG, TikTok) with thumbnail and a short caption"
  },
- "scheduled_posts": [],
- "notes": "Not scheduled. Produced with animasi/ (Remotion SVG, topic kenali-bpd, avatar dr-azren). Voice, music (60 s, crossfade-looped) and 4 SFX generated once each (ElevenLabs Flow ER57XFWW7fIzQRPYMId2)."
+ "scheduled_posts": [
+  {
+   "metricool_post_id": 422761007,
+   "uuid": "-4107782354378862981",
+   "publication": "2026-11-10T14:00:00 Asia/Kuala_Lumpur",
+   "created": "2026-11-10T13:59:00 Asia/Kuala_Lumpur",
+   "networks": {
+    "facebook": "REEL / PENDING",
+    "instagram": "REEL, shown on feed, AI-generated label / PENDING",
+    "tiktok": "PUBLIC, title 'Kenali BPD', AIGC label, no commercial disclosure / PENDING"
+   },
+   "autoPublish": true,
+   "caption_file": "caption_scheduled_all_platforms.txt",
+   "media": "https://static.metricool.com/planner/202611/7705651-file-2167968439023252021.mp4",
+   "thumbnail": "https://static.metricool.com/planner/202611/7705651-file-10724358084022790090.jpeg",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7840561&openWithPostUuid=-4107782354378862981"
+  }
+ ],
+ "notes": "Scheduled at the user's request. Media hosted on the user's Higgsfield media storage (public CloudFront URL) for Metricool to fetch; Metricool copied video and thumbnail to its own storage. Created 1 minute before the publication time; publication itself not yet confirmed. Medical review still pending.",
+ "metricool_brand": {
+  "label": "Klinik Nissa",
+  "brandId": 7840561,
+  "timezone": "Asia/Kuala_Lumpur",
+  "networks": {"facebook": "522718507588597", "instagram": "kliniknissa", "tiktok": "klinik_nissa"}
+ }
 }
