@@ -1,0 +1,966 @@
+{
+ "source": "scribe",
+ "duration": 85.629,
+ "words": [
+  {
+   "text": "Sejak",
+   "start": 0.08,
+   "end": 0.32
+  },
+  {
+   "text": "seminggu",
+   "start": 0.4,
+   "end": 0.8
+  },
+  {
+   "text": "ni,",
+   "start": 0.92,
+   "end": 1.2
+  },
+  {
+   "text": "Aina,",
+   "start": 1.36,
+   "end": 1.96
+  },
+  {
+   "text": "dua",
+   "start": 2.08,
+   "end": 2.187
+  },
+  {
+   "text": "puluh",
+   "start": 2.213,
+   "end": 2.32
+  },
+  {
+   "text": "empat",
+   "start": 2.36,
+   "end": 2.48
+  },
+  {
+   "text": "tahun,",
+   "start": 2.56,
+   "end": 3.12
+  },
+  {
+   "text": "berubah.",
+   "start": 3.28,
+   "end": 4
+  },
+  {
+   "text": "Hari-hari",
+   "start": 4.224,
+   "end": 4.8
+  },
+  {
+   "text": "ada",
+   "start": 4.88,
+   "end": 4.96
+  },
+  {
+   "text": "parcel",
+   "start": 5.04,
+   "end": 5.28
+  },
+  {
+   "text": "sampai",
+   "start": 5.36,
+   "end": 5.52
+  },
+  {
+   "text": "depan",
+   "start": 5.56,
+   "end": 5.68
+  },
+  {
+   "text": "rumah.",
+   "start": 5.76,
+   "end": 6.24
+  },
+  {
+   "text": "Kasut",
+   "start": 6.4,
+   "end": 6.64
+  },
+  {
+   "text": "baru.",
+   "start": 6.72,
+   "end": 7.4
+  },
+  {
+   "text": "Beg",
+   "start": 7.52,
+   "end": 7.68
+  },
+  {
+   "text": "baru.",
+   "start": 7.76,
+   "end": 8.32
+  },
+  {
+   "text": "Telefon",
+   "start": 8.4,
+   "end": 8.8
+  },
+  {
+   "text": "baru.",
+   "start": 9.04,
+   "end": 9.4
+  },
+  {
+   "text": "Kad",
+   "start": 9.589,
+   "end": 9.68
+  },
+  {
+   "text": "kredit",
+   "start": 9.76,
+   "end": 10.08
+  },
+  {
+   "text": "hampir",
+   "start": 10.12,
+   "end": 10.36
+  },
+  {
+   "text": "penuh.",
+   "start": 10.4,
+   "end": 11.04
+  },
+  {
+   "text": "Tapi",
+   "start": 11.2,
+   "end": 11.44
+  },
+  {
+   "text": "Aina",
+   "start": 11.52,
+   "end": 11.76
+  },
+  {
+   "text": "cuma",
+   "start": 11.8,
+   "end": 11.92
+  },
+  {
+   "text": "ketawa,",
+   "start": 12,
+   "end": 12.64
+  },
+  {
+   "text": "\"Rilekslah",
+   "start": 12.867,
+   "end": 13.52
+  },
+  {
+   "text": "mak,",
+   "start": 13.6,
+   "end": 14.12
+  },
+  {
+   "text": "Aina",
+   "start": 14.16,
+   "end": 14.32
+  },
+  {
+   "text": "nak",
+   "start": 14.4,
+   "end": 14.48
+  },
+  {
+   "text": "buka",
+   "start": 14.52,
+   "end": 14.72
+  },
+  {
+   "text": "bisnes",
+   "start": 14.8,
+   "end": 15.04
+  },
+  {
+   "text": "besar!\"",
+   "start": 15.2,
+   "end": 15.88
+  },
+  {
+   "text": "Malam,",
+   "start": 16.149,
+   "end": 16.76
+  },
+  {
+   "text": "dia",
+   "start": 16.8,
+   "end": 16.88
+  },
+  {
+   "text": "tidur",
+   "start": 16.96,
+   "end": 17.2
+  },
+  {
+   "text": "dua",
+   "start": 17.24,
+   "end": 17.44
+  },
+  {
+   "text": "jam",
+   "start": 17.52,
+   "end": 17.68
+  },
+  {
+   "text": "saja.",
+   "start": 17.76,
+   "end": 18.427
+  },
+  {
+   "text": "Tapi",
+   "start": 18.453,
+   "end": 18.64
+  },
+  {
+   "text": "pagi,",
+   "start": 18.72,
+   "end": 19.28
+  },
+  {
+   "text": "masih",
+   "start": 19.36,
+   "end": 19.6
+  },
+  {
+   "text": "penuh",
+   "start": 19.653,
+   "end": 19.8
+  },
+  {
+   "text": "tenaga.",
+   "start": 19.84,
+   "end": 20.507
+  },
+  {
+   "text": "Cakap",
+   "start": 20.533,
+   "end": 20.72
+  },
+  {
+   "text": "laju,",
+   "start": 20.8,
+   "end": 21.48
+  },
+  {
+   "text": "idea",
+   "start": 21.52,
+   "end": 21.76
+  },
+  {
+   "text": "melompat-lompat,",
+   "start": 21.84,
+   "end": 22.84
+  },
+  {
+   "text": "cepat",
+   "start": 22.88,
+   "end": 23.2
+  },
+  {
+   "text": "marah",
+   "start": 23.28,
+   "end": 23.52
+  },
+  {
+   "text": "bila",
+   "start": 23.6,
+   "end": 23.76
+  },
+  {
+   "text": "ditegur.",
+   "start": 23.84,
+   "end": 24.52
+  },
+  {
+   "text": "Mak",
+   "start": 24.627,
+   "end": 24.72
+  },
+  {
+   "text": "dan",
+   "start": 24.8,
+   "end": 24.88
+  },
+  {
+   "text": "ayah",
+   "start": 24.96,
+   "end": 25.2
+  },
+  {
+   "text": "makin",
+   "start": 25.28,
+   "end": 25.52
+  },
+  {
+   "text": "risau.",
+   "start": 25.68,
+   "end": 26.4
+  },
+  {
+   "text": "Akhirnya,",
+   "start": 26.48,
+   "end": 27.253
+  },
+  {
+   "text": "mereka",
+   "start": 27.307,
+   "end": 27.44
+  },
+  {
+   "text": "bawa",
+   "start": 27.52,
+   "end": 27.68
+  },
+  {
+   "text": "Aina",
+   "start": 27.76,
+   "end": 27.92
+  },
+  {
+   "text": "berjumpa",
+   "start": 28,
+   "end": 28.28
+  },
+  {
+   "text": "doktor.",
+   "start": 28.32,
+   "end": 29.08
+  },
+  {
+   "text": "Selepas",
+   "start": 29.312,
+   "end": 29.44
+  },
+  {
+   "text": "penilaian,",
+   "start": 29.52,
+   "end": 30.347
+  },
+  {
+   "text": "doktor",
+   "start": 30.373,
+   "end": 30.64
+  },
+  {
+   "text": "sahkan...",
+   "start": 30.72,
+   "end": 31.547
+  },
+  {
+   "text": "Aina",
+   "start": 31.573,
+   "end": 31.92
+  },
+  {
+   "text": "sedang",
+   "start": 32,
+   "end": 32.16
+  },
+  {
+   "text": "mengalami",
+   "start": 32.213,
+   "end": 32.64
+  },
+  {
+   "text": "episod",
+   "start": 32.72,
+   "end": 33.04
+  },
+  {
+   "text": "mania.",
+   "start": 33.4,
+   "end": 33.8
+  },
+  {
+   "text": "Diagnosisnya,",
+   "start": 33.84,
+   "end": 34.88
+  },
+  {
+   "text": "Bipolar",
+   "start": 34.96,
+   "end": 35.52
+  },
+  {
+   "text": "Mood",
+   "start": 35.6,
+   "end": 35.76
+  },
+  {
+   "text": "Disorder.",
+   "start": 35.88,
+   "end": 36.65
+  },
+  {
+   "text": "Jadi,",
+   "start": 36.71,
+   "end": 37.24
+  },
+  {
+   "text": "apa",
+   "start": 37.28,
+   "end": 37.44
+  },
+  {
+   "text": "itu",
+   "start": 37.52,
+   "end": 37.68
+  },
+  {
+   "text": "bipolar?",
+   "start": 37.72,
+   "end": 38.52
+  },
+  {
+   "text": "Ia",
+   "start": 38.56,
+   "end": 38.68
+  },
+  {
+   "text": "bukan",
+   "start": 38.72,
+   "end": 38.88
+  },
+  {
+   "text": "sekadar",
+   "start": 38.96,
+   "end": 39.36
+  },
+  {
+   "text": "\"moody\".",
+   "start": 39.387,
+   "end": 40.12
+  },
+  {
+   "text": "Bipolar",
+   "start": 40.16,
+   "end": 40.64
+  },
+  {
+   "text": "ialah",
+   "start": 40.72,
+   "end": 40.88
+  },
+  {
+   "text": "gangguan",
+   "start": 40.96,
+   "end": 41.28
+  },
+  {
+   "text": "mood,",
+   "start": 41.36,
+   "end": 41.707
+  },
+  {
+   "text": "di",
+   "start": 41.733,
+   "end": 41.76
+  },
+  {
+   "text": "mana",
+   "start": 41.84,
+   "end": 42.08
+  },
+  {
+   "text": "mood",
+   "start": 42.16,
+   "end": 42.32
+  },
+  {
+   "text": "berubah",
+   "start": 42.4,
+   "end": 42.72
+  },
+  {
+   "text": "secara",
+   "start": 42.8,
+   "end": 43.12
+  },
+  {
+   "text": "ekstrem,",
+   "start": 43.2,
+   "end": 43.8
+  },
+  {
+   "text": "antara",
+   "start": 43.84,
+   "end": 44.08
+  },
+  {
+   "text": "dua",
+   "start": 44.16,
+   "end": 44.32
+  },
+  {
+   "text": "kutub.",
+   "start": 44.4,
+   "end": 44.92
+  },
+  {
+   "text": "Kutub",
+   "start": 44.96,
+   "end": 45.2
+  },
+  {
+   "text": "atas,",
+   "start": 45.52,
+   "end": 46.08
+  },
+  {
+   "text": "mania.",
+   "start": 46.32,
+   "end": 46.587
+  },
+  {
+   "text": "Tidur",
+   "start": 46.613,
+   "end": 46.8
+  },
+  {
+   "text": "sedikit",
+   "start": 46.88,
+   "end": 47.36
+  },
+  {
+   "text": "tapi",
+   "start": 47.413,
+   "end": 47.52
+  },
+  {
+   "text": "tak",
+   "start": 47.6,
+   "end": 47.68
+  },
+  {
+   "text": "penat,",
+   "start": 47.8,
+   "end": 48.2
+  },
+  {
+   "text": "rasa",
+   "start": 48.24,
+   "end": 48.44
+  },
+  {
+   "text": "diri",
+   "start": 48.48,
+   "end": 48.68
+  },
+  {
+   "text": "terlalu",
+   "start": 48.72,
+   "end": 49.12
+  },
+  {
+   "text": "hebat,",
+   "start": 49.2,
+   "end": 49.733
+  },
+  {
+   "text": "bercakap",
+   "start": 49.787,
+   "end": 50.08
+  },
+  {
+   "text": "laju,",
+   "start": 50.12,
+   "end": 50.8
+  },
+  {
+   "text": "berbelanja",
+   "start": 50.88,
+   "end": 51.36
+  },
+  {
+   "text": "atau",
+   "start": 51.44,
+   "end": 51.6
+  },
+  {
+   "text": "ambil",
+   "start": 51.72,
+   "end": 51.84
+  },
+  {
+   "text": "risiko",
+   "start": 51.92,
+   "end": 52.24
+  },
+  {
+   "text": "berlebihan.",
+   "start": 52.28,
+   "end": 53.013
+  },
+  {
+   "text": "Berterusan",
+   "start": 53.067,
+   "end": 53.52
+  },
+  {
+   "text": "sekurang-kurangnya",
+   "start": 53.6,
+   "end": 54.32
+  },
+  {
+   "text": "seminggu.",
+   "start": 54.4,
+   "end": 55.147
+  },
+  {
+   "text": "Kutub",
+   "start": 55.173,
+   "end": 55.44
+  },
+  {
+   "text": "bawah,",
+   "start": 55.48,
+   "end": 56.107
+  },
+  {
+   "text": "kemurungan.",
+   "start": 56.133,
+   "end": 57
+  },
+  {
+   "text": "Sedih,",
+   "start": 57.04,
+   "end": 57.8
+  },
+  {
+   "text": "hilang",
+   "start": 57.84,
+   "end": 58.08
+  },
+  {
+   "text": "minat,",
+   "start": 58.16,
+   "end": 58.773
+  },
+  {
+   "text": "rasa",
+   "start": 58.827,
+   "end": 58.96
+  },
+  {
+   "text": "tak",
+   "start": 59,
+   "end": 59.12
+  },
+  {
+   "text": "berguna,",
+   "start": 59.24,
+   "end": 59.973
+  },
+  {
+   "text": "sekurang-kurangnya",
+   "start": 60.027,
+   "end": 60.72
+  },
+  {
+   "text": "dua",
+   "start": 60.8,
+   "end": 60.96
+  },
+  {
+   "text": "minggu.",
+   "start": 61.04,
+   "end": 61.61
+  },
+  {
+   "text": "Ingat,",
+   "start": 61.68,
+   "end": 62.187
+  },
+  {
+   "text": "suka",
+   "start": 62.213,
+   "end": 62.4
+  },
+  {
+   "text": "shopping",
+   "start": 62.48,
+   "end": 62.8
+  },
+  {
+   "text": "saja",
+   "start": 62.88,
+   "end": 63.12
+  },
+  {
+   "text": "tidak",
+   "start": 63.2,
+   "end": 63.32
+  },
+  {
+   "text": "bermaksud",
+   "start": 63.36,
+   "end": 63.76
+  },
+  {
+   "text": "bipolar.",
+   "start": 63.84,
+   "end": 64.533
+  },
+  {
+   "text": "Yang",
+   "start": 64.587,
+   "end": 64.64
+  },
+  {
+   "text": "penting",
+   "start": 64.8,
+   "end": 65.04
+  },
+  {
+   "text": "ialah",
+   "start": 65.12,
+   "end": 65.36
+  },
+  {
+   "text": "perubahan",
+   "start": 65.44,
+   "end": 65.92
+  },
+  {
+   "text": "mood",
+   "start": 65.96,
+   "end": 66.16
+  },
+  {
+   "text": "dan",
+   "start": 66.24,
+   "end": 66.32
+  },
+  {
+   "text": "tingkah",
+   "start": 66.4,
+   "end": 66.64
+  },
+  {
+   "text": "laku",
+   "start": 66.68,
+   "end": 66.96
+  },
+  {
+   "text": "yang",
+   "start": 67.08,
+   "end": 67.2
+  },
+  {
+   "text": "jelas",
+   "start": 67.24,
+   "end": 67.6
+  },
+  {
+   "text": "berbeza",
+   "start": 67.72,
+   "end": 68.16
+  },
+  {
+   "text": "daripada",
+   "start": 68.24,
+   "end": 68.56
+  },
+  {
+   "text": "biasa.",
+   "start": 68.88,
+   "end": 69.253
+  },
+  {
+   "text": "Berita",
+   "start": 69.28,
+   "end": 69.52
+  },
+  {
+   "text": "baiknya,",
+   "start": 69.6,
+   "end": 70.28
+  },
+  {
+   "text": "bipolar",
+   "start": 70.32,
+   "end": 70.8
+  },
+  {
+   "text": "boleh",
+   "start": 70.96,
+   "end": 71.2
+  },
+  {
+   "text": "dirawat.",
+   "start": 71.28,
+   "end": 71.787
+  },
+  {
+   "text": "Dengan",
+   "start": 71.813,
+   "end": 72
+  },
+  {
+   "text": "ubat",
+   "start": 72.08,
+   "end": 72.32
+  },
+  {
+   "text": "penstabil",
+   "start": 72.4,
+   "end": 72.8
+  },
+  {
+   "text": "mood,",
+   "start": 72.84,
+   "end": 73.253
+  },
+  {
+   "text": "terapi,",
+   "start": 73.307,
+   "end": 73.96
+  },
+  {
+   "text": "rutin",
+   "start": 74,
+   "end": 74.24
+  },
+  {
+   "text": "tidur",
+   "start": 74.32,
+   "end": 74.52
+  },
+  {
+   "text": "yang",
+   "start": 74.56,
+   "end": 74.64
+  },
+  {
+   "text": "teratur",
+   "start": 74.72,
+   "end": 75.2
+  },
+  {
+   "text": "dan",
+   "start": 75.28,
+   "end": 75.36
+  },
+  {
+   "text": "sokongan",
+   "start": 75.4,
+   "end": 75.84
+  },
+  {
+   "text": "keluarga,",
+   "start": 75.88,
+   "end": 76.52
+  },
+  {
+   "text": "ramai",
+   "start": 76.56,
+   "end": 76.88
+  },
+  {
+   "text": "pesakit",
+   "start": 76.96,
+   "end": 77.28
+  },
+  {
+   "text": "hidup",
+   "start": 77.36,
+   "end": 77.52
+  },
+  {
+   "text": "stabil",
+   "start": 77.6,
+   "end": 78
+  },
+  {
+   "text": "dan",
+   "start": 78.08,
+   "end": 78.16
+  },
+  {
+   "text": "berjaya.",
+   "start": 78.24,
+   "end": 78.971
+  },
+  {
+   "text": "Kalau",
+   "start": 79.04,
+   "end": 79.28
+  },
+  {
+   "text": "anda",
+   "start": 79.44,
+   "end": 79.6
+  },
+  {
+   "text": "atau",
+   "start": 79.68,
+   "end": 79.84
+  },
+  {
+   "text": "keluarga",
+   "start": 79.88,
+   "end": 80.32
+  },
+  {
+   "text": "ada",
+   "start": 80.4,
+   "end": 80.56
+  },
+  {
+   "text": "tanda-tanda",
+   "start": 80.613,
+   "end": 81.04
+  },
+  {
+   "text": "ini,",
+   "start": 81.12,
+   "end": 81.547
+  },
+  {
+   "text": "jangan",
+   "start": 81.573,
+   "end": 81.84
+  },
+  {
+   "text": "tunggu.",
+   "start": 81.88,
+   "end": 82.507
+  },
+  {
+   "text": "Dapatkan",
+   "start": 82.533,
+   "end": 82.96
+  },
+  {
+   "text": "bantuan",
+   "start": 83,
+   "end": 83.28
+  },
+  {
+   "text": "profesional.",
+   "start": 83.36,
+   "end": 84.2
+  },
+  {
+   "text": "Saya",
+   "start": 84.24,
+   "end": 84.72
+  },
+  {
+   "text": "Doktor",
+   "start": 84.76,
+   "end": 84.96
+  },
+  {
+   "text": "Azren.",
+   "start": 85.04,
+   "end": 85.68
+  }
+ ]
+}

@@ -31,3 +31,10 @@ python3 scripts/mix_audio.py
 ```
 
 Nothing is scheduled or published until medical, voice, brand and advertising approvals are recorded in `schedule_status.json`.
+
+## Animasi SVG (Remotion) — `animasi/`
+Reusable code-driven animation system with the Dr. Azren avatar (`config/avatars.json` → `dr-azren`). See `animasi/README.md`.
+
+```bash
+cd animasi && npm ci && npm run render -- --topic=jenis-halusinasi --avatar=dr-azren
+```

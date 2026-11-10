@@ -1,0 +1,159 @@
+{
+ "id": "jenis-halusinasi",
+ "title": "Jenis-jenis Halusinasi",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[whispering] Setiap malam, Pakcik Hamid nampak tiga orang budak kecil bermain di ruang tamu rumahnya.\n\n[curious] Keluarga panik. Ada yang kata rumah itu berpenunggu. [short pause] Tapi bila doktor periksa... puncanya bukan di rumah. Puncanya di mata dia.\n\nPenglihatan Pakcik Hamid makin kabur, dan otaknya mengisi ruang kosong itu dengan gambar sendiri. Ini dipanggil sindrom Charles Bonnet.\n\nInilah halusinasi. Kita rasa sesuatu itu nyata, walaupun ia tiada. Dan ada lima jenis.\n\nSatu, pendengaran. Dengar suara, walaupun tiada orang.\n\nDua, penglihatan. Nampak orang atau bayang yang tiada.\n\nTiga, sentuhan. Rasa macam ada serangga merayap atas kulit.\n\nEmpat, bau. Terhidu bau terbakar yang orang lain tak hidu.\n\nLima, rasa. Lidah rasa pahit atau besi tanpa sebab.\n\nPuncanya pelbagai. Kurang tidur, demam panas, ubat atau dadah, epilepsi, demensia, dan penyakit mental seperti skizofrenia.\n\n[warmly] Ada juga yang normal, contohnya ketika nak terlelap atau baru terjaga.\n\nTapi kalau ia kerap, menakutkan, atau datang bersama demam dan keliru, jangan tunggu. Jumpa doktor.\n\nKlinik Nissa, Nilai, sedia membantu untuk konsultasi dan saringan kesihatan mental.",
+  "note": "Suara dikekalkan daripada versi 2026-11-10 (1 take eleven_v4, jeda dipadatkan + tempo 1.05x). Jangan jana semula."
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.13,
+   "fadeIn": 0.8,
+   "fadeOut": 1.5,
+   "endVolume": 0.2
+  },
+  "whooshOnCuts": 0.25,
+  "sfx": []
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "keluarga",
+   "marker": "Keluarga panik"
+  },
+  {
+   "id": "doktor",
+   "marker": "Tapi bila doktor"
+  },
+  {
+   "id": "mata",
+   "marker": "Penglihatan Pakcik"
+  },
+  {
+   "id": "cbs",
+   "marker": "Ini dipanggil"
+  },
+  {
+   "id": "apa",
+   "marker": "Inilah halusinasi"
+  },
+  {
+   "id": "dengar",
+   "marker": "Satu pendengaran",
+   "n": 1,
+   "label": "Pendengaran"
+  },
+  {
+   "id": "lihat",
+   "marker": "Dua penglihatan",
+   "n": 2,
+   "label": "Penglihatan"
+  },
+  {
+   "id": "sentuh",
+   "marker": "Tiga sentuhan",
+   "n": 3,
+   "label": "Sentuhan"
+  },
+  {
+   "id": "bau",
+   "marker": "Empat bau",
+   "n": 4,
+   "label": "Bau"
+  },
+  {
+   "id": "rasa",
+   "marker": "Lima rasa",
+   "n": 5,
+   "label": "Rasa"
+  },
+  {
+   "id": "punca",
+   "marker": "Puncanya pelbagai"
+  },
+  {
+   "id": "normal",
+   "marker": "Ada juga"
+  },
+  {
+   "id": "bila",
+   "marker": "Tapi kalau"
+  },
+  {
+   "id": "penutup",
+   "marker": "Klinik Nissa"
+  }
+ ],
+ "numberWords": [],
+ "keywords": [
+  "tiga orang budak kecil",
+  "panik",
+  "berpenunggu",
+  "doktor",
+  "bukan di rumah",
+  "mata",
+  "kabur",
+  "otaknya",
+  "ruang kosong",
+  "gambar sendiri",
+  "sindrom Charles Bonnet",
+  "halusinasi",
+  "nyata",
+  "tiada",
+  "lima jenis",
+  "pendengaran",
+  "suara",
+  "penglihatan",
+  "bayang",
+  "sentuhan",
+  "serangga",
+  "kulit",
+  "bau",
+  "terbakar",
+  "rasa",
+  "pahit",
+  "besi",
+  "pelbagai",
+  "kurang tidur",
+  "demam panas",
+  "ubat",
+  "dadah",
+  "epilepsi",
+  "demensia",
+  "skizofrenia",
+  "normal",
+  "terlelap",
+  "terjaga",
+  "kerap",
+  "menakutkan",
+  "demam",
+  "keliru",
+  "jangan tunggu",
+  "jumpa doktor",
+  "Klinik Nissa",
+  "saringan kesihatan mental"
+ ],
+ "corrections": {},
+ "cover": {
+  "kicker": "KENALI",
+  "headline": [
+   "JENIS-JENIS"
+  ],
+  "highlight": "HALUSINASI",
+  "sub": "Nampak benda yang tiada?",
+  "tags": [
+   "Dengar",
+   "Lihat",
+   "Sentuh",
+   "Bau",
+   "Rasa"
+  ]
+ }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "dr-azren",
+    "name": "Dr. Azren",
+    "skin": "#D9A27A",
+    "skinShade": "#BF845C",
+    "hair": "side-part",
+    "hairColor": "#17121F",
+    "top": "scrubs",
+    "topColor": "#D6B88E",
+    "topShade": "#B99A70",
+    "accessory": "glasses-round",
+    "glassesColor": "#2A2133",
+    "stethoscope": true,
+    "watch": true,
+    "stubble": true
+  }
+]

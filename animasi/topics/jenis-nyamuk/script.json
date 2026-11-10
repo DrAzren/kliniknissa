@@ -1,0 +1,227 @@
+{
+ "id": "jenis-nyamuk",
+ "title": "Jenis-jenis Nyamuk di Malaysia & Kesannya",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[serious] Haiwan paling berbahaya di dunia... bukan harimau. Bukan buaya. Bukan ular. Tapi... nyamuk. Setiap tahun, ia meragut ratusan ribu nyawa.\n\n[storytelling] Petang Ahad, Hafiz bawa anaknya bermain di taman. Beberapa ekor nyamuk hinggap di kakinya. [casual] \"Alah, nyamuk je.\"\n\n[concerned] Lima hari kemudian, Hafiz demam panas. Sakit kepala, sakit belakang mata, sendi rasa nak patah. [worried] Isterinya terus bawa dia ke klinik.\n\n[serious] Ujian darah sahkan... Hafiz dijangkiti denggi.\n\n[warmly] Tahukah anda, bukan semua nyamuk sama? Di Malaysia, ada empat jenis utama, dan setiap satu bawa risiko berbeza.\n\nSatu. Aedes. Badan hitam berbelang putih. Menggigit waktu siang, terutama pagi dan petang. Membiak dalam air bersih bertakung, macam pasu, tayar dan bekas terbuka. Ia menyebarkan denggi, chikungunya dan Zika.\n\nDua. Culex. Nyamuk paling biasa di rumah, aktif waktu malam, membiak dalam longkang dan air kotor. Ia boleh menyebarkan ensefalitis Jepun, iaitu radang otak.\n\nTiga. Anopheles. Berehat dalam posisi menonggeng, menggigit dari senja hingga malam, di kawasan hutan dan pedalaman. Ia menyebarkan malaria, termasuk malaria monyet, terutama di Sabah dan Sarawak.\n\nEmpat. Mansonia. Membiak di paya dan kolam yang penuh tumbuhan air seperti kiambang. Ia penyebar utama penyakit kaki gajah.\n\n[reassuring] Cara lindungi keluarga: luangkan sepuluh minit setiap minggu untuk cari dan musnah air bertakung. Pakai baju lengan panjang dan losyen penghalau nyamuk. Guna kelambu dan jaring di tingkap.\n\n[relieved] Hafiz akhirnya pulih, kerana dia dapat rawatan awal.\n\n[warmly] Kalau anda demam selepas digigit nyamuk, jangan tunggu. Dapatkan rawatan segera. Saya Doktor Azren.",
+  "note": "1 take sahaja (permintaan pengguna). ElevenLabs Flow dL4pARPibj6UtUBe9IU5, generation CZY3lXiK8SW0US7uExLI, 105.68 s."
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "taman",
+   "marker": "Petang Ahad"
+  },
+  {
+   "id": "demam",
+   "marker": "Lima hari"
+  },
+  {
+   "id": "diagnosis",
+   "marker": "Ujian darah"
+  },
+  {
+   "id": "empat",
+   "marker": "Tahukah anda"
+  },
+  {
+   "id": "aedes",
+   "marker": "Satu Aedes",
+   "n": 1,
+   "label": "Aedes"
+  },
+  {
+   "id": "culex",
+   "marker": "Dua Culex",
+   "n": 2,
+   "label": "Culex"
+  },
+  {
+   "id": "anopheles",
+   "marker": "Tiga Anopheles",
+   "n": 3,
+   "label": "Anopheles"
+  },
+  {
+   "id": "mansonia",
+   "marker": "Empat Mansonia",
+   "n": 4,
+   "label": "Mansonia"
+  },
+  {
+   "id": "cegah",
+   "marker": "Cara lindungi"
+  },
+  {
+   "id": "pulih",
+   "marker": "Hafiz akhirnya"
+  },
+  {
+   "id": "penutup",
+   "marker": "Kalau anda demam"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat"
+ ],
+ "keywords": [
+  "paling berbahaya",
+  "harimau",
+  "buaya",
+  "ular",
+  "nyamuk",
+  "ratusan ribu nyawa",
+  "Hafiz",
+  "digigit",
+  "demam panas",
+  "sakit kepala",
+  "belakang mata",
+  "sendi",
+  "klinik",
+  "denggi",
+  "bukan semua nyamuk sama",
+  "4 jenis utama",
+  "risiko berbeza",
+  "Aedes",
+  "hitam",
+  "putih",
+  "siang",
+  "pagi",
+  "petang",
+  "air bersih bertakung",
+  "pasu",
+  "tayar",
+  "bekas terbuka",
+  "chikungunya",
+  "Zika",
+  "Culex",
+  "di rumah",
+  "waktu malam",
+  "longkang",
+  "air kotor",
+  "ensefalitis Jepun",
+  "radang otak",
+  "Anopheles",
+  "menonggeng",
+  "senja",
+  "hutan",
+  "pedalaman",
+  "malaria",
+  "malaria monyet",
+  "Sabah",
+  "Sarawak",
+  "Mansonia",
+  "paya",
+  "kolam",
+  "tumbuhan air",
+  "kiambang",
+  "kaki gajah",
+  "10 minit",
+  "setiap minggu",
+  "cari dan musnah",
+  "lengan panjang",
+  "losyen penghalau nyamuk",
+  "kelambu",
+  "jaring",
+  "tingkap",
+  "pulih",
+  "rawatan awal",
+  "jangan tunggu",
+  "rawatan segera",
+  "Dr. Azren"
+ ],
+ "corrections": {
+  "empat jenis": "4 jenis",
+  "sepuluh minit": "10 minit",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.35,
+  "sfx": [
+   {
+    "file": "buzz.mp3",
+    "at": "Tapi",
+    "offset": 0.15,
+    "volume": 0.9
+   },
+   {
+    "file": "buzz.mp3",
+    "at": "hinggap",
+    "offset": -0.6,
+    "volume": 0.6
+   },
+   {
+    "file": "slap.mp3",
+    "at": "Alah",
+    "offset": -0.1,
+    "volume": 0.7
+   },
+   {
+    "file": "sting.mp3",
+    "at": "Hafiz dijangkiti",
+    "offset": 0.1,
+    "volume": 0.8
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu Aedes",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Culex",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Anopheles",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Mansonia",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "chime.mp3",
+    "at": "pulih",
+    "offset": 0,
+    "volume": 0.8
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "KENALI",
+  "headline": [
+   "4 JENIS",
+   "NYAMUK"
+  ],
+  "highlight": "di Malaysia & kesannya",
+  "sub": "Aedes • Culex • Anopheles • Mansonia",
+  "tags": [
+   "Aedes",
+   "Culex",
+   "Anopheles",
+   "Mansonia"
+  ]
+ }
+}

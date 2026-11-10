@@ -1,0 +1,267 @@
+{
+ "id": "kenali-bpd",
+ "title": "Kenali Borderline Personality Disorder (BPD)",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[serious] Pagi tadi, Sofea kata... Danial lelaki paling sempurna dalam hidupnya. Malam ini, dia menjerit, [angry] \"Aku benci kau!\" [pause] [sad] Kemudian, dia menangis seorang diri. Umurnya baru dua puluh tahun.\n\n[storytelling] Semuanya bermula bila Danial lambat balas mesej. Sepuluh minit saja. [anxious] Tapi Sofea panik. \"Dia nak tinggalkan aku.\" Dua puluh mesej. Lima panggilan.\n\n[concerned] Emosinya berubah dalam beberapa jam. Gembira, marah, kosong. Kawan-kawan mula menjauh. [worried] Akhirnya, kakaknya bawa Sofea berjumpa doktor.\n\n[serious] Selepas penilaian, doktor sahkan... Sofea menghidap Borderline Personality Disorder.\n\n[warmly] Jadi, apa itu BPD? Ia gangguan personaliti, di mana emosi, hubungan, dan gambaran diri sangat tidak stabil. Ia bukan drama, dan bukan sengaja cari perhatian.\n\nLima tanda utama.\n\nSatu. Terlalu takut ditinggalkan, sampai sanggup buat apa saja.\n\nDua. Hubungan tak stabil. Sekejap memuja, sekejap membenci.\n\nTiga. Emosi berubah mendadak, dan marah yang sukar dikawal.\n\nEmpat. Bertindak ikut emosi, seperti berbelanja berlebihan, memandu laju, atau mencederakan diri.\n\nLima. Rasa kosong yang berpanjangan, dan keliru tentang siapa diri sebenar.\n\n[reassuring] Puncanya, gabungan genetik, cara otak mengawal emosi, dan pengalaman sukar sejak kecil.\n\nBerita baiknya, BPD boleh dirawat. Rawatan utama ialah psikoterapi, seperti terapi DBT, yang mengajar cara mengawal emosi. Ramai pesakit pulih dengan ketara dari masa ke masa.\n\n[relieved] Setahun kemudian, Sofea masih ada hari yang sukar. Tapi kini, dia tahu cara menenangkan diri, dan dia tak lagi berjuang seorang diri.\n\n[warmly] Kalau anda atau orang tersayang ada tanda-tanda ini, jangan tunggu. Dapatkan bantuan profesional. Saya Doktor Azren.",
+  "note": "1 take sahaja (permintaan pengguna). ElevenLabs Flow ER57XFWW7fIzQRPYMId2, generation 6ABza4GTbekJkcMJxkde, 107.44 s, 1,737.8 kredit."
+ },
+ "scenes": [
+  {
+   "id": "pagi",
+   "marker": null
+  },
+  {
+   "id": "malam",
+   "marker": "Malam ini"
+  },
+  {
+   "id": "mesej",
+   "marker": "Semuanya bermula"
+  },
+  {
+   "id": "emosi",
+   "marker": "Emosinya berubah"
+  },
+  {
+   "id": "kakak",
+   "marker": "Akhirnya kakaknya"
+  },
+  {
+   "id": "diagnosis",
+   "marker": "Selepas penilaian"
+  },
+  {
+   "id": "apa",
+   "marker": "Jadi apa itu"
+  },
+  {
+   "id": "lima",
+   "marker": "Lima tanda utama"
+  },
+  {
+   "id": "t1",
+   "marker": "Satu Terlalu",
+   "n": 1,
+   "label": "Takut ditinggalkan"
+  },
+  {
+   "id": "t2",
+   "marker": "Dua Hubungan",
+   "n": 2,
+   "label": "Hubungan tak stabil"
+  },
+  {
+   "id": "t3",
+   "marker": "Tiga Emosi",
+   "n": 3,
+   "label": "Emosi & marah"
+  },
+  {
+   "id": "t4",
+   "marker": "Empat Bertindak",
+   "n": 4,
+   "label": "Ikut emosi (impulsif)"
+  },
+  {
+   "id": "t5",
+   "marker": "Lima Rasa",
+   "n": 5,
+   "label": "Rasa kosong"
+  },
+  {
+   "id": "punca",
+   "marker": "Puncanya"
+  },
+  {
+   "id": "rawat",
+   "marker": "Berita baiknya"
+  },
+  {
+   "id": "pulih",
+   "marker": "Setahun kemudian"
+  },
+  {
+   "id": "penutup",
+   "marker": "Kalau anda atau"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat",
+  "Lima"
+ ],
+ "keywords": [
+  "paling sempurna",
+  "Aku benci kau",
+  "menangis",
+  "seorang diri",
+  "20 tahun",
+  "lambat balas",
+  "10 minit",
+  "panik",
+  "tinggalkan aku",
+  "20 mesej",
+  "5 panggilan",
+  "beberapa jam",
+  "Gembira",
+  "marah",
+  "kosong",
+  "menjauh",
+  "kakaknya",
+  "doktor",
+  "Borderline Personality Disorder",
+  "BPD",
+  "gangguan personaliti",
+  "emosi",
+  "hubungan",
+  "gambaran diri",
+  "tidak stabil",
+  "bukan drama",
+  "bukan sengaja",
+  "5 tanda utama",
+  "takut ditinggalkan",
+  "tak stabil",
+  "memuja",
+  "membenci",
+  "berubah mendadak",
+  "sukar dikawal",
+  "berbelanja berlebihan",
+  "memandu laju",
+  "mencederakan diri",
+  "kosong",
+  "berpanjangan",
+  "keliru",
+  "genetik",
+  "otak",
+  "pengalaman sukar",
+  "sejak kecil",
+  "boleh dirawat",
+  "psikoterapi",
+  "terapi DBT",
+  "mengawal emosi",
+  "pulih",
+  "Setahun kemudian",
+  "menenangkan diri",
+  "tak lagi berjuang",
+  "jangan tunggu",
+  "bantuan profesional",
+  "Dr. Azren"
+ ],
+ "corrections": {
+  "dua puluh tahun": "20 tahun",
+  "Sepuluh minit": "10 minit",
+  "Dua puluh mesej": "20 mesej",
+  "Lima panggilan": "5 panggilan",
+  "Lima tanda utama": "5 tanda utama",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.3,
+  "sfx": [
+   {
+    "file": "crack.mp3",
+    "at": "Aku benci",
+    "offset": 0.05,
+    "volume": 0.5
+   },
+   {
+    "file": "drone.mp3",
+    "at": "Kemudian dia menangis",
+    "offset": -0.2,
+    "volume": 0.45
+   },
+   {
+    "file": "heartbeat.mp3",
+    "at": "Tapi Sofea panik",
+    "offset": 0,
+    "volume": 0.45
+   },
+   {
+    "file": "pings.mp3",
+    "at": "Dua puluh mesej",
+    "offset": -0.1,
+    "volume": 0.6
+   },
+   {
+    "file": "drone.mp3",
+    "at": "kosong",
+    "offset": -0.1,
+    "volume": 0.45
+   },
+   {
+    "file": "sting.mp3",
+    "at": "Borderline",
+    "offset": 0,
+    "volume": 0.8
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu Terlalu",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Hubungan",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Emosi",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Bertindak",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Lima Rasa",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "chime.mp3",
+    "at": "boleh dirawat",
+    "offset": 0,
+    "volume": 0.7
+   },
+   {
+    "file": "chime.mp3",
+    "at": "Tapi kini",
+    "offset": 0,
+    "volume": 0.7
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "KENALI",
+  "headline": [
+   "BORDERLINE",
+   "PERSONALITY"
+  ],
+  "highlight": "DISORDER (BPD)",
+  "sub": "5 tanda utama",
+  "tags": [
+   "Takut ditinggalkan",
+   "Emosi tak stabil",
+   "Rasa kosong"
+  ]
+ }
+}

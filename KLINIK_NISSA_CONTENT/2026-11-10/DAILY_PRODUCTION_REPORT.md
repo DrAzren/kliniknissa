@@ -1,7 +1,17 @@
 # Daily production report — 2026-11-10
 Batch scope: one video requested by the user ("Jenis-jenis halusinasi", opening with a storytelling hook, plus thumbnail and a simple description). The other daily slots were not produced.
 
-## Video 1 — VIDEO_01_MENTAL_HEALTH
+## Revision 2 (current deliverable) — code-animated version with the Dr. Azren avatar
+At the user's request, the video was rebuilt with the same concept as "Kenali Bipolar Mood Disorder" (2026-11-07): an SVG animation drawn in code (Remotion, `animasi/`, topic `jenis-halusinasi`), Violet Flat style, with the **Dr. Azren avatar** explaining the content of the audio. Story characters (Pakcik Hamid, his children, the glowing children, Aisyah, Farid) are drawn with the same `<Avatar>` component.
+- **Audio maintained:** the same Dr Azren narration (1 take, already tightened, 70.68 s); no new voice generation. Same ElevenLabs music bed at low level, plus soft whooshes on cuts.
+- **Video:** `final_video.mp4` (1080×1920, 30 fps, H.264 ~8 Mbps + AAC 48 kHz, 71.21 s, 72.2 MB). Also saved as `2026-11-10_slot1_mental-health_jenis-halusinasi.mp4`.
+- **Thumbnail:** `thumbnail.png` / `.jpg`, rendered from `animasi/src/topics/jenis-halusinasi/Cover.tsx`.
+- **Description and captions:** unchanged (the content and the "kisah ilustrasi" label still match).
+- **Credits used for revision 2:** 0 (no ElevenLabs or Higgsfield generations; rendered locally).
+- **Rebuild:** `cd animasi && npm ci && npm run render -- --topic=jenis-halusinasi --avatar=dr-azren`.
+- The revision 1 pipeline (3D stills + GSAP overlay) remains in `work/halusinasi/` for reference. Its video is in git history (commit fde06f0).
+
+## Video 1 — VIDEO_01_MENTAL_HEALTH (revision 1, superseded)
 - **Topic:** Jenis-jenis halusinasi. Hook: an illustrative story of "Pakcik Hamid", who sees three small children in his living room every night. His family suspects the house is haunted, but the cause turns out to be his eyes (Charles Bonnet syndrome). The video then covers the definition, the 5 sensory types, causes, normal sleep-related hallucinations, red flags and the CTA.
 - **Voice:** Dr Azren (ElevenLabs cloned voice `lN6exnzhuXDOyNQfsVSR`, model `eleven_v4`). **One generation only**, at the user's request. The take was used as-is (raw 75.7 s; tightened to 70.7 s with pause compression and 1.05× tempo).
 - **Duration:** 72.89 s (narration 70.7 s + end card)
