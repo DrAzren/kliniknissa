@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="ms">
+<head>
+<meta charset="utf-8">
+<title>Klinik Nissa – Jenis-jenis Halusinasi (overlay composition)</title>
+<style>
+@font-face{font-family:M;src:url(fonts/Montserrat-600.ttf);font-weight:600}
+@font-face{font-family:M;src:url(fonts/Montserrat-800.ttf);font-weight:800}
+@font-face{font-family:M;src:url(fonts/Montserrat-900.ttf);font-weight:900}
+:root{--navy:#052751;--teal:#4CDFDA;--yellow:#FAE24E;--red:#e2474b;--white:#fff}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;background:transparent;overflow:hidden;font-family:M,sans-serif;color:#fff}
+.abs{position:absolute}
+.card{background:rgba(5,39,81,.9);border:3px solid rgba(76,223,218,.7);border-radius:34px;padding:30px 36px;box-shadow:0 14px 40px rgba(0,0,0,.45);opacity:0}
+/* logo badge */
+#badge{left:44px;top:170px;width:132px;height:132px;border-radius:30px;overflow:hidden;background:var(--navy);
+  box-shadow:0 8px 30px rgba(0,0,0,.45);border:3px solid rgba(76,223,218,.55);opacity:0}
+#badge img{width:100%;height:100%;object-fit:cover}
+/* "kisah ilustrasi" tag */
+#illus{left:44px;top:1560px;padding:10px 22px;border-radius:24px;background:rgba(5,39,81,.75);font-weight:600;font-size:26px;color:#dfe9f5;opacity:0}
+/* hook title */
+#hook{left:0;top:0;width:1080px;height:1920px}
+#hookShade{left:0;top:0;width:1080px;height:1100px;background:linear-gradient(180deg,rgba(5,39,81,.94) 0%,rgba(5,39,81,.78) 50%,rgba(5,39,81,0) 100%)}
+#hookText{left:70px;top:330px;width:940px}
+#hookText .k{font-weight:800;font-size:34px;letter-spacing:4px;color:var(--teal);margin-bottom:18px}
+#hookText .l1{font-weight:900;font-size:104px;line-height:1.0}
+#hookText .l2{font-weight:900;font-size:150px;line-height:1.0;color:var(--yellow);letter-spacing:-2px}
+#hookText .by{margin-top:24px;font-weight:600;font-size:36px;opacity:.92}
+/* chips */
+.chip{left:200px;top:186px;height:96px;padding:0 34px 0 18px;border-radius:48px;background:var(--navy);
+  display:flex;align-items:center;gap:18px;font-weight:900;font-size:44px;letter-spacing:2px;
+  border:3px solid var(--teal);box-shadow:0 10px 30px rgba(0,0,0,.4);opacity:0;white-space:nowrap}
+.chip .n{width:66px;height:66px;border-radius:50%;background:var(--yellow);color:var(--navy);display:flex;align-items:center;justify-content:center;font-size:40px}
+/* myth card */
+#myth{left:70px;top:340px;width:860px;text-align:center}
+#myth .q{font-weight:900;font-size:64px;line-height:1.1;position:relative;display:inline-block}
+#myth .q i{position:absolute;left:-10px;top:52%;height:10px;width:0;background:var(--red);border-radius:5px}
+#myth .a{margin-top:18px;font-weight:900;font-size:56px;color:var(--yellow);opacity:0}
+/* brain-fill card */
+#fill{left:70px;top:1000px;width:940px;padding:24px 30px;text-align:center}
+#fill .t{font-weight:900;font-size:46px;line-height:1.2}
+#fill .t b{color:var(--yellow)}
+/* CBS title */
+#cbs{left:60px;top:330px;width:960px;text-align:center;padding:34px 34px 38px}
+#cbs .a{font-weight:800;font-size:38px;letter-spacing:5px;color:var(--teal)}
+#cbs .b{font-weight:900;font-size:86px;line-height:1.02;margin-top:8px;color:var(--yellow)}
+#cbs .c{font-weight:700;font-size:34px;line-height:1.3;margin-top:16px;color:#e6eef8}
+/* definition */
+#def{left:70px;top:300px;width:940px;text-align:center;padding:34px 34px 38px}
+#def .a{font-weight:900;font-size:80px;color:var(--yellow);letter-spacing:1px}
+#def .b{font-weight:800;font-size:46px;line-height:1.25;margin-top:12px}
+#def .b span{color:var(--teal)}
+#five{left:60px;top:700px;width:960px;display:flex;justify-content:space-between}
+.ico{width:176px;text-align:center;opacity:0}
+.ico img{width:176px;height:176px;border-radius:50%;border:4px solid var(--teal);box-shadow:0 10px 30px rgba(0,0,0,.5);display:block}
+.ico div{margin-top:12px;font-weight:900;font-size:30px;text-shadow:0 3px 10px rgba(0,0,0,.8)}
+/* type chip with icon + progress */
+#type{left:60px;top:176px;width:960px;opacity:0}
+#typeBox{display:flex;align-items:center;gap:26px;background:rgba(5,39,81,.92);border:3px solid var(--teal);border-radius:40px;padding:18px 34px 18px 18px;box-shadow:0 14px 40px rgba(0,0,0,.45)}
+#typeImg{width:150px;height:150px;border-radius:50%;border:4px solid var(--yellow);overflow:hidden;flex:none}
+#typeImg img{width:100%;height:100%}
+#typeTxt .n{font-weight:800;font-size:32px;letter-spacing:4px;color:var(--teal)}
+#typeTxt .t{font-weight:900;font-size:66px;line-height:1.05}
+#typeTxt .e{font-weight:600;font-size:30px;color:#dfe9f5;margin-top:4px}
+#prog{display:flex;gap:12px;margin:18px 10px 0}
+#prog i{flex:1;height:12px;border-radius:6px;background:rgba(255,255,255,.28)}
+#prog i.on{background:var(--yellow)}
+/* causes */
+#causes{left:70px;top:250px;width:940px}
+#causes .h{font-weight:900;font-size:54px;color:var(--yellow);margin-bottom:20px}
+#causes .g{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.cz{display:flex;align-items:center;gap:16px;background:rgba(255,255,255,.08);border-radius:22px;padding:16px 18px;font-weight:800;font-size:38px;opacity:0}
+.cz .d{width:18px;height:18px;border-radius:50%;background:var(--teal);flex:none}
+.cz.w{grid-column:span 2}
+/* normal */
+#norm{left:70px;top:300px;width:940px;text-align:center}
+#norm .a{font-weight:800;font-size:38px;letter-spacing:4px;color:var(--teal)}
+#norm .b{font-weight:900;font-size:66px;line-height:1.1;margin-top:8px}
+#norm .b span{color:var(--yellow)}
+#norm .c{font-weight:600;font-size:30px;margin-top:14px;color:#dfe9f5}
+/* red flags */
+#flags{left:70px;top:280px;width:940px}
+#flags .h{font-weight:900;font-size:50px;color:var(--yellow);margin-bottom:14px}
+.flag{display:flex;align-items:center;gap:20px;font-weight:800;font-size:48px;margin:14px 0;opacity:0}
+.flag .c{width:62px;height:62px;border-radius:50%;background:var(--red);display:flex;align-items:center;justify-content:center;font-size:40px;font-weight:900;flex:none}
+#flags .r{margin-top:18px;padding-top:18px;border-top:2px solid rgba(255,255,255,.25);font-weight:900;font-size:56px;opacity:0}
+#flags .r span{color:var(--yellow)}
+/* subtitles */
+#subs{left:60px;top:1250px;width:960px;height:260px;display:flex;align-items:center;justify-content:center;text-align:center}
+#sub{font-weight:900;font-size:66px;line-height:1.16;color:#fff;
+  -webkit-text-stroke:12px #071a33;paint-order:stroke fill;text-shadow:0 6px 18px rgba(0,0,0,.55)}
+#sub .k{color:var(--yellow)}
+/* end card */
+#end{left:0;top:0;width:1080px;height:1920px;opacity:0}
+#endBg{left:0;top:0;width:1080px;height:1920px;background:#052751}
+#endLogo{left:240px;top:190px;width:600px;height:600px}
+#endLogo img{width:100%;height:100%}
+#endT{left:70px;top:820px;width:940px;text-align:center}
+#endT .a{font-weight:800;font-size:40px;color:var(--teal);letter-spacing:3px}
+#endT .b{font-weight:900;font-size:66px;line-height:1.1;margin-top:14px}
+#endT .b span{color:var(--yellow)}
+#wa{left:110px;top:1110px;width:860px;height:150px;border-radius:75px;background:var(--yellow);color:var(--navy);
+  display:flex;align-items:center;justify-content:center;gap:26px;box-shadow:0 14px 40px rgba(0,0,0,.4)}
+#wa svg{width:84px;height:84px}
+#wa .t{font-weight:900;font-size:62px;letter-spacing:1px}
+#wa .t small{display:block;font-size:30px;font-weight:800;letter-spacing:3px;margin-bottom:-4px}
+#addr{left:70px;top:1290px;width:940px;text-align:center;font-weight:600;font-size:34px;line-height:1.35;color:#dfe9f5}
+#addr b{font-weight:800;color:#fff}
+#foot{left:70px;top:1430px;width:940px;text-align:center;font-weight:600;font-size:27px;line-height:1.4;color:#b9cbe0}
+</style>
+</head>
+<body>
+<div id="badge" class="abs"><img src="logo_crop.png" alt="Klinik Nissa"></div>
+<div id="illus" class="abs">Kisah ilustrasi</div>
+
+<div id="hook" class="abs">
+  <div id="hookShade" class="abs"></div>
+  <div id="hookText" class="abs">
+    <div class="k">KLINIK NISSA · KESIHATAN MENTAL</div>
+    <div class="l1">JENIS-JENIS</div>
+    <div class="l2">HALUSINASI</div>
+    <div class="by">Kenapa otak boleh "nampak" benda yang tiada?</div>
+  </div>
+</div>
+
+<div id="myth" class="card abs">
+  <div class="q">"Rumah berpenunggu?"<i></i></div>
+  <div class="a">Punca sebenar: MATA</div>
+</div>
+
+<div id="fill" class="card abs">
+  <div class="t">Penglihatan kabur → otak <b>"isi" ruang kosong</b> dengan gambar sendiri</div>
+</div>
+
+<div id="cbs" class="card abs">
+  <div class="a">INI DIPANGGIL</div>
+  <div class="b">SINDROM CHARLES BONNET</div>
+  <div class="c">Halusinasi penglihatan berkait masalah mata,<br>bukan tanda "gila"</div>
+</div>
+
+<div id="def" class="card abs">
+  <div class="a">HALUSINASI</div>
+  <div class="b">Rasa sesuatu itu <span>nyata</span>,<br>walaupun ia <span>tiada</span></div>
+</div>
+<div id="five" class="abs">
+  <div class="ico"><img src="icon_ear.png"><div>DENGAR</div></div>
+  <div class="ico"><img src="icon_eye.png"><div>LIHAT</div></div>
+  <div class="ico"><img src="icon_hand.png"><div>SENTUH</div></div>
+  <div class="ico"><img src="icon_nose.png"><div>BAU</div></div>
+  <div class="ico"><img src="icon_tongue.png"><div>RASA</div></div>
+</div>
+
+<div id="type" class="abs">
+  <div id="typeBox">
+    <div id="typeImg"><img id="typeIco" src="icon_ear.png"></div>
+    <div id="typeTxt"><div class="n" id="typeN">JENIS 1 / 5</div><div class="t" id="typeT">PENDENGARAN</div><div class="e" id="typeE">Auditori</div></div>
+  </div>
+  <div id="prog"><i></i><i></i><i></i><i></i><i></i></div>
+</div>
+
+<div id="causes" class="card abs">
+  <div class="h">Punca halusinasi</div>
+  <div class="g">
+    <div class="cz" id="c1"><div class="d"></div>Kurang tidur</div>
+    <div class="cz" id="c2"><div class="d"></div>Demam panas</div>
+    <div class="cz" id="c3"><div class="d"></div>Ubat / dadah</div>
+    <div class="cz" id="c4"><div class="d"></div>Epilepsi</div>
+    <div class="cz" id="c5"><div class="d"></div>Demensia</div>
+    <div class="cz" id="c6"><div class="d"></div>Skizofrenia</div>
+  </div>
+</div>
+
+<div id="norm" class="card abs">
+  <div class="a">BOLEH JADI NORMAL</div>
+  <div class="b">Ketika <span>nak terlelap</span><br>atau <span>baru terjaga</span></div>
+  <div class="c">Halusinasi hipnagogik &amp; hipnopompik</div>
+</div>
+
+<div id="flags" class="card abs">
+  <div class="h">Jumpa doktor jika ia:</div>
+  <div class="flag" id="f1"><div class="c">!</div>Kerap berlaku</div>
+  <div class="flag" id="f2"><div class="c">!</div>Menakutkan</div>
+  <div class="flag" id="f3"><div class="c">!</div>Datang bersama demam &amp; keliru</div>
+  <div class="r" id="fr">Jangan <span>tunggu</span>.</div>
+</div>
+
+<div id="subs" class="abs"><div id="sub"></div></div>
+
+<div id="end" class="abs">
+  <div id="endBg" class="abs"></div>
+  <div id="endLogo" class="abs"><img src="logo_full.png" alt="Klinik Nissa"></div>
+  <div id="endT" class="abs">
+    <div class="a">KLINIK NISSA, NILAI</div>
+    <div class="b">Konsultasi &amp; <span>Saringan Kesihatan Mental</span></div>
+  </div>
+  <div id="wa" class="abs">
+    <svg viewBox="0 0 64 64" aria-hidden="true"><path fill="#052751" d="M32 4C16.5 4 4 15.6 4 30c0 7.2 3.2 13.7 8.4 18.4L10 60l12.7-6.6c2.9.9 6.1 1.4 9.3 1.4 15.5 0 28-11.600 28-26S47.5 4 32 4z"/><path fill="#FAE24E" d="M24.6 19.5c.8 0 1.4.4 1.8 1.3l2 4.6c.3.8.2 1.6-.4 2.2l-1.6 1.8c1.6 3.1 4 5.6 7.2 7.3l1.8-1.6c.6-.6 1.5-.7 2.2-.4l4.6 2c.9.4 1.4 1.200 1.2 2.1-.6 3.2-3.3 5.2-6.4 5-9.7-.8-17.3-8.4-18-18-.2-3.2 1.8-5.8 5-6.300h.6z"/></svg>
+    <div class="t"><small>WHATSAPP</small>012-608 1411</div>
+  </div>
+  <div id="addr" class="abs"><b>Klinik Nissa</b><br>9697, Jalan BBN 1/3C, Pusat Bandar Putra Point,<br>71800 Nilai, Negeri Sembilan</div>
+  <div id="foot" class="abs">Video ini untuk pendidikan, bukan diagnosis.<br>Watak Pakcik Hamid ialah ilustrasi.</div>
+</div>
+
+<script src="lib/gsap.min.js"></script>
+<script>
+window.__ready = fetch('subs.json').then(r=>r.json()).then(D=>{
+  const W=D.words, SUBS=D.subs;
+  const bare=s=>s.toLowerCase().replace(/[^\p{L}\p{N}]/gu,'');
+  const at=(word,after=0)=>{const w=W.find(x=>bare(x.text)===word&&x.start>=after);return w?w.start:after};
+  const tl=gsap.timeline({paused:true});
+  const END=65.85, TOTAL=72.89;
+  const popIn=(id,t,from={})=>tl.fromTo(id,{opacity:0,y:30,...from},{opacity:1,y:0,scale:1,duration:.45,ease:'back.out(1.8)'},t);
+  const out=(id,t)=>tl.to(id,{opacity:0,duration:.3},t);
+
+  // badge + illustration tag
+  tl.fromTo('#badge',{opacity:0,scale:.6},{opacity:.95,scale:1,duration:.5,ease:'back.out(2)'},3.0).to('#badge',{opacity:0,duration:.3},END-0.3);
+  tl.fromTo('#illus',{opacity:0},{opacity:1,duration:.4},3.0).to('#illus',{opacity:0,duration:.3},21.6);
+
+  // hook title: visible on frame 0, then reveals the story scene
+  tl.set('#hook',{opacity:1},0)
+    .fromTo('#hookText .l2',{scale:1},{scale:1.06,transformOrigin:'left center',duration:2.6,ease:'none'},0)
+    .to('#hook',{opacity:0,y:-40,duration:.45,ease:'power2.in'},2.6);
+
+  // myth: "rumah berpenunggu?" -> struck out -> real cause: eyes
+  const tMyth=at('berpenunggu',6);
+  popIn('#myth',tMyth-0.2,{scale:.85});
+  tl.fromTo('#myth .q i',{width:0},{width:'104%',duration:.35,ease:'power2.out'},at('bukan',10)-0.05)
+    .fromTo('#myth .a',{opacity:0,scale:.8},{opacity:1,scale:1,duration:.4,ease:'back.out(2)'},at('mata',12)-0.2);
+  out('#myth',13.75);
+
+  // brain fills the gap (scene D)
+  popIn('#fill',at('otaknya',15)-0.1); out('#fill',19.45);
+
+  // Charles Bonnet title (scene D2)
+  popIn('#cbs',at('ini',19)-0.1,{scale:.85}); out('#cbs',21.6);
+
+  // definition + five icons (scene E)
+  popIn('#def',at('halusinasi',21)-0.2,{scale:.85});
+  tl.to('#def',{y:-40,duration:.4,ease:'power2.out'},at('lima',26)-0.3);
+  document.querySelectorAll('#five .ico').forEach((el,i)=>{
+    tl.fromTo(el,{opacity:0,scale:.4,y:40},{opacity:1,scale:1,y:0,duration:.4,ease:'back.out(2.2)'},at('lima',26)-0.15+i*0.14);
+  });
+  out('#def',28.0); out('#five',28.0);
+
+  // five types
+  const T=[['icon_ear.png','PENDENGARAN','Auditori · dengar suara','satu',28.2,31.8],
+           ['icon_eye.png','PENGLIHATAN','Visual · nampak orang / bayang','dua',31.8,35.5],
+           ['icon_hand.png','SENTUHAN','Taktil · rasa sesuatu merayap','tiga',35.5,39.35],
+           ['icon_nose.png','BAU','Olfaktori · bau terbakar / busuk','empat',39.35,43.2],
+           ['icon_tongue.png','RASA','Gustatori · pahit / rasa besi','lima',43.2,47.2]];
+  const bars=document.querySelectorAll('#prog i');
+  T.forEach(([ico,name,ex,word,s,e],i)=>{
+    const t=at(word,s-0.5)-0.15;
+    tl.call(()=>{document.getElementById('typeIco').src=ico;document.getElementById('typeN').textContent=`JENIS ${i+1} / 5`;
+                 document.getElementById('typeT').textContent=name;document.getElementById('typeE').textContent=ex;
+                 bars.forEach((b,k)=>b.classList.toggle('on',k<=i));},null,t)
+      .fromTo('#type',{opacity:0,x:-60},{opacity:1,x:0,duration:.4,ease:'back.out(2)',immediateRender:false},t)
+      .fromTo('#typeImg',{scale:.5,rotation:-30},{scale:1,rotation:0,duration:.5,ease:'back.out(2.4)',immediateRender:false},t+0.05)
+      .to('#type',{opacity:0,duration:.25},e-0.3);
+  });
+
+  // causes (scene G)
+  popIn('#causes',at('puncanya',47)-0.2);
+  [['#c1','kurang'],['#c2','demam'],['#c3','ubat'],['#c4','epilepsi'],['#c5','demensia'],['#c6','skizofrenia']].forEach(([id,w])=>{
+    tl.fromTo(id,{opacity:0,x:-40},{opacity:1,x:0,duration:.35,ease:'back.out(2)'},at(w,48)-0.1);
+  });
+  out('#causes',55.4);
+
+  // normal (scene H)
+  popIn('#norm',at('normal',55)-0.2,{scale:.85}); out('#norm',59.45);
+
+  // red flags (scene I)
+  popIn('#flags',59.75);
+  [['#f1','kerap'],['#f2','menakutkan'],['#f3','demam']].forEach(([id,w])=>{
+    tl.fromTo(id,{opacity:0,x:-40},{opacity:1,x:0,duration:.35,ease:'back.out(2)'},at(w,59)-0.1);
+  });
+  tl.fromTo('#fr',{opacity:0,scale:.9},{opacity:1,scale:1,duration:.4,ease:'back.out(2)'},at('jangan',63)-0.1);
+  out('#flags',END-0.3);
+
+  // subtitles
+  const sub=document.getElementById('sub');
+  const esc=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;');
+  SUBS.forEach(c=>{
+    const html=c.w.map(w=>w.k?`<span class="k">${esc(w.t)}</span>`:esc(w.t)).join(' ');
+    tl.call(()=>{sub.innerHTML=html},null,c.s)
+      .fromTo('#sub',{scale:.86,opacity:0},{scale:1,opacity:1,duration:.16,ease:'back.out(2.5)',immediateRender:false},c.s)
+      .call(()=>{if(sub.innerHTML===html) sub.innerHTML=''},null,c.e);
+  });
+  tl.set('#subs',{opacity:0},END);
+
+  // end card
+  tl.fromTo('#end',{opacity:0},{opacity:1,duration:.5},END)
+    .fromTo('#endLogo',{scale:.7,opacity:0},{scale:1,opacity:1,duration:.8,ease:'back.out(1.6)'},END+0.15)
+    .fromTo('#endT',{y:40,opacity:0},{y:0,opacity:1,duration:.5,ease:'power2.out'},END+0.6)
+    .fromTo('#wa',{scale:.6,opacity:0},{scale:1,opacity:1,duration:.55,ease:'back.out(2.2)'},END+1.0)
+    .to('#wa',{scale:1.05,duration:.5,yoyo:true,repeat:3,ease:'sine.inOut'},END+1.8)
+    .fromTo('#addr',{opacity:0},{opacity:1,duration:.5},END+1.3)
+    .fromTo('#foot',{opacity:0},{opacity:1,duration:.5},END+1.6)
+    .set({}, {}, TOTAL);
+
+  window.__tl=tl;
+  window.__seek=t=>{tl.seek(t,false);};
+  return {duration:TOTAL};
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "video_id": "2026-11-10_VIDEO_01_MENTAL_HEALTH_jenis-halusinasi",
+  "metricool_brand": {
+    "label": "Klinik Nissa",
+    "brandId": 7840561,
+    "timezone": "Asia/Kuala_Lumpur",
+    "networks": {
+      "facebook": "522718507588597",
+      "instagram": "kliniknissa",
+      "tiktok": "kliniknissanilai"
+    }
+  },
+  "approval_gate": {
+    "medical_accuracy": "PENDING",
+    "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR in the user's own ElevenLabs workspace, requested by the user)",
+    "brand_logo": "VERIFIED (same original logo files as 2026-11-04)",
+    "whatsapp_number": "PENDING_CONFIRMATION (012-608 1411)",
+    "advertising_compliance_MAB": "PENDING",
+    "publishing_instruction": "NONE YET"
+  },
+  "status": "REVIEW_READY_NOT_SCHEDULED",
+  "proposed_slots_after_approval": [
+    {"network": "facebook", "local_time": "10:00", "basis": "Metricool best time used on 2026-11-04 (not refreshed for this week)", "provisional": true},
+    {"network": "tiktok", "local_time": "18:00", "basis": "Metricool best time used on 2026-11-04 (not refreshed for this week)", "provisional": true},
+    {"network": "instagram", "local_time": "12:00", "basis": "No Best Times data - general estimate only", "provisional": true}
+  ],
+  "scheduled_posts": [],
+  "notes": "Not scheduled: the user did not ask for scheduling in this request. Scheduling needs the user's instruction and a public media URL, as on 2026-11-04."
+}

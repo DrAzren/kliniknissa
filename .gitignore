@@ -7,3 +7,9 @@ work/preview/
 work/render_log.txt
 work/audio/*.wav
 work/render/lib/lib
+work/halusinasi/base.mp4
+work/halusinasi/video_noaudio.mp4
+work/halusinasi/clips/seg*.mp4
+work/halusinasi/clips/list.txt
+work/halusinasi/render_log.txt
+work/halusinasi/audio/*.wav

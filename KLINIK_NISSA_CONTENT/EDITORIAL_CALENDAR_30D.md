@@ -10,7 +10,7 @@ Local hooks: year-end monsoon & floods (Nov–Jan), dengue, school holidays (lat
 | 07 Nov | Tidur & kesihatan mental | Air banjir & cirit-birit: bila perlu ke klinik | Apa jadi kalau tak tidur 24 jam? |
 | 08 Nov | Kemurungan senyap pada lelaki | Darah tinggi: kenapa tiada simptom | Mitos: "Ubat darah tinggi rosakkan buah pinggang" |
 | 09 Nov | Anxiety: 5 tanda anda terlebih risau | Kolesterol tinggi: LDL vs HDL | Kenapa badan kita menggigil bila demam? |
-| 10 Nov | Cara bantu kawan yang murung | Diabetes: tanda awal yang selalu terlepas | 3 tanda anda perlu periksa gula |
+| 10 Nov ✔ | Jenis-jenis halusinasi *(produced, user request; replaces "Cara bantu kawan yang murung", which moves to a free slot)* | Diabetes: tanda awal yang selalu terlepas | 3 tanda anda perlu periksa gula |
 | 11 Nov | ADHD dewasa: bukan sekadar "tak fokus" | Persediaan Hari Diabetes Sedunia: saringan HbA1c | Mitos atau Fakta: "Gula penyebab diabetes" |
 | 12 Nov | OCD: lebih daripada suka kemas | Diabetes & kaki: penjagaan harian | Apa jadi kalau gula darah terlalu rendah? |
 | 13 Nov | Stres kerja & badan | Obesiti: lilitan pinggang lebih penting daripada BMI? | Tahukah Anda? Lemak perut "aktif" |

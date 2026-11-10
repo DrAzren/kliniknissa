@@ -10,7 +10,8 @@ KLINIK_NISSA_CONTENT/
   <date>/VIDEO_0N_<CATEGORY>/  final_video.mp4, thumbnail.png, voiceover.mp3, narration_script.txt,
                                caption_{facebook,instagram,tiktok}.txt, storyboard.md,
                                medical_references.md, schedule_status.json
-work/                       sources & pipeline for the current batch
+work/                       sources & pipeline for the 2026-11-04 batch
+work/halusinasi/            self-contained sources & pipeline for 2026-11-10 (see its README.md)
   img/ clips/ audio/        Higgsfield stills, 3D animation clips, ElevenLabs audio
   render/overlay.html       motion-graphics composition (GSAP): subtitles, chips, end card
   render/thumbnail.html     thumbnail template
