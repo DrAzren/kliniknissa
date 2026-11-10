@@ -7,7 +7,7 @@
     "networks": {
       "facebook": "522718507588597",
       "instagram": "kliniknissa",
-      "tiktok": "kliniknissanilai"
+      "tiktok": "klinik_nissa"
     }
   },
   "approval_gate": {
@@ -16,14 +16,28 @@
     "brand_logo": "VERIFIED (same original logo files as 2026-11-04)",
     "whatsapp_number": "PENDING_CONFIRMATION (012-608 1411)",
     "advertising_compliance_MAB": "PENDING",
-    "publishing_instruction": "NONE YET"
+    "publishing_instruction": "User instructed scheduling on 2026-11-10 (FB, IG, TikTok at 16:00 MYT, with thumbnail and a short description)"
   },
-  "status": "REVIEW_READY_NOT_SCHEDULED",
-  "proposed_slots_after_approval": [
-    {"network": "facebook", "local_time": "10:00", "basis": "Metricool best time used on 2026-11-04 (not refreshed for this week)", "provisional": true},
-    {"network": "tiktok", "local_time": "18:00", "basis": "Metricool best time used on 2026-11-04 (not refreshed for this week)", "provisional": true},
-    {"network": "instagram", "local_time": "12:00", "basis": "No Best Times data - general estimate only", "provisional": true}
+  "status": "SCHEDULED",
+  "scheduled_posts": [
+    {
+      "metricool_post_id": 422760995,
+      "uuid": "-7066478461856298278",
+      "publication": "2026-11-10T16:00:00 Asia/Kuala_Lumpur",
+      "version": "v2 code animation (commit ce861fb)",
+      "networks": {
+        "facebook": "REEL, title 'Jenis-jenis Halusinasi' / PENDING",
+        "instagram": "REEL, shown on feed, AI-generated label / PENDING",
+        "tiktok": "PUBLIC, AIGC label, own-brand commercial disclosure, title 'Jenis-jenis Halusinasi' / PENDING"
+      },
+      "autoPublish": true,
+      "caption_file": "caption_scheduled_all_platforms.txt",
+      "source_media": "https://raw.githubusercontent.com/DrAzren/kliniknissa/ce861fb03b9bfa4ca037612dc7d794e374aba7c5/KLINIK_NISSA_CONTENT/2026-11-10/VIDEO_01_MENTAL_HEALTH/final_video.mp4",
+      "media": "https://static.metricool.com/planner/202611/7705651-file-5943507279923593937.mp4",
+      "thumbnail": "https://static.metricool.com/planner/202611/7705651-file-16270322267638455973.jpeg",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7840561&openWithPostUuid=-7066478461856298278",
+      "verified_via": "getScheduledPosts 2026-11-10 13:59 MYT"
+    }
   ],
-  "scheduled_posts": [],
-  "notes": "Not scheduled: the user did not ask for scheduling in this request. Scheduling needs the user's instruction and a public media URL, as on 2026-11-04."
+  "notes": "Scheduled at the user's explicit request. Status is PENDING until Metricool publishes; publication itself is not yet confirmed. Medical review (medical_references.md) still pending."
 }

@@ -7,6 +7,7 @@ At the user's request, the video was rebuilt with the same concept as "Kenali Bi
 - **Video:** `final_video.mp4` (1080×1920, 30 fps, H.264 ~8 Mbps + AAC 48 kHz, 71.21 s, 72.2 MB). Also saved as `2026-11-10_slot1_mental-health_jenis-halusinasi.mp4`.
 - **Thumbnail:** `thumbnail.png` / `.jpg`, rendered from `animasi/src/topics/jenis-halusinasi/Cover.tsx`.
 - **Description and captions:** unchanged (the content and the "kisah ilustrasi" label still match).
+- **Scheduled (user instruction):** Metricool post 422760995 for **10 Nov 2026, 16:00 MYT** on Facebook (Reel), Instagram (Reel) and TikTok, with the custom thumbnail and the short caption in `caption_scheduled_all_platforms.txt`. Status PENDING until publication. [Planner](https://app.metricool.com/planner/calendar?blogId=7840561&openWithPostUuid=-7066478461856298278)
 - **Credits used for revision 2:** 0 (no ElevenLabs or Higgsfield generations; rendered locally).
 - **Rebuild:** `cd animasi && npm ci && npm run render -- --topic=jenis-halusinasi --avatar=dr-azren`.
 - The revision 1 pipeline (3D stills + GSAP overlay) remains in `work/halusinasi/` for reference. Its video is in git history (commit fde06f0).
@@ -38,4 +39,4 @@ At the user's request, the video was rebuilt with the same concept as "Kenali Bi
 ## Outstanding approvals
 1. Doctor medical-accuracy sign-off (`medical_references.md` checklist).
 2. Carried over: WhatsApp 012-608 1411 confirmation, MAB/KKLIU status for the clinic-service CTA, voice-clone authorisation.
-3. Scheduling instruction (not requested in this batch).
+3. Scheduling: done at the user's request (see above); publication not yet confirmed.
