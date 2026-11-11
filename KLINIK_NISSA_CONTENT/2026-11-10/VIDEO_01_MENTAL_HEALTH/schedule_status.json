@@ -26,9 +26,9 @@
       "publication": "2026-11-10T16:00:00 Asia/Kuala_Lumpur",
       "version": "v2 code animation (commit ce861fb)",
       "networks": {
-        "facebook": "REEL, title 'Jenis-jenis Halusinasi' / PENDING",
-        "instagram": "REEL, shown on feed, AI-generated label / PENDING",
-        "tiktok": "PUBLIC, AIGC label, own-brand commercial disclosure, title 'Jenis-jenis Halusinasi' / PENDING"
+        "facebook": "REEL, title 'Jenis-jenis Halusinasi' / PUBLISHED",
+        "instagram": "REEL, shown on feed, AI-generated label / PUBLISHED",
+        "tiktok": "PUBLIC, AIGC label, own-brand commercial disclosure, title 'Jenis-jenis Halusinasi' / PUBLISHED"
       },
       "autoPublish": true,
       "caption_file": "caption_scheduled_all_platforms.txt",
@@ -36,8 +36,28 @@
       "media": "https://static.metricool.com/planner/202611/7705651-file-5943507279923593937.mp4",
       "thumbnail": "https://static.metricool.com/planner/202611/7705651-file-16270322267638455973.jpeg",
       "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7840561&openWithPostUuid=-7066478461856298278",
-      "verified_via": "getScheduledPosts 2026-11-10 13:59 MYT"
+      "verified_via": "getScheduledPosts 2026-11-11 (all three PUBLISHED)",
+      "public_urls": {
+        "facebook": "https://facebook.com/reel/1129007766707918",
+        "instagram": "https://www.instagram.com/reel/Dfjb3yjmYGr/",
+        "tiktok": "https://www.tiktok.com/@klinik_nissa/video/7706451077406706951"
+      }
+    },
+    {
+      "metricool_post_id": 423934774,
+      "uuid": "4931337466031457182",
+      "publication": "2026-11-11T11:00:00 Asia/Kuala_Lumpur",
+      "version": "v2 code animation (same media as post 422760995)",
+      "networks": {
+        "tiktok": "PUBLIC, AI-generated (AIGC) label OFF, commercial content disclosure OFF (own brand and third party), title 'Jenis-jenis Halusinasi' / PENDING"
+      },
+      "autoPublish": true,
+      "caption_file": "caption_scheduled_all_platforms.txt",
+      "media": "https://static.metricool.com/planner/202611/7705651-file-5943507279923593937.mp4",
+      "thumbnail": "https://static.metricool.com/planner/202611/7705651-file-16270322267638455973.jpeg",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7840561&openWithPostUuid=4931337466031457182",
+      "requested": "User instruction 2026-11-11: TikTok Klinik Nissa only, 11:00, AI-generated and commercial toggles off"
     }
   ],
-  "notes": "Scheduled at the user's explicit request. Status is PENDING until Metricool publishes; publication itself is not yet confirmed. Medical review (medical_references.md) still pending."
+  "notes": "Post 422760995 published on FB/IG/TikTok on 2026-11-10 16:00. Post 423934774 is a second TikTok-only post at the user's request; it is PENDING until Metricool publishes it. Medical review (medical_references.md) still pending."
 }
