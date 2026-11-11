@@ -25,6 +25,10 @@ import {SCENES as S6} from './jenis-halusinasi/scenes';
 import {Cover as Cover6} from './jenis-halusinasi/Cover';
 import script6 from '../../topics/jenis-halusinasi/script.json';
 import words6 from '../../topics/jenis-halusinasi/words.json';
+import {SCENES as S7} from './kenali-asma/scenes';
+import {Cover as Cover7} from './kenali-asma/Cover';
+import script7 from '../../topics/kenali-asma/script.json';
+import words7 from '../../topics/kenali-asma/words.json';
 
 export type Topic = {
   script: ScriptFile;
@@ -41,4 +45,5 @@ export const TOPICS: Record<string, Topic> = {
   'jenis-nyamuk': {script: script4 as ScriptFile, words: words4 as WordsFile, scenes: S4, Cover: Cover4},
   'kenali-bpd': {script: script5 as ScriptFile, words: words5 as WordsFile, scenes: S5, Cover: Cover5},
   'jenis-halusinasi': {script: script6 as ScriptFile, words: words6 as WordsFile, scenes: S6, Cover: Cover6},
+  'kenali-asma': {script: script7 as ScriptFile, words: words7 as WordsFile, scenes: S7, Cover: Cover7},
 };

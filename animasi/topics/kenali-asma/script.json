@@ -1,0 +1,156 @@
+{
+ "id": "kenali-asma",
+ "title": "Kenali Asma",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[storytelling] Pukul dua pagi. Amir, dua puluh dua tahun, terjaga dari tidur. Dadanya terasa ketat. Nafasnya berbunyi... macam wisel.\n\n[serious] Dia cuba tarik nafas dalam-dalam, tapi udara macam tak cukup. [short pause] Malam itu, Amir dikejarkan ke hospital. Doktor kata, ini serangan asma.\n\nApa itu asma? Asma ialah radang kronik pada saluran pernafasan. Bila diserang, saluran itu membengkak, menyempit, dan dipenuhi kahak. Sebab itulah nafas jadi sesak, berbunyi, dan batuk, terutamanya waktu malam.\n\nSiapa yang berisiko? Ada empat faktor utama.\n\nSatu, keturunan. Ada ahli keluarga yang menghidap asma.\n\nDua, alahan. Seperti resdung atau ekzema.\n\nTiga, asap rokok. Sama ada merokok, atau terhidu asap orang lain.\n\nEmpat, berat badan berlebihan.\n\n[warmly] Asma tak boleh sembuh sepenuhnya, tapi ia boleh dikawal. Ini caranya.\n\nElakkan pencetus, seperti habuk, asap dan jerebu. Jangan merokok. Guna inhaler pencegah setiap hari seperti arahan doktor, walaupun rasa sihat. Dan datang pemeriksaan ikut jadual.\n\nTapi kalau sesak tak lega selepas guna inhaler, atau susah nak bercakap, jangan tunggu. Terus ke kecemasan.\n\nKlinik Nissa, Nilai, sedia membantu untuk pemeriksaan dan rawatan asma.",
+  "note": "1 take eleven_v4 sahaja (2026-11-11, 1,192 kredit). Jangan jana semula."
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.13,
+   "fadeIn": 0.8,
+   "fadeOut": 1.5,
+   "endVolume": 0.2
+  },
+  "whooshOnCuts": 0.25,
+  "sfx": []
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "sesak",
+   "marker": "Dia cuba"
+  },
+  {
+   "id": "hospital",
+   "marker": "Malam itu"
+  },
+  {
+   "id": "apa",
+   "marker": "Apa itu asma"
+  },
+  {
+   "id": "saluran",
+   "marker": "Bila diserang"
+  },
+  {
+   "id": "simptom",
+   "marker": "Sebab itulah"
+  },
+  {
+   "id": "risiko",
+   "marker": "Siapa yang berisiko"
+  },
+  {
+   "id": "keturunan",
+   "marker": "Satu keturunan",
+   "n": 1,
+   "label": "Keturunan"
+  },
+  {
+   "id": "alahan",
+   "marker": "Dua alahan",
+   "n": 2,
+   "label": "Alahan"
+  },
+  {
+   "id": "rokok",
+   "marker": "Tiga asap rokok",
+   "n": 3,
+   "label": "Asap rokok"
+  },
+  {
+   "id": "berat",
+   "marker": "Empat berat",
+   "n": 4,
+   "label": "Berat berlebihan"
+  },
+  {
+   "id": "kawal",
+   "marker": "Asma tak boleh"
+  },
+  {
+   "id": "cegah",
+   "marker": "Elakkan pencetus"
+  },
+  {
+   "id": "kecemasan",
+   "marker": "Tapi kalau"
+  },
+  {
+   "id": "penutup",
+   "marker": "Klinik Nissa"
+  }
+ ],
+ "numberWords": [],
+ "keywords": [
+  "pukul dua pagi",
+  "terjaga",
+  "ketat",
+  "berbunyi",
+  "wisel",
+  "udara",
+  "tak cukup",
+  "hospital",
+  "serangan asma",
+  "asma",
+  "radang kronik",
+  "saluran pernafasan",
+  "membengkak",
+  "menyempit",
+  "kahak",
+  "sesak",
+  "batuk",
+  "waktu malam",
+  "berisiko",
+  "empat faktor",
+  "keturunan",
+  "ahli keluarga",
+  "alahan",
+  "resdung",
+  "ekzema",
+  "asap rokok",
+  "merokok",
+  "asap orang lain",
+  "berat badan berlebihan",
+  "boleh dikawal",
+  "pencetus",
+  "habuk",
+  "asap",
+  "jerebu",
+  "jangan merokok",
+  "inhaler pencegah",
+  "setiap hari",
+  "pemeriksaan",
+  "ikut jadual",
+  "tak lega",
+  "susah nak bercakap",
+  "jangan tunggu",
+  "kecemasan",
+  "Klinik Nissa",
+  "rawatan asma"
+ ],
+ "corrections": {
+  "dua puluh dua tahun": "22 tahun"
+ },
+ "cover": {
+  "kicker": "KENALI",
+  "headline": [
+   "KENALI"
+  ],
+  "highlight": "ASMA",
+  "sub": "Sesak nafas tengah malam?",
+  "tags": [
+   "Apa itu asma",
+   "Faktor risiko",
+   "Cara cegah"
+  ]
+ }
+}
