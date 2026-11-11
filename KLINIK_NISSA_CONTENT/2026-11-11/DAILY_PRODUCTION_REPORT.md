@@ -18,3 +18,17 @@ Batch scope: one video requested by the user, for World Diabetes Day (14 Nov).
 ## Outstanding approvals
 1. Doctor medical-accuracy sign-off (`medical_references.md`).
 2. Advertising compliance (KKLIU) for the clinic-service CTA, WhatsApp number confirmation, voice-clone authorisation (as for earlier videos).
+
+## Video 2 — VIDEO_02_INFLUENZA
+- **Topic:** Demam biasa atau Influenza? (Hakim's story, cold vs influenza, danger signs, high-risk groups, prevention, check-up and vaccine CTA)
+- **Concept:** coded flat 2D cartoon, same as Video 1. New Dr Aminah avatar drawn in code (teal hijab, white coat, stethoscope).
+- **Voice:** Dr Aminah (ElevenLabs cloned voice `uFdZbpnXsSJhPEhajxEx`, model `eleven_v4`), **one take only**.
+- **Duration:** 59.0 s (narration 55.5 s + end hold). 1080×1920, 30 fps, H.264 + AAC 48 kHz.
+- **Music & SFX:** reused from the 2026-11-04 video.
+- **Script:** written from the user's outline; not separately approved before the single take was generated.
+- **Medical review:** PENDING. See `medical_references.md`.
+- **Approval status:** REVIEW-READY. Not approved, not scheduled.
+
+### Usage for Video 2 (verified from tool responses)
+- **ElevenLabs:** 983 credits = 818 (1 narration take) + 165 (transcription for word timings; it was 0 for Video 1 and was not price-checked first this time).
+- **Higgsfield:** 0.

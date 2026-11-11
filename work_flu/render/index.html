@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="ms">
+<head>
+<meta charset="utf-8">
+<title>Klinik Nissa – Demam biasa atau Influenza</title>
+<style>
+@font-face{font-family:M;src:url(fonts/Montserrat-600.ttf);font-weight:600}
+@font-face{font-family:M;src:url(fonts/Montserrat-800.ttf);font-weight:800}
+@font-face{font-family:M;src:url(fonts/Montserrat-900.ttf);font-weight:900}
+:root{--navy:#1b1450;--pink:#F0468A;--yellow:#FFC93C;--teal:#2ED3B7;--white:#fff}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#24135f;font-family:M,sans-serif;color:#fff}
+#stage{position:absolute;left:0;top:0;width:1080px;height:1920px;overflow:hidden}
+.a{position:absolute;will-change:transform,opacity}
+.bg{left:0;top:0;width:1080px;height:1920px}
+#bg0{background:linear-gradient(180deg,#22125c 0%,#35228c 45%,#5a2c93 78%,#8a3391 100%)}
+#bgBody{background:linear-gradient(180deg,#3a0f3f 0%,#7a1740 45%,#a3243f 100%);opacity:0}
+#bgAlert{background:linear-gradient(180deg,#2a0f4d 0%,#5a1a66 50%,#b02a68 100%);opacity:0}
+.blob{border-radius:50%;filter:blur(40px)}
+.star{border-radius:50%;background:#fff}
+.sc{left:0;top:0;width:1080px;height:1920px;opacity:0}
+.cam{left:0;top:0;width:1080px;height:1920px;transform-origin:540px 960px}
+svg{display:block;overflow:visible}
+/* caption */
+#cap{left:60px;top:150px;width:960px;height:190px;display:flex;align-items:center;justify-content:center;text-align:center;
+  font-weight:900;font-size:68px;line-height:1.12;text-shadow:0 5px 16px rgba(10,5,40,.6)}
+#cap span{opacity:.35}
+#cap span.on{opacity:1}
+#cap span.k.on{color:var(--yellow)}
+/* chips */
+.chip{display:inline-flex;align-items:center;gap:16px;height:84px;padding:0 30px 0 16px;border-radius:22px;background:var(--navy);
+  font-weight:800;font-size:40px;white-space:nowrap;box-shadow:0 10px 26px rgba(10,5,40,.45);border:3px solid rgba(255,255,255,.12)}
+.chip i{width:56px;height:56px;border-radius:16px;background:#2c2378;display:flex;align-items:center;justify-content:center;font-style:normal;font-size:34px}
+.chip.pink{background:var(--pink);border-color:rgba(255,255,255,.25)}.chip.pink i{background:rgba(255,255,255,.22)}
+.chip.teal{background:var(--teal);color:#0f2a3a;border-color:rgba(255,255,255,.3)}.chip.teal i{background:rgba(255,255,255,.4)}
+.chip.yel{background:var(--yellow);color:var(--navy);border-color:rgba(255,255,255,.3);font-weight:900}.chip.yel i{background:rgba(27,20,80,.15)}
+.chip.np{padding-left:30px}
+.tag{left:36px;top:1690px;font-weight:800;font-size:30px;color:#d9ccff;background:rgba(20,12,60,.55);padding:8px 16px;border-radius:12px}
+/* title */
+#title{left:90px;top:372px;width:900px;text-align:center}
+#title .box{background:var(--navy);border-radius:36px;padding:26px 30px 34px;box-shadow:0 14px 40px rgba(10,5,40,.5);border:3px solid rgba(255,255,255,.12)}
+#title .s{font-weight:800;font-size:40px;color:#b9a8ff;letter-spacing:2px}
+#title .b{font-weight:900;font-size:96px;line-height:1.0;color:var(--yellow);margin-top:6px}
+#title .p{display:inline-block;margin-top:-22px;background:var(--pink);font-weight:800;font-size:38px;padding:12px 28px;border-radius:18px;box-shadow:0 8px 20px rgba(10,5,40,.4)}
+.big{font-weight:900;text-align:center;line-height:1}
+.card{background:var(--navy);border-radius:36px;box-shadow:0 14px 40px rgba(10,5,40,.5);border:3px solid rgba(255,255,255,.12)}
+.lbl{font-weight:800;font-size:36px;text-align:center}
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="bg0" class="a bg"></div><div id="bgBody" class="a bg"></div><div id="bgAlert" class="a bg"></div>
+  <div id="amb" class="a bg"></div>
+  <div id="scenes" class="a bg"></div>
+  <div id="tag" class="a tag">Kisah ilustrasi</div>
+  <div id="cap" class="a"></div>
+</div>
+<script src="subs.js"></script>
+<script>
+/* ---------- helpers (everything is a pure function of t) ---------- */
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const P=(t,a,d)=>cl((t-a)/d);
+const eo=x=>1-Math.pow(1-x,3), ei=x=>x*x*x, eio=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const back=x=>{const c=2.2;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const lerp=(a,b,q)=>a+(b-a)*q;
+const sin=Math.sin, PI=Math.PI;
+const rnd=i=>{const x=Math.sin(i*127.1+311.7)*43758.5453;return x-Math.floor(x)};
+function T(el,o){if(typeof el==='string')el=$(el);const s=o.s??1;
+  el.style.transform=`translate(${(o.x||0).toFixed(2)}px,${(o.y||0).toFixed(2)}px) rotate(${(o.r||0).toFixed(2)}deg) scale(${(o.sx??s).toFixed(4)},${(o.sy??s).toFixed(4)})`;
+  if(o.o!==undefined)el.style.opacity=cl(o.o).toFixed(3);}
+const pop=(el,t,at,d=.42,extra={})=>{const q=P(t,at,d);T(el,{s:q<=0?0.001:back(q),o:P(t,at,.12),...extra})};
+const popOut=(el,t,at,out,d=.42,extra={})=>{const q=P(t,at,d);const k=1-P(t,out-.2,.2);T(el,{s:q<=0?0.001:back(q)*(0.8+0.2*k),o:P(t,at,.12)*k,...extra})};
+function mk(parent,id,x,y,w,h,html,origin){const d=document.createElement('div');d.className='a';if(id)d.id=id;
+  d.style.cssText=`left:${x}px;top:${y}px;width:${w}px;height:${h}px;transform-origin:${origin||'50% 50%'}`;d.innerHTML=html||'';
+  (typeof parent==='string'?$(parent):parent).appendChild(d);return d;}
+const svg=(w,h,inner)=>`<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">${inner}</svg>`;
+function chip(parent,id,x,y,text,cls='',icon=''){const d=mk(parent,id,x,y,0,0,'', '0 50%');d.style.width='auto';d.style.height='auto';
+  d.innerHTML=`<div class="chip ${cls} ${icon?'':'np'}">${icon?`<i>${icon}</i>`:''}${text}</div>`;return d;}
+
+/* ---------- art ---------- */
+const SKIN='#C98B5F', SKIN_D='#B5774C';
+const glassSVG=(w=120,h=190)=>svg(w,h,`
+  <rect x="${w*.60}" y="-46" width="9" height="${h*.9}" rx="4" fill="#F0468A" transform="rotate(12 ${w*.6} 0)"/>
+  <path d="M8 14 L${w-8} 14 L${w-22} ${h-6} Q${w/2} ${h+4} 22 ${h-6} Z" fill="#fff" opacity=".22"/>
+  <path d="M13 44 L${w-13} 44 L${w-24} ${h-10} Q${w/2} ${h-2} 24 ${h-10} Z" fill="#C97C3C"/>
+  <path d="M13 44 L${w-13} 44 L${w-15} 66 L15 66 Z" fill="#E7B27A"/>
+  <rect x="30" y="52" width="26" height="26" rx="6" fill="#fff" opacity=".7" transform="rotate(-12 43 65)"/>
+  <rect x="62" y="70" width="24" height="24" rx="6" fill="#fff" opacity=".55" transform="rotate(15 74 82)"/>
+  <rect x="38" y="96" width="22" height="22" rx="6" fill="#fff" opacity=".4" transform="rotate(8 49 107)"/>
+  <rect x="14" y="20" width="10" height="${h*.6}" rx="5" fill="#fff" opacity=".35"/>`);
+const cubeSVG=(s=44)=>svg(s,s,`<rect x="2" y="2" width="${s-4}" height="${s-4}" rx="${s*.22}" fill="#fff"/><rect x="${s*.18}" y="${s*.18}" width="${s*.3}" height="${s*.3}" rx="4" fill="#E9E3FF"/><rect x="${s*.56}" y="${s*.56}" width="${s*.22}" height="${s*.22}" rx="3" fill="#D8CFFA"/>`);
+const rbcSVG=(s=90)=>svg(s,s*.72,`<ellipse cx="${s/2}" cy="${s*.36}" rx="${s/2}" ry="${s*.36}" fill="#F25C67"/><ellipse cx="${s/2}" cy="${s*.36}" rx="${s*.26}" ry="${s*.17}" fill="#D93D4E"/>`);
+const keySVG=(s=70)=>svg(s,s*.5,`<circle cx="${s*.22}" cy="${s*.25}" r="${s*.2}" fill="none" stroke="#2ED3B7" stroke-width="${s*.1}"/><rect x="${s*.4}" y="${s*.19}" width="${s*.56}" height="${s*.12}" rx="4" fill="#2ED3B7"/><rect x="${s*.72}" y="${s*.25}" width="${s*.09}" height="${s*.18}" rx="2" fill="#2ED3B7"/><rect x="${s*.86}" y="${s*.25}" width="${s*.09}" height="${s*.14}" rx="2" fill="#2ED3B7"/>`);
+const fatSVG=(s=70)=>svg(s,s,`<circle cx="${s/2}" cy="${s/2}" r="${s/2}" fill="#FFD166"/><circle cx="${s*.36}" cy="${s*.36}" r="${s*.14}" fill="#FFE9A8"/>`);
+function faceSVG(o){ // 260x270 head
+  const hair=o.hair||'#2b2340';
+  return svg(260,270,`
+  <circle cx="20" cy="158" r="22" fill="${o.skinD||SKIN_D}"/><circle cx="240" cy="158" r="22" fill="${o.skinD||SKIN_D}"/>
+  <rect x="20" y="36" width="220" height="228" rx="106" fill="${o.skin||SKIN}"/>
+  ${o.top||''}
+  <g class="brow"><rect x="68" y="124" width="44" height="9" rx="4" fill="${o.brow||hair}"/><rect x="148" y="124" width="44" height="9" rx="4" fill="${o.brow||hair}"/></g>
+  <g class="eyes" style="transform-origin:130px 158px"><circle cx="90" cy="158" r="10" fill="#1d1438"/><circle cx="170" cy="158" r="10" fill="#1d1438"/><circle cx="93" cy="155" r="3" fill="#fff"/><circle cx="173" cy="155" r="3" fill="#fff"/></g>
+  <g class="lids" opacity="0"><rect x="74" y="146" width="32" height="14" fill="${o.skin||SKIN}"/><rect x="154" y="146" width="32" height="14" fill="${o.skin||SKIN}"/><path d="M76 160 Q90 168 104 160" stroke="#1d1438" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M156 160 Q170 168 184 160" stroke="#1d1438" stroke-width="5" fill="none" stroke-linecap="round"/></g>
+  <circle cx="58" cy="192" r="18" fill="#F58BA0" opacity=".55"/><circle cx="202" cy="192" r="18" fill="#F58BA0" opacity=".55"/>
+  ${o.extra||''}
+  <g class="m-smile"><path d="M104 ${o.my||224} Q130 ${(o.my||224)+22} 156 ${o.my||224}" stroke="#1d1438" stroke-width="7" fill="none" stroke-linecap="round"/></g>
+  <g class="m-open" opacity="0"><ellipse cx="130" cy="${(o.my||224)+6}" rx="17" ry="21" fill="#4a1630"/><ellipse cx="130" cy="${(o.my||224)+16}" rx="10" ry="8" fill="#F0688A"/></g>
+  <g class="m-sad" opacity="0"><path d="M106 ${(o.my||224)+14} Q130 ${(o.my||224)-4} 154 ${(o.my||224)+14}" stroke="#1d1438" stroke-width="7" fill="none" stroke-linecap="round"/></g>`);
+}
+const armSVG=(sleeve,len=190)=>svg(70,len,`<rect x="8" y="0" width="54" height="${len-30}" rx="27" fill="${SKIN}"/><rect x="4" y="0" width="62" height="${len*.48}" rx="28" fill="${sleeve}"/><circle cx="35" cy="${len-30}" r="31" fill="${SKIN}"/>`);
+/* character = box 460x620, feet/bottom centre origin */
+function person(parent,id,x,y,kind,scale=1){
+  const d=mk(parent,id,x,y,460,620,'','50% 100%');
+  const k=kind==='doc'?{shirt:'#E2C48E',shirtD:'#CDAE78',hair:'#231a3a',
+      top:`<path d="M24 120 Q14 30 130 26 Q250 26 236 120 Q200 70 120 76 Q60 80 24 120Z" fill="#231a3a"/>`,
+      extra:`<circle cx="90" cy="158" r="30" fill="rgba(255,255,255,.12)" stroke="#231a3a" stroke-width="7"/><circle cx="170" cy="158" r="30" fill="rgba(255,255,255,.12)" stroke="#231a3a" stroke-width="7"/><rect x="118" y="154" width="24" height="7" fill="#231a3a"/>`}
+    :{shirt:'#2BA39B',shirtD:'#238a84',hair:'#8f8aa6',brow:'#6f6a86',my:230,
+      top:`<rect x="26" y="96" width="30" height="62" rx="12" fill="#B9B5CC"/><rect x="204" y="96" width="30" height="62" rx="12" fill="#B9B5CC"/><path d="M30 112 Q26 22 130 22 Q234 22 230 112 Z" fill="#1d1438"/><rect x="30" y="96" width="200" height="18" rx="6" fill="#33285c"/>`,
+      extra:`<path d="M86 206 Q130 184 174 206 Q130 224 86 206Z" fill="#9c97b3"/>`};
+  d.innerHTML=`
+   <div class="a armB" style="left:330px;top:338px;width:70px;height:190px;transform-origin:50% 14%">${armSVG(k.shirtD)}</div>
+   <div class="a body" style="left:0;top:0;width:460px;height:620px;transform-origin:50% 100%">${svg(460,620,`
+     <rect x="198" y="296" width="64" height="70" fill="${SKIN_D}"/>
+     <path d="M70 420 Q70 336 160 336 L300 336 Q390 336 390 420 L${kind==='doc'?396:412} 620 L${kind==='doc'?64:48} 620 Z" fill="${k.shirt}"/>
+     ${kind==='doc'?`<path d="M186 336 L230 396 L274 336 Z" fill="${SKIN_D}"/><path d="M186 336 L230 396 L206 420 L160 344Z" fill="#F1DDB4"/><path d="M274 336 L230 396 L254 420 L300 344Z" fill="#F1DDB4"/>
+        <path d="M170 350 Q150 470 200 520" stroke="#3a3560" stroke-width="9" fill="none"/><path d="M290 350 Q312 440 300 500" stroke="#3a3560" stroke-width="9" fill="none"/><circle cx="300" cy="512" r="20" fill="#cfd3e6" stroke="#3a3560" stroke-width="7"/>`
+       :`<path d="M190 336 L230 384 L270 336 Z" fill="${SKIN_D}"/><path d="M190 336 L230 384 L212 404 L170 340Z" fill="#3fbdb4"/><path d="M270 336 L230 384 L248 404 L290 340Z" fill="#3fbdb4"/>
+        <ellipse class="belly" cx="230" cy="540" rx="150" ry="96" fill="${k.shirtD}" opacity=".55"/><circle cx="230" cy="440" r="7" fill="#1c6f6a"/><circle cx="230" cy="492" r="7" fill="#1c6f6a"/><circle cx="230" cy="544" r="7" fill="#1c6f6a"/>`}`)}</div>
+   <div class="a head" style="left:100px;top:52px;width:260px;height:270px;transform-origin:50% 96%">${faceSVG(k)}</div>
+   <div class="a armF" style="left:62px;top:338px;width:70px;height:190px;transform-origin:50% 14%">${armSVG(k.shirt)}</div>`;
+  d._s=scale;return d;
+}
+function mouth(el,m){['smile','open','sad'].forEach(n=>{const g=el.querySelector('.m-'+n);if(g)g.setAttribute('opacity',n===m?1:0)})}
+function animPerson(el,t,o={}){ // idle + blink
+  const ph=o.ph||0, s=el._s;
+  el.querySelector('.body').style.transform=`rotate(${(sin(t*3.7+ph)*1.1).toFixed(2)}deg)`;
+  T(el.querySelector('.head'),{r:sin(t*2.7+ph)*1.8+(o.headR||0),y:(o.headY||0)});
+  const b=((t+ph*1.3)%3.5), closed=(b>3.3)||o.sleepy;
+  el.querySelector('.eyes').setAttribute('opacity',closed?0:1); el.querySelector('.lids').setAttribute('opacity',closed?1:0);
+  mouth(el,o.mouth||'smile');
+  T(el.querySelector('.armF'),{r:(o.armF??6)+sin(t*3.3+ph)*1.5});
+  T(el.querySelector('.armB'),{r:(o.armB??-6)+sin(t*3.3+ph+1)*1.5});
+  T(el,{s:s*(o.s??1),x:o.x||0,y:o.y||0,r:o.r||0,o:o.o??1});
+}
+
+/* ---------- ambient background ---------- */
+const amb=$('amb'), blobs=[], stars=[];
+for(let i=0;i<7;i++){const s=180+rnd(i)*260;const b=mk(amb,'',rnd(i+9)*1080-s/2,rnd(i+20)*1920-s/2,s,s,'');b.className='a blob';
+  b.style.background=['#7b4bd6','#c0428f','#4a56d8','#9a3fb0'][i%4];b.style.opacity=.28;blobs.push(b)}
+for(let i=0;i<46;i++){const s=3+rnd(i+50)*6;const b=mk(amb,'',rnd(i+70)*1080,rnd(i+90)*1920,s,s,'');b.className='a star';stars.push(b)}
+
+/* ---------- characters (config-driven bust, same parts as person()) ---------- */
+const hijabTop=(col,colD)=>`<path fill-rule="evenodd" fill="${col}" d="M-6 150 Q-12 8 130 4 Q272 8 266 150 L270 286 Q130 326 -10 286 Z M40 152 Q40 70 130 70 Q220 70 220 152 Q220 250 130 254 Q40 250 40 152Z"/><path d="M40 120 Q130 60 220 120" stroke="${colD}" stroke-width="8" fill="none" opacity=".6"/>`;
+const CH={
+ aminah:{shirt:'#FFFFFF',shirtD:'#E3E7F2',brow:'#3a2a2a',top:hijabTop('#2ED3B7','#1FA892'),
+   body:`<path d="M150 336 Q230 420 310 336 L330 420 Q230 470 130 420Z" fill="#2ED3B7"/><path d="M196 400 L230 470 L264 400 L264 620 L196 620Z" fill="#23316f"/>
+     <path d="M196 392 L150 620 M264 392 L310 620" stroke="#cfd5e6" stroke-width="6" fill="none"/>
+     <path d="M176 400 Q150 500 200 540" stroke="#3a3560" stroke-width="9" fill="none"/><path d="M284 400 Q312 470 300 520" stroke="#3a3560" stroke-width="9" fill="none"/><circle cx="300" cy="532" r="20" fill="#cfd3e6" stroke="#3a3560" stroke-width="7"/>
+     <rect x="96" y="470" width="70" height="26" rx="6" fill="#2ED3B7"/>`},
+ hakim:{shirt:'#F4F6FB',shirtD:'#DDE2EE',brow:'#231a3a',top:`<path d="M24 128 Q10 24 130 22 Q250 24 236 128 Q214 84 170 92 Q120 60 70 96 Q40 100 24 128Z" fill="#231a3a"/>`,
+   body:`<path d="M190 336 L230 384 L270 336 Z" fill="${SKIN_D}"/><path d="M190 336 L230 384 L208 408 L166 342Z" fill="#fff"/><path d="M270 336 L230 384 L252 408 L294 342Z" fill="#fff"/>
+     <rect x="96" y="340" width="34" height="280" rx="14" fill="#E94F4F"/><rect x="330" y="340" width="34" height="280" rx="14" fill="#E94F4F"/><rect x="286" y="430" width="60" height="50" rx="8" fill="#DDE2EE"/><rect x="298" y="418" width="36" height="20" rx="4" fill="#23316f"/>`},
+ kawan:{shirt:'#F4F6FB',shirtD:'#DDE2EE',brow:'#231a3a',skin:'#E3B58F',skinD:'#CFA07A',top:`<path d="M26 120 Q20 20 130 20 Q240 20 234 120 Q200 70 130 74 Q60 70 26 120Z" fill="#3a2a22"/>`,
+   body:`<path d="M190 336 L230 384 L270 336 Z" fill="#CFA07A"/><path d="M190 336 L230 384 L208 408 L166 342Z" fill="#fff"/><path d="M270 336 L230 384 L252 408 L294 342Z" fill="#fff"/><rect x="286" y="430" width="60" height="50" rx="8" fill="#DDE2EE"/><rect x="298" y="418" width="36" height="20" rx="4" fill="#23316f"/>`},
+ mak:{shirt:'#8f7bea',shirtD:'#7a66d6',brow:'#3a2a2a',top:hijabTop('#F58BB4','#E0689A'),
+   body:`<path d="M140 336 Q230 430 320 336 L346 440 Q230 500 114 440Z" fill="#F58BB4"/>`}};
+function bust(parent,id,x,y,kind,scale=1){const k=CH[kind];const d=mk(parent,id,x,y,460,620,'','50% 100%');
+  const sk=k.skin||SKIN, skD=k.skinD||SKIN_D;
+  d.innerHTML=`
+   <div class="a armB" style="left:330px;top:338px;width:70px;height:190px;transform-origin:50% 14%">${armSVG(k.shirtD).replaceAll(SKIN,sk)}</div>
+   <div class="a body" style="left:0;top:0;width:460px;height:620px;transform-origin:50% 100%">${svg(460,620,`<rect x="198" y="296" width="64" height="70" fill="${skD}"/>
+     <path d="M70 420 Q70 336 160 336 L300 336 Q390 336 390 420 L400 620 L60 620 Z" fill="${k.shirt}"/>${k.body||''}`)}</div>
+   <div class="a head" style="left:100px;top:52px;width:260px;height:270px;transform-origin:50% 96%">${faceSVG({...k,skin:sk,skinD:skD})}</div>
+   <div class="a armF" style="left:62px;top:338px;width:70px;height:190px;transform-origin:50% 14%">${armSVG(k.shirt).replaceAll(SKIN,sk)}</div>`;
+  d._s=scale;return d;}
+const virusSVG=(s=70,c='#8BE04E',cd='#5FB52B')=>svg(s,s,`<g>${[0,45,90,135,180,225,270,315].map(a=>`<g transform="rotate(${a} ${s/2} ${s/2})"><rect x="${s/2-3}" y="2" width="6" height="${s*.2}" fill="${cd}"/><circle cx="${s/2}" cy="5" r="6" fill="${cd}"/></g>`).join('')}<circle cx="${s/2}" cy="${s/2}" r="${s*.32}" fill="${c}"/><circle cx="${s*.42}" cy="${s*.44}" r="${s*.06}" fill="${cd}"/><circle cx="${s*.6}" cy="${s*.58}" r="${s*.05}" fill="${cd}"/></g>`);
+const thermoSVG=svg(140,420,`<rect x="46" y="10" width="48" height="320" rx="24" fill="#fff"/><circle cx="70" cy="350" r="60" fill="#fff"/><circle cx="70" cy="350" r="42" fill="#F0468A"/><rect id="merc" x="58" y="250" width="24" height="90" rx="12" fill="#F0468A"/>${[60,110,160,210,260].map(y=>`<rect x="100" y="${y}" width="22" height="6" rx="3" fill="#fff" opacity=".7"/>`).join('')}`);
+const bigIcon=(emoji,ring,extra='')=>`<div style="width:380px;height:380px;border-radius:50%;background:#1b1450;border:10px solid ${ring};display:flex;align-items:center;justify-content:center;font-size:190px;position:relative;box-shadow:0 14px 40px rgba(10,5,40,.5)">${emoji}${extra}</div>`;
+const rowHTML=(id,emoji,text)=>`<div id="${id}" class="row" style="display:flex;align-items:center;gap:22px;margin-top:20px;font-weight:800;font-size:46px"><div style="width:84px;height:84px;border-radius:22px;background:rgba(255,255,255,.16);display:flex;align-items:center;justify-content:center;font-size:50px">${emoji}</div>${text}</div>`;
+const miniBust=(skin,shirt,top,extra='')=>svg(220,250,`<path d="M20 250 Q20 160 110 160 Q200 160 200 250Z" fill="${shirt}"/><circle cx="110" cy="96" r="66" fill="${skin}"/>${top}<circle cx="90" cy="102" r="7" fill="#1d1438"/><circle cx="130" cy="102" r="7" fill="#1d1438"/><path d="M94 126 Q110 138 126 126" stroke="#1d1438" stroke-width="5" fill="none" stroke-linecap="round"/><circle cx="72" cy="120" r="10" fill="#F58BA0" opacity=".5"/><circle cx="148" cy="120" r="10" fill="#F58BA0" opacity=".5"/>${extra}`);
+
+/* ---------- scenes ---------- */
+const SC={};
+function scene(id,a,b){const d=mk('scenes',id,0,0,1080,1920,'');d.className='a sc';const c=mk(d,id+'c',0,0,1080,1920,'');c.className='a cam';SC[id]={el:d,cam:c,a,b};return c;}
+const TOTAL=59.0;
+/* S1 rumah 0–8.8 */
+let c=scene('s1',0,8.8);
+mk(c,'s1win',700,470,280,300,svg(280,300,`<rect width="280" height="300" rx="24" fill="#120c3d"/><rect x="16" y="16" width="248" height="268" rx="14" fill="#2c2378"/><circle cx="190" cy="90" r="40" fill="#FFE9A8"/><rect x="134" y="16" width="12" height="268" fill="#120c3d"/><rect x="16" y="144" width="248" height="12" fill="#120c3d"/>`));
+mk(c,'s1wall',0,1440,1080,500,svg(1080,500,`<rect width="1080" height="500" fill="#1b1150"/>`));
+const mak1=bust(c,'mak1',560,850,'mak',1.12);
+const hk1=bust(c,'hk1',70,880,'hakim',1.0);
+mk(c,'th1',760,760,140,420,thermoSVG,'50% 80%');
+const puff=[0,1,2].map(i=>mk(c,'',0,0,60,36,svg(60,36,`<path d="M4 18 Q20 2 34 18 Q46 30 56 18" stroke="#cfe6ff" stroke-width="7" fill="none" stroke-linecap="round"/>`)));
+mk(c,'title',90,372,900,0,`<div class="box"><div class="s">DEMAM BIASA ATAU</div><div class="b">INFLUENZA?</div></div><div class="p">Kenali bezanya &amp; tanda bahaya</div>`,'50% 40%');$('title').style.height='auto';
+chip(c,'c1a',70,420,'Hakim, 8 tahun','','🎒');chip(c,'c1b',70,530,'Demam','pink','🌡️');
+mk(c,'bub1',470,470,540,170,`<div style="background:#fff;color:#1b1450;font-weight:800;font-size:44px;padding:30px 36px;border-radius:40px;display:inline-block;box-shadow:0 10px 26px rgba(10,5,40,.4)">“Selesema biasa je…”</div><div style="position:absolute;left:150px;top:124px;width:0;height:0;border:26px solid transparent;border-top-color:#fff"></div>`,'40% 100%');
+chip(c,'c1c',70,420,'Hari ke-3','yel','📅');chip(c,'c1d',70,530,'Sesak nafas','pink','🫁');
+/* S2 kelas 8.8–12.9 */
+c=scene('s2',8.8,12.9);
+mk(c,'board',140,430,800,330,svg(800,330,`<rect width="800" height="330" rx="24" fill="#5b3a1f"/><rect x="18" y="18" width="764" height="294" rx="12" fill="#1f5a4a"/><path d="M70 110 H330 M70 170 H260 M70 230 H300" stroke="#cfe9df" stroke-width="10" stroke-linecap="round" opacity=".55"/><circle cx="620" cy="165" r="70" fill="none" stroke="#cfe9df" stroke-width="10" opacity=".45"/>`));
+const kw=bust(c,'kw',10,900,'kawan',1.0);const hk2=bust(c,'hk2',610,900,'hakim',1.0);
+mk(c,'desk',0,1440,1080,500,svg(1080,500,`<rect width="1080" height="70" rx="20" fill="#C98A4B"/><rect y="50" width="1080" height="450" fill="#1b1150"/>`));
+const vir=[];for(let i=0;i<9;i++)vir.push(mk(c,'',0,0,74,74,virusSVG(74)));
+mk(c,'hachoo',250,830,300,110,`<div style="background:#FFC93C;color:#1b1450;font-weight:900;font-size:50px;padding:14px 28px;border-radius:24px;display:inline-block;transform:rotate(-6deg)">HACHOO!</div>`,'0 100%');
+chip(c,'c2a',340,770,'Influenza','pink','🦠');chip(c,'c2b',60,1540,'Kawan sekelas','','');chip(c,'c2c',700,1540,'Hakim','','');
+/* S3 beza 12.9–25.6 */
+c=scene('s3',12.9,25.6);
+chip(c,'c3h',320,400,'APA BEZANYA?','yel np','');
+mk(c,'cardA',90,510,900,0,`<div class="card" style="padding:30px 40px 40px;border-color:#2ED3B7;border-width:5px"><div style="font-weight:900;font-size:60px;color:#2ED3B7">SELESEMA BIASA</div>${rowHTML('a1','🐢','Datang perlahan-lahan')}${rowHTML('a2','💧','Hidung berair')}${rowHTML('a3','🤧','Bersin')}${rowHTML('a4','🌡️','Demam ringan')}</div>`,'50% 0');$('cardA').style.height='auto';
+mk(c,'cardB',90,510,900,0,`<div class="card" style="padding:30px 40px 40px;border-color:#F0468A;border-width:5px;background:#3a1150"><div style="font-weight:900;font-size:60px;color:#FF7FB0">INFLUENZA</div>${rowHTML('b1','⚡','Datang mengejut')}${rowHTML('b2','🔥','Demam tinggi')}${rowHTML('b3','💥','Sakit seluruh badan')}${rowHTML('b4','😫','Letih teruk')}</div>`,'50% 0');$('cardB').style.height='auto';
+const am3=bust(c,'am3',310,1170,'aminah',1.05);
+/* S4 bahaya 25.6–34.2 */
+c=scene('s4',25.6,34.2);
+mk(c,'s4wall',0,1480,1080,460,svg(1080,460,`<rect width="1080" height="460" fill="#1b1150"/>`));
+chip(c,'c4h',280,410,'TANDA BAHAYA','pink','⚠️');
+const SIGN=[['c4a',70,530,'Sesak nafas','🫁',27.6],['c4b',520,530,'Tak mahu minum','🥤',28.8],['c4c',70,640,'Lembik','😪',30.08],['c4d',420,640,'Sawan','⚡',30.8]];
+SIGN.forEach(s=>chip(c,s[0],s[1],s[2],s[3],'',s[4]));
+const mak4=bust(c,'mak4',60,900,'mak',1.12);
+const X=`<div style="position:absolute;right:-6px;bottom:-6px;width:130px;height:130px;border-radius:50%;background:#F0468A;border:8px solid #fff;display:flex;align-items:center;justify-content:center;font-size:84px;font-weight:900;color:#fff;line-height:1">✕</div>`;
+[['🫁','#3FA9F5',''],['🥤','#FFC93C',X],['😪','#b9a8ff',''],['⚡','#F0468A','']].forEach((o,i)=>mk(c,'ic'+i,620,860,380,380,bigIcon(o[0],o[1],o[2])));
+mk(c,'go4',470,860,560,420,`<div class="card" style="background:#FFC93C;color:#1b1450;border-color:rgba(255,255,255,.4);padding:30px 20px;text-align:center"><div style="width:130px;height:130px;margin:0 auto 14px;border-radius:30px;background:#F0468A;display:flex;align-items:center;justify-content:center"><svg width="84" height="84" viewBox="0 0 84 84"><rect x="30" y="6" width="24" height="72" rx="6" fill="#fff"/><rect x="6" y="30" width="72" height="24" rx="6" fill="#fff"/></svg></div><div style="font-weight:900;font-size:64px;line-height:1.05">SEGERA KE</div><div style="font-weight:900;font-size:52px;line-height:1.15">KLINIK / HOSPITAL</div></div>`);
+/* S5 risiko 34.2–41.5 */
+c=scene('s5',34.2,41.5);
+chip(c,'c5h',190,410,'SIAPA PALING BERISIKO?','yel np','');
+const RISK=[['Kanak-kanak kecil',35.92,miniBust('#E3B58F','#FFC93C',`<path d="M56 70 Q60 30 110 30 Q160 30 164 70 Q110 46 56 70Z" fill="#3a2a22"/>`,`<circle cx="110" cy="140" r="12" fill="#F0468A"/>`)],
+ ['Warga emas',37.16,miniBust('#C98B5F','#8f7bea',`<path d="M48 84 Q50 30 110 30 Q170 30 172 84 Q110 54 48 84Z" fill="#e6e3f2"/>`,`<circle cx="90" cy="102" r="20" fill="none" stroke="#1d1438" stroke-width="5"/><circle cx="130" cy="102" r="20" fill="none" stroke="#1d1438" stroke-width="5"/>`)],
+ ['Ibu mengandung',38.28,miniBust('#D9A070','#F58BB4',`<path fill-rule="evenodd" fill="#8f7bea" d="M36 100 Q30 16 110 16 Q190 16 184 100 L188 176 Q110 150 32 176Z M58 100 Q58 56 110 56 Q162 56 162 100 Q162 146 110 148 Q58 146 58 100Z"/>`,`<ellipse cx="110" cy="232" rx="62" ry="40" fill="#E0689A"/>`)],
+ ['Asma / penyakit kronik',39.36,miniBust('#8d5a3b','#2BA39B',`<path d="M46 90 Q44 28 110 28 Q176 28 174 90 Q150 56 110 58 Q70 56 46 90Z" fill="#231a3a"/>`,`<g transform="translate(150 150) rotate(18)"><rect x="0" y="0" width="34" height="58" rx="8" fill="#3FA9F5"/><rect x="-22" y="40" width="44" height="26" rx="8" fill="#cfe6ff"/></g>`)]];
+RISK.forEach((r,i)=>{const x=90+(i%2)*470,y=530+Math.floor(i/2)*440;mk(c,'rk'+i,x,y,430,410,`<div class="card" style="width:430px;height:410px;padding:24px 16px 0;text-align:center"><div style="display:flex;justify-content:center">${r[2]}</div><div style="font-weight:800;font-size:${i===3?34:38}px;margin-top:22px;line-height:1.1">${r[0]}</div></div>`)});
+/* S6 cegah 41.5–48.2 */
+c=scene('s6',41.5,48.2);
+chip(c,'c6h',330,410,'CARA CEGAH','teal np','');
+const PREV=[['💉','Vaksin influenza<br><span style="color:#FFC93C">setiap tahun</span>',42.56],['😷','Pakai <span style="color:#FFC93C">topeng muka</span>',44.96],['🏠','<span style="color:#FFC93C">Duduk di rumah</span><br>bila sakit',46.24]];
+PREV.forEach((p,i)=>mk(c,'pv'+i,90,520+i*215,900,190,`<div class="card" style="width:900px;height:190px;display:flex;align-items:center;gap:30px;padding:0 34px"><div style="width:130px;height:130px;border-radius:34px;background:#2c2378;display:flex;align-items:center;justify-content:center;font-size:84px;flex:none">${p[0]}</div><div style="font-weight:800;font-size:48px;line-height:1.12">${p[1]}</div></div>`,'0 50%'));
+const am6=bust(c,'am6',310,1190,'aminah',1.05);
+/* S7 penutup 48.2–TOTAL */
+c=scene('s7',48.2,TOTAL+1);
+mk(c,'q7',90,440,900,330,`<div class="big" style="font-size:110px">Anak demam?</div><div class="big" style="font-size:96px;color:var(--yellow);margin-top:18px">Jangan tunggu.</div>`);
+mk(c,'logo7',410,390,260,260,`<div style="width:260px;height:260px;border-radius:56px;overflow:hidden;border:5px solid #2ED3B7;box-shadow:0 14px 40px rgba(10,5,40,.5)"><img src="logo_crop.png" style="width:100%;height:100%;object-fit:cover"></div>`);
+mk(c,'kn7',190,690,700,110,`<div style="display:flex;justify-content:center"><div class="chip np" style="height:104px;font-size:56px;font-weight:900;color:var(--yellow);border-radius:52px;padding:0 44px">Klinik Nissa, Nilai</div></div>`);
+mk(c,'sv7a',140,820,800,100,`<div style="display:flex;justify-content:center"><div class="chip pink np" style="height:88px;font-size:42px">🌡️&nbsp; Pemeriksaan demam</div></div>`);
+mk(c,'sv7b',140,925,800,100,`<div style="display:flex;justify-content:center"><div class="chip teal np" style="height:88px;font-size:42px">💉&nbsp; Vaksin influenza</div></div>`);
+mk(c,'wa7',190,1035,700,110,`<div style="display:flex;justify-content:center"><div class="chip yel np" style="height:100px;font-size:48px;border-radius:50px;padding:0 40px">WhatsApp 012-608 1411</div></div>`);
+const am7=bust(c,'am7',310,1210,'aminah',1.15);
+mk(c,'ft7',90,1700,900,60,`<div style="display:flex;justify-content:center"><div style="font-size:30px;color:#fff;font-weight:800;background:rgba(20,12,60,.82);padding:10px 22px;border-radius:14px">Video pendidikan, bukan diagnosis.</div></div>`);
+
+/* ---------- captions ---------- */
+const cap=$('cap');let capIdx=-2;
+function captions(t){let idx=-1;for(let i=0;i<SUBS.length;i++){if(t>=SUBS[i].s-0.05&&t<SUBS[i].e){idx=i;break}}
+  if(idx!==capIdx){capIdx=idx;cap.innerHTML=idx<0?'':'<div>'+SUBS[idx].w.map((w,j)=>`<span data-s="${w.s}" class="${w.k?'k':''}">${w.t}</span>`).join(' ')+'</div>'}
+  if(idx>=0){cap.querySelectorAll('span').forEach(s=>s.classList.toggle('on',t>=parseFloat(s.dataset.s)-0.04));
+    const q=P(t,SUBS[idx].s-0.05,.16);T(cap,{s:.9+.1*back(q),o:q*3});}}
+
+/* ---------- render(t) ---------- */
+function rowsIn(ids,times,t){ids.forEach((id,i)=>{const q=P(t,times[i],.35);const e=$(id);e.style.opacity=cl(q*4);e.style.transform=`translateX(${(-50*(1-eo(q))).toFixed(1)}px)`;})}
+function render(t){
+  blobs.forEach((b,i)=>T(b,{x:sin(t*.23+i*1.7)*70,y:sin(t*.17+i*2.3)*90,s:1+sin(t*.3+i)*.12}));
+  stars.forEach((s,i)=>T(s,{o:.25+.55*(.5+.5*sin(t*(1.2+rnd(i)*2)+i*3)),y:-((t*(6+rnd(i+5)*14))%60)}));
+  $('bgBody').style.opacity=0; $('bgAlert').style.opacity=(t>=25.6&&t<34.2)?1:0;
+  $('tag').style.opacity=(t<12.9)?1:0;
+  for(const id in SC){const s=SC[id];const vis=t>=s.a&&t<s.b;s.el.style.visibility=vis?'visible':'hidden';if(!vis)continue;
+    const qi=P(t,s.a,.42), qo=P(t,s.b-.22,.22);const first=s.a===0;
+    s.el.style.opacity=first?1:cl(qi*5); s.el.style.transform=`translateX(${(first?0:96*Math.pow(1-qi,3))-70*qo*qo}px)`;
+    s.el.style.filter=(!first&&qi<1)?`blur(${(8*(1-qi)).toFixed(1)}px)`:(qo>0&&s.b<TOTAL?`blur(${(8*qo).toFixed(1)}px)`:'none');}
+  let q;
+  /* S1 */
+  if(t<8.8){
+    const day3=t>=6.1;
+    T(SC.s1.cam,{s:1.02+eio(P(t,6.1,1.2))*.06+sin(t*.9)*.005});
+    const tq=1-P(t,2.75,.3);T('title',{s:(1+sin(t*2)*.012)*(.85+.15*tq),o:tq,y:-40*(1-tq)});
+    popOut('c1a',t,2.95,6.0,.4);popOut('c1b',t,3.15,6.0,.4);
+    // thermometer rises then leaves when Mak enters
+    const th=P(t,.5,.4)*(1-P(t,3.55,.3));T('th1',{s:.9+.1*back(P(t,.5,.4)),o:th,r:sin(t*2)*3,x:P(t,3.55,.3)*80});
+    const m=eio(P(t,1.2,2.0));const mh=lerp(90,270,m);$('merc').setAttribute('y',340-mh);$('merc').setAttribute('height',mh);
+    const breathe=day3?sin(t*11):sin(t*3);
+    animPerson(hk1,t,{mouth:day3?'open':'sad',sleepy:!day3&&t>2.2&&t<3.4,headR:day3?sin(t*11)*2:-3,y:day3?breathe*5:0,armF:8,armB:-8});
+    hk1.querySelector('.body').style.transform=`scale(${1+(day3?.03:.008)*breathe},${1-(day3?.02:.006)*breathe})`;
+    const mi=eo(P(t,3.6,.5));animPerson(mak1,t,{ph:1.4,x:(1-mi)*520,mouth:day3?'sad':'smile',armB:day3?-150+sin(t*9)*10:-10,headR:day3?-6:3});
+    popOut('bub1',t,3.95,6.0,.4,{r:sin(t*2)*1.5});
+    pop('c1c',t,6.16,.4);pop('c1d',t,7.65,.4,{y:sin(t*6)*4});
+    puff.forEach((e,i)=>{const k=((t*1.6+i*.33)%1);T(e,{x:400+k*110,y:1010+i*26-k*40,o:day3?(1-k)*.9:0,s:.8+k*.6})});
+  }
+  /* S2 */
+  if(t>=8.8&&t<12.9){
+    T(SC.s2.cam,{s:1.03+eio(P(t,10.6,1.2))*.05});
+    const sn=((t-9.0)%1.7);const jerk=sn>0&&sn<.25?eo(sn/.25):(sn<.6?1-eo((sn-.25)/.35):0);
+    animPerson(kw,t,{ph:.7,mouth:jerk>.2?'open':'smile',headR:jerk*14,sleepy:jerk>.2,armB:-6-jerk*60});
+    animPerson(hk2,t,{ph:2,mouth:t>10.6?'sad':'smile',headR:t>10.6?-5:0});
+    const hq=P(sn,.05,.25)*(1-P(sn,.8,.2));T('hachoo',{s:hq<=0?.001:.6+.4*back(P(sn,.05,.25)),o:hq,r:-6});
+    vir.forEach((e,i)=>{const k=cl(((t-9.1-i*.19)%1.7)/1.3);const on=t>9.1+i*.19;const ke=eo(k);
+      T(e,{x:lerp(330,690+rnd(i)*120,ke),y:lerp(1010,1000+rnd(i+4)*200-60,ke)-sin(k*PI)*(60+rnd(i+9)*150),r:t*120+i*40,s:.5+k*.6,o:on?(k<.9?1:(1-k)*10):0})});
+    pop('c2a',t,10.66,.4,{y:sin(t*2.2)*5});pop('c2b',t,11.76,.4);pop('c2c',t,9.76,.4);
+  }
+  /* S3 */
+  if(t>=12.9&&t<25.6){
+    T(SC.s3.cam,{s:1.0+sin(t*.8)*.006});
+    pop('c3h',t,12.96,.4,{y:sin(t*2.2)*4});
+    const sw=eio(P(t,19.55,.5));
+    const qa=P(t,14.15,.45);T('cardA',{s:qa<=0?.001:.9+.1*back(qa),o:qa*4*(1-sw),x:-sw*700,r:-sw*6});
+    T('cardB',{o:sw*3,x:(1-sw)*700,r:(1-sw)*6,s:1+(t>21.3&&t<21.6?sin((t-21.3)*PI/.3)*.03:0)});
+    rowsIn(['a1','a2','a3','a4'],[15.68,16.72,17.92,18.72],t);rowsIn(['b1','b2','b3','b4'],[21.3,22.08,23.16,24.64],t);
+    const up=eo(P(t,13.0,.5));const flu=t>=19.8;
+    animPerson(am3,t,{y:(1-up)*300,o:up*3,armB:-150+sin(t*3)*6,armF:8,mouth:flu&&t>22?'open':'smile',headR:flu?-4:3});
+  }
+  /* S4 */
+  if(t>=25.6&&t<34.2){
+    T(SC.s4.cam,{s:1.04+sin(t*.8)*.006+(t>=32?eio(P(t,32,.6))*.04:0)});
+    pop('c4h',t,25.84,.4,{s:undefined});{const qh=P(t,25.84,.4);T('c4h',{s:(qh<=0?.001:back(qh))*(1+sin(t*6)*.025),o:qh*4});}
+    let cur=-1;SIGN.forEach((s,i)=>{pop(s[0],t,s[5],.4);if(t>=s[5])cur=i;$(s[0]).firstChild.style.background=(i===cur&&t<32)?'#F0468A':'';});
+    for(let i=0;i<4;i++){const st=SIGN[i][5],en=i<3?SIGN[i+1][5]:31.95;const on=t>=st&&t<en;const e=$('ic'+i);
+      if(!on)T(e,{s:.001,o:0});else{const qq=P(t,st,.4);T(e,{s:back(qq)*(i===0?1+sin(t*10)*.04:1),o:1,r:i===3?sin(t*40)*4:sin(t*2.5)*3,y:i===2?P(t,st,.7)*30:sin(t*3)*8})}}
+    pop('go4',t,32.0,.45,{s:undefined});{const qg=P(t,32.0,.45);T('go4',{s:(qg<=0?.001:back(qg))*(1+sin(t*7)*.02),o:qg*4,r:-2});}
+    animPerson(mak4,t,{ph:1,mouth:cur<0?'sad':'open',armB:cur>=0?-150+sin(t*9)*8:-8,armF:t>=32?-30:8,headR:sin(t*5)*2});
+  }
+  /* S5 */
+  if(t>=34.2&&t<41.5){
+    T(SC.s5.cam,{s:1.0+P(t,34.2,7.3)*.04});
+    pop('c5h',t,34.32,.4,{y:sin(t*2.2)*4});
+    RISK.forEach((r,i)=>{const qq=P(t,34.5+i*.12,.42);const named=P(t,r[1],.25);const act=t>=r[1]&&(i===3||t<RISK[i+1][1]);
+      T('rk'+i,{s:(qq<=0?.001:back(qq))*(act?1.05:1)*(1+(named>0&&named<1?sin(named*PI)*.06:0)),o:cl(qq*4)*lerp(.35,1,named),y:sin(t*2.2+i*1.4)*6,r:sin(t*1.7+i)*1.2});
+      $('rk'+i).firstChild.style.borderColor=act?'#FFC93C':'';});
+  }
+  /* S6 */
+  if(t>=41.5&&t<48.2){
+    T(SC.s6.cam,{s:1.0+sin(t*.8)*.006});
+    pop('c6h',t,41.6,.4,{y:sin(t*2.2)*4});
+    PREV.forEach((p,i)=>{const qq=P(t,p[2],.42);const act=t>=p[2]&&(i===2||t<PREV[i+1][2]);
+      T('pv'+i,{x:(1-eo(qq))*-140,o:qq*4,s:act?1.03:1});$('pv'+i).firstChild.style.borderColor=act?'#2ED3B7':'';
+      $('pv'+i).firstChild.firstChild.style.transform=`rotate(${act?sin(t*6)*6:0}deg) scale(${act?1.08:1})`;});
+    const up=eo(P(t,41.55,.5));animPerson(am6,t,{y:(1-up)*300,o:up*3,armB:-150+sin(t*3)*6,armF:8,mouth:'smile',headR:3});
+  }
+  /* S7 */
+  if(t>=48.2){
+    T(SC.s7.cam,{s:1.02+sin(t*.8)*.006});
+    const sw=1-P(t,50.3,.25);const q1=P(t,48.37,.4);
+    T('q7',{s:(q1<=0?.001:.8+.2*back(q1))*(.8+.2*sw),o:q1*4*sw,y:-40*(1-sw)});
+    $('q7').lastChild.style.opacity=P(t,49.28,.15);
+    pop('logo7',t,50.48,.5,{y:sin(t*2)*6});pop('kn7',t,50.75,.45);pop('sv7a',t,52.88,.45);pop('sv7b',t,54.08,.45);
+    const qw=P(t,55.75,.45);T('wa7',{s:(qw<=0?.001:back(qw))*(1+(t>56.4?sin(t*5)*.03:0)),o:qw*4});
+    const up=eo(P(t,48.3,.5));animPerson(am7,t,{y:lerp(260,0,up),o:up*3,armB:-150+sin(t*7)*16,armF:8,mouth:'smile'});
+    T('ft7',{o:P(t,56.0,.4)});
+  }
+  captions(t);
+}
+window.__ready=document.fonts.ready.then(()=>({duration:TOTAL}));
+window.__seek=t=>render(t);
+render(0);
+// preview: file opened directly -> play in real time, loop (R restart)
+if(!/clean=1/.test(location.search)&&!navigator.webdriver){const t0=performance.now();const loop=()=>{render(((performance.now()-t0)/1000)%TOTAL);requestAnimationFrame(loop)};requestAnimationFrame(loop)}
+</script>
+</body>
+</html>
