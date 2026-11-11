@@ -10,7 +10,8 @@ KLINIK_NISSA_CONTENT/
   <date>/VIDEO_0N_<CATEGORY>/  final_video.mp4, thumbnail.png, voiceover.mp3, narration_script.txt,
                                caption_{facebook,instagram,tiktok}.txt, storyboard.md,
                                medical_references.md, schedule_status.json
-work/                       sources & pipeline for the current batch
+work_gula/                  2026-11-11 diabetes reel: coded 2D cartoon (render/index.html), scripts/render.js → mix_audio.py → finalize.sh
+work/                       sources & pipeline for the 2026-11-04 batch (3D clips + overlay)
   img/ clips/ audio/        Higgsfield stills, 3D animation clips, ElevenLabs audio
   render/overlay.html       motion-graphics composition (GSAP): subtitles, chips, end card
   render/thumbnail.html     thumbnail template
