@@ -1,0 +1,15 @@
+{
+  "video_id": "2026-11-11_VIDEO_01_GENERAL_HEALTH_kenali-asma",
+  "metricool_brand": {"label": "Klinik Nissa", "brandId": 7840561, "timezone": "Asia/Kuala_Lumpur"},
+  "approval_gate": {
+    "medical_accuracy": "PENDING",
+    "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR in the user's own ElevenLabs workspace, requested by the user)",
+    "brand_logo": "VERIFIED (same original logo file as previous videos)",
+    "whatsapp_number": "PENDING_CONFIRMATION (012-608 1411)",
+    "advertising_compliance_MAB": "PENDING",
+    "publishing_instruction": "None given"
+  },
+  "status": "REVIEW_READY",
+  "scheduled_posts": [],
+  "notes": "Not scheduled. No publishing instruction was given for this video."
+}

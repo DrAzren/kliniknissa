@@ -305,8 +305,10 @@ export const Intro: React.FC<SceneProps> = (p) => {
       <div style={{position: 'absolute', left: 330, top: 1040, width: 760, height: 360, borderRadius: '50px 0 0 30px', background: C.violet[0]}} />
       <div style={{position: 'absolute', left: 380, top: 1190, width: 260, height: 130, borderRadius: 50, background: '#fff', opacity: 0.92}} />
       {/* Amir: baring -> duduk terjaga */}
-      <div style={{position: 'absolute', left: 430, top: 800 + (1 - up) * 190, transform: `rotate(${(1 - up) * -72}deg)`, transformOrigin: '50% 80%'}}>
-        <Avatar preset={AMIR} width={480} mood={up < 0.5 ? 'tired' : 'shock'} pose={f >= aKetat ? 'clasp' : 'down'} seed={2} style={{transform: f >= aKetat ? `translateY(${Math.sin(f / 2.2) * 4}px)` : undefined}} />
+      <div style={{position: 'absolute', left: 0, top: 0, width: 1080, height: 1345, overflow: 'hidden'}}>
+        <div style={{position: 'absolute', left: 430, top: 800 + (1 - up) * 190, transform: `rotate(${(1 - up) * -72}deg)`, transformOrigin: '50% 80%'}}>
+          <Avatar preset={AMIR} width={480} mood={up < 0.5 ? 'tired' : 'shock'} pose={f >= aKetat ? 'clasp' : 'down'} seed={2} style={{transform: f >= aKetat ? `translateY(${Math.sin(f / 2.2) * 4}px)` : undefined}} />
+        </div>
       </div>
       {/* selimut */}
       <div style={{position: 'absolute', left: 360, top: 1330, width: 720, height: 240, borderRadius: '90px 0 0 30px', background: C.pink[0]}} />
@@ -838,7 +840,7 @@ export const Cegah: React.FC<SceneProps> = (p) => {
     <Camera dur={p.dur} to={1.06} panY={-12}>
       <AbsoluteFill style={{background: `linear-gradient(180deg, ${C.night[1]} 0%, ${C.violet[0]} 70%, #1F6F78 100%)`}} />
       <Glow x={540} y={900} r={560} color={C.green} opacity={0.22} />
-      <Pop at={2} style={{left: 0, width: 1080, top: 545, display: 'flex', justifyContent: 'center'}}>
+      <Pop at={2} style={{left: 0, width: 1080, top: 578, display: 'flex', justifyContent: 'center'}}>
         <Pill text="CARA KAWAL ASMA" bg={C.yellow} color={C.navy} size={50} />
       </Pop>
       {tiles.map((t, i) => {
@@ -846,7 +848,7 @@ export const Cegah: React.FC<SceneProps> = (p) => {
         const ff = f - t.a;
         const on = i === active;
         return (
-          <div key={i} style={{position: 'absolute', left: 60, top: 665 + i * 160, width: 960, height: 146, background: t.bg, borderRadius: 36, display: 'flex', alignItems: 'center', gap: 22, padding: '0 28px', transform: `scale(${popScale(ff) * (on ? 1 : 0.97)})`, opacity: popOpacity(ff) * (on ? 1 : 0.72), boxShadow: SHADOW, border: on ? `5px solid ${C.yellow}` : '5px solid transparent', boxSizing: 'border-box'}}>
+          <div key={i} style={{position: 'absolute', left: 60, top: 696 + i * 152, width: 960, height: 138, background: t.bg, borderRadius: 36, display: 'flex', alignItems: 'center', gap: 22, padding: '0 28px', transform: `scale(${popScale(ff) * (on ? 1 : 0.97)})`, opacity: popOpacity(ff) * (on ? 1 : 0.72), boxShadow: SHADOW, border: on ? `5px solid ${C.yellow}` : '5px solid transparent', boxSizing: 'border-box'}}>
             <div style={{width: 70, height: 70, borderRadius: 35, background: C.yellow, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0}}>
               <Txt size={40} color={C.navy}>{i + 1}</Txt>
             </div>
