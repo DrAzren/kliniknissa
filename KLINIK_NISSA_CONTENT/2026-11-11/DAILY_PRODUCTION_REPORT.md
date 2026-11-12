@@ -9,7 +9,7 @@ Batch scope: one video requested by the user ("Asma": storytelling hook of a you
 - **Thumbnail:** `thumbnail.png` / `.jpg` (1080×1920), from `animasi/src/topics/kenali-asma/Cover.tsx`.
 - **Captions:** Facebook, Instagram, TikTok, a short all-platform caption and `description.txt`. No hashtags.
 - **Medical review:** PENDING. See `medical_references.md` (7 claims, 5 items flagged; source pages were not re-opened in this session).
-- **Approval status:** REVIEW-READY. Not scheduled.
+- **Scheduled (user instruction):** Metricool post 426295942 for **13 Nov 2026, 07:00 MYT** on Facebook (Reel), Instagram (Reel) and TikTok, with the custom thumbnail and `caption_scheduled_all_platforms.txt`. Status PENDING until publication. The first requested slot (11 Nov 17:15) was missed because the session was interrupted.
 
 ## Usage (verified from tool responses)
 - **ElevenLabs:** 1,191.9 credits
@@ -25,4 +25,4 @@ Batch scope: one video requested by the user ("Asma": storytelling hook of a you
 ## Outstanding approvals
 1. Doctor medical-accuracy sign-off (`medical_references.md` checklist).
 2. Carried over: WhatsApp 012-608 1411 confirmation, MAB/KKLIU status for the clinic-service CTA, voice-clone authorisation.
-3. Scheduling: no instruction given yet.
+3. Scheduling: done at the user's request; publication not yet confirmed.

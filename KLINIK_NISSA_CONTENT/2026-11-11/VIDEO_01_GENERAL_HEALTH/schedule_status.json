@@ -1,15 +1,37 @@
 {
   "video_id": "2026-11-11_VIDEO_01_GENERAL_HEALTH_kenali-asma",
-  "metricool_brand": {"label": "Klinik Nissa", "brandId": 7840561, "timezone": "Asia/Kuala_Lumpur"},
+  "metricool_brand": {
+    "label": "Klinik Nissa",
+    "brandId": 7840561,
+    "timezone": "Asia/Kuala_Lumpur"
+  },
   "approval_gate": {
     "medical_accuracy": "PENDING",
     "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR in the user's own ElevenLabs workspace, requested by the user)",
     "brand_logo": "VERIFIED (same original logo file as previous videos)",
     "whatsapp_number": "PENDING_CONFIRMATION (012-608 1411)",
     "advertising_compliance_MAB": "PENDING",
-    "publishing_instruction": "None given"
+    "publishing_instruction": "User instructed scheduling for 2026-11-13 07:00 MYT (FB, IG, TikTok). The first request, 11 Nov 17:15, was missed because the session was interrupted."
   },
-  "status": "REVIEW_READY",
-  "scheduled_posts": [],
-  "notes": "Not scheduled. No publishing instruction was given for this video."
+  "status": "SCHEDULED",
+  "scheduled_posts": [
+    {
+      "metricool_post_id": 426295942,
+      "uuid": "-500496204300008197",
+      "publication": "2026-11-13T07:00:00 Asia/Kuala_Lumpur",
+      "networks": {
+        "facebook": "REEL, title 'Kenali Asma' / PENDING",
+        "instagram": "REEL, shown on feed, AI-generated label / PENDING",
+        "tiktok": "PUBLIC, AIGC label, own-brand commercial disclosure, title 'Kenali Asma' / PENDING"
+      },
+      "autoPublish": true,
+      "caption_file": "caption_scheduled_all_platforms.txt",
+      "source_media": "https://raw.githubusercontent.com/DrAzren/kliniknissa/1560b7a3b05e588cd1828da8e13e9b3d49997dce/KLINIK_NISSA_CONTENT/2026-11-11/VIDEO_01_GENERAL_HEALTH/final_video.mp4",
+      "media": "https://static.metricool.com/planner/202611/7705651-file-949450892279868634.mp4",
+      "thumbnail": "https://static.metricool.com/planner/202611/7705651-file-1495146425131211959.jpeg",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7840561&openWithPostUuid=-500496204300008197",
+      "verified_via": "createScheduledPost response 2026-11-13 06:19 MYT"
+    }
+  ],
+  "notes": "Scheduled at the user's explicit request. Status is PENDING until Metricool publishes; publication itself is not yet confirmed. Medical review (medical_references.md) still pending."
 }
