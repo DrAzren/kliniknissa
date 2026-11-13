@@ -21,6 +21,10 @@ import {SCENES as S5} from './hipoglisemia/scenes';
 import {Cover as Cover5} from './hipoglisemia/Cover';
 import script5 from '../../topics/hipoglisemia/script.json';
 import words5 from '../../topics/hipoglisemia/words.json';
+import {SCENES as S6} from './kencing-tikus/scenes';
+import {Cover as Cover6} from './kencing-tikus/Cover';
+import script6 from '../../topics/kencing-tikus/script.json';
+import words6 from '../../topics/kencing-tikus/words.json';
 
 export type Topic = {
   script: ScriptFile;
@@ -36,4 +40,5 @@ export const TOPICS: Record<string, Topic> = {
   'kenali-eczema': {script: script3 as ScriptFile, words: words3 as WordsFile, scenes: S3, Cover: Cover3},
   'jenis-nyamuk': {script: script4 as ScriptFile, words: words4 as WordsFile, scenes: S4, Cover: Cover4},
   hipoglisemia: {script: script5 as ScriptFile, words: words5 as WordsFile, scenes: S5, Cover: Cover5},
+  'kencing-tikus': {script: script6 as ScriptFile, words: words6 as WordsFile, scenes: S6, Cover: Cover6},
 };
