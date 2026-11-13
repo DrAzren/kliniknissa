@@ -26,7 +26,8 @@ Batch scope: one video requested by the user ("Apa jadi kalau gula darah terlalu
 - **Production:** `animasi/` Remotion (Violet Flat SVG), topic `kencing-tikus`, avatar `dr-azren` (unchanged). New: Rahman + wife, "3D" spiral *Leptospira* (front/back layering, highlights, perspective), rat, animated flood water, 1–30 day incubation calendar, boots / gloves / plaster / shower icons.
 - **Voice:** Dr Azren (`lN6exnzhuXDOyNQfsVSR`, `eleven_v4`, emotion tags), **1 take only**, 92.4 s. "lep-to-spi-ro-sis" (captions: leptospirosis); "boot" for "but" (captions: but). Scribe word timings.
 - **Music & SFX:** music reused from jenis-nyamuk (0 credits). 2 new SFX (flood water 2 s, rat squeak 1 s), 1 take each, normalised ~−20 LUFS; whoosh, pop, sting, chime, slap reused.
-- **Duration / tech:** see render line (pending).
+- **Duration / tech:** 92.97 s (voice + 0.5 s), 1080×1920, 30 fps, H.264 6.4 Mbps (2-pass re-encode of the 8.3 Mbps render, 96.2 MB → 76.7 MB), AAC 48 kHz, −14.6 LUFS, true peak −1.0 dB (gain only).
+- **Files:** same set as Video 1.
 - **Medical review:** PENDING (`medical_references.md`, 2 items flagged ⚠️)
 - **Approval status:** REVIEW-READY. Not scheduled.
 
