@@ -1,0 +1,226 @@
+{
+ "id": "kencing-tikus",
+ "title": "Kencing tikus (leptospirosis) selepas banjir",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[serious] Banjir dah surut... tapi bahaya sebenar, baru bermula.\n\n[storytelling] Encik Rahman, empat puluh lima tahun. Selepas banjir, dia bersihkan rumah yang penuh lumpur, tanpa boot. Kakinya terluka kena serpihan kayu. [casual] \"Luka sikit je.\"\n\n[concerned] Seminggu kemudian, dia demam tinggi. Betisnya sakit sangat, sampai susah nak berjalan. Matanya merah. [worried] Isterinya terus bawa dia ke klinik.\n\n[serious] Doktor tanya, \"Ada terlibat dengan banjir?\" Ujian darah sahkan... Encik Rahman dijangkiti lep-to-spi-ro-sis, atau penyakit kencing tikus.\n\nSatu. Apa itu kencing tikus? Jangkitan bakteria berbentuk spiral, yang keluar bersama air kencing tikus dan haiwan lain, lalu mencemari air dan tanah.\n\nDua. Cara jangkitan. Bakteria masuk melalui luka di kulit, mata, hidung dan mulut. Risiko paling tinggi semasa meredah air banjir dan membersihkan lumpur.\n\nTiga. Tanda. Biasanya muncul dalam dua hingga tiga puluh hari, purata sepuluh hari. Demam mengejut, sakit kepala, sakit otot terutama betis, dan mata merah. Kalau teruk, kulit dan mata jadi kuning, kencing berkurang, dan boleh membawa maut.\n\nEmpat. Cegah. Pakai boot getah dan sarung tangan. Tutup luka dengan plaster kalis air. Jangan redah atau bermain air banjir. Selepas terdedah, terus mandi dengan air bersih.\n\n[relieved] Encik Rahman dapat antibiotik awal, dan dia pulih sepenuhnya.\n\n[warmly] Demam dalam masa sebulan selepas banjir? Jangan tunggu. Pergi ke klinik, dan beritahu doktor anda terlibat dengan banjir. Saya Doktor Azren.",
+  "note": "1 take sahaja. ElevenLabs Flow 2Aas1CJjdh0xzEUWshQB, generation TFcwQNfcmabTryXw8khC, 92.4 s, 1,506.8 kredit. Sebutan: lep-to-spi-ro-sis; 'boot' = but (kasut)."
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "kerja",
+   "marker": "Encik Rahman"
+  },
+  {
+   "id": "simptom",
+   "marker": "Seminggu"
+  },
+  {
+   "id": "diagnosis",
+   "marker": "Doktor tanya"
+  },
+  {
+   "id": "apa",
+   "marker": "Satu",
+   "n": 1,
+   "label": "Apa itu?"
+  },
+  {
+   "id": "jangkitan",
+   "marker": "Dua Cara",
+   "n": 2,
+   "label": "Cara jangkitan"
+  },
+  {
+   "id": "tanda",
+   "marker": "Tiga Tanda",
+   "n": 3,
+   "label": "Tanda"
+  },
+  {
+   "id": "cegah",
+   "marker": "Empat Cegah",
+   "n": 4,
+   "label": "Cegah"
+  },
+  {
+   "id": "pulih",
+   "marker": "Encik Rahman dapat"
+  },
+  {
+   "id": "penutup",
+   "marker": "Demam dalam masa"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat"
+ ],
+ "keywords": [
+  "Banjir",
+  "surut",
+  "bahaya sebenar",
+  "Encik Rahman",
+  "45 tahun",
+  "lumpur",
+  "tanpa but",
+  "terluka",
+  "Luka sikit je",
+  "Seminggu kemudian",
+  "demam tinggi",
+  "Betisnya",
+  "sakit sangat",
+  "Matanya merah",
+  "klinik",
+  "terlibat dengan banjir",
+  "Ujian darah",
+  "leptospirosis",
+  "kencing tikus",
+  "bakteria",
+  "spiral",
+  "air kencing tikus",
+  "haiwan lain",
+  "air dan tanah",
+  "Cara jangkitan",
+  "luka",
+  "kulit",
+  "mata",
+  "hidung",
+  "mulut",
+  "Risiko paling tinggi",
+  "meredah air banjir",
+  "membersihkan lumpur",
+  "Tanda",
+  "2 hingga 30 hari",
+  "10 hari",
+  "Demam mengejut",
+  "sakit kepala",
+  "betis",
+  "mata merah",
+  "kuning",
+  "kencing berkurang",
+  "membawa maut",
+  "Cegah",
+  "but getah",
+  "sarung tangan",
+  "plaster kalis air",
+  "Jangan redah",
+  "air banjir",
+  "mandi",
+  "air bersih",
+  "antibiotik awal",
+  "pulih sepenuhnya",
+  "sebulan selepas banjir",
+  "Jangan tunggu",
+  "Dr. Azren"
+ ],
+ "corrections": {
+  "lep-to-spi-ro-sis": "leptospirosis",
+  "tanpa boot": "tanpa but",
+  "boot getah": "but getah",
+  "empat puluh lima tahun": "45 tahun",
+  "dua hingga tiga puluh hari": "2 hingga 30 hari",
+  "sepuluh hari": "10 hari",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.35,
+  "sfx": [
+   {
+    "file": "flood.mp3",
+    "at": "Banjir dah surut",
+    "offset": 0,
+    "volume": 0.7
+   },
+   {
+    "file": "sting.mp3",
+    "at": "bahaya sebenar",
+    "offset": 0.1,
+    "volume": 0.7
+   },
+   {
+    "file": "slap.mp3",
+    "at": "terluka",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "sting.mp3",
+    "at": "lep-to-spi-ro-sis",
+    "offset": 0,
+    "volume": 0.6
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "squeak.mp3",
+    "at": "air kencing tikus",
+    "offset": 0.2,
+    "volume": 0.7
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Cara",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "flood.mp3",
+    "at": "meredah air banjir",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Tanda",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Cegah",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "chime.mp3",
+    "at": "pulih sepenuhnya",
+    "offset": 0,
+    "volume": 0.8
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "SELEPAS BANJIR",
+  "headline": [
+   "KENCING",
+   "TIKUS"
+  ],
+  "highlight": "Bahaya baru bermula",
+  "sub": "Leptospirosis: tanda & cara cegah",
+  "tags": [
+   "Luka",
+   "Betis sakit",
+   "Mata merah"
+  ]
+ }
+}
