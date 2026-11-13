@@ -19,3 +19,24 @@ Batch scope: one video requested by the user ("Apa jadi kalau gula darah terlalu
   - Music: 0 (reused; no music generation run)
   - Scribe transcription: 0
 - **Higgsfield:** 0 credits (only free media_upload for the Metricool public URL)
+
+## Video 2 — VIDEO_02_KESIHATAN_KENCING_TIKUS
+- **Topic:** Kencing tikus (leptospirosis) selepas banjir. Hook: "Banjir dah surut… tapi bahaya sebenar baru bermula." Story: Encik Rahman (45, fictional) cleans his muddy house after a flood without boots and cuts his foot ("Luka sikit je"); a week later high fever, very painful calves, red eyes; wife takes him to a generic KLINIK; doctor asks about flood exposure, blood test confirms leptospirosis. Dr. Azren explains #1 what it is, #2 transmission, #3 signs (incubation 2–30 days, average 10; severe: jaundice, less urine, can be fatal), #4 prevention. Rahman recovers with early antibiotics. Closes "Demam dalam masa sebulan selepas banjir? Jangan tunggu… beritahu doktor anda terlibat dengan banjir. Saya Doktor Azren." **No clinic CTA.**
+- **Fact base:** KKM Guidelines for the Diagnosis, Management, Prevention and Control of Leptospirosis in Malaysia (2011), read from a public repost (moh.gov.my PDF blocked, 403); KKM flood-season advisories.
+- **Production:** `animasi/` Remotion (Violet Flat SVG), topic `kencing-tikus`, avatar `dr-azren` (unchanged). New: Rahman + wife, "3D" spiral *Leptospira* (front/back layering, highlights, perspective), rat, animated flood water, 1–30 day incubation calendar, boots / gloves / plaster / shower icons.
+- **Voice:** Dr Azren (`lN6exnzhuXDOyNQfsVSR`, `eleven_v4`, emotion tags), **1 take only**, 92.4 s. "lep-to-spi-ro-sis" (captions: leptospirosis); "boot" for "but" (captions: but). Scribe word timings.
+- **Music & SFX:** music reused from jenis-nyamuk (0 credits). 2 new SFX (flood water 2 s, rat squeak 1 s), 1 take each, normalised ~−20 LUFS; whoosh, pop, sting, chime, slap reused.
+- **Duration / tech:** see render line (pending).
+- **Medical review:** PENDING (`medical_references.md`, 2 items flagged ⚠️)
+- **Approval status:** REVIEW-READY. Not scheduled.
+
+### Usage (verified from tool responses)
+- **ElevenLabs:** 1,516.8 credits
+  - eleven_v4 TTS, 1 take: 1,506.8 (estimate before approval: ~1,510 for 1,507 chars)
+  - SFX v2 × 2, 1 take each: 6.7 + 3.3 = 10.0 (estimate ~10)
+  - Music: 0 (reused) · Scribe: 0
+- **Higgsfield:** 0 credits
+
+## Day total (verified)
+- **ElevenLabs:** 1,641.2 + 1,516.8 = **3,158.0 credits**
+- **Higgsfield:** 0 credits

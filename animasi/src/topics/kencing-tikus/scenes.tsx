@@ -542,7 +542,7 @@ export const Diagnosis: React.FC<SceneProps> = (p) => {
       <Pop at={aAda - 2} style={{left: 60, top: 500}}>
         <Bubble size={46}>"Ada terlibat dengan banjir?"</Bubble>
       </Pop>
-      <Pop at={aUji} style={{left: 700, top: 640}}>
+      <Pop at={aUji} style={{left: 620, top: 640}}>
         <div style={{display: 'flex', alignItems: 'center', gap: 10, background: C.navy, padding: '8px 26px 8px 10px', borderRadius: 40}}>
           <MIcon name="tube" size={80} />
           <Txt size={38} color={C.yellow}>Ujian darah</Txt>
@@ -685,7 +685,7 @@ export const Tanda: React.FC<SceneProps> = (p) => {
           <Pop at={aDua - 6} style={{left: 90, top: 500}}>
             <Calendar from={2} upto={f >= aDua ? upto : 0} mark10={f >= aSep} width={900} />
           </Pop>
-          <Pop at={aSep} style={{left: 0, width: 1080, top: 1240, display: 'flex', justifyContent: 'center'}}>
+          <Pop at={aSep} style={{left: 0, width: 1080, top: 1540, display: 'flex', justifyContent: 'center'}}>
             <Pill text="Purata 10 hari" bg={C.yellow} color={C.navy} size={50} />
           </Pop>
         </>
