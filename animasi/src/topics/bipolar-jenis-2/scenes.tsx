@@ -156,22 +156,22 @@ export const Intro: React.FC<SceneProps> = (p) => {
     <Camera dur={p.dur} to={1.08} panY={-20}>
       <AbsoluteFill style={{background: `linear-gradient(180deg, ${BLUE_BG[0]} 0%, ${BLUE_BG[1]} 100%)`}} />
       <NightSky seed={81} glow={f >= aBuk ? C.labelPink : LOW} top="transparent" bottom="transparent" />
-      <Pop at={aTah - 4} style={{left: 0, width: 1080, top: 490, display: 'flex', justifyContent: 'center'}}>
+      <Pop at={aTah - 4} style={{left: 0, width: 1080, top: 570, display: 'flex', justifyContent: 'center'}}>
         <Pill text="3 TAHUN" bg={C.navy} color={C.yellow} size={64} />
       </Pop>
       {years.map((y, i) => (
-        <Pop key={y} at={aUbat + i * 6} style={{left: 130 + i * 290, top: 640}}>
+        <Pop key={y} at={aUbat + i * 6} style={{left: 130 + i * 290, top: 710}}>
           <div style={{width: 240, borderRadius: 30, background: '#fff', padding: '14px 0', textAlign: 'center', boxShadow: '0 14px 34px rgba(18,11,51,.45)'}}>
             <Txt size={34} color={C.labelPink}>{y}</Txt>
             <div style={{display: 'flex', justifyContent: 'center'}}><HIcon name="pill" size={110} /></div>
           </div>
         </Pop>
       ))}
-      <Who preset={HAKIM} x={290} y={960} w={500} mood={f >= aBuk ? 'curious' : 'sad'} pose={f >= aBuk ? 'chin' : 'down'} seed={1} />
-      <Pop at={aSem} style={{left: 640, top: 1000}}>
+      <Who preset={HAKIM} x={290} y={990} w={500} mood={f >= aBuk ? 'curious' : 'sad'} pose={f >= aBuk ? 'chin' : 'down'} seed={1} />
+      <Pop at={aSem} style={{left: 640, top: 1040}}>
         <Bubble size={40} bg={LOW} color="#fff">Tak sembuh…</Bubble>
       </Pop>
-      <Pop at={aBuk} style={{left: 0, width: 1080, top: 1560, display: 'flex', justifyContent: 'center'}}>
+      <Pop at={aBuk} style={{left: 0, width: 1080, top: 1610, display: 'flex', justifyContent: 'center'}}>
         <div style={{background: C.labelPink, borderRadius: 40, padding: '14px 40px', boxShadow: '0 14px 34px rgba(18,11,51,.5)'}}>
           <Txt size={58} style={{textAlign: 'center'}}>BUKAN kemurungan biasa?</Txt>
         </div>
@@ -263,11 +263,11 @@ export const Tinggi: React.FC<SceneProps> = (p) => {
             );
           })
         : null}
-      <Pop at={aWah - 2} style={{left: 440, top: 1200}}>
+      <Pop at={aWah - 2} style={{left: 160, top: 1330}}>
         <Bubble size={50}>"Wah, Hakim dah okay!"</Bubble>
       </Pop>
-      <Pop at={aTid} style={{left: 820, top: 520}}>
-        <Battery level={1} size={150} />
+      <Pop at={aTid} style={{left: 420, top: 760}}>
+        <Battery level={1} size={130} />
       </Pop>
     </Camera>
   );
@@ -546,8 +546,8 @@ export const Penutup: React.FC<SceneProps> = (p) => {
       <NightSky seed={89} glow={C.violet[3]} top="transparent" bottom="transparent" stars={50} />
       <Pop at={2} style={{left: 0, width: 1080, top: 480, display: 'flex', justifyContent: 'center'}}>
         <div style={{display: 'flex', alignItems: 'center', gap: 12}}>
-          <Pill text="Pernah murung" bg={LOW} size={42} />
-          {f >= aBer ? <Pill text="+ hari luar biasa bertenaga?" bg={HIGH} color={C.navy} size={38} /> : null}
+          <Pill text="Pernah murung" bg={LOW} size={38} />
+          {f >= aBer ? <Pill text="+ hari luar biasa bertenaga?" bg={HIGH} color={C.navy} size={34} /> : null}
         </div>
       </Pop>
       <Pop at={aBtu} style={{left: 60, top: 620}} origin="left center">

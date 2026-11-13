@@ -38,6 +38,24 @@ Batch scope: one video requested by the user ("Apa jadi kalau gula darah terlalu
   - Music: 0 (reused) · Scribe: 0
 - **Higgsfield:** 0 credits (only free media_upload for the Metricool public URL)
 
+## Video 3 — VIDEO_03_MENTAL_HEALTH_BIPOLAR_TYPE2
+- **Topic:** Bipolar Mood Disorder Type 2 (pronounced "bai-po-la", per user). Storytelling hook: "Tiga tahun Hakim makan ubat kemurungan... tapi dia tak pernah sembuh. Rupa-rupanya, itu bukan kemurungan biasa." Hakim (29, fictional) has months of depression and short bursts of hypomania (4 hours' sleep is enough, all work done in one night, fast talking, friends say "Hakim dah okay!"); his wife notices the pattern and takes him to a psychiatrist; diagnosis Bipolar Type 2. Dr. Azren explains #1 what it is (hypomania + depression; hypomania milder than mania in Type 1), #2 hypomania (≥ 4 days, looks "productive", often missed), #3 depression (≥ 2 weeks, usually longer, often mistaken for plain depression for years), #4 treatment (mood stabiliser or antipsychotic + therapy; antidepressant alone not suitable; regular sleep, family support). Hakim is now stable. Closes "Beritahu doktor anda, dan jangan henti ubat sendiri. Jangan tunggu… Saya Doktor Azren." **No clinic CTA.**
+- **Fact base:** KKM/MaHTAS CPG Management of Bipolar Disorder (Second Edition, 2024) Quick Reference (Key Messages 1, 3, 6, 9) + DSM-5-TR duration criteria. Safety line "jangan henti ubat sendiri" added (recommended in draft; user approved with "Ok proceed").
+- **Production:** `animasi/` Remotion (Violet Flat SVG), topic `bipolar-jenis-2`, avatar `dr-azren` (unchanged). New: Hakim + wife, animated mood graph (hypomania / normal / depression zones), energy battery, day-count rows, bar comparisons; icons reused from `kenali-bipolar` and `hipoglisemia`.
+- **Voice:** Dr Azren (`lN6exnzhuXDOyNQfsVSR`, `eleven_v4`, emotion tags), **1 take only**, 101.04 s. Scribe word timings.
+- **Music & SFX:** music reused from jenis-nyamuk (0 credits). 2 new SFX (energy riser, sad descending tone), 1 take each, normalised ~−20 LUFS; whoosh, pop, sting, chime reused.
+- **Duration / tech:** render pending.
+- **Files:** same set as Video 1.
+- **Medical review:** PENDING (`medical_references.md`, 3 items flagged ⚠️)
+- **Approval status:** REVIEW-READY. Not scheduled.
+
+### Usage (verified from tool responses)
+- **ElevenLabs:** 1,718.2 credits
+  - eleven_v4 TTS, 1 take: 1,704.8 (estimate ~1,675 before the +31-character safety line; 1,705 chars final)
+  - SFX v2 × 2, 1 take each: 6.7 + 6.7 = 13.3 (estimate ~14)
+  - Music: 0 (reused) · Scribe: 0
+- **Higgsfield:** 0 credits
+
 ## Day total (verified)
-- **ElevenLabs:** 1,641.2 + 1,516.8 = **3,158.0 credits**
+- **ElevenLabs:** 1,641.2 + 1,516.8 + 1,718.2 = **4,876.2 credits**
 - **Higgsfield:** 0 credits
