@@ -1,0 +1,235 @@
+{
+ "id": "hipoglisemia",
+ "title": "Apa jadi kalau gula darah terlalu rendah?",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[serious] Pesakit diabetes boleh pengsan... bukan sebab gula terlalu tinggi. Tapi sebab gula terlalu... [emphatic] RENDAH.\n\n[storytelling] Pak Cik Kamal, enam puluh tahun, ada kencing manis. Pagi itu dia suntik insulin, tapi tak sempat sarapan, terus ke gotong-royong di surau.\n\n[concerned] Tengah hari, dia menggeletar, berpeluh sejuk, dan mula keliru. [worried] Anaknya terus bawa dia ke klinik.\n\n[serious] Doktor periksa gula di hujung jari... dua perpuluhan lapan. Pak Cik Kamal alami hai-po-glai-si-mia.\n\n[warmly] Otak kita guna gula sebagai minyak utama. Bila minyak hampir kering, lampu otak mula berkelip.\n\nSatu. Hai-po-glai-si-mia ialah paras gula darah di bawah kira-kira tiga perpuluhan sembilan milimol.\n\nDua. Tandanya. Menggeletar, berpeluh sejuk, jantung berdebar, rasa lapar, dan keliru. Kalau teruk, boleh sampai pitam.\n\nTiga. Punca biasa. Skip makan selepas ambil ubat diabetes atau insulin. Dan bersenam lebih daripada biasa.\n\nEmpat. Pertolongan cemas: Peraturan Lima Belas. Ambil lima belas gram gula cepat serap, contohnya tiga sudu teh gula dalam air, atau satu sudu besar madu. Tunggu lima belas minit. Kemudian periksa semula. Kalau masih rendah, ulang lagi. Bila gula dah naik, makan seperti biasa.\n\n[serious] Tapi kalau pesakit tak sedar, jangan paksa dia minum. Sapukan sesudu madu ke dalam mulutnya, dan terus telefon sembilan sembilan sembilan.\n\n[relieved] Selepas minum air gula, bacaan Pak Cik Kamal naik semula. Kini dia tak lagi skip makan.\n\n[warmly] Sempena Hari Diabetes Sedunia, jangan tunggu. Buat saringan gula darah dan ech-bi-ei-wan-si, iaitu ujian gula tiga bulan. Saya Doktor Azren.",
+  "note": "1 take sahaja. ElevenLabs Flow DaK1zdse07wc6ajFQwWT, generation 0WVgKY35fddxZNQOXzrJ, 97.92 s, 1,622.8 kredit. Sebutan: hai-po-glai-si-mia (pengguna), ech-bi-ei-wan-si + 'ujian gula tiga bulan'."
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "pagi",
+   "marker": "Pak Cik Kamal"
+  },
+  {
+   "id": "simptom",
+   "marker": "Tengah hari"
+  },
+  {
+   "id": "diagnosis",
+   "marker": "Doktor periksa"
+  },
+  {
+   "id": "otak",
+   "marker": "Otak kita"
+  },
+  {
+   "id": "definisi",
+   "marker": "Satu",
+   "n": 1,
+   "label": "Apa itu?"
+  },
+  {
+   "id": "tanda",
+   "marker": "Dua Tandanya",
+   "n": 2,
+   "label": "Tanda"
+  },
+  {
+   "id": "punca",
+   "marker": "Tiga Punca",
+   "n": 3,
+   "label": "Punca"
+  },
+  {
+   "id": "rawatan",
+   "marker": "Empat Pertolongan",
+   "n": 4,
+   "label": "Peraturan 15"
+  },
+  {
+   "id": "amaran",
+   "marker": "Tapi kalau pesakit"
+  },
+  {
+   "id": "pulih",
+   "marker": "Selepas minum"
+  },
+  {
+   "id": "penutup",
+   "marker": "Sempena Hari"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat"
+ ],
+ "keywords": [
+  "pengsan",
+  "terlalu tinggi",
+  "RENDAH",
+  "Pak Cik Kamal",
+  "60 tahun",
+  "kencing manis",
+  "insulin",
+  "sarapan",
+  "menggeletar",
+  "berpeluh sejuk",
+  "keliru",
+  "klinik",
+  "2.8 mmol/L",
+  "hipoglisemia",
+  "Hipoglisemia",
+  "otak",
+  "gula",
+  "minyak utama",
+  "minyak",
+  "kering",
+  "lampu otak",
+  "berkelip",
+  "3.9 mmol/L",
+  "jantung berdebar",
+  "lapar",
+  "pitam",
+  "Skip makan",
+  "ubat diabetes",
+  "bersenam",
+  "Pertolongan cemas",
+  "Peraturan 15",
+  "15 g",
+  "gula cepat serap",
+  "3 sudu teh gula",
+  "1 sudu besar madu",
+  "Tunggu 15 minit",
+  "periksa semula",
+  "ulang lagi",
+  "makan seperti biasa",
+  "tak sedar",
+  "jangan paksa",
+  "madu",
+  "999",
+  "naik semula",
+  "skip makan",
+  "Hari Diabetes Sedunia",
+  "jangan tunggu",
+  "saringan gula darah",
+  "HbA1c",
+  "ujian gula 3 bulan",
+  "Dr. Azren"
+ ],
+ "corrections": {
+  "hai-po-glai-si-mia": "hipoglisemia",
+  "ech-bi-ei-wan-si": "HbA1c",
+  "enam puluh tahun": "60 tahun",
+  "dua perpuluhan lapan": "2.8 mmol/L",
+  "tiga perpuluhan sembilan milimol": "3.9 mmol/L",
+  "Peraturan Lima Belas": "Peraturan 15",
+  "lima belas gram": "15 g",
+  "Tunggu lima belas minit": "Tunggu 15 minit",
+  "tiga sudu teh": "3 sudu teh",
+  "satu sudu besar": "1 sudu besar",
+  "sembilan sembilan sembilan": "999",
+  "ujian gula tiga bulan": "ujian gula 3 bulan",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.35,
+  "sfx": [
+   {
+    "file": "sting.mp3",
+    "at": "RENDAH",
+    "offset": 0,
+    "volume": 0.8
+   },
+   {
+    "file": "heartbeat.mp3",
+    "at": "menggeletar",
+    "offset": 0.2,
+    "volume": 0.7
+   },
+   {
+    "file": "sting.mp3",
+    "at": "dua perpuluhan lapan",
+    "offset": 0,
+    "volume": 0.6
+   },
+   {
+    "file": "flicker.mp3",
+    "at": "lampu otak",
+    "offset": 0,
+    "volume": 0.7
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Tandanya",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "heartbeat.mp3",
+    "at": "jantung berdebar",
+    "offset": 0,
+    "volume": 0.55
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Punca",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Pertolongan",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "ding.mp3",
+    "at": "Kemudian periksa",
+    "offset": 0,
+    "volume": 0.8
+   },
+   {
+    "file": "chime.mp3",
+    "at": "naik semula",
+    "offset": 0,
+    "volume": 0.8
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "APA JADI KALAU",
+  "headline": [
+   "GULA",
+   "TERLALU"
+  ],
+  "highlight": "RENDAH?",
+  "sub": "Hipoglisemia & Peraturan 15",
+  "tags": [
+   "< 3.9 mmol/L",
+   "15 g",
+   "15 minit"
+  ]
+ }
+}
