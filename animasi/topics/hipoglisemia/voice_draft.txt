@@ -2,22 +2,22 @@
 
 [storytelling] Pak Cik Kamal, enam puluh tahun, ada kencing manis. Pagi itu dia suntik insulin, tapi tak sempat sarapan, terus ke gotong-royong di surau.
 
-[concerned] Tengah hari, tangannya menggeletar. Berpeluh sejuk. Jantung berdebar. Cakapnya mula keliru. [worried] Anaknya terus bawa dia ke klinik.
+[concerned] Tengah hari, dia menggeletar, berpeluh sejuk, dan mula keliru. [worried] Anaknya terus bawa dia ke klinik.
 
-[serious] Doktor periksa gula di hujung jari... dua perpuluhan lapan. Pak Cik Kamal alami hipo-glisemia.
+[serious] Doktor periksa gula di hujung jari... dua perpuluhan lapan. Pak Cik Kamal alami hai-po-glai-si-mia.
 
-[warmly] Otak kita guna gula sebagai minyak utama. Bila minyak hampir kering, lampu otak mula berkelip. Ini yang anda perlu tahu.
+[warmly] Otak kita guna gula sebagai minyak utama. Bila minyak hampir kering, lampu otak mula berkelip.
 
-Satu. Hipo-glisemia ialah paras gula darah di bawah kira-kira tiga perpuluhan sembilan milimol.
+Satu. Hai-po-glai-si-mia ialah paras gula darah di bawah kira-kira tiga perpuluhan sembilan milimol.
 
 Dua. Tandanya. Menggeletar, berpeluh sejuk, jantung berdebar, rasa lapar, dan keliru. Kalau teruk, boleh sampai pitam.
 
 Tiga. Punca biasa. Skip makan selepas ambil ubat diabetes atau insulin. Dan bersenam lebih daripada biasa.
 
-Empat. Pertolongan cemas: Peraturan Lima Belas. Ambil lima belas gram gula cepat serap, contohnya tiga sudu teh gula dalam air, atau setengah gelas jus. Tunggu lima belas minit. Kemudian periksa semula. Kalau masih rendah, ulang sekali lagi.
+Empat. Pertolongan cemas: Peraturan Lima Belas. Ambil lima belas gram gula cepat serap, contohnya tiga sudu teh gula dalam air, atau satu sudu besar madu. Tunggu lima belas minit. Kemudian periksa semula. Kalau masih rendah, ulang lagi. Bila gula dah naik, makan seperti biasa.
 
-[serious] Tapi kalau pesakit tak sedar, jangan suap apa-apa ikut mulut. Terus telefon sembilan sembilan sembilan.
+[serious] Tapi kalau pesakit tak sedar, jangan paksa dia minum. Sapukan sesudu madu ke dalam mulutnya, dan terus telefon sembilan sembilan sembilan.
 
-[relieved] Lima belas minit selepas minum air gula, bacaan Pak Cik Kamal naik semula. Kini dia tak lagi skip makan.
+[relieved] Selepas minum air gula, bacaan Pak Cik Kamal naik semula. Kini dia tak lagi skip makan.
 
 [warmly] Sempena Hari Diabetes Sedunia, jangan tunggu. Buat saringan gula darah dan ech-bi-ei-wan-si anda. Saya Doktor Azren.
