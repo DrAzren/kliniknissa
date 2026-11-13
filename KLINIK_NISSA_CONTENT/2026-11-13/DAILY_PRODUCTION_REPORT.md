@@ -29,14 +29,14 @@ Batch scope: one video requested by the user ("Apa jadi kalau gula darah terlalu
 - **Duration / tech:** 92.97 s (voice + 0.5 s), 1080×1920, 30 fps, H.264 6.4 Mbps (2-pass re-encode of the 8.3 Mbps render, 96.2 MB → 76.7 MB), AAC 48 kHz, −14.6 LUFS, true peak −1.0 dB (gain only).
 - **Files:** same set as Video 1.
 - **Medical review:** PENDING (`medical_references.md`, 2 items flagged ⚠️)
-- **Approval status:** REVIEW-READY. Not scheduled.
+- **Approval status:** SCHEDULED on Metricool (post 426652839) for **13 Nov 2026, 16:30 MYT** on Facebook Reel, Instagram Reel (AI label) and TikTok (AIGC label), with custom thumbnail and short caption, at the user's request. Medical review still pending.
 
 ### Usage (verified from tool responses)
 - **ElevenLabs:** 1,516.8 credits
   - eleven_v4 TTS, 1 take: 1,506.8 (estimate before approval: ~1,510 for 1,507 chars)
   - SFX v2 × 2, 1 take each: 6.7 + 3.3 = 10.0 (estimate ~10)
   - Music: 0 (reused) · Scribe: 0
-- **Higgsfield:** 0 credits
+- **Higgsfield:** 0 credits (only free media_upload for the Metricool public URL)
 
 ## Day total (verified)
 - **ElevenLabs:** 1,641.2 + 1,516.8 = **3,158.0 credits**

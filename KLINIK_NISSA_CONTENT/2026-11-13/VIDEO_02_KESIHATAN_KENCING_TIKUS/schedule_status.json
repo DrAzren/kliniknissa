@@ -1,11 +1,29 @@
 {
  "video_id": "2026-11-13_VIDEO_02_KESIHATAN_kencing-tikus",
- "status": "REVIEW_READY",
+ "status": "SCHEDULED",
  "approval_gate": {
   "medical_accuracy": "PENDING (medical_references.md, 2 items flagged; main source KKM leptospirosis guideline 2011)",
   "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
   "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding; generic KLINIK sign)",
-  "publishing_instruction": "Not scheduled. Do not schedule on Metricool unless the user asks."
+  "publishing_instruction": "User instructed scheduling on 2026-11-13 for 16:30 MYT (same day) on FB, IG and TikTok, short description"
  },
- "scheduled_posts": []
+ "scheduled_posts": [
+  {
+   "metricool_post_id": 426652839,
+   "uuid": "2663190274476425679",
+   "publication": "2026-11-13T16:30:00 Asia/Kuala_Lumpur",
+   "networks": {
+    "facebook": "REEL / PENDING",
+    "instagram": "REEL (AI-generated label, shown on feed) / PENDING",
+    "tiktok": "PUBLIC, AIGC label, no commercial disclosure, title 'Kencing tikus selepas banjir' / PENDING"
+   },
+   "autoPublish": true,
+   "caption_file": "caption_scheduled_all_platforms.txt",
+   "media": "https://static.metricool.com/planner/202611/7705651-file-11992895667113049393.mp4",
+   "thumbnail": "https://static.metricool.com/planner/202611/7705651-file-15155561829990294798.jpeg",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7840561&openWithPostUuid=2663190274476425679"
+  }
+ ],
+ "notes": "Media uploaded with Higgsfield media_upload (free, 0 credits) for a public URL; Metricool copied it to its own storage. Publication itself not yet confirmed. Medical review still pending.",
+ "metricool_brand": {"label": "Klinik Nissa", "brandId": 7840561, "timezone": "Asia/Kuala_Lumpur"}
 }
