@@ -7,7 +7,7 @@ Batch scope: one video requested by the user ("Apa jadi kalau gula darah terlalu
 - **Production:** `animasi/` Remotion (Violet Flat SVG), topic `hipoglisemia`, avatar `dr-azren` (drawing unchanged). New: Kamal (avatar + white kopiah overlay) and his daughter (hijab), a "3D" brain cell with fuel tank and lamps (perspective motion), blood-glucose gauge (red → green), glucometer, 15-minute countdown timer.
 - **Voice:** Dr Azren (`lN6exnzhuXDOyNQfsVSR`, `eleven_v4`, emotion tags), **1 take only**, 97.92 s. Pronunciation per user: "hai-po-glai-si-mia"; HbA1c said both ways ("ech-bi-ei-wan-si, iaitu ujian gula tiga bulan"). Scribe word timings.
 - **Music & SFX:** music reused from jenis-nyamuk (0 credits; the new 99 s track was quoted at 2,722.5 credits, about 2× the approved estimate, so the user chose reuse). 3 new SFX (heartbeat, flickering light, timer ding), 1 take each, normalised to ~−20 LUFS; whoosh, pop, sting, chime reused.
-- **Duration / tech:** see render line below.
+- **Duration / tech:** 98.47 s (voice + 0.5 s), 1080×1920, 30 fps, H.264 6.4 Mbps (2-pass re-encode of the 8.1 Mbps render, 100.1 MB → 81.8 MB, to stay under GitHub's 100 MB limit), AAC 48 kHz, −15.8 LUFS, true peak −1.1 dB (gain only; SFX peaks stop it reaching −14 LUFS without a limiter).
 - **Files:** `final_video.mp4`, `thumbnail.png/.jpg`, `voiceover.mp3`, `music.mp3`, `narration_script.txt`, captions (FB / IG / TikTok, no hashtags), `storyboard.md`, `medical_references.md`, `schedule_status.json`
 - **Medical review:** PENDING (`medical_references.md`, 3 items flagged ⚠️)
 - **Approval status:** REVIEW-READY. Not scheduled (not requested).
