@@ -892,11 +892,11 @@ export const Rawatan: React.FC<SceneProps> = (p) => {
       ) : null}
       {phaseC ? (
         <>
-          <div style={{position: 'absolute', left: 240, top: 600, transform: `scale(${popScale(f - aKem - 8)})`}}>
+          <div style={{position: 'absolute', left: 240, top: 560, transform: `scale(${popScale(f - aKem - 8)})`}}>
             <Gauge value={g} width={600} />
           </div>
-          <div style={{position: 'absolute', left: 330, top: 990}}>
-            <Neuron fuel={fuel} light={light} flicker={light < 0.5} width={420} sugarIn={sugarIn} />
+          <div style={{position: 'absolute', left: 345, top: 972}}>
+            <Neuron fuel={fuel} light={light} flicker={light < 0.5} width={390} sugarIn={sugarIn} />
           </div>
           <Pop at={aKal} style={{left: 40, top: 1520}} origin="left center">
             <Pill text="Masih < 3.9? Ulang lagi" bg={C.labelPink} size={44} />

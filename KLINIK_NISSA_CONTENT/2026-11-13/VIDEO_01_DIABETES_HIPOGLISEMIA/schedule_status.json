@@ -1,0 +1,11 @@
+{
+ "video_id": "2026-11-13_VIDEO_01_DIABETES_hipoglisemia",
+ "status": "REVIEW_READY",
+ "approval_gate": {
+  "medical_accuracy": "PENDING (medical_references.md, 3 items flagged ⚠️; main source CPG T2DM 6th ed. 2020, Section 4.1)",
+  "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
+  "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding; CTA is generic screening for World Diabetes Day)",
+  "publishing_instruction": "Not scheduled. Do not schedule on Metricool unless the user asks."
+ },
+ "scheduled_posts": []
+}
