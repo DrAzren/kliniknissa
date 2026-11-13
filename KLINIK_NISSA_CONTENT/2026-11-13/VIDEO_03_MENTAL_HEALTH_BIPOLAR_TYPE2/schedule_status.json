@@ -1,11 +1,29 @@
 {
  "video_id": "2026-11-13_VIDEO_03_MENTAL_HEALTH_bipolar-type-2",
- "status": "REVIEW_READY",
+ "status": "SCHEDULED",
  "approval_gate": {
   "medical_accuracy": "PENDING (medical_references.md, 3 items flagged; main source CPG Management of Bipolar Disorder 2nd ed. 2024 + DSM-5-TR)",
   "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
   "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding)",
-  "publishing_instruction": "Not scheduled. Do not schedule on Metricool unless the user asks."
+  "publishing_instruction": "User instructed scheduling on 2026-11-13 for 19:30 MYT (same day) on FB, IG and TikTok, with the AI-generated labels OFF (Instagram isAiGenerated=false, TikTok isAigc=false) and commercial-content disclosure OFF. A first attempt for 19:00 was declined by the user at the approval prompt; no post was created then."
  },
- "scheduled_posts": []
+ "scheduled_posts": [
+  {
+   "metricool_post_id": 426808861,
+   "uuid": "636328193739476380",
+   "publication": "2026-11-13T19:30:00 Asia/Kuala_Lumpur",
+   "networks": {
+    "facebook": "REEL / PENDING",
+    "instagram": "REEL, shown on feed, AI-generated label OFF / PENDING",
+    "tiktok": "PUBLIC, AIGC label OFF, commercial content OFF (own brand & third party), title 'Bipolar Mood Disorder Type 2' / PENDING"
+   },
+   "autoPublish": true,
+   "caption_file": "caption_scheduled_all_platforms.txt",
+   "media": "https://static.metricool.com/planner/202611/7705651-file-3131698502613095197.mp4",
+   "thumbnail": "https://static.metricool.com/planner/202611/7705651-file-9039343099049776134.jpeg",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7840561&openWithPostUuid=636328193739476380"
+  }
+ ],
+ "notes": "Media uploaded with Higgsfield media_upload (free, 0 credits) for a public URL; Metricool copied it to its own storage. Publication itself not yet confirmed. Medical review still pending.",
+ "metricool_brand": {"label": "Klinik Nissa", "brandId": 7840561, "timezone": "Asia/Kuala_Lumpur"}
 }
