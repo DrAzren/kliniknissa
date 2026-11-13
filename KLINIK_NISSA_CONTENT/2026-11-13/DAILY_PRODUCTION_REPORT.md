@@ -44,7 +44,7 @@ Batch scope: one video requested by the user ("Apa jadi kalau gula darah terlalu
 - **Production:** `animasi/` Remotion (Violet Flat SVG), topic `bipolar-jenis-2`, avatar `dr-azren` (unchanged). New: Hakim + wife, animated mood graph (hypomania / normal / depression zones), energy battery, day-count rows, bar comparisons; icons reused from `kenali-bipolar` and `hipoglisemia`.
 - **Voice:** Dr Azren (`lN6exnzhuXDOyNQfsVSR`, `eleven_v4`, emotion tags), **1 take only**, 101.04 s. Scribe word timings.
 - **Music & SFX:** music reused from jenis-nyamuk (0 credits). 2 new SFX (energy riser, sad descending tone), 1 take each, normalised ~−20 LUFS; whoosh, pop, sting, chime reused.
-- **Duration / tech:** render pending.
+- **Duration / tech:** 101.61 s (voice + 0.5 s), 1080×1920, 30 fps, H.264 6.4 Mbps (2-pass re-encode of the 8.3 Mbps render, 104.9 MB → 85.1 MB), AAC 48 kHz, −15.3 LUFS, true peak −1.2 dB (gain only; SFX peaks stop it reaching −14 LUFS without a limiter).
 - **Files:** same set as Video 1.
 - **Medical review:** PENDING (`medical_references.md`, 3 items flagged ⚠️)
 - **Approval status:** REVIEW-READY. Not scheduled.
