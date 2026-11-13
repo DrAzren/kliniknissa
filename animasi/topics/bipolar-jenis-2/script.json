@@ -1,0 +1,243 @@
+{
+ "id": "bipolar-jenis-2",
+ "title": "Bipolar Mood Disorder Type 2",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[serious] Tiga tahun Hakim makan ubat kemurungan... tapi dia tak pernah sembuh. Rupa-rupanya, itu bukan kemurungan biasa.\n\n[storytelling] Hakim, dua puluh sembilan tahun. Berbulan-bulan dia susah nak bangun pagi. Hilang minat, letih, rasa diri tak berguna.\n\n[excited] Tapi kadang-kadang, beberapa hari, dia jadi orang lain. Tidur empat jam pun cukup. Siapkan semua kerja dalam satu malam. Cakap laju, idea tak berhenti. [casual] Kawan-kawan kata, \"Wah, Hakim dah okay!\"\n\n[concerned] Tak lama kemudian, dia jatuh semula ke lembah murung. [worried] Isterinya perasan corak ini, lalu bawa Hakim jumpa pakar psikiatri.\n\n[serious] Doktor tanya tentang hari-hari \"terlalu bertenaga\" itu... Diagnosisnya, Bai-po-la Mood Disorder, jenis dua.\n\nSatu. Apa itu bai-po-la jenis dua? Gangguan mood dengan episod hipomania, dan episod kemurungan. Hipomania lebih ringan daripada mania dalam jenis satu.\n\nDua. Hipomania. Mood naik atau mudah marah, tenaga berlebihan, kurang tidur tapi tak penat, cakap laju. Sekurang-kurangnya empat hari. Nampak macam produktif, sebab itu selalu terlepas pandang.\n\nTiga. Kemurungan. Sedih, hilang minat, letih, rasa tak berguna, sekurang-kurangnya dua minggu. Fasa ini biasanya lebih lama, jadi ramai disangka kemurungan biasa, sampai bertahun-tahun.\n\nEmpat. Rawatan. Ubat penstabil mood atau antipsikotik, bersama terapi. Antidepresan sahaja tidak sesuai. Rutin tidur teratur dan sokongan keluarga juga penting.\n\n[relieved] Dengan rawatan yang betul, Hakim kini stabil dan kembali menikmati hidup.\n\n[warmly] Pernah murung, tapi ada juga hari-hari luar biasa bertenaga? Beritahu doktor anda, dan jangan henti ubat sendiri. Jangan tunggu, dapatkan bantuan profesional. Saya Doktor Azren.",
+  "note": "1 take sahaja. ElevenLabs Flow aMVcgoPG5zmIsPGM0omO, generation thvoQZ4Hb7lmcfuSRPbU, 101.04 s, 1,704.8 kredit. Sebutan bai-po-la (pengguna)."
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "murung",
+   "marker": "Hakim dua puluh"
+  },
+  {
+   "id": "tinggi",
+   "marker": "Tapi kadang-kadang"
+  },
+  {
+   "id": "jatuh",
+   "marker": "Tak lama"
+  },
+  {
+   "id": "diagnosis",
+   "marker": "Doktor tanya"
+  },
+  {
+   "id": "apa",
+   "marker": "Satu",
+   "n": 1,
+   "label": "Apa itu?"
+  },
+  {
+   "id": "hipo",
+   "marker": "Dua Hipomania",
+   "n": 2,
+   "label": "Hipomania"
+  },
+  {
+   "id": "kemurungan",
+   "marker": "Tiga Kemurungan",
+   "n": 3,
+   "label": "Kemurungan"
+  },
+  {
+   "id": "rawat",
+   "marker": "Empat Rawatan",
+   "n": 4,
+   "label": "Rawatan"
+  },
+  {
+   "id": "stabil",
+   "marker": "Dengan rawatan"
+  },
+  {
+   "id": "penutup",
+   "marker": "Pernah murung"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat"
+ ],
+ "keywords": [
+  "3 tahun",
+  "ubat kemurungan",
+  "tak pernah sembuh",
+  "bukan kemurungan biasa",
+  "Hakim",
+  "29 tahun",
+  "Berbulan-bulan",
+  "susah nak bangun",
+  "Hilang minat",
+  "letih",
+  "tak berguna",
+  "orang lain",
+  "4 jam",
+  "semua kerja",
+  "satu malam",
+  "Cakap laju",
+  "idea",
+  "Hakim dah okay",
+  "jatuh semula",
+  "lembah murung",
+  "corak",
+  "pakar psikiatri",
+  "terlalu bertenaga",
+  "Bipolar Mood Disorder, Jenis 2",
+  "bipolar Jenis 2",
+  "hipomania",
+  "Hipomania",
+  "kemurungan",
+  "Kemurungan",
+  "lebih ringan",
+  "mania",
+  "Jenis 1",
+  "Mood naik",
+  "mudah marah",
+  "tenaga berlebihan",
+  "kurang tidur",
+  "tak penat",
+  "4 hari",
+  "produktif",
+  "terlepas pandang",
+  "Sedih",
+  "2 minggu",
+  "lebih lama",
+  "disangka",
+  "bertahun-tahun",
+  "Rawatan",
+  "penstabil mood",
+  "antipsikotik",
+  "terapi",
+  "Antidepresan sahaja",
+  "tidak sesuai",
+  "Rutin tidur",
+  "sokongan keluarga",
+  "stabil",
+  "menikmati hidup",
+  "luar biasa bertenaga",
+  "Beritahu doktor",
+  "jangan henti ubat sendiri",
+  "Jangan tunggu",
+  "bantuan profesional",
+  "Dr. Azren"
+ ],
+ "corrections": {
+  "Bai-po-la Mood Disorder, jenis dua": "Bipolar Mood Disorder, Jenis 2",
+  "bai-po-la jenis dua": "bipolar Jenis 2",
+  "jenis satu": "Jenis 1",
+  "bai-po-la": "bipolar",
+  "Tiga tahun": "3 tahun",
+  "dua puluh sembilan tahun": "29 tahun",
+  "empat jam": "4 jam",
+  "empat hari": "4 hari",
+  "dua minggu": "2 minggu",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.35,
+  "sfx": [
+   {
+    "file": "sting.mp3",
+    "at": "bukan kemurungan biasa",
+    "offset": 0,
+    "volume": 0.7
+   },
+   {
+    "file": "down.mp3",
+    "at": "Berbulan-bulan",
+    "offset": 0,
+    "volume": 0.6
+   },
+   {
+    "file": "riser.mp3",
+    "at": "jadi orang lain",
+    "offset": -0.3,
+    "volume": 0.7
+   },
+   {
+    "file": "down.mp3",
+    "at": "lembah murung",
+    "offset": -0.2,
+    "volume": 0.6
+   },
+   {
+    "file": "sting.mp3",
+    "at": "Diagnosisnya",
+    "offset": 0.1,
+    "volume": 0.6
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Hipomania",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "riser.mp3",
+    "at": "tenaga berlebihan",
+    "offset": -0.2,
+    "volume": 0.45
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Kemurungan",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "down.mp3",
+    "at": "Sedih hilang minat",
+    "offset": 0,
+    "volume": 0.45
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Rawatan",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "chime.mp3",
+    "at": "kini stabil",
+    "offset": 0,
+    "volume": 0.8
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "KENALI",
+  "headline": [
+   "BIPOLAR",
+   "TYPE 2"
+  ],
+  "highlight": "Bukan kemurungan biasa",
+  "sub": "Hipomania + Kemurungan",
+  "tags": [
+   "Hipomania ≥ 4 hari",
+   "Murung ≥ 2 minggu"
+  ]
+ }
+}
