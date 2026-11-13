@@ -12,7 +12,7 @@ Local hooks: year-end monsoon & floods (Nov–Jan), dengue, school holidays (lat
 | 09 Nov | Anxiety: 5 tanda anda terlebih risau | Kolesterol tinggi: LDL vs HDL | Kenapa badan kita menggigil bila demam? |
 | 10 Nov | Cara bantu kawan yang murung | Diabetes: tanda awal yang selalu terlepas | 3 tanda anda perlu periksa gula |
 | 11 Nov | ADHD dewasa: bukan sekadar "tak fokus" | Persediaan Hari Diabetes Sedunia: saringan HbA1c | Mitos atau Fakta: "Gula penyebab diabetes" |
-| 12 Nov | OCD: lebih daripada suka kemas | Diabetes & kaki: penjagaan harian | Apa jadi kalau gula darah terlalu rendah? |
+| 12 Nov | OCD: lebih daripada suka kemas *(produced 13 Nov)* ✔ | Diabetes & kaki: penjagaan harian | Apa jadi kalau gula darah terlalu rendah? |
 | 13 Nov | Stres kerja & badan | Obesiti: lilitan pinggang lebih penting daripada BMI? | Tahukah Anda? Lemak perut "aktif" |
 | 14 Nov | Diabetes & kemurungan (Hari Diabetes Sedunia) | Hari Diabetes Sedunia: pemeriksaan yang perlu | Bila perlu jumpa doktor jika kerap dahaga? |
 | 15 Nov | PTSD selepas bencana banjir | Vaksin influenza: siapa perlu? | Mitos: "Vaksin flu boleh beri flu" |

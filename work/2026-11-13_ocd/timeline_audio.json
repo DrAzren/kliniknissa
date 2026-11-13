@@ -1,0 +1,846 @@
+{
+ "tempo": 1.06,
+ "cuts": [
+  [
+   1.89322,
+   2.0872100000000002
+  ],
+  [
+   6.90118,
+   7.0599099999999995
+  ],
+  [
+   9.55746,
+   9.78621
+  ],
+  [
+   29.1388,
+   29.212400000000002
+  ],
+  [
+   39.5822,
+   39.6569
+  ],
+  [
+   40.793,
+   40.9774
+  ],
+  [
+   43.3769,
+   43.4226
+  ],
+  [
+   45.2341,
+   45.2504
+  ],
+  [
+   55.647,
+   55.836
+  ]
+ ],
+ "keep": [
+  [
+   0,
+   1.89322
+  ],
+  [
+   2.0872100000000002,
+   6.90118
+  ],
+  [
+   7.0599099999999995,
+   9.55746
+  ],
+  [
+   9.78621,
+   29.1388
+  ],
+  [
+   29.212400000000002,
+   39.5822
+  ],
+  [
+   39.6569,
+   40.793
+  ],
+  [
+   40.9774,
+   43.3769
+  ],
+  [
+   43.4226,
+   45.2341
+  ],
+  [
+   45.2504,
+   55.647
+  ],
+  [
+   55.836,
+   76.277551
+  ]
+ ],
+ "voice_end": 70.86073679245283,
+ "words": [
+  {
+   "text": "Awak",
+   "start": 0.075,
+   "end": 0.245
+  },
+  {
+   "text": "suka",
+   "start": 0.302,
+   "end": 0.623
+  },
+  {
+   "text": "susun",
+   "start": 0.66,
+   "end": 0.887
+  },
+  {
+   "text": "barang",
+   "start": 0.925,
+   "end": 1.094
+  },
+  {
+   "text": "ikut",
+   "start": 1.132,
+   "end": 1.283
+  },
+  {
+   "text": "warna?",
+   "start": 1.302,
+   "end": 1.623
+  },
+  {
+   "text": "Meja",
+   "start": 1.949,
+   "end": 2.27
+  },
+  {
+   "text": "mesti",
+   "start": 2.308,
+   "end": 2.572
+  },
+  {
+   "text": "sentiasa",
+   "start": 2.609,
+   "end": 2.93
+  },
+  {
+   "text": "kemas?",
+   "start": 2.968,
+   "end": 3.364
+  },
+  {
+   "text": "Ramai",
+   "start": 3.855,
+   "end": 4.043
+  },
+  {
+   "text": "cakap,",
+   "start": 4.081,
+   "end": 4.383
+  },
+  {
+   "text": "\"Eh,",
+   "start": 4.609,
+   "end": 4.817
+  },
+  {
+   "text": "saya",
+   "start": 5.043,
+   "end": 5.27
+  },
+  {
+   "text": "ni",
+   "start": 5.308,
+   "end": 5.421
+  },
+  {
+   "text": "OCD.\"",
+   "start": 5.477,
+   "end": 6.081
+  },
+  {
+   "text": "Sebenarnya...",
+   "start": 6.554,
+   "end": 7.384
+  },
+  {
+   "text": "belum",
+   "start": 7.799,
+   "end": 8.007
+  },
+  {
+   "text": "tentu.",
+   "start": 8.045,
+   "end": 8.46
+  },
+  {
+   "text": "OCD",
+   "start": 8.867,
+   "end": 9.527
+  },
+  {
+   "text": "atau",
+   "start": 9.621,
+   "end": 9.885
+  },
+  {
+   "text": "gangguan",
+   "start": 9.923,
+   "end": 10.319
+  },
+  {
+   "text": "obsesif-kompulsif",
+   "start": 10.376,
+   "end": 11.489
+  },
+  {
+   "text": "bukan",
+   "start": 11.791,
+   "end": 12.187
+  },
+  {
+   "text": "sifat",
+   "start": 12.225,
+   "end": 12.451
+  },
+  {
+   "text": "suka",
+   "start": 12.489,
+   "end": 12.659
+  },
+  {
+   "text": "kemas.",
+   "start": 12.697,
+   "end": 13.131
+  },
+  {
+   "text": "Ia",
+   "start": 13.565,
+   "end": 13.697
+  },
+  {
+   "text": "penyakit",
+   "start": 13.734,
+   "end": 14.055
+  },
+  {
+   "text": "mental",
+   "start": 14.093,
+   "end": 14.771
+  },
+  {
+   "text": "dan",
+   "start": 14.829,
+   "end": 14.98
+  },
+  {
+   "text": "ia",
+   "start": 15.055,
+   "end": 15.263
+  },
+  {
+   "text": "ada",
+   "start": 15.338,
+   "end": 15.489
+  },
+  {
+   "text": "dua",
+   "start": 15.546,
+   "end": 15.734
+  },
+  {
+   "text": "bahagian.",
+   "start": 15.772,
+   "end": 16.225
+  },
+  {
+   "text": "Pertama,",
+   "start": 16.678,
+   "end": 17.074
+  },
+  {
+   "text": "obsesi.",
+   "start": 17.357,
+   "end": 17.885
+  },
+  {
+   "text": "Fikiran",
+   "start": 18.338,
+   "end": 18.697
+  },
+  {
+   "text": "yang",
+   "start": 18.734,
+   "end": 18.81
+  },
+  {
+   "text": "mengganggu",
+   "start": 18.848,
+   "end": 19.584
+  },
+  {
+   "text": "datang",
+   "start": 19.659,
+   "end": 19.999
+  },
+  {
+   "text": "berulang",
+   "start": 20.017,
+   "end": 20.527
+  },
+  {
+   "text": "kali",
+   "start": 20.565,
+   "end": 20.942
+  },
+  {
+   "text": "walaupun",
+   "start": 21.017,
+   "end": 21.508
+  },
+  {
+   "text": "kita",
+   "start": 21.546,
+   "end": 21.697
+  },
+  {
+   "text": "tak",
+   "start": 21.734,
+   "end": 21.829
+  },
+  {
+   "text": "mahu.",
+   "start": 21.867,
+   "end": 22.187
+  },
+  {
+   "text": "Contohnya,",
+   "start": 22.584,
+   "end": 23.15
+  },
+  {
+   "text": "takut",
+   "start": 23.319,
+   "end": 23.678
+  },
+  {
+   "text": "sangat",
+   "start": 23.716,
+   "end": 23.923
+  },
+  {
+   "text": "tangan",
+   "start": 23.961,
+   "end": 24.15
+  },
+  {
+   "text": "kotor",
+   "start": 24.187,
+   "end": 24.791
+  },
+  {
+   "text": "atau",
+   "start": 24.867,
+   "end": 25.017
+  },
+  {
+   "text": "risau",
+   "start": 25.055,
+   "end": 25.433
+  },
+  {
+   "text": "pintu",
+   "start": 25.489,
+   "end": 25.678
+  },
+  {
+   "text": "rumah",
+   "start": 25.716,
+   "end": 25.98
+  },
+  {
+   "text": "belum",
+   "start": 26.036,
+   "end": 26.282
+  },
+  {
+   "text": "berkunci.",
+   "start": 26.3,
+   "end": 26.81
+  },
+  {
+   "text": "Kedua,",
+   "start": 27.307,
+   "end": 27.646
+  },
+  {
+   "text": "kompulsi.",
+   "start": 27.91,
+   "end": 28.627
+  },
+  {
+   "text": "Perbuatan",
+   "start": 28.948,
+   "end": 29.401
+  },
+  {
+   "text": "yang",
+   "start": 29.439,
+   "end": 29.514
+  },
+  {
+   "text": "terpaksa",
+   "start": 29.552,
+   "end": 30.08
+  },
+  {
+   "text": "diulang",
+   "start": 30.099,
+   "end": 30.514
+  },
+  {
+   "text": "untuk",
+   "start": 30.571,
+   "end": 30.759
+  },
+  {
+   "text": "redakan",
+   "start": 30.797,
+   "end": 31.25
+  },
+  {
+   "text": "rasa",
+   "start": 31.288,
+   "end": 31.476
+  },
+  {
+   "text": "cemas",
+   "start": 31.514,
+   "end": 31.759
+  },
+  {
+   "text": "itu.",
+   "start": 31.816,
+   "end": 32.061
+  },
+  {
+   "text": "Basuh",
+   "start": 32.552,
+   "end": 32.759
+  },
+  {
+   "text": "tangan",
+   "start": 32.816,
+   "end": 33.137
+  },
+  {
+   "text": "sampai",
+   "start": 33.212,
+   "end": 33.646
+  },
+  {
+   "text": "kulit",
+   "start": 33.684,
+   "end": 33.854
+  },
+  {
+   "text": "merekah.",
+   "start": 33.873,
+   "end": 34.288
+  },
+  {
+   "text": "Periksa",
+   "start": 34.608,
+   "end": 34.873
+  },
+  {
+   "text": "kunci",
+   "start": 34.91,
+   "end": 35.118
+  },
+  {
+   "text": "pintu",
+   "start": 35.156,
+   "end": 35.684
+  },
+  {
+   "text": "berkali-kali.",
+   "start": 35.759,
+   "end": 36.627
+  },
+  {
+   "text": "Lega",
+   "start": 37.104,
+   "end": 37.293
+  },
+  {
+   "text": "sekejap,",
+   "start": 37.312,
+   "end": 37.708
+  },
+  {
+   "text": "tapi",
+   "start": 37.949,
+   "end": 38.119
+  },
+  {
+   "text": "kemudian",
+   "start": 38.156,
+   "end": 38.779
+  },
+  {
+   "text": "kitaran",
+   "start": 38.836,
+   "end": 39.175
+  },
+  {
+   "text": "itu",
+   "start": 39.232,
+   "end": 39.402
+  },
+  {
+   "text": "berulang.",
+   "start": 39.421,
+   "end": 39.911
+  },
+  {
+   "text": "Jadi",
+   "start": 40.491,
+   "end": 40.811
+  },
+  {
+   "text": "apa",
+   "start": 40.887,
+   "end": 41.113
+  },
+  {
+   "text": "bezanya?",
+   "start": 41.132,
+   "end": 41.585
+  },
+  {
+   "text": "Orang",
+   "start": 42.173,
+   "end": 42.362
+  },
+  {
+   "text": "yang",
+   "start": 42.4,
+   "end": 42.475
+  },
+  {
+   "text": "suka",
+   "start": 42.513,
+   "end": 42.702
+  },
+  {
+   "text": "kemas",
+   "start": 42.739,
+   "end": 43.287
+  },
+  {
+   "text": "rasa",
+   "start": 43.343,
+   "end": 43.532
+  },
+  {
+   "text": "puas.",
+   "start": 43.645,
+   "end": 44.06
+  },
+  {
+   "text": "Penghidap",
+   "start": 44.381,
+   "end": 44.721
+  },
+  {
+   "text": "OCD",
+   "start": 44.758,
+   "end": 45.23
+  },
+  {
+   "text": "rasa",
+   "start": 45.494,
+   "end": 45.721
+  },
+  {
+   "text": "terseksa.",
+   "start": 45.758,
+   "end": 46.343
+  },
+  {
+   "text": "Ia",
+   "start": 46.872,
+   "end": 46.966
+  },
+  {
+   "text": "boleh",
+   "start": 46.985,
+   "end": 47.155
+  },
+  {
+   "text": "makan",
+   "start": 47.192,
+   "end": 47.4
+  },
+  {
+   "text": "masa",
+   "start": 47.438,
+   "end": 47.664
+  },
+  {
+   "text": "lebih",
+   "start": 47.683,
+   "end": 47.89
+  },
+  {
+   "text": "sejam",
+   "start": 47.947,
+   "end": 48.343
+  },
+  {
+   "text": "sehari",
+   "start": 48.419,
+   "end": 48.758
+  },
+  {
+   "text": "dan",
+   "start": 49.004,
+   "end": 49.117
+  },
+  {
+   "text": "ganggu",
+   "start": 49.173,
+   "end": 49.456
+  },
+  {
+   "text": "kerja,",
+   "start": 49.494,
+   "end": 49.909
+  },
+  {
+   "text": "pelajaran",
+   "start": 50.117,
+   "end": 50.645
+  },
+  {
+   "text": "dan",
+   "start": 50.796,
+   "end": 50.928
+  },
+  {
+   "text": "keluarga.",
+   "start": 50.985,
+   "end": 51.419
+  },
+  {
+   "text": "Berita",
+   "start": 51.75,
+   "end": 51.995
+  },
+  {
+   "text": "baiknya,",
+   "start": 52.033,
+   "end": 52.467
+  },
+  {
+   "text": "OCD",
+   "start": 52.769,
+   "end": 53.278
+  },
+  {
+   "text": "boleh",
+   "start": 53.429,
+   "end": 53.75
+  },
+  {
+   "text": "dirawat.",
+   "start": 53.788,
+   "end": 54.259
+  },
+  {
+   "text": "Terapi",
+   "start": 54.618,
+   "end": 54.901
+  },
+  {
+   "text": "CBT,",
+   "start": 54.995,
+   "end": 55.618
+  },
+  {
+   "text": "khususnya",
+   "start": 55.674,
+   "end": 56.184
+  },
+  {
+   "text": "teknik",
+   "start": 56.259,
+   "end": 56.542
+  },
+  {
+   "text": "pendedahan",
+   "start": 56.561,
+   "end": 57.089
+  },
+  {
+   "text": "dan",
+   "start": 57.146,
+   "end": 57.24
+  },
+  {
+   "text": "pencegahan",
+   "start": 57.316,
+   "end": 57.844
+  },
+  {
+   "text": "tindak",
+   "start": 57.882,
+   "end": 58.108
+  },
+  {
+   "text": "balas,",
+   "start": 58.127,
+   "end": 58.467
+  },
+  {
+   "text": "serta",
+   "start": 58.712,
+   "end": 58.976
+  },
+  {
+   "text": "ubat,",
+   "start": 59.033,
+   "end": 59.296
+  },
+  {
+   "text": "terbukti",
+   "start": 59.448,
+   "end": 59.975
+  },
+  {
+   "text": "membantu.",
+   "start": 60.014,
+   "end": 60.505
+  },
+  {
+   "text": "Kalau",
+   "start": 60.995,
+   "end": 61.184
+  },
+  {
+   "text": "anda",
+   "start": 61.259,
+   "end": 61.693
+  },
+  {
+   "text": "atau",
+   "start": 61.731,
+   "end": 61.901
+  },
+  {
+   "text": "orang",
+   "start": 61.939,
+   "end": 62.089
+  },
+  {
+   "text": "tersayang",
+   "start": 62.146,
+   "end": 62.599
+  },
+  {
+   "text": "terperangkap",
+   "start": 62.674,
+   "end": 63.297
+  },
+  {
+   "text": "dalam",
+   "start": 63.335,
+   "end": 63.486
+  },
+  {
+   "text": "kitaran",
+   "start": 63.542,
+   "end": 63.844
+  },
+  {
+   "text": "ini,",
+   "start": 63.901,
+   "end": 64.108
+  },
+  {
+   "text": "dapatkan",
+   "start": 64.486,
+   "end": 64.957
+  },
+  {
+   "text": "penilaian",
+   "start": 65.014,
+   "end": 65.372
+  },
+  {
+   "text": "profesional.",
+   "start": 65.41,
+   "end": 65.957
+  },
+  {
+   "text": "Klinik",
+   "start": 66.391,
+   "end": 66.637
+  },
+  {
+   "text": "Nissa,",
+   "start": 66.655,
+   "end": 66.882
+  },
+  {
+   "text": "Nilai,",
+   "start": 66.92,
+   "end": 67.259
+  },
+  {
+   "text": "sedia",
+   "start": 67.41,
+   "end": 67.655
+  },
+  {
+   "text": "membantu",
+   "start": 67.693,
+   "end": 68.203
+  },
+  {
+   "text": "untuk",
+   "start": 68.24,
+   "end": 68.429
+  },
+  {
+   "text": "konsultasi",
+   "start": 68.467,
+   "end": 69.127
+  },
+  {
+   "text": "dan",
+   "start": 69.278,
+   "end": 69.391
+  },
+  {
+   "text": "saringan",
+   "start": 69.467,
+   "end": 69.806
+  },
+  {
+   "text": "kesihatan",
+   "start": 69.825,
+   "end": 70.24
+  },
+  {
+   "text": "mental.",
+   "start": 70.259,
+   "end": 70.674
+  }
+ ]
+}

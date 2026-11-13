@@ -1,0 +1,29 @@
+{
+  "video_id": "2026-11-13_VIDEO_01_MENTAL_HEALTH_ocd-suka-kemas",
+  "metricool_brand": {
+    "label": "Klinik Nissa",
+    "brandId": 7840561,
+    "timezone": "Asia/Kuala_Lumpur",
+    "networks": {
+      "facebook": "522718507588597",
+      "instagram": "kliniknissa",
+      "tiktok": "kliniknissanilai"
+    }
+  },
+  "approval_gate": {
+    "medical_accuracy": "PENDING",
+    "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR in the user's own ElevenLabs workspace, requested by the user)",
+    "brand_logo": "VERIFIED (same original logo file as 2026-11-04, pixels unaltered)",
+    "whatsapp_number": "PENDING_CONFIRMATION (012-608 1411)",
+    "advertising_compliance_MAB": "PENDING",
+    "publishing_instruction": "NONE (user asked to produce only)"
+  },
+  "status": "REVIEW_READY",
+  "proposed_slots_after_approval": [
+    {"network": "facebook", "local_time": "10:00", "basis": "Metricool best time fetched 2026-11-04 (not refreshed)", "provisional": true},
+    {"network": "tiktok", "local_time": "18:00", "basis": "Metricool best time fetched 2026-11-04 (not refreshed)", "provisional": true},
+    {"network": "instagram", "local_time": "12:00", "basis": "No Best Times data - general estimate only", "provisional": true}
+  ],
+  "scheduled_posts": [],
+  "notes": "Not scheduled. Nothing is published until the approvals above are recorded and the user instructs scheduling."
+}

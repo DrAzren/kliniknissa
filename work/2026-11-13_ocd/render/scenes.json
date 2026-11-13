@@ -1,0 +1,83 @@
+{
+ "total": 73.061,
+ "scenes": [
+  {
+   "clip": "c00",
+   "start": 0.0,
+   "end": 3.75,
+   "label": "A hook tidy desk"
+  },
+  {
+   "clip": "c01",
+   "start": 3.75,
+   "end": 8.77,
+   "label": "B question mark"
+  },
+  {
+   "clip": "c02",
+   "start": 8.77,
+   "end": 16.58,
+   "label": "C brain loop"
+  },
+  {
+   "clip": "c03",
+   "start": 16.58,
+   "end": 24.77,
+   "label": "D obsession germs"
+  },
+  {
+   "clip": "c04",
+   "start": 24.77,
+   "end": 27.21,
+   "label": "E door thought"
+  },
+  {
+   "clip": "c05",
+   "start": 27.21,
+   "end": 34.51,
+   "label": "F hand washing"
+  },
+  {
+   "clip": "c06",
+   "start": 34.51,
+   "end": 37.0,
+   "label": "G lock checking"
+  },
+  {
+   "clip": "c07",
+   "start": 37.0,
+   "end": 40.39,
+   "label": "H loop ring"
+  },
+  {
+   "clip": "c08",
+   "start": 40.39,
+   "end": 46.77,
+   "label": "I split contrast"
+  },
+  {
+   "clip": "c09",
+   "start": 46.77,
+   "end": 51.65,
+   "label": "J family waiting"
+  },
+  {
+   "clip": "c10",
+   "start": 51.65,
+   "end": 60.9,
+   "label": "K therapy"
+  },
+  {
+   "clip": "c11",
+   "start": 60.9,
+   "end": 66.29,
+   "label": "L doctor"
+  },
+  {
+   "clip": "c02",
+   "start": 66.29,
+   "end": 73.061,
+   "label": "END bg"
+  }
+ ]
+}
