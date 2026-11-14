@@ -358,7 +358,7 @@ export const S5: React.FC<SceneProps> = (p) => {
   return (
     <Camera dur={p.dur} to={1.06} panY={-10}>
       <NightSky seed={53} glow={C.green} />
-      <Pop at={aRawat} style={{left: 0, width: 1080, top: 520, display: 'flex', justifyContent: 'center'}}>
+      <Pop at={aRawat} style={{left: 0, width: 1080, top: 520, display: 'flex', justifyContent: 'center', opacity: showCpap ? 0 : 1}}>
         <Pill text="Boleh dirawat ✓" bg={C.green} size={52} />
       </Pop>
       {life.map((it, i) => (
