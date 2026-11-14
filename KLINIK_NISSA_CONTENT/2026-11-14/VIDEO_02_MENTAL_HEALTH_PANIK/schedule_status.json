@@ -1,0 +1,12 @@
+{
+ "video_id": "2026-11-14_VIDEO_02_MENTAL_HEALTH_serangan-panik",
+ "status": "READY_NOT_SCHEDULED",
+ "approval_gate": {
+  "medical_accuracy": "PENDING (medical_references.md, items marked Check)",
+  "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
+  "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding)",
+  "publishing_instruction": "None. Not scheduled on Metricool (user said do not schedule unless asked)."
+ },
+ "scheduled_posts": [],
+ "notes": "Produced 2026-11-14. Background music reused from jenis-nyamuk (user chose option A)."
+}

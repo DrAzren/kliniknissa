@@ -1,0 +1,227 @@
+{
+ "id": "serangan-panik",
+ "title": "Ingat Serangan Jantung, Rupanya Serangan Panik",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[tense] Jantung berdebar laju. Dada ketat. Tangan kebas. Rasa macam... nak mati. Tapi bila diperiksa, jantungnya sihat.\n\n[storytelling] Aina, dua puluh empat tahun, baru tiga bulan bekerja. Pagi Isnin, dalam LRT yang sesak... [worried] tiba-tiba dia sesak nafas. Badan menggigil, berpeluh, kepala pening. Dia yakin dia kena serangan jantung.\n\n[concerned] Kawannya terus bawa Aina ke klinik. Doktor periksa dan buat E-C-G. [reassuring] Keputusannya normal.\n\n[serious] Diagnosisnya... serangan panik.\n\n[warmly] Ramai yang alami, tapi tak ramai yang faham. Ini lima perkara penting.\n\nSatu. Ia datang mengejut dan memuncak dalam beberapa minit: jantung berdebar, sesak nafas, sakit dada, menggigil, kebas, dan rasa takut hilang kawalan.\n\nDua. Kenapa berlaku? Sistem penggera badan tersalah bunyi. Adrenalin dilepaskan seolah-olah anda dalam bahaya, walaupun sebenarnya anda selamat.\n\nTiga. Penting: sakit dada kali pertama mesti diperiksa doktor dahulu. Jangan terus anggap ia hanya panik.\n\nEmpat. Semasa serangan, tarik nafas perlahan melalui hidung, hembus lebih panjang. Kemudian cari lima benda yang anda nampak, empat yang anda sentuh, tiga yang anda dengar. Serangan akan reda.\n\nLima. Kalau serangan berulang dan anda mula takut keluar rumah, itu tanda gangguan panik. Ia boleh dirawat dengan terapi kognitif tingkah laku, dan ubat jika perlu.\n\n[relieved] Selepas beberapa sesi terapi, Aina kembali naik LRT dengan tenang.\n\n[warmly] Kalau serangan panik mengganggu hidup anda, jangan tunggu. Dapatkan rawatan. Saya Doktor Azren.",
+  "note": "1 take sahaja. ElevenLabs Flow YcWeHisKSxdFujq1L6T4, generation OzSEgrVwidExotTOEqdo, 91.44 s."
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "lrt",
+   "marker": "Aina dua"
+  },
+  {
+   "id": "klinik",
+   "marker": "Kawannya"
+  },
+  {
+   "id": "diagnosis",
+   "marker": "Diagnosisnya"
+  },
+  {
+   "id": "lima",
+   "marker": "Ramai yang"
+  },
+  {
+   "id": "p1",
+   "marker": "Satu Ia",
+   "n": 1,
+   "label": "Tanda serangan panik"
+  },
+  {
+   "id": "p2",
+   "marker": "Dua Kenapa",
+   "n": 2,
+   "label": "Kenapa berlaku?"
+  },
+  {
+   "id": "p3",
+   "marker": "Tiga Penting",
+   "n": 3,
+   "label": "Periksa dahulu"
+  },
+  {
+   "id": "p4",
+   "marker": "Empat Semasa",
+   "n": 4,
+   "label": "Teknik bertenang"
+  },
+  {
+   "id": "p5",
+   "marker": "Lima Kalau",
+   "n": 5,
+   "label": "Boleh dirawat"
+  },
+  {
+   "id": "pulih",
+   "marker": "Selepas beberapa"
+  },
+  {
+   "id": "penutup",
+   "marker": "Kalau serangan panik"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat",
+  "Lima"
+ ],
+ "keywords": [
+  "Jantung berdebar",
+  "Dada ketat",
+  "Tangan kebas",
+  "nak mati",
+  "sihat",
+  "Aina",
+  "LRT",
+  "sesak nafas",
+  "menggigil",
+  "berpeluh",
+  "pening",
+  "serangan jantung",
+  "klinik",
+  "ECG",
+  "normal",
+  "serangan panik",
+  "5 perkara",
+  "mengejut",
+  "memuncak",
+  "beberapa minit",
+  "sakit dada",
+  "hilang kawalan",
+  "penggera",
+  "tersalah bunyi",
+  "Adrenalin",
+  "bahaya",
+  "selamat",
+  "kali pertama",
+  "diperiksa doktor",
+  "hanya panik",
+  "nafas perlahan",
+  "hidung",
+  "hembus",
+  "lebih panjang",
+  "5 benda",
+  "nampak",
+  "4 yang",
+  "sentuh",
+  "3 yang",
+  "dengar",
+  "reda",
+  "berulang",
+  "takut keluar rumah",
+  "gangguan panik",
+  "boleh dirawat",
+  "terapi kognitif tingkah laku",
+  "ubat",
+  "tenang",
+  "jangan tunggu",
+  "rawatan",
+  "Dr. Azren"
+ ],
+ "corrections": {
+  "dua puluh empat": "24",
+  "tiga bulan": "3 bulan",
+  "E-C-G": "ECG",
+  "lima perkara": "5 perkara",
+  "lima benda": "5 benda",
+  "empat yang": "4 yang",
+  "tiga yang": "3 yang",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.35,
+  "sfx": [
+   {
+    "file": "heartbeat.mp3",
+    "at": 0.0,
+    "offset": 0,
+    "volume": 0.85
+   },
+   {
+    "file": "heartbeat.mp3",
+    "at": "sesak nafas",
+    "offset": -0.2,
+    "volume": 0.7
+   },
+   {
+    "file": "chime.mp3",
+    "at": "Keputusannya normal",
+    "offset": 0.5,
+    "volume": 0.5
+   },
+   {
+    "file": "sting.mp3",
+    "at": "Diagnosisnya",
+    "offset": 0.4,
+    "volume": 0.8
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu Ia",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Kenapa",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Penting",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Semasa",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Lima Kalau",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "chime.mp3",
+    "at": "Aina kembali",
+    "offset": 0,
+    "volume": 0.8
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "RASA NAK MATI?",
+  "headline": [
+   "SERANGAN",
+   "PANIK"
+  ],
+  "highlight": "Bukan serangan jantung",
+  "sub": "Tanda • Punca • Cara bertenang",
+  "tags": [
+   "Panik",
+   "ECG",
+   "CBT"
+  ]
+ }
+}

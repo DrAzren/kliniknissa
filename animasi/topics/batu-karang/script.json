@@ -1,0 +1,222 @@
+{
+ "id": "batu-karang",
+ "title": "Sakit Pinggang Sampai Berpeluh? Mungkin Batu Karang",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[serious] Ada pesakit kata... sakit ini lebih teruk daripada apa pun yang pernah mereka rasa.\n\n[storytelling] Danial, tiga puluh lima tahun, juruteknik penghawa dingin. Setiap hari panjat bumbung panas, tapi jarang minum air. [worried] Satu petang, pinggang kanannya sakit mencucuk. Sakitnya datang berombak, menjalar ke perut bawah. Dia tak boleh duduk diam, berpeluh dan muntah.\n\n[concerned] Bila kencing, warnanya kemerahan. Danial terus ke klinik.\n\n[serious] Ujian air kencing jumpa darah, dan imbasan sahkan... ada batu karang dalam saluran kencingnya.\n\n[warmly] Ini lima perkara tentang batu karang.\n\nSatu. Ia terbentuk bila bahan dalam air kencing, seperti kalsium dan asid urik, terlalu pekat lalu menjadi kristal keras.\n\nDua. Tanda utama: sakit pinggang berombak yang menjalar ke perut bawah, kencing berdarah, loya dan muntah.\n\nTiga. Tanda bahaya: demam atau menggigil bersama sakit pinggang, tak boleh kencing, atau sakit yang tak reda dengan ubat. Pergi ke unit kecemasan segera.\n\nEmpat. Batu kecil, bawah lima milimeter, selalunya boleh keluar sendiri dengan ubat tahan sakit. Batu besar mungkin perlu dipecahkan atau dikeluarkan oleh pakar urologi.\n\nLima. Untuk mencegah, minum air sehingga kencing jernih, kira-kira dua setengah hingga tiga liter sehari. Kurangkan garam, daging merah dan minuman manis.\n\n[relieved] Tiga hari kemudian, batu Danial keluar sendiri. Sekarang botol air besar sentiasa ada di sisinya.\n\n[warmly] Kalau anda alami sakit pinggang yang luar biasa, jangan tunggu. Dapatkan rawatan. Saya Doktor Azren.",
+  "note": "1 take sahaja. ElevenLabs Flow EC91pfxOt13QUIhVhscl, generation uOMpiSzIMuszn61jN2TI, 89.52 s."
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "danial",
+   "marker": "Danial tiga"
+  },
+  {
+   "id": "sakit",
+   "marker": "Satu petang"
+  },
+  {
+   "id": "klinik",
+   "marker": "Bila kencing"
+  },
+  {
+   "id": "diagnosis",
+   "marker": "Ujian air"
+  },
+  {
+   "id": "lima",
+   "marker": "Ini lima"
+  },
+  {
+   "id": "b1",
+   "marker": "Satu Ia",
+   "n": 1,
+   "label": "Bagaimana terbentuk"
+  },
+  {
+   "id": "b2",
+   "marker": "Dua Tanda",
+   "n": 2,
+   "label": "Tanda utama"
+  },
+  {
+   "id": "b3",
+   "marker": "Tiga Tanda",
+   "n": 3,
+   "label": "Tanda bahaya"
+  },
+  {
+   "id": "b4",
+   "marker": "Empat Batu",
+   "n": 4,
+   "label": "Rawatan"
+  },
+  {
+   "id": "b5",
+   "marker": "Lima Untuk",
+   "n": 5,
+   "label": "Pencegahan"
+  },
+  {
+   "id": "pulih",
+   "marker": "Tiga hari"
+  },
+  {
+   "id": "penutup",
+   "marker": "Kalau anda alami"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat",
+  "Lima"
+ ],
+ "keywords": [
+  "lebih teruk",
+  "Danial",
+  "juruteknik penghawa dingin",
+  "bumbung panas",
+  "jarang minum air",
+  "pinggang",
+  "mencucuk",
+  "berombak",
+  "perut bawah",
+  "berpeluh",
+  "muntah",
+  "kemerahan",
+  "klinik",
+  "darah",
+  "imbasan",
+  "batu karang",
+  "5 perkara",
+  "kalsium",
+  "asid urik",
+  "terlalu pekat",
+  "kristal keras",
+  "Tanda utama",
+  "kencing berdarah",
+  "loya",
+  "Tanda bahaya",
+  "demam",
+  "menggigil",
+  "tak boleh kencing",
+  "tak reda",
+  "unit kecemasan",
+  "segera",
+  "Batu kecil",
+  "5 milimeter",
+  "keluar sendiri",
+  "ubat tahan sakit",
+  "Batu besar",
+  "dipecahkan",
+  "dikeluarkan",
+  "pakar urologi",
+  "mencegah",
+  "kencing jernih",
+  "2.5–3 liter sehari",
+  "garam",
+  "daging merah",
+  "minuman manis",
+  "botol air",
+  "luar biasa",
+  "jangan tunggu",
+  "rawatan",
+  "Dr. Azren"
+ ],
+ "corrections": {
+  "tiga puluh lima": "35",
+  "lima perkara": "5 perkara",
+  "lima milimeter": "5 milimeter",
+  "dua setengah hingga tiga liter sehari": "2.5–3 liter sehari",
+  "Tiga hari": "3 hari",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.35,
+  "sfx": [
+   {
+    "file": "sting.mp3",
+    "at": "teruk",
+    "offset": 0,
+    "volume": 0.6
+   },
+   {
+    "file": "slap.mp3",
+    "at": "mencucuk",
+    "offset": 0,
+    "volume": 0.6
+   },
+   {
+    "file": "sting.mp3",
+    "at": "ada batu karang",
+    "offset": 0,
+    "volume": 0.8
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu Ia",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Tanda",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Tanda",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Batu",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Lima Untuk",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "chime.mp3",
+    "at": "keluar sendiri",
+    "offset": 0,
+    "volume": 0.8
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "SAKIT PINGGANG?",
+  "headline": [
+   "BATU",
+   "KARANG"
+  ],
+  "highlight": "Tanda yang tak boleh diabaikan",
+  "sub": "Tanda • Bahaya • Pencegahan",
+  "tags": [
+   "Pinggang",
+   "Batu",
+   "Air"
+  ]
+ }
+}

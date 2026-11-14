@@ -1,0 +1,26 @@
+# Ingat Serangan Jantung, Rupanya Serangan Panik — narration (Dr Azren, ElevenLabs eleven_v4, 1 take, 91.44 s)
+# Tag [ ] ialah arahan emosi (tidak dibaca). Kapsyen: "E-C-G" -> ECG, "dua puluh empat" -> 24, "lima benda / empat yang / tiga yang" -> 5 / 4 / 3, "Doktor Azren" -> Dr. Azren.
+
+[tense] Jantung berdebar laju. Dada ketat. Tangan kebas. Rasa macam... nak mati. Tapi bila diperiksa, jantungnya sihat.
+
+[storytelling] Aina, dua puluh empat tahun, baru tiga bulan bekerja. Pagi Isnin, dalam LRT yang sesak... [worried] tiba-tiba dia sesak nafas. Badan menggigil, berpeluh, kepala pening. Dia yakin dia kena serangan jantung.
+
+[concerned] Kawannya terus bawa Aina ke klinik. Doktor periksa dan buat E-C-G. [reassuring] Keputusannya normal.
+
+[serious] Diagnosisnya... serangan panik.
+
+[warmly] Ramai yang alami, tapi tak ramai yang faham. Ini lima perkara penting.
+
+Satu. Ia datang mengejut dan memuncak dalam beberapa minit: jantung berdebar, sesak nafas, sakit dada, menggigil, kebas, dan rasa takut hilang kawalan.
+
+Dua. Kenapa berlaku? Sistem penggera badan tersalah bunyi. Adrenalin dilepaskan seolah-olah anda dalam bahaya, walaupun sebenarnya anda selamat.
+
+Tiga. Penting: sakit dada kali pertama mesti diperiksa doktor dahulu. Jangan terus anggap ia hanya panik.
+
+Empat. Semasa serangan, tarik nafas perlahan melalui hidung, hembus lebih panjang. Kemudian cari lima benda yang anda nampak, empat yang anda sentuh, tiga yang anda dengar. Serangan akan reda.
+
+Lima. Kalau serangan berulang dan anda mula takut keluar rumah, itu tanda gangguan panik. Ia boleh dirawat dengan terapi kognitif tingkah laku, dan ubat jika perlu.
+
+[relieved] Selepas beberapa sesi terapi, Aina kembali naik LRT dengan tenang.
+
+[warmly] Kalau serangan panik mengganggu hidup anda, jangan tunggu. Dapatkan rawatan. Saya Doktor Azren.

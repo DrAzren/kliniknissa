@@ -1,0 +1,231 @@
+{
+ "id": "dengkur-sleep-apnea",
+ "title": "Dengkur Kuat Bukan Tanda Tidur Nyenyak (Apnea Tidur Obstruktif)",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[serious] Dengkur kuat... kemudian senyap. Sepuluh saat. Tiada nafas langsung. Ini bukan tanda tidur nyenyak.\n\n[storytelling] Encik Zul, empat puluh dua tahun, pegawai jualan. Setiap malam dengkurnya sangat kuat. [concerned] Satu malam, isterinya rakam video. Zul berdengkur... berhenti bernafas... kemudian tersentak macam orang lemas.\n\n[worried] Siang pula, Zul selalu mengantuk. Minggu lepas, dia hampir terlelap semasa memandu.\n\n[serious] Di klinik, doktor buat saringan dan rujuk Zul untuk ujian tidur. Keputusannya... Zul ada ap-nea tidur obstruktif.\n\n[warmly] Apa sebenarnya berlaku? Ini lima perkara yang anda perlu tahu.\n\nSatu. Semasa tidur, otot tekak jadi terlalu kendur. Saluran nafas menyempit, kemudian tertutup. Oksigen menurun, dan otak kejutkan anda berkali-kali tanpa sedar.\n\nDua. Tandanya: dengkur kuat, tercungap atau tersedak waktu malam, bangun dengan sakit kepala, dan mengantuk sepanjang hari.\n\nTiga. Risiko lebih tinggi jika anda berat badan berlebihan, leher besar, lelaki, berumur lebih lima puluh tahun, atau ada darah tinggi.\n\nEmpat. Kalau dibiarkan, ia boleh meningkatkan risiko darah tinggi, sakit jantung, strok... dan kemalangan jalan raya kerana tertidur.\n\nLima. Ia boleh dirawat. Turunkan berat badan, elak rokok dan tidur mengiring. Untuk kes sederhana atau teruk, doktor mungkin cadangkan mesin si-pap, yang meniup udara supaya saluran nafas kekal terbuka.\n\n[relieved] Sekarang Zul tidur dengan si-pap setiap malam. Bangun pagi rasa segar, memandu pun lebih selamat.\n\n[warmly] Kalau orang tersayang nampak anda berhenti bernafas waktu tidur, jangan tunggu. Dapatkan pemeriksaan. Saya Doktor Azren.",
+  "note": "1 take sahaja. ElevenLabs Flow iOVYEwXSjE3dRpYT5uFv, generation PV6DN9qYKWiGKZc4ZWFT, 101.28 s."
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "zul",
+   "marker": "Encik Zul"
+  },
+  {
+   "id": "siang",
+   "marker": "Siang pula"
+  },
+  {
+   "id": "diagnosis",
+   "marker": "Di klinik"
+  },
+  {
+   "id": "lima",
+   "marker": "Apa sebenarnya"
+  },
+  {
+   "id": "s1",
+   "marker": "Satu Semasa",
+   "n": 1,
+   "label": "Saluran nafas tertutup"
+  },
+  {
+   "id": "s2",
+   "marker": "Dua Tandanya",
+   "n": 2,
+   "label": "Tanda-tanda"
+  },
+  {
+   "id": "s3",
+   "marker": "Tiga Risiko",
+   "n": 3,
+   "label": "Faktor risiko"
+  },
+  {
+   "id": "s4",
+   "marker": "Empat Kalau",
+   "n": 4,
+   "label": "Bahaya jika dibiarkan"
+  },
+  {
+   "id": "s5",
+   "marker": "Lima Ia",
+   "n": 5,
+   "label": "Rawatan"
+  },
+  {
+   "id": "pulih",
+   "marker": "Sekarang Zul"
+  },
+  {
+   "id": "penutup",
+   "marker": "Kalau orang"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat",
+  "Lima"
+ ],
+ "keywords": [
+  "Dengkur kuat",
+  "senyap",
+  "10 saat",
+  "Tiada nafas",
+  "bukan",
+  "tidur nyenyak",
+  "Zul",
+  "rakam video",
+  "berhenti bernafas",
+  "tersentak",
+  "mengantuk",
+  "terlelap",
+  "memandu",
+  "klinik",
+  "saringan",
+  "ujian tidur",
+  "apnea tidur obstruktif",
+  "5 perkara",
+  "otot tekak",
+  "kendur",
+  "menyempit",
+  "tertutup",
+  "Oksigen",
+  "berkali-kali",
+  "dengkur kuat",
+  "tercungap",
+  "tersedak",
+  "sakit kepala",
+  "sepanjang hari",
+  "berat badan berlebihan",
+  "leher besar",
+  "lelaki",
+  "50 tahun",
+  "darah tinggi",
+  "sakit jantung",
+  "strok",
+  "kemalangan jalan raya",
+  "tertidur",
+  "boleh dirawat",
+  "Turunkan berat badan",
+  "elak rokok",
+  "tidur mengiring",
+  "CPAP",
+  "meniup udara",
+  "terbuka",
+  "segar",
+  "lebih selamat",
+  "jangan tunggu",
+  "pemeriksaan",
+  "Dr. Azren"
+ ],
+ "corrections": {
+  "Sepuluh saat": "10 saat",
+  "empat puluh dua": "42",
+  "lima perkara": "5 perkara",
+  "lima puluh tahun": "50 tahun",
+  "ap-nea": "apnea",
+  "si-pap": "CPAP",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.35,
+  "sfx": [
+   {
+    "file": "snore.mp3",
+    "at": 0.0,
+    "offset": 0,
+    "volume": 0.8
+   },
+   {
+    "file": "sting.mp3",
+    "at": "senyap",
+    "offset": 0.1,
+    "volume": 0.6
+   },
+   {
+    "file": "snore.mp3",
+    "at": "berdengkur",
+    "offset": -0.6,
+    "volume": 0.6
+   },
+   {
+    "file": "slap.mp3",
+    "at": "tersentak",
+    "offset": 0,
+    "volume": 0.45
+   },
+   {
+    "file": "sting.mp3",
+    "at": "Keputusannya",
+    "offset": 0.6,
+    "volume": 0.8
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu Semasa",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Tandanya",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Risiko",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Kalau",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Lima Ia",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "chime.mp3",
+    "at": "Sekarang Zul",
+    "offset": 0,
+    "volume": 0.8
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "DENGKUR KUAT?",
+  "headline": [
+   "BUKAN",
+   "TIDUR LENA"
+  ],
+  "highlight": "Mungkin apnea tidur",
+  "sub": "Tanda • Risiko • Rawatan",
+  "tags": [
+   "Dengkur",
+   "Apnea",
+   "CPAP"
+  ]
+ }
+}
