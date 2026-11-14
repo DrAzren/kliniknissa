@@ -1,0 +1,227 @@
+{
+ "id": "darah-tinggi",
+ "title": "Darah Tinggi: Pembunuh Senyap",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[serious] Tiga daripada sepuluh orang dewasa di Malaysia ada penyakit ini. Dan empat daripada sepuluh pesakit... tak tahu pun mereka ada. Tak sakit. Tak gatal. Tapi boleh membunuh.\n\n[storytelling] Encik Rahman, empat puluh lima tahun, pemandu lori. Rasa sihat, cuma kadang-kadang sakit kepala. [casual] \"Biasalah, kurang tidur.\"\n\n[concerned] Satu hari dia ke klinik sebab selesema. Jururawat ukur tekanan darahnya... seratus enam puluh lapan, per seratus. [worried] Doktor minta dia datang semula. Bacaan kedua, tetap tinggi.\n\n[serious] Diagnosis... darah tinggi, atau hipertensi.\n\n[warmly] Darah tinggi bermaksud bacaan kekal seratus empat puluh per sembilan puluh, atau lebih. Ini lima perkara penting.\n\nSatu. Ia senyap. Kebanyakan pesakit tiada simptom langsung. Sakit kepala bukan petunjuknya. Satu-satunya cara untuk tahu, ialah ukur.\n\nDua. Faktor risiko. Makan masin, berat badan berlebihan, kurang bergerak, merokok, umur meningkat, dan ahli keluarga yang ada darah tinggi.\n\nTiga. Kesan jika dibiarkan. Ia merosakkan saluran darah perlahan-lahan, dan boleh menyebabkan strok, serangan jantung, kegagalan buah pinggang dan masalah mata.\n\nEmpat. Ubah gaya hidup. Garam, kurang daripada satu sudu teh sehari. Bersenam seratus lima puluh minit seminggu, dan berhenti merokok.\n\nLima. Ubat. Jika doktor beri ubat, makan setiap hari walaupun rasa sihat. Jangan berhenti sendiri.\n\n[reassuring] Tiga bulan kemudian, Encik Rahman kurangkan garam, berjalan setiap pagi, dan makan ubat ikut jadual. Tekanan darahnya kini terkawal.\n\n[warmly] Jangan tunggu ada simptom. Periksa tekanan darah anda, sekurang-kurangnya setahun sekali. Saya Doktor Azren.",
+  "note": "1 take sahaja (pilihan A). ElevenLabs Flow 0xZVIRu6C9JvIGXB6mY0, generation cQX2RpmvqIn5fAjoRGdW, 99.68 s. Muzik & SFX diguna semula daripada jenis-nyamuk."
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "rahman",
+   "marker": "Encik Rahman"
+  },
+  {
+   "id": "klinik",
+   "marker": "Satu hari"
+  },
+  {
+   "id": "diagnosis",
+   "marker": "Diagnosis"
+  },
+  {
+   "id": "lima",
+   "marker": "Darah tinggi bermaksud"
+  },
+  {
+   "id": "senyap",
+   "marker": "Satu Ia senyap",
+   "n": 1,
+   "label": "Ia senyap"
+  },
+  {
+   "id": "risiko",
+   "marker": "Dua Faktor risiko",
+   "n": 2,
+   "label": "Faktor risiko"
+  },
+  {
+   "id": "kesan",
+   "marker": "Tiga Kesan",
+   "n": 3,
+   "label": "Kesan jika dibiarkan"
+  },
+  {
+   "id": "gaya",
+   "marker": "Empat Ubah",
+   "n": 4,
+   "label": "Ubah gaya hidup"
+  },
+  {
+   "id": "ubat",
+   "marker": "Lima Ubat",
+   "n": 5,
+   "label": "Ubat"
+  },
+  {
+   "id": "pulih",
+   "marker": "Tiga bulan"
+  },
+  {
+   "id": "penutup",
+   "marker": "Jangan tunggu"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat",
+  "Lima"
+ ],
+ "keywords": [
+  "3 daripada 10",
+  "4 daripada 10",
+  "tak tahu",
+  "membunuh",
+  "Encik Rahman",
+  "45 tahun",
+  "pemandu lori",
+  "sihat",
+  "sakit kepala",
+  "Biasalah",
+  "klinik",
+  "tekanan darahnya",
+  "168/100",
+  "datang semula",
+  "tetap tinggi",
+  "darah tinggi",
+  "hipertensi",
+  "140/90",
+  "5 perkara penting",
+  "senyap",
+  "tiada simptom",
+  "petunjuknya",
+  "ukur",
+  "Faktor risiko",
+  "masin",
+  "berat badan",
+  "kurang bergerak",
+  "merokok",
+  "umur",
+  "ahli keluarga",
+  "saluran darah",
+  "strok",
+  "serangan jantung",
+  "buah pinggang",
+  "mata",
+  "gaya hidup",
+  "Garam",
+  "1 sudu teh",
+  "150 minit",
+  "berhenti merokok",
+  "Ubat",
+  "setiap hari",
+  "rasa sihat",
+  "Jangan berhenti sendiri",
+  "3 bulan",
+  "berjalan",
+  "terkawal",
+  "jangan tunggu",
+  "Periksa tekanan darah",
+  "setahun sekali",
+  "Dr. Azren",
+  "Kesan",
+  "dibiarkan",
+  "Bersenam"
+ ],
+ "corrections": {
+  "Tiga daripada sepuluh": "3 daripada 10",
+  "empat daripada sepuluh": "4 daripada 10",
+  "empat puluh lima tahun": "45 tahun",
+  "seratus enam puluh lapan per seratus": "168/100",
+  "seratus empat puluh per sembilan puluh": "140/90",
+  "satu sudu teh": "1 sudu teh",
+  "seratus lima puluh minit": "150 minit",
+  "Tiga bulan": "3 bulan",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.35,
+  "sfx": [
+   {
+    "file": "sting.mp3",
+    "at": "membunuh",
+    "offset": 0,
+    "volume": 0.7
+   },
+   {
+    "file": "slap.mp3",
+    "at": "Biasalah",
+    "offset": -0.1,
+    "volume": 0.5
+   },
+   {
+    "file": "sting.mp3",
+    "at": "darah tinggi atau hipertensi",
+    "offset": 0.1,
+    "volume": 0.8
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu Ia",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Faktor",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Kesan",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Ubah",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Lima Ubat",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "chime.mp3",
+    "at": "terkawal",
+    "offset": 0,
+    "volume": 0.8
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "PEMBUNUH SENYAP",
+  "headline": [
+   "DARAH",
+   "TINGGI"
+  ],
+  "highlight": "Tak sakit, tapi boleh membunuh",
+  "sub": "5 perkara penting",
+  "tags": [
+   "#1",
+   "#2",
+   "#3",
+   "#4",
+   "#5"
+  ]
+ }
+}

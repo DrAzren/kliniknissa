@@ -1,0 +1,238 @@
+{
+ "id": "kemurungan-lelaki",
+ "title": "Lelaki Murung Tak Semestinya Menangis",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[serious] Lelaki yang murung... selalunya tak menangis. Dia marah. Dia diam. Atau dia kerja sampai tengah malam.\n\n[storytelling] Faiz, tiga puluh empat tahun, jurutera. Dulu ceria, kaki futsal. Tapi sejak beberapa bulan, dia mudah naik angin dengan isteri dan anak.\n\n[concerned] Balik kerja, terus pegang telefon sampai pukul tiga pagi. Badan selalu sakit, tapi semua ujian normal. [tired] \"Aku okey. Penat kerja je.\"\n\n[worried] Isterinya pujuk dia jumpa doktor. Selepas saringan dan temu bual...\n\n[serious] Diagnosis... kemurungan major.\n\n[warmly] Kemurungan pada lelaki selalunya tak nampak macam sedih. Ini lima tanda yang sering terlepas.\n\nSatu. Cepat marah. Panas baran, mudah tersinggung, bertengkar hal kecil.\n\nDua. Lari ke kerja atau skrin. Kerja tanpa henti, atau tenggelam dalam telefon, untuk elak rasa kosong.\n\nTiga. Sakit badan tanpa punca. Sakit kepala, sakit belakang, perut tak selesa, yang tak baik-baik.\n\nEmpat. Tidur terganggu. Susah tidur, atau tidur terlalu lama, tapi bangun tetap letih.\n\nLima. Hilang minat dan menarik diri. Hobi ditinggalkan, kawan dijauhi. Ada yang merokok lebih banyak, atau ambil risiko bahaya.\n\n[reassuring] Kalau tanda ini berterusan lebih dua minggu, ia perlu dinilai. Kemurungan boleh dirawat, dengan terapi bercakap, dan ubat jika perlu. Ubat antidepresan tidak menyebabkan ketagihan.\n\n[relieved] Selepas beberapa bulan rawatan, Faiz kembali ke padang futsal... kali ini bersama anaknya.\n\n[warmly] Bercakap bukan tanda lemah. Jangan tunggu sampai tak tertahan, dapatkan rawatan. Kalau ada fikiran untuk mencederakan diri, dapatkan bantuan kecemasan segera. Saya Doktor Azren.",
+  "note": "1 take sahaja (pilihan A). ElevenLabs Flow 0xZVIRu6C9JvIGXB6mY0, generation xn2fng9DICP2NdQcW1lQ, 95.84 s. Muzik & SFX diguna semula daripada jenis-nyamuk."
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "faiz",
+   "marker": "Faiz"
+  },
+  {
+   "id": "malam",
+   "marker": "Balik kerja"
+  },
+  {
+   "id": "doktor",
+   "marker": "Isterinya pujuk"
+  },
+  {
+   "id": "diagnosis",
+   "marker": "Diagnosis"
+  },
+  {
+   "id": "lima",
+   "marker": "Kemurungan pada lelaki"
+  },
+  {
+   "id": "marah",
+   "marker": "Satu Cepat marah",
+   "n": 1,
+   "label": "Cepat marah"
+  },
+  {
+   "id": "skrin",
+   "marker": "Dua Lari",
+   "n": 2,
+   "label": "Lari ke kerja / skrin"
+  },
+  {
+   "id": "sakit",
+   "marker": "Tiga Sakit badan",
+   "n": 3,
+   "label": "Sakit tanpa punca"
+  },
+  {
+   "id": "tidur",
+   "marker": "Empat Tidur",
+   "n": 4,
+   "label": "Tidur terganggu"
+  },
+  {
+   "id": "minat",
+   "marker": "Lima Hilang minat",
+   "n": 5,
+   "label": "Hilang minat"
+  },
+  {
+   "id": "rawat",
+   "marker": "Kalau tanda ini"
+  },
+  {
+   "id": "pulih",
+   "marker": "Selepas beberapa bulan"
+  },
+  {
+   "id": "penutup",
+   "marker": "Bercakap bukan"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat",
+  "Lima"
+ ],
+ "keywords": [
+  "murung",
+  "tak menangis",
+  "marah",
+  "diam",
+  "tengah malam",
+  "Faiz",
+  "34 tahun",
+  "jurutera",
+  "ceria",
+  "futsal",
+  "naik angin",
+  "telefon",
+  "pukul 3 pagi",
+  "sakit",
+  "ujian normal",
+  "Aku okey",
+  "doktor",
+  "saringan",
+  "temu bual",
+  "kemurungan major",
+  "tak nampak macam sedih",
+  "5 tanda",
+  "sering terlepas",
+  "Cepat marah",
+  "Panas baran",
+  "tersinggung",
+  "bertengkar",
+  "kerja",
+  "skrin",
+  "tanpa henti",
+  "rasa kosong",
+  "Sakit badan",
+  "tanpa punca",
+  "sakit kepala",
+  "sakit belakang",
+  "perut",
+  "Tidur terganggu",
+  "Susah tidur",
+  "terlalu lama",
+  "letih",
+  "Hilang minat",
+  "menarik diri",
+  "Hobi",
+  "kawan",
+  "merokok",
+  "risiko bahaya",
+  "2 minggu",
+  "dinilai",
+  "boleh dirawat",
+  "terapi bercakap",
+  "ubat",
+  "antidepresan",
+  "tidak menyebabkan ketagihan",
+  "padang futsal",
+  "anaknya",
+  "Bercakap",
+  "bukan tanda lemah",
+  "jangan tunggu",
+  "dapatkan rawatan",
+  "mencederakan diri",
+  "bantuan kecemasan segera",
+  "Dr. Azren"
+ ],
+ "corrections": {
+  "tiga puluh empat tahun": "34 tahun",
+  "pukul tiga pagi": "pukul 3 pagi",
+  "dua minggu": "2 minggu",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.35,
+  "sfx": [
+   {
+    "file": "slap.mp3",
+    "at": "marah",
+    "offset": 0,
+    "volume": 0.45
+   },
+   {
+    "file": "slap.mp3",
+    "at": "Aku okey",
+    "offset": -0.1,
+    "volume": 0.45
+   },
+   {
+    "file": "sting.mp3",
+    "at": "kemurungan major",
+    "offset": 0.1,
+    "volume": 0.8
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu Cepat",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Lari",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Sakit",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Tidur",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Lima Hilang",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "chime.mp3",
+    "at": "padang futsal",
+    "offset": 0,
+    "volume": 0.8
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "LELAKI MURUNG",
+  "headline": [
+   "TAK",
+   "MENANGIS"
+  ],
+  "highlight": "5 tanda yang sering terlepas",
+  "sub": "Dia marah. Dia diam.",
+  "tags": [
+   "#1",
+   "#2",
+   "#3",
+   "#4",
+   "#5"
+  ]
+ }
+}

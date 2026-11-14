@@ -1,0 +1,1372 @@
+{
+  "words": [
+    {
+      "text": "[serious]",
+      "type": "word",
+      "start": 0,
+      "end": 0.053
+    },
+    {
+      "text": "Tiga",
+      "type": "word",
+      "start": 0.067,
+      "end": 0.32
+    },
+    {
+      "text": "daripada",
+      "type": "word",
+      "start": 0.4,
+      "end": 0.8
+    },
+    {
+      "text": "sepuluh",
+      "type": "word",
+      "start": 0.88,
+      "end": 1.28
+    },
+    {
+      "text": "orang",
+      "type": "word",
+      "start": 1.36,
+      "end": 1.52
+    },
+    {
+      "text": "dewasa",
+      "type": "word",
+      "start": 1.6,
+      "end": 1.92
+    },
+    {
+      "text": "di",
+      "type": "word",
+      "start": 1.96,
+      "end": 2
+    },
+    {
+      "text": "Malaysia",
+      "type": "word",
+      "start": 2.08,
+      "end": 2.64
+    },
+    {
+      "text": "ada",
+      "type": "word",
+      "start": 2.72,
+      "end": 3.04
+    },
+    {
+      "text": "penyakit",
+      "type": "word",
+      "start": 3.12,
+      "end": 3.44
+    },
+    {
+      "text": "ini.",
+      "type": "word",
+      "start": 3.6,
+      "end": 3.96
+    },
+    {
+      "text": "Dan",
+      "type": "word",
+      "start": 4.16,
+      "end": 4.4
+    },
+    {
+      "text": "empat",
+      "type": "word",
+      "start": 4.56,
+      "end": 4.8
+    },
+    {
+      "text": "daripada",
+      "type": "word",
+      "start": 4.88,
+      "end": 5.28
+    },
+    {
+      "text": "sepuluh",
+      "type": "word",
+      "start": 5.4,
+      "end": 5.68
+    },
+    {
+      "text": "pesakit...",
+      "type": "word",
+      "start": 5.8,
+      "end": 6.56
+    },
+    {
+      "text": "tak",
+      "type": "word",
+      "start": 6.613,
+      "end": 6.72
+    },
+    {
+      "text": "tahu",
+      "type": "word",
+      "start": 6.8,
+      "end": 7.12
+    },
+    {
+      "text": "pun",
+      "type": "word",
+      "start": 7.2,
+      "end": 7.28
+    },
+    {
+      "text": "mereka",
+      "type": "word",
+      "start": 7.36,
+      "end": 7.6
+    },
+    {
+      "text": "ada.",
+      "type": "word",
+      "start": 7.72,
+      "end": 7.92
+    },
+    {
+      "text": "Tak",
+      "type": "word",
+      "start": 8.32,
+      "end": 8.4
+    },
+    {
+      "text": "sakit.",
+      "type": "word",
+      "start": 8.48,
+      "end": 9.12
+    },
+    {
+      "text": "Tak",
+      "type": "word",
+      "start": 9.16,
+      "end": 9.28
+    },
+    {
+      "text": "gatal.",
+      "type": "word",
+      "start": 9.32,
+      "end": 9.84
+    },
+    {
+      "text": "Tapi",
+      "type": "word",
+      "start": 10.24,
+      "end": 10.56
+    },
+    {
+      "text": "boleh",
+      "type": "word",
+      "start": 10.64,
+      "end": 11
+    },
+    {
+      "text": "membunuh.",
+      "type": "word",
+      "start": 11.04,
+      "end": 11.68
+    },
+    {
+      "text": "[storytelling]",
+      "type": "word",
+      "start": 12.16,
+      "end": 12.331
+    },
+    {
+      "text": "Encik",
+      "type": "word",
+      "start": 12.366,
+      "end": 12.44
+    },
+    {
+      "text": "Rahman,",
+      "type": "word",
+      "start": 12.48,
+      "end": 13.04
+    },
+    {
+      "text": "empat",
+      "type": "word",
+      "start": 13.12,
+      "end": 13.24
+    },
+    {
+      "text": "puluh",
+      "type": "word",
+      "start": 13.28,
+      "end": 13.4
+    },
+    {
+      "text": "lima",
+      "type": "word",
+      "start": 13.44,
+      "end": 13.6
+    },
+    {
+      "text": "tahun,",
+      "type": "word",
+      "start": 13.68,
+      "end": 14.16
+    },
+    {
+      "text": "pemandu",
+      "type": "word",
+      "start": 14.267,
+      "end": 14.52
+    },
+    {
+      "text": "lori.",
+      "type": "word",
+      "start": 14.56,
+      "end": 14.96
+    },
+    {
+      "text": "Rasa",
+      "type": "word",
+      "start": 15.28,
+      "end": 15.44
+    },
+    {
+      "text": "sihat,",
+      "type": "word",
+      "start": 15.52,
+      "end": 16.08
+    },
+    {
+      "text": "cuma",
+      "type": "word",
+      "start": 16.12,
+      "end": 16.56
+    },
+    {
+      "text": "kadang-kadang",
+      "type": "word",
+      "start": 16.64,
+      "end": 17.2
+    },
+    {
+      "text": "sakit",
+      "type": "word",
+      "start": 17.28,
+      "end": 17.44
+    },
+    {
+      "text": "kepala.",
+      "type": "word",
+      "start": 17.52,
+      "end": 18
+    },
+    {
+      "text": "[casual]",
+      "type": "word",
+      "start": 18.32,
+      "end": 18.457
+    },
+    {
+      "text": "\"Biasalah,",
+      "type": "word",
+      "start": 18.491,
+      "end": 19.12
+    },
+    {
+      "text": "kurang",
+      "type": "word",
+      "start": 19.2,
+      "end": 19.36
+    },
+    {
+      "text": "tidur.\"",
+      "type": "word",
+      "start": 19.44,
+      "end": 20
+    },
+    {
+      "text": "[concerned]",
+      "type": "word",
+      "start": 20.32,
+      "end": 20.491
+    },
+    {
+      "text": "Satu",
+      "type": "word",
+      "start": 20.526,
+      "end": 20.6
+    },
+    {
+      "text": "hari",
+      "type": "word",
+      "start": 20.64,
+      "end": 20.88
+    },
+    {
+      "text": "dia",
+      "type": "word",
+      "start": 20.96,
+      "end": 21.04
+    },
+    {
+      "text": "ke",
+      "type": "word",
+      "start": 21.12,
+      "end": 21.2
+    },
+    {
+      "text": "klinik",
+      "type": "word",
+      "start": 21.24,
+      "end": 21.6
+    },
+    {
+      "text": "sebab",
+      "type": "word",
+      "start": 21.68,
+      "end": 21.84
+    },
+    {
+      "text": "selesema.",
+      "type": "word",
+      "start": 21.92,
+      "end": 22.48
+    },
+    {
+      "text": "Jururawat",
+      "type": "word",
+      "start": 22.88,
+      "end": 23.44
+    },
+    {
+      "text": "ukur",
+      "type": "word",
+      "start": 23.52,
+      "end": 23.76
+    },
+    {
+      "text": "tekanan",
+      "type": "word",
+      "start": 23.84,
+      "end": 24.16
+    },
+    {
+      "text": "darahnya...",
+      "type": "word",
+      "start": 24.24,
+      "end": 25.04
+    },
+    {
+      "text": "seratus",
+      "type": "word",
+      "start": 25.12,
+      "end": 25.52
+    },
+    {
+      "text": "enam",
+      "type": "word",
+      "start": 25.6,
+      "end": 25.76
+    },
+    {
+      "text": "puluh",
+      "type": "word",
+      "start": 25.84,
+      "end": 25.9
+    },
+    {
+      "text": "lapan,",
+      "type": "word",
+      "start": 25.92,
+      "end": 26.4
+    },
+    {
+      "text": "per",
+      "type": "word",
+      "start": 26.56,
+      "end": 26.64
+    },
+    {
+      "text": "seratus.",
+      "type": "word",
+      "start": 26.72,
+      "end": 27.36
+    },
+    {
+      "text": "[worried]",
+      "type": "word",
+      "start": 27.76,
+      "end": 27.813
+    },
+    {
+      "text": "Doktor",
+      "type": "word",
+      "start": 27.827,
+      "end": 28
+    },
+    {
+      "text": "minta",
+      "type": "word",
+      "start": 28.08,
+      "end": 28.32
+    },
+    {
+      "text": "dia",
+      "type": "word",
+      "start": 28.36,
+      "end": 28.4
+    },
+    {
+      "text": "datang",
+      "type": "word",
+      "start": 28.48,
+      "end": 28.72
+    },
+    {
+      "text": "semula.",
+      "type": "word",
+      "start": 28.8,
+      "end": 29.2
+    },
+    {
+      "text": "Bacaan",
+      "type": "word",
+      "start": 29.52,
+      "end": 29.76
+    },
+    {
+      "text": "kedua,",
+      "type": "word",
+      "start": 29.84,
+      "end": 30.24
+    },
+    {
+      "text": "tetap",
+      "type": "word",
+      "start": 30.48,
+      "end": 30.8
+    },
+    {
+      "text": "tinggi.",
+      "type": "word",
+      "start": 30.88,
+      "end": 31.28
+    },
+    {
+      "text": "[serious]",
+      "type": "word",
+      "start": 31.6,
+      "end": 31.696
+    },
+    {
+      "text": "Diagnosis...",
+      "type": "word",
+      "start": 31.728,
+      "end": 32.64
+    },
+    {
+      "text": "darah",
+      "type": "word",
+      "start": 32.72,
+      "end": 32.88
+    },
+    {
+      "text": "tinggi,",
+      "type": "word",
+      "start": 32.96,
+      "end": 33.36
+    },
+    {
+      "text": "atau",
+      "type": "word",
+      "start": 33.6,
+      "end": 33.92
+    },
+    {
+      "text": "hipertensi.",
+      "type": "word",
+      "start": 34,
+      "end": 34.96
+    },
+    {
+      "text": "[warmly]",
+      "type": "word",
+      "start": 35.12,
+      "end": 35.173
+    },
+    {
+      "text": "Darah",
+      "type": "word",
+      "start": 35.187,
+      "end": 35.36
+    },
+    {
+      "text": "tinggi",
+      "type": "word",
+      "start": 35.44,
+      "end": 35.68
+    },
+    {
+      "text": "bermaksud",
+      "type": "word",
+      "start": 35.76,
+      "end": 36.32
+    },
+    {
+      "text": "bacaan",
+      "type": "word",
+      "start": 36.36,
+      "end": 36.72
+    },
+    {
+      "text": "kekal",
+      "type": "word",
+      "start": 36.8,
+      "end": 37.2
+    },
+    {
+      "text": "seratus",
+      "type": "word",
+      "start": 37.28,
+      "end": 37.6
+    },
+    {
+      "text": "empat",
+      "type": "word",
+      "start": 37.68,
+      "end": 37.84
+    },
+    {
+      "text": "puluh",
+      "type": "word",
+      "start": 37.92,
+      "end": 38.16
+    },
+    {
+      "text": "per",
+      "type": "word",
+      "start": 38.32,
+      "end": 38.4
+    },
+    {
+      "text": "sembilan",
+      "type": "word",
+      "start": 38.48,
+      "end": 38.72
+    },
+    {
+      "text": "puluh,",
+      "type": "word",
+      "start": 38.8,
+      "end": 39.173
+    },
+    {
+      "text": "atau",
+      "type": "word",
+      "start": 39.28,
+      "end": 39.48
+    },
+    {
+      "text": "lebih.",
+      "type": "word",
+      "start": 39.52,
+      "end": 40.04
+    },
+    {
+      "text": "Ini",
+      "type": "word",
+      "start": 40.24,
+      "end": 40.48
+    },
+    {
+      "text": "lima",
+      "type": "word",
+      "start": 40.64,
+      "end": 40.92
+    },
+    {
+      "text": "perkara",
+      "type": "word",
+      "start": 40.96,
+      "end": 41.28
+    },
+    {
+      "text": "penting.",
+      "type": "word",
+      "start": 41.4,
+      "end": 42.08
+    },
+    {
+      "text": "Satu.",
+      "type": "word",
+      "start": 42.2,
+      "end": 42.8
+    },
+    {
+      "text": "Ia",
+      "type": "word",
+      "start": 42.84,
+      "end": 42.96
+    },
+    {
+      "text": "senyap.",
+      "type": "word",
+      "start": 43.04,
+      "end": 43.52
+    },
+    {
+      "text": "Kebanyakan",
+      "type": "word",
+      "start": 43.68,
+      "end": 44.08
+    },
+    {
+      "text": "pesakit",
+      "type": "word",
+      "start": 44.16,
+      "end": 44.64
+    },
+    {
+      "text": "tiada",
+      "type": "word",
+      "start": 44.72,
+      "end": 44.96
+    },
+    {
+      "text": "simptom",
+      "type": "word",
+      "start": 45.04,
+      "end": 45.28
+    },
+    {
+      "text": "langsung.",
+      "type": "word",
+      "start": 45.36,
+      "end": 45.84
+    },
+    {
+      "text": "Sakit",
+      "type": "word",
+      "start": 46.16,
+      "end": 46.4
+    },
+    {
+      "text": "kepala",
+      "type": "word",
+      "start": 46.48,
+      "end": 46.88
+    },
+    {
+      "text": "bukan",
+      "type": "word",
+      "start": 46.96,
+      "end": 47.36
+    },
+    {
+      "text": "petunjuknya.",
+      "type": "word",
+      "start": 47.44,
+      "end": 48.08
+    },
+    {
+      "text": "Satu-satunya",
+      "type": "word",
+      "start": 48.4,
+      "end": 48.96
+    },
+    {
+      "text": "cara",
+      "type": "word",
+      "start": 49.04,
+      "end": 49.28
+    },
+    {
+      "text": "untuk",
+      "type": "word",
+      "start": 49.36,
+      "end": 49.52
+    },
+    {
+      "text": "tahu,",
+      "type": "word",
+      "start": 49.6,
+      "end": 50.08
+    },
+    {
+      "text": "ialah",
+      "type": "word",
+      "start": 50.16,
+      "end": 50.4
+    },
+    {
+      "text": "ukur.",
+      "type": "word",
+      "start": 50.48,
+      "end": 50.96
+    },
+    {
+      "text": "Dua.",
+      "type": "word",
+      "start": 51.28,
+      "end": 51.68
+    },
+    {
+      "text": "Faktor",
+      "type": "word",
+      "start": 51.92,
+      "end": 52.24
+    },
+    {
+      "text": "risiko.",
+      "type": "word",
+      "start": 52.32,
+      "end": 52.88
+    },
+    {
+      "text": "Makan",
+      "type": "word",
+      "start": 53.12,
+      "end": 53.36
+    },
+    {
+      "text": "masin,",
+      "type": "word",
+      "start": 53.52,
+      "end": 54
+    },
+    {
+      "text": "berat",
+      "type": "word",
+      "start": 54.08,
+      "end": 54.24
+    },
+    {
+      "text": "badan",
+      "type": "word",
+      "start": 54.32,
+      "end": 54.48
+    },
+    {
+      "text": "berlebihan,",
+      "type": "word",
+      "start": 54.56,
+      "end": 55.36
+    },
+    {
+      "text": "kurang",
+      "type": "word",
+      "start": 55.44,
+      "end": 55.6
+    },
+    {
+      "text": "bergerak,",
+      "type": "word",
+      "start": 55.76,
+      "end": 56.24
+    },
+    {
+      "text": "merokok,",
+      "type": "word",
+      "start": 56.32,
+      "end": 56.96
+    },
+    {
+      "text": "umur",
+      "type": "word",
+      "start": 57.04,
+      "end": 57.2
+    },
+    {
+      "text": "meningkat,",
+      "type": "word",
+      "start": 57.28,
+      "end": 58
+    },
+    {
+      "text": "dan",
+      "type": "word",
+      "start": 58.08,
+      "end": 58.16
+    },
+    {
+      "text": "ahli",
+      "type": "word",
+      "start": 58.24,
+      "end": 58.4
+    },
+    {
+      "text": "keluarga",
+      "type": "word",
+      "start": 58.48,
+      "end": 58.88
+    },
+    {
+      "text": "yang",
+      "type": "word",
+      "start": 58.96,
+      "end": 59.04
+    },
+    {
+      "text": "ada",
+      "type": "word",
+      "start": 59.2,
+      "end": 59.36
+    },
+    {
+      "text": "darah",
+      "type": "word",
+      "start": 59.44,
+      "end": 59.64
+    },
+    {
+      "text": "tinggi.",
+      "type": "word",
+      "start": 59.68,
+      "end": 60.08
+    },
+    {
+      "text": "Tiga.",
+      "type": "word",
+      "start": 60.4,
+      "end": 60.8
+    },
+    {
+      "text": "Kesan",
+      "type": "word",
+      "start": 61.04,
+      "end": 61.44
+    },
+    {
+      "text": "jika",
+      "type": "word",
+      "start": 61.52,
+      "end": 61.68
+    },
+    {
+      "text": "dibiarkan.",
+      "type": "word",
+      "start": 61.76,
+      "end": 62.56
+    },
+    {
+      "text": "Ia",
+      "type": "word",
+      "start": 62.72,
+      "end": 62.84
+    },
+    {
+      "text": "merosakkan",
+      "type": "word",
+      "start": 62.88,
+      "end": 63.44
+    },
+    {
+      "text": "saluran",
+      "type": "word",
+      "start": 63.52,
+      "end": 63.84
+    },
+    {
+      "text": "darah",
+      "type": "word",
+      "start": 63.92,
+      "end": 64.08
+    },
+    {
+      "text": "perlahan-lahan,",
+      "type": "word",
+      "start": 64.16,
+      "end": 65.12
+    },
+    {
+      "text": "dan",
+      "type": "word",
+      "start": 65.2,
+      "end": 65.28
+    },
+    {
+      "text": "boleh",
+      "type": "word",
+      "start": 65.36,
+      "end": 65.56
+    },
+    {
+      "text": "menyebabkan",
+      "type": "word",
+      "start": 65.6,
+      "end": 66.08
+    },
+    {
+      "text": "strok,",
+      "type": "word",
+      "start": 66.16,
+      "end": 66.72
+    },
+    {
+      "text": "serangan",
+      "type": "word",
+      "start": 66.8,
+      "end": 67.04
+    },
+    {
+      "text": "jantung,",
+      "type": "word",
+      "start": 67.12,
+      "end": 67.76
+    },
+    {
+      "text": "kegagalan",
+      "type": "word",
+      "start": 67.8,
+      "end": 68.24
+    },
+    {
+      "text": "buah",
+      "type": "word",
+      "start": 68.32,
+      "end": 68.48
+    },
+    {
+      "text": "pinggang",
+      "type": "word",
+      "start": 68.56,
+      "end": 68.88
+    },
+    {
+      "text": "dan",
+      "type": "word",
+      "start": 69.04,
+      "end": 69.12
+    },
+    {
+      "text": "masalah",
+      "type": "word",
+      "start": 69.2,
+      "end": 69.6
+    },
+    {
+      "text": "mata.",
+      "type": "word",
+      "start": 69.64,
+      "end": 70.32
+    },
+    {
+      "text": "Empat.",
+      "type": "word",
+      "start": 70.44,
+      "end": 70.88
+    },
+    {
+      "text": "Ubah",
+      "type": "word",
+      "start": 70.96,
+      "end": 71.2
+    },
+    {
+      "text": "gaya",
+      "type": "word",
+      "start": 71.28,
+      "end": 71.44
+    },
+    {
+      "text": "hidup.",
+      "type": "word",
+      "start": 71.52,
+      "end": 72.08
+    },
+    {
+      "text": "Garam,",
+      "type": "word",
+      "start": 72.12,
+      "end": 72.64
+    },
+    {
+      "text": "kurang",
+      "type": "word",
+      "start": 72.72,
+      "end": 72.96
+    },
+    {
+      "text": "daripada",
+      "type": "word",
+      "start": 73.04,
+      "end": 73.36
+    },
+    {
+      "text": "satu",
+      "type": "word",
+      "start": 73.44,
+      "end": 73.68
+    },
+    {
+      "text": "sudu",
+      "type": "word",
+      "start": 73.76,
+      "end": 74
+    },
+    {
+      "text": "teh",
+      "type": "word",
+      "start": 74.08,
+      "end": 74.2
+    },
+    {
+      "text": "sehari.",
+      "type": "word",
+      "start": 74.24,
+      "end": 74.72
+    },
+    {
+      "text": "Bersenam",
+      "type": "word",
+      "start": 74.96,
+      "end": 75.44
+    },
+    {
+      "text": "seratus",
+      "type": "word",
+      "start": 75.52,
+      "end": 75.92
+    },
+    {
+      "text": "lima",
+      "type": "word",
+      "start": 76,
+      "end": 76.16
+    },
+    {
+      "text": "puluh",
+      "type": "word",
+      "start": 76.2,
+      "end": 76.32
+    },
+    {
+      "text": "minit",
+      "type": "word",
+      "start": 76.4,
+      "end": 76.56
+    },
+    {
+      "text": "seminggu,",
+      "type": "word",
+      "start": 76.64,
+      "end": 77.28
+    },
+    {
+      "text": "dan",
+      "type": "word",
+      "start": 77.36,
+      "end": 77.44
+    },
+    {
+      "text": "berhenti",
+      "type": "word",
+      "start": 77.56,
+      "end": 78
+    },
+    {
+      "text": "merokok.",
+      "type": "word",
+      "start": 78.08,
+      "end": 78.72
+    },
+    {
+      "text": "Lima.",
+      "type": "word",
+      "start": 78.76,
+      "end": 79.36
+    },
+    {
+      "text": "Ubat.",
+      "type": "word",
+      "start": 79.4,
+      "end": 79.92
+    },
+    {
+      "text": "Jika",
+      "type": "word",
+      "start": 80,
+      "end": 80.16
+    },
+    {
+      "text": "doktor",
+      "type": "word",
+      "start": 80.2,
+      "end": 80.48
+    },
+    {
+      "text": "beri",
+      "type": "word",
+      "start": 80.52,
+      "end": 80.64
+    },
+    {
+      "text": "ubat,",
+      "type": "word",
+      "start": 80.72,
+      "end": 81.2
+    },
+    {
+      "text": "makan",
+      "type": "word",
+      "start": 81.24,
+      "end": 81.6
+    },
+    {
+      "text": "setiap",
+      "type": "word",
+      "start": 81.68,
+      "end": 82
+    },
+    {
+      "text": "hari",
+      "type": "word",
+      "start": 82.08,
+      "end": 82.32
+    },
+    {
+      "text": "walaupun",
+      "type": "word",
+      "start": 82.4,
+      "end": 82.96
+    },
+    {
+      "text": "rasa",
+      "type": "word",
+      "start": 83.04,
+      "end": 83.2
+    },
+    {
+      "text": "sihat.",
+      "type": "word",
+      "start": 83.28,
+      "end": 83.84
+    },
+    {
+      "text": "Jangan",
+      "type": "word",
+      "start": 83.88,
+      "end": 84.16
+    },
+    {
+      "text": "berhenti",
+      "type": "word",
+      "start": 84.24,
+      "end": 84.56
+    },
+    {
+      "text": "sendiri.",
+      "type": "word",
+      "start": 84.64,
+      "end": 85.2
+    },
+    {
+      "text": "[reassuring]",
+      "type": "word",
+      "start": 85.21,
+      "end": 85.26
+    },
+    {
+      "text": "Tiga",
+      "type": "word",
+      "start": 85.27,
+      "end": 85.36
+    },
+    {
+      "text": "bulan",
+      "type": "word",
+      "start": 85.44,
+      "end": 85.6
+    },
+    {
+      "text": "kemudian,",
+      "type": "word",
+      "start": 85.68,
+      "end": 86.24
+    },
+    {
+      "text": "Encik",
+      "type": "word",
+      "start": 86.32,
+      "end": 86.48
+    },
+    {
+      "text": "Rahman",
+      "type": "word",
+      "start": 86.52,
+      "end": 86.8
+    },
+    {
+      "text": "kurangkan",
+      "type": "word",
+      "start": 86.88,
+      "end": 87.28
+    },
+    {
+      "text": "garam,",
+      "type": "word",
+      "start": 87.36,
+      "end": 87.84
+    },
+    {
+      "text": "berjalan",
+      "type": "word",
+      "start": 87.92,
+      "end": 88.24
+    },
+    {
+      "text": "setiap",
+      "type": "word",
+      "start": 88.32,
+      "end": 88.56
+    },
+    {
+      "text": "pagi,",
+      "type": "word",
+      "start": 88.64,
+      "end": 89.12
+    },
+    {
+      "text": "dan",
+      "type": "word",
+      "start": 89.2,
+      "end": 89.28
+    },
+    {
+      "text": "makan",
+      "type": "word",
+      "start": 89.32,
+      "end": 89.6
+    },
+    {
+      "text": "ubat",
+      "type": "word",
+      "start": 89.68,
+      "end": 89.92
+    },
+    {
+      "text": "ikut",
+      "type": "word",
+      "start": 90.04,
+      "end": 90.16
+    },
+    {
+      "text": "jadual.",
+      "type": "word",
+      "start": 90.24,
+      "end": 90.96
+    },
+    {
+      "text": "Tekanan",
+      "type": "word",
+      "start": 91.04,
+      "end": 91.28
+    },
+    {
+      "text": "darahnya",
+      "type": "word",
+      "start": 91.36,
+      "end": 91.76
+    },
+    {
+      "text": "kini",
+      "type": "word",
+      "start": 91.92,
+      "end": 92.16
+    },
+    {
+      "text": "terkawal.",
+      "type": "word",
+      "start": 92.24,
+      "end": 93.12
+    },
+    {
+      "text": "[warmly]",
+      "type": "word",
+      "start": 93.131,
+      "end": 93.177
+    },
+    {
+      "text": "Jangan",
+      "type": "word",
+      "start": 93.189,
+      "end": 93.36
+    },
+    {
+      "text": "tunggu",
+      "type": "word",
+      "start": 93.52,
+      "end": 93.76
+    },
+    {
+      "text": "ada",
+      "type": "word",
+      "start": 93.84,
+      "end": 93.92
+    },
+    {
+      "text": "simptom.",
+      "type": "word",
+      "start": 94,
+      "end": 94.72
+    },
+    {
+      "text": "Periksa",
+      "type": "word",
+      "start": 94.76,
+      "end": 95.12
+    },
+    {
+      "text": "tekanan",
+      "type": "word",
+      "start": 95.2,
+      "end": 95.44
+    },
+    {
+      "text": "darah",
+      "type": "word",
+      "start": 95.52,
+      "end": 95.68
+    },
+    {
+      "text": "anda,",
+      "type": "word",
+      "start": 95.76,
+      "end": 96.16
+    },
+    {
+      "text": "sekurang-kurangnya",
+      "type": "word",
+      "start": 96.28,
+      "end": 97.12
+    },
+    {
+      "text": "setahun",
+      "type": "word",
+      "start": 97.24,
+      "end": 97.6
+    },
+    {
+      "text": "sekali.",
+      "type": "word",
+      "start": 97.68,
+      "end": 98.4
+    },
+    {
+      "text": "Saya",
+      "type": "word",
+      "start": 98.507,
+      "end": 98.72
+    },
+    {
+      "text": "Doktor",
+      "type": "word",
+      "start": 98.8,
+      "end": 99.04
+    },
+    {
+      "text": "Azren.",
+      "type": "word",
+      "start": 99.16,
+      "end": 99.76
+    }
+  ]
+}

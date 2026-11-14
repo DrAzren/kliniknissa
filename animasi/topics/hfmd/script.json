@@ -1,0 +1,227 @@
+{
+ "id": "hfmd",
+ "title": "HFMD: Penyakit Tangan, Kaki & Mulut",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[serious] Ulser kecil dalam mulut anak anda... boleh jadi tanda penyakit yang buat satu tadika ditutup.\n\n[storytelling] Aisyah, tiga tahun, balik dari taska dengan badan panas. Malam itu dia menangis setiap kali minum susu.\n\n[concerned] Esok paginya, Mak nampak bintik merah dan lepuh kecil di tapak tangan dan tapak kaki Aisyah. [worried] Terus dia bawa ke klinik.\n\n[serious] Doktor periksa mulut Aisyah... penyakit tangan, kaki dan mulut, atau HFMD.\n\n[warmly] HFMD sangat mudah berjangkit, terutama dalam kalangan kanak-kanak kecil. Ini lima perkara yang ibu bapa perlu tahu.\n\nSatu. Punca. Kumpulan virus bernama enterovirus. Kebanyakan kes ringan, tetapi jenis E V tujuh puluh satu boleh membawa komplikasi serius pada otak dan jantung.\n\nDua. Cara merebak. Melalui air liur, bersin, cecair dari lepuh, dan najis. Tangan dan mainan yang tak dibasuh ialah laluan utama.\n\nTiga. Tanda biasa. Demam, sakit tekak, ulser dalam mulut, dan lepuh di tapak tangan, tapak kaki dan punggung. Biasanya sembuh sendiri dalam tujuh hingga sepuluh hari.\n\nEmpat. Tanda bahaya. Demam tinggi berterusan, terlalu mengantuk atau lemah, terkejut-kejut ketika tidur, muntah berulang, sesak nafas, atau tak mahu minum langsung. Bawa ke hospital segera.\n\nLima. Rawatan dan pencegahan. Tiada ubat khusus untuk virus ini. Beri banyak air, makanan lembut, dan ubat demam. Basuh tangan dengan sabun, cuci mainan, dan biarkan anak berehat di rumah sehingga sembuh.\n\n[relieved] Seminggu kemudian, ulser Aisyah sembuh, lepuh mula kering, dan dia kembali ceria.\n\n[warmly] Kalau anak anda ada tanda bahaya, jangan tunggu. Dapatkan rawatan segera. Saya Doktor Azren.",
+  "note": "1 take sahaja (pilihan A). ElevenLabs Flow 0xZVIRu6C9JvIGXB6mY0, generation V0nRtcYlsUoGMfFPtb5P, 100.16 s. Muzik & SFX diguna semula daripada jenis-nyamuk."
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "aisyah",
+   "marker": "Aisyah tiga"
+  },
+  {
+   "id": "lepuh",
+   "marker": "Esok paginya"
+  },
+  {
+   "id": "diagnosis",
+   "marker": "Doktor periksa"
+  },
+  {
+   "id": "lima",
+   "marker": "HFMD sangat"
+  },
+  {
+   "id": "punca",
+   "marker": "Satu Punca",
+   "n": 1,
+   "label": "Punca"
+  },
+  {
+   "id": "merebak",
+   "marker": "Dua Cara merebak",
+   "n": 2,
+   "label": "Cara merebak"
+  },
+  {
+   "id": "tanda",
+   "marker": "Tiga Tanda biasa",
+   "n": 3,
+   "label": "Tanda biasa"
+  },
+  {
+   "id": "bahaya",
+   "marker": "Empat Tanda bahaya",
+   "n": 4,
+   "label": "Tanda bahaya"
+  },
+  {
+   "id": "rawatan",
+   "marker": "Lima Rawatan",
+   "n": 5,
+   "label": "Rawatan & pencegahan"
+  },
+  {
+   "id": "pulih",
+   "marker": "Seminggu kemudian"
+  },
+  {
+   "id": "penutup",
+   "marker": "Kalau anak"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat",
+  "Lima"
+ ],
+ "keywords": [
+  "Ulser kecil",
+  "mulut",
+  "tadika ditutup",
+  "Aisyah",
+  "3 tahun",
+  "taska",
+  "badan panas",
+  "menangis",
+  "minum susu",
+  "bintik merah",
+  "lepuh kecil",
+  "tapak tangan",
+  "tapak kaki",
+  "klinik",
+  "penyakit tangan kaki dan mulut",
+  "HFMD",
+  "mudah berjangkit",
+  "kanak-kanak kecil",
+  "5 perkara",
+  "Punca",
+  "virus",
+  "enterovirus",
+  "ringan",
+  "EV71",
+  "otak",
+  "jantung",
+  "Cara merebak",
+  "air liur",
+  "bersin",
+  "cecair",
+  "najis",
+  "Tangan",
+  "mainan",
+  "Tanda biasa",
+  "Demam",
+  "sakit tekak",
+  "ulser",
+  "lepuh",
+  "punggung",
+  "sembuh sendiri",
+  "7–10 hari",
+  "Tanda bahaya",
+  "Demam tinggi",
+  "mengantuk",
+  "lemah",
+  "terkejut-kejut",
+  "muntah",
+  "sesak nafas",
+  "tak mahu minum",
+  "hospital segera",
+  "Tiada ubat khusus",
+  "banyak air",
+  "makanan lembut",
+  "ubat demam",
+  "Basuh tangan",
+  "sabun",
+  "cuci mainan",
+  "berehat di rumah",
+  "sembuh",
+  "kering",
+  "ceria",
+  "jangan tunggu",
+  "rawatan segera",
+  "Dr. Azren",
+  "Rawatan dan pencegahan",
+  "Seminggu"
+ ],
+ "corrections": {
+  "tiga tahun": "3 tahun",
+  "E V tujuh puluh satu": "EV71",
+  "tujuh hingga sepuluh hari": "7–10 hari",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.35,
+  "sfx": [
+   {
+    "file": "sting.mp3",
+    "at": "tadika ditutup",
+    "offset": 0,
+    "volume": 0.6
+   },
+   {
+    "file": "sting.mp3",
+    "at": "HFMD",
+    "offset": 0.1,
+    "volume": 0.8
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu Punca",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Cara",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Tanda",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Tanda",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Lima Rawatan",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "chime.mp3",
+    "at": "kembali ceria",
+    "offset": 0,
+    "volume": 0.8
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "IBU BAPA WAJIB TAHU",
+  "headline": [
+   "HFMD"
+  ],
+  "highlight": "Tangan, kaki & mulut",
+  "sub": "5 perkara + tanda bahaya",
+  "tags": [
+   "#1",
+   "#2",
+   "#3",
+   "#4",
+   "#5"
+  ]
+ }
+}

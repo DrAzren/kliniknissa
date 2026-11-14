@@ -1,0 +1,20 @@
+{
+ "video_id": "2026-11-14_VIDEO_06_KANAK_KANAK_HFMD_hfmd",
+ "status": "READY_NOT_SCHEDULED",
+ "approval_gate": {
+  "medical_accuracy": "PENDING (medical_references.md, items marked 'Semak')",
+  "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
+  "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding)",
+  "publishing_instruction": "Not scheduled. User asked not to schedule on Metricool unless requested."
+ },
+ "scheduled_posts": [],
+ "elevenlabs": {
+  "flow_id": "0xZVIRu6C9JvIGXB6mY0",
+  "tts_generation_id": "V0nRtcYlsUoGMfFPtb5P",
+  "tts_credits": 1631.8,
+  "music": "reused jenis-nyamuk/music.mp3 (0 credits)",
+  "sfx": "reused jenis-nyamuk/sfx (0 credits)",
+  "scribe_credits": 0
+ },
+ "higgsfield_credits": 0
+}

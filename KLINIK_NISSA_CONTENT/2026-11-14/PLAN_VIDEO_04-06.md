@@ -1,6 +1,6 @@
-# 2026-11-14 — 3 video animasi (VIDEO_04–06) — DRAF, MENUNGGU "OK jana"
+# 2026-11-14 — 3 video animasi (VIDEO_04–06) — SIAP (pilihan A diluluskan)
 
-Belum ada kredit digunakan. Folder dinombor 04–06 kerana branch `claude/trusting-sagan-des1yl` sudah ada VIDEO_01–03 untuk tarikh yang sama (sleep apnea, panik, batu karang).
+Pengguna pilih **pilihan A** (suara sahaja, muzik nyamuk diguna semula, tiada SFX baharu, tiada Talian HEAL). Kredit sebenar: 4,899.5 (lihat DAILY_PRODUCTION_REPORT.md). Folder dinombor 04–06 kerana branch `claude/trusting-sagan-des1yl` sudah ada VIDEO_01–03 untuk tarikh yang sama (sleep apnea, panik, batu karang).
 
 Topik yang sudah dibuat sebelum ini (semua branch) dan dielakkan: tiada emosi, OCD, halusinasi, BPD, bipolar, bipolar jenis 2, serangan panik, eczema, jenis nyamuk, denggi, gout, diabetes teh ais, influenza, hipoglisemia, kencing tikus, asma, sleep apnea, batu karang.
 
@@ -10,7 +10,7 @@ Topik yang sudah dibuat sebelum ini (semua branch) dan dielakkan: tiada emosi, O
 | 05 | VIDEO_05_MENTAL_HEALTH_KEMURUNGAN_LELAKI | `kemurungan-lelaki` | Lelaki Murung Tak Semestinya Menangis | Faiz, 34, jurutera (+ isteri berhijab, anak) | 1,624 | ~95–102 s |
 | 06 | VIDEO_06_KANAK_KANAK_HFMD | `hfmd` | HFMD: Tangan, Kaki & Mulut | Aisyah, 3 tahun (+ Mak berhijab) | 1,632 | ~95–102 s |
 
-Skrip penuh: `VIDEO_0N_*/voice_draft.txt` (tepat seperti yang akan dihantar ke ElevenLabs).
+Skrip penuh: `VIDEO_0N_*/narration_script.txt` (tepat seperti yang dihantar ke ElevenLabs).
 
 ## Pembetulan kapsyen (corrections)
 - **04:** "Tiga daripada sepuluh" → "3 daripada 10"; "empat daripada sepuluh" → "4 daripada 10"; "empat puluh lima tahun" → "45 tahun"; "seratus enam puluh lapan, per seratus" → "168/100"; "seratus empat puluh per sembilan puluh" → "140/90"; "satu sudu teh" → "1 sudu teh"; "seratus lima puluh minit" → "150 minit"; "Tiga bulan" → "3 bulan"; "Doktor Azren" → "Dr. Azren".
