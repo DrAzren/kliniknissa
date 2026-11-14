@@ -1,12 +1,34 @@
 {
  "video_id": "2026-11-14_VIDEO_02_MENTAL_HEALTH_serangan-panik",
- "status": "READY_NOT_SCHEDULED",
+ "status": "SCHEDULED",
  "approval_gate": {
   "medical_accuracy": "PENDING (medical_references.md, items marked Check)",
   "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
   "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding)",
-  "publishing_instruction": "None. Not scheduled on Metricool (user said do not schedule unless asked)."
+  "publishing_instruction": "User instructed (2026-11-14) to schedule on Metricool today at the 3 best times, AI-generated label OFF, commercial content OFF"
  },
- "scheduled_posts": [],
- "notes": "Produced 2026-11-14. Background music reused from jenis-nyamuk (user chose option A)."
+ "scheduled_posts": [
+  {
+   "metricool_post_id": 427752607,
+   "uuid": "8837248125781689468",
+   "publication": "2026-11-14T16:30:00 Asia/Kuala_Lumpur",
+   "networks": {
+    "facebook": "REEL / PENDING",
+    "instagram": "REEL, showReelOnFeed, isAiGenerated=false / PENDING",
+    "tiktok": "PUBLIC, isAigc=false, commercial (own brand / third party) = false, title 'Ingat serangan jantung, rupanya serangan panik' / PENDING"
+   },
+   "autoPublish": true,
+   "caption_file": "caption_scheduled_all_platforms.txt",
+   "source_media": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JY4YdIKVikfVoQnvogqPkiBhNk/25f66024-436d-41f3-975e-9a699eabfa03.mp4",
+   "media": "https://static.metricool.com/planner/202611/7705651-file-2198500436981940865.mp4",
+   "thumbnail": "https://static.metricool.com/planner/202611/7705651-file-11737825368093237577.jpeg",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7840561&openWithPostUuid=8837248125781689468"
+  }
+ ],
+ "notes": "Scheduled at the user's request. Times chosen from Metricool best-time data for Saturday (FB+IG+TikTok combined, hours left after 13:25 MYT): 18:00 hour highest on all three, then 14:00 and 16:00. Media hosted on the user's Higgsfield storage (free upload, 0 credits); Metricool copied it to its own storage. Medical review still pending.",
+ "metricool_brand": {
+  "label": "Klinik Nissa",
+  "brandId": 7840561,
+  "timezone": "Asia/Kuala_Lumpur"
+ }
 }

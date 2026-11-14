@@ -1,5 +1,5 @@
 # Daily production report — 2026-11-14
-Batch scope: three animated videos in the same concept as Bipolar / Eczema / Jenis Nyamuk (Remotion `animasi/`, Violet Flat SVG, avatar `dr-azren`, storytelling hook → doctor → diagnosis → #1–#5 → recovery → "jangan tunggu… saya Doktor Azren"). Topics picked after the user rejected topics already posted (diabetes, diabetes & depression, leptospirosis, gout). The user approved **option A**: new voice + 2 new SFX, background music **reused** from `jenis-nyamuk` (no new music generation). **No clinic CTA.** Not scheduled on Metricool.
+Batch scope: three animated videos in the same concept as Bipolar / Eczema / Jenis Nyamuk (Remotion `animasi/`, Violet Flat SVG, avatar `dr-azren`, storytelling hook → doctor → diagnosis → #1–#5 → recovery → "jangan tunggu… saya Doktor Azren"). Topics picked after the user rejected topics already posted (diabetes, diabetes & depression, leptospirosis, gout). The user approved **option A**: new voice + 2 new SFX, background music **reused** from `jenis-nyamuk` (no new music generation). **No clinic CTA.** Scheduled on Metricool later the same day at the user's request (see below).
 
 Shared new code: `animasi/src/topics/kit.tsx` (scene helpers, ~50 new SVG icons, clinic background, standard "5 perkara" and closing scenes, top shade for light backgrounds). Story characters are defined in each topic's `scenes.tsx`; Dr. Azren's drawing is unchanged.
 
@@ -39,4 +39,15 @@ Shared new code: `animasi/src/topics/kit.tsx` (scene helpers, ~50 new SVG icons,
 ## Open items
 - Doctor review of the three `medical_references.md` files (items marked **Check**).
 - Listen-through of each voice take for pronunciation (only 1 take each): "ap-nea", "obstruktif", "si-pap", "LRT", "E-C-G", "Adrenalin", "urologi", "milimeter".
-- Publishing: not scheduled (awaiting the user's instruction).
+- Publishing: SCHEDULED (see below).
+
+## Scheduling (Metricool, brand Klinik Nissa 7840561, FB Reel + IG Reel + TikTok)
+User request: today, 3 best times, AI-generated label OFF, commercial content OFF. Best-time data for Saturday (remaining hours after 13:25 MYT): hour 18 was highest on all three networks, then 14 and 16; :30 used to avoid the :00 rush.
+
+| Time (MYT) | Video | Metricool post | Settings |
+|---|---|---|---|
+| 14:30 | Batu karang | 427752284 | IG isAiGenerated=false · TikTok isAigc=false, commercial off, public |
+| 16:30 | Serangan panik | 427752607 | same |
+| 18:30 | Dengkur / apnea tidur | 427752670 | same |
+
+Caption: `caption_scheduled_all_platforms.txt` (= Instagram caption). Custom thumbnails attached. Media hosted via Higgsfield media_upload (free, 0 credits).
