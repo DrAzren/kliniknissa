@@ -1,3 +1,6 @@
+# Batuk Lebih 2 Minggu? Mungkin Batuk Kering — narration (Dr Azren, ElevenLabs eleven_v4, 1 take, 87.25 s)
+# Tag [ ] ialah arahan emosi (tidak dibaca). Kapsyen: "tiga puluh lapan tahun" -> "38 tahun", "tiga minggu" -> "3 minggu", "dua botol" -> "2 botol", "lima kilo" -> "5 kilo", "dua minggu" -> "2 minggu", "enam bulan" -> "6 bulan", "x-ray" -> "X-ray", "Doktor Azren" -> "Dr. Azren".
+
 [serious] Batuk lebih dua minggu? Jangan anggap ia batuk biasa. Ia mungkin penyakit yang masih membunuh lebih sejuta orang setiap tahun.
 
 [storytelling] Hakim, tiga puluh lapan tahun, pekerja kilang. Sudah tiga minggu dia batuk. Ubat batuk dah habis dua botol, tapi tak juga baik.

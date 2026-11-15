@@ -29,6 +29,18 @@ import {SCENES as S7} from './hfmd/scenes';
 import {Cover as Cover7} from './hfmd/Cover';
 import script7 from '../../topics/hfmd/script.json';
 import words7 from '../../topics/hfmd/words.json';
+import {SCENES as S8} from './strok/scenes';
+import {Cover as Cover8} from './strok/Cover';
+import script8 from '../../topics/strok/script.json';
+import words8 from '../../topics/strok/words.json';
+import {SCENES as S9} from './murung-selepas-bersalin/scenes';
+import {Cover as Cover9} from './murung-selepas-bersalin/Cover';
+import script9 from '../../topics/murung-selepas-bersalin/script.json';
+import words9 from '../../topics/murung-selepas-bersalin/words.json';
+import {SCENES as S10} from './batuk-kering-tb/scenes';
+import {Cover as Cover10} from './batuk-kering-tb/Cover';
+import script10 from '../../topics/batuk-kering-tb/script.json';
+import words10 from '../../topics/batuk-kering-tb/words.json';
 
 export type Topic = {
   script: ScriptFile;
@@ -45,5 +57,8 @@ export const TOPICS: Record<string, Topic> = {
   'jenis-nyamuk': {script: script4 as ScriptFile, words: words4 as WordsFile, scenes: S4, Cover: Cover4},
   'darah-tinggi': {script: script5 as ScriptFile, words: words5 as WordsFile, scenes: S5, Cover: Cover5},
   'kemurungan-lelaki': {script: script6 as ScriptFile, words: words6 as WordsFile, scenes: S6, Cover: Cover6},
+  'strok': {script: script8 as ScriptFile, words: words8 as WordsFile, scenes: S8, Cover: Cover8},
+  'murung-selepas-bersalin': {script: script9 as ScriptFile, words: words9 as WordsFile, scenes: S9, Cover: Cover9},
+  'batuk-kering-tb': {script: script10 as ScriptFile, words: words10 as WordsFile, scenes: S10, Cover: Cover10},
   'hfmd': {script: script7 as ScriptFile, words: words7 as WordsFile, scenes: S7, Cover: Cover7},
 };

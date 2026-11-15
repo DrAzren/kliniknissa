@@ -1,3 +1,6 @@
+# Strok: Setiap Minit Berharga — narration (Dr Azren, ElevenLabs eleven_v4, 1 take, 86.28 s)
+# Tag [ ] ialah arahan emosi (tidak dibaca). Kapsyen: "lima puluh lapan tahun" -> "58 tahun", "sembilan sembilan sembilan" -> "999", "dua juta" -> "2 juta", "Doktor Azren" -> "Dr. Azren".
+
 [serious] Setiap minit semasa strok... hampir dua juta sel otak mati. Dan setiap minit yang ditunggu, peluang untuk pulih makin tipis.
 
 [storytelling] Puan Salmah, lima puluh lapan tahun, sedang makan malam bersama cucunya. Tiba-tiba, sudu terlepas dari tangannya. [concerned] Mulutnya senget sebelah. Bila dia cuba bercakap, suaranya pelat.

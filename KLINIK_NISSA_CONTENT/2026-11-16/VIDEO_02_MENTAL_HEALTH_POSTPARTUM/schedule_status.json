@@ -1,0 +1,24 @@
+{
+ "video_id": "2026-11-16_VIDEO_02_MENTAL_HEALTH_POSTPARTUM_murung-selepas-bersalin",
+ "status": "READY_NOT_SCHEDULED",
+ "approval_gate": {
+  "medical_accuracy": "PENDING (medical_references.md, items marked 'Semak')",
+  "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
+  "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding)",
+  "publishing_instruction": "Not scheduled. Schedule on Metricool only when the user asks."
+ },
+ "scheduled_posts": [],
+ "elevenlabs": {
+  "flow_id": "p2sPgiMNTt8WqWRqC7TE",
+  "tts_generation_id": "H2bhvVyOCDCR6CuEJkDw",
+  "tts_credits": 1522.8,
+  "sfx": {
+   "file": "baby.mp3",
+   "generation_id": "g4cIVJ9JHWSV1kpkERsF",
+   "credits": 6.7
+  },
+  "music": "reused jenis-nyamuk/music.mp3 (0 credits)",
+  "scribe_credits": 0
+ },
+ "higgsfield_credits": 0
+}

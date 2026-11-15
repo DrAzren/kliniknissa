@@ -1,3 +1,6 @@
+# Bukan Sekadar Baby Blues — narration (Dr Azren, ElevenLabs eleven_v4, 1 take, 92.45 s)
+# Tag [ ] ialah arahan emosi (tidak dibaca). Kapsyen: "dua puluh sembilan tahun" -> "29 tahun", "tiga minggu" -> "3 minggu", "dua minggu" -> "2 minggu", "Doktor Azren" -> "Dr. Azren".
+
 [gentle] Baru lahirkan anak... sepatutnya rasa bahagia, kan? Tapi bagi sesetengah ibu, yang datang ialah kesedihan yang tak hilang-hilang.
 
 [storytelling] Nurul, dua puluh sembilan tahun, tiga minggu selepas bersalin. Setiap hari dia menangis. Bayi tidur, tapi dia tetap tak boleh tidur.

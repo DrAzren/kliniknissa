@@ -1,0 +1,230 @@
+{
+ "id": "batuk-kering-tb",
+ "title": "Batuk Lebih 2 Minggu? Mungkin Batuk Kering",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[serious] Batuk lebih dua minggu? Jangan anggap ia batuk biasa. Ia mungkin penyakit yang masih membunuh lebih sejuta orang setiap tahun.\n\n[storytelling] Hakim, tiga puluh lapan tahun, pekerja kilang. Sudah tiga minggu dia batuk. Ubat batuk dah habis dua botol, tapi tak juga baik.\n\n[concerned] Malam-malam dia berpeluh sampai basah baju. Selera hilang, dan berat badannya turun lima kilo.\n\n[worried] Isterinya risau, dan terus bawa dia ke klinik.\n\n[serious] Ujian kahak dan x-ray dada sahkan... Hakim menghidap batuk kering, atau tuberkulosis.\n\n[warmly] Batuk kering boleh dirawat sampai sembuh. Ini lima perkara yang anda perlu tahu.\n\nSatu. Tanda. Batuk lebih dua minggu, kahak atau batuk berdarah, demam waktu petang, peluh malam, dan berat badan turun.\n\nDua. Cara merebak. Kuman merebak melalui udara bila pesakit batuk atau bersin, terutama di tempat sesak dan tertutup.\n\nTiga. Siapa berisiko. Orang yang tinggal serumah dengan pesakit, perokok, pesakit kencing manis, dan mereka yang imunnya lemah.\n\nEmpat. Ujian. Ujian kahak dan x-ray dada. Ia mudah dan cepat, di klinik kesihatan.\n\nLima. Rawatan. Makan ubat setiap hari, sekurang-kurangnya enam bulan. Jangan berhenti walaupun rasa sihat, kerana kuman boleh jadi kebal.\n\n[reassuring] Ahli keluarga Hakim juga disaring, supaya jangkitan dikesan awal.\n\n[relieved] Enam bulan kemudian, Hakim habiskan ubatnya... dan disahkan sembuh.\n\n[warmly] Batuk lebih dua minggu? Jangan tunggu. Dapatkan pemeriksaan segera. Saya Doktor Azren.",
+  "note": "1 take sahaja (pilihan A+). ElevenLabs Flow p2sPgiMNTt8WqWRqC7TE, generation vIS7rEM0vRG19Tuag2ii, 87.20 s. Muzik diguna semula daripada jenis-nyamuk; 1 SFX baharu."
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "hakim",
+   "marker": "Hakim tiga"
+  },
+  {
+   "id": "malam",
+   "marker": "Malam-malam"
+  },
+  {
+   "id": "klinik",
+   "marker": "Isterinya risau"
+  },
+  {
+   "id": "diagnosis",
+   "marker": "Ujian kahak"
+  },
+  {
+   "id": "lima",
+   "marker": "Batuk kering boleh"
+  },
+  {
+   "id": "tanda",
+   "marker": "Satu Tanda",
+   "n": 1,
+   "label": "Tanda"
+  },
+  {
+   "id": "merebak",
+   "marker": "Dua Cara",
+   "n": 2,
+   "label": "Cara merebak"
+  },
+  {
+   "id": "risiko",
+   "marker": "Tiga Siapa",
+   "n": 3,
+   "label": "Siapa berisiko"
+  },
+  {
+   "id": "ujian",
+   "marker": "Empat Ujian",
+   "n": 4,
+   "label": "Ujian"
+  },
+  {
+   "id": "rawatan",
+   "marker": "Lima Rawatan",
+   "n": 5,
+   "label": "Rawatan 6 bulan"
+  },
+  {
+   "id": "keluarga",
+   "marker": "Ahli keluarga"
+  },
+  {
+   "id": "pulih",
+   "marker": "Enam bulan kemudian"
+  },
+  {
+   "id": "penutup",
+   "marker": "Batuk lebih dua minggu jangan"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat",
+  "Lima"
+ ],
+ "keywords": [
+  "Batuk lebih 2 minggu",
+  "batuk biasa",
+  "membunuh",
+  "lebih sejuta orang",
+  "Hakim",
+  "38 tahun",
+  "pekerja kilang",
+  "3 minggu",
+  "2 botol",
+  "tak juga baik",
+  "berpeluh",
+  "basah baju",
+  "Selera hilang",
+  "berat badannya",
+  "5 kilo",
+  "risau",
+  "klinik",
+  "Ujian kahak",
+  "X-ray dada",
+  "batuk kering",
+  "tuberkulosis",
+  "dirawat sampai sembuh",
+  "5 perkara",
+  "Tanda",
+  "kahak",
+  "batuk berdarah",
+  "demam waktu petang",
+  "peluh malam",
+  "berat badan turun",
+  "Cara merebak",
+  "udara",
+  "batuk atau bersin",
+  "sesak",
+  "tertutup",
+  "Siapa berisiko",
+  "serumah",
+  "perokok",
+  "kencing manis",
+  "imunnya lemah",
+  "Ujian",
+  "mudah dan cepat",
+  "klinik kesihatan",
+  "Rawatan",
+  "setiap hari",
+  "6 bulan",
+  "Jangan berhenti",
+  "rasa sihat",
+  "kebal",
+  "Ahli keluarga",
+  "disaring",
+  "dikesan awal",
+  "habiskan ubatnya",
+  "sembuh",
+  "Jangan tunggu",
+  "pemeriksaan segera",
+  "Dr. Azren"
+ ],
+ "corrections": {
+  "tiga puluh lapan tahun": "38 tahun",
+  "tiga minggu": "3 minggu",
+  "dua botol": "2 botol",
+  "lima kilo": "5 kilo",
+  "dua minggu": "2 minggu",
+  "enam bulan": "6 bulan",
+  "x-ray": "X-ray",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.35,
+  "sfx": [
+   {
+    "file": "cough.mp3",
+    "at": "Batuk lebih",
+    "offset": -0.3,
+    "volume": 0.6
+   },
+   {
+    "file": "cough.mp3",
+    "at": "Sudah tiga minggu",
+    "offset": 0.2,
+    "volume": 0.5
+   },
+   {
+    "file": "sting.mp3",
+    "at": "batuk kering atau tuberkulosis",
+    "offset": 0.1,
+    "volume": 0.8
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu Tanda",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Cara",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Siapa",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Ujian",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Lima Rawatan",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "chime.mp3",
+    "at": "disahkan sembuh",
+    "offset": 0,
+    "volume": 0.8
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "BATUK LEBIH 2 MINGGU?",
+  "headline": [
+   "BATUK",
+   "KERING"
+  ],
+  "highlight": "Mungkin tuberkulosis (TB)",
+  "sub": "Boleh dirawat sampai sembuh",
+  "tags": []
+ }
+}

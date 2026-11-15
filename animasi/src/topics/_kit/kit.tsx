@@ -132,7 +132,8 @@ export type KIconName =
   | 'person' | 'bp' | 'heart' | 'kidney' | 'salt' | 'scale' | 'couch' | 'cigarette' | 'nosmoke' | 'hourglass' | 'spoon' | 'shoe'
   | 'pill' | 'calendar' | 'truck' | 'phone' | 'laptop' | 'ball' | 'bed' | 'storm' | 'back' | 'stomach' | 'talk' | 'empty'
   | 'warning' | 'virus' | 'saliva' | 'sneeze' | 'palm' | 'sole' | 'mouth' | 'hospital' | 'toy' | 'cup' | 'nocup' | 'bowl'
-  | 'zzz' | 'bolt' | 'vomit' | 'bottle' | 'question' | 'smile' | 'clock' | 'school' | 'poop' | 'lungs' | 'drop';
+  | 'zzz' | 'bolt' | 'vomit' | 'bottle' | 'question' | 'smile' | 'clock' | 'school' | 'poop' | 'lungs' | 'drop'
+  | 'ambulance' | 'droop' | 'arms' | 'dizzy' | 'xray' | 'baby' | 'mask' | 'sputum' | 'scan' | 'heartbreak';
 
 export const KIcon: React.FC<{name: KIconName; size?: number; f?: number; text?: string}> = ({name, size = 120, f = 0, text}) => {
   const w = '#fff', nv = C.navy, y = C.yellow;
@@ -542,6 +543,103 @@ export const KIcon: React.FC<{name: KIconName; size?: number; f?: number; text?:
             <ellipse cx={60} cy={74} rx={38} ry={14} fill="#9C6A47" />
             <ellipse cx={60} cy={54} rx={26} ry={12} fill="#8A5A3B" />
             <path d="M 60 44 Q 76 30 64 18" stroke="#9C6A47" strokeWidth={12} fill="none" strokeLinecap="round" />
+          </g>
+        );
+      case 'ambulance':
+        return (
+          <g>
+            <rect x={4} y={40} width={80} height={52} rx={8} fill={w} />
+            <path d="M 84 52 L 102 52 L 116 70 L 116 92 L 84 92 Z" fill={w} />
+            <rect x={90} y={58} width={14} height={14} rx={3} fill="#8DC9F0" />
+            <rect x={36} y={50} width={14} height={34} fill={RED} /><rect x={26} y={60} width={34} height={14} fill={RED} />
+            <rect x={4} y={84} width={112} height={6} fill={RED} />
+            <circle cx={28} cy={96} r={12} fill="#2A2733" /><circle cx={92} cy={96} r={12} fill="#2A2733" />
+            <rect x={30} y={30} width={22} height={10} rx={4} fill={Math.floor(f / 6) % 2 ? '#4F9BFF' : RED} />
+          </g>
+        );
+      case 'droop':
+        return (
+          <g>
+            <circle cx={60} cy={60} r={50} fill={SKIN} />
+            <circle cx={42} cy={48} r={6} fill="#1E1A24" />
+            <path d="M 72 52 Q 80 56 88 52" stroke="#1E1A24" strokeWidth={5} strokeLinecap="round" fill="none" />
+            <path d="M 34 80 Q 50 84 62 84 Q 78 90 86 98" stroke="#5B1F3D" strokeWidth={6} strokeLinecap="round" fill="none" />
+            <path d="M 60 6 L 60 114" stroke={y} strokeWidth={3} strokeDasharray="6 6" opacity={0.8} />
+          </g>
+        );
+      case 'arms':
+        return (
+          <g>
+            <circle cx={60} cy={26} r={16} fill={SKIN} />
+            <rect x={44} y={44} width={32} height={50} rx={12} fill={C.violet[3]} />
+            <path d="M 46 52 L 14 30" stroke={SKIN} strokeWidth={12} strokeLinecap="round" />
+            <path d={`M 74 52 L 104 ${60 + 22 * Math.min(1, f / 30)}`} stroke={SKIN} strokeWidth={12} strokeLinecap="round" />
+            <path d="M 50 94 L 46 116 M 70 94 L 74 116" stroke={C.violet[1]} strokeWidth={12} strokeLinecap="round" />
+          </g>
+        );
+      case 'dizzy':
+        return (
+          <g>
+            <circle cx={60} cy={66} r={42} fill={SKIN} />
+            <path d="M 36 60 l 12 12 M 48 60 l -12 12 M 72 60 l 12 12 M 84 60 l -12 12" stroke="#1E1A24" strokeWidth={5} strokeLinecap="round" />
+            <ellipse cx={60} cy={90} rx={10} ry={6} fill="#5B1F3D" />
+            <g transform={`rotate(${f * 6} 60 18)`}>
+              {[0, 1, 2].map((i) => <path key={i} d="M 60 18 l 0 -12" stroke={y} strokeWidth={6} strokeLinecap="round" transform={`rotate(${i * 120} 60 18) translate(0 -4)`} />)}
+            </g>
+          </g>
+        );
+      case 'xray':
+        return (
+          <g>
+            <rect x={8} y={8} width={104} height={104} rx={10} fill="#1D2B33" />
+            <path d="M 56 20 L 56 96 M 64 20 L 64 96" stroke="#C9CED8" strokeWidth={4} />
+            {[0, 1, 2, 3, 4].map((i) => <path key={i} d={`M 56 ${34 + i * 12} Q 34 ${30 + i * 12} 22 ${44 + i * 12} M 64 ${34 + i * 12} Q 86 ${30 + i * 12} 98 ${44 + i * 12}`} stroke="#C9CED8" strokeWidth={3} fill="none" opacity={0.8} />)}
+            <circle cx={84} cy={44} r={10} fill="#F6C945" opacity={0.35 + 0.35 * Math.abs(Math.sin(f / 6))} />
+          </g>
+        );
+      case 'baby':
+        return (
+          <g>
+            <ellipse cx={60} cy={76} rx={40} ry={34} fill="#F7D6E6" />
+            <path d="M 22 80 Q 60 120 98 80" fill="#F29CBC" />
+            <circle cx={60} cy={42} r={26} fill={SKIN} />
+            <path d="M 50 40 Q 54 36 58 40 M 62 40 Q 66 36 70 40" stroke="#1E1A24" strokeWidth={3} fill="none" strokeLinecap="round" />
+            <ellipse cx={60} cy={52} rx={5} ry={3} fill="#D2638E" />
+            <path d="M 46 22 Q 60 10 74 22" stroke="#2A1C24" strokeWidth={4} fill="none" />
+          </g>
+        );
+      case 'mask':
+        return (
+          <g>
+            <path d="M 18 44 Q 60 28 102 44 L 98 84 Q 60 104 22 84 Z" fill="#9FD6F7" />
+            <path d="M 26 56 Q 60 46 94 56 M 26 68 Q 60 58 94 68" stroke="#6BB4E0" strokeWidth={4} fill="none" />
+            <path d="M 18 48 Q 2 56 14 74 M 102 48 Q 118 56 106 74" stroke={w} strokeWidth={4} fill="none" />
+          </g>
+        );
+      case 'sputum':
+        return (
+          <g>
+            <rect x={34} y={10} width={52} height={16} rx={5} fill={C.labelPink} />
+            <path d="M 36 26 L 84 26 L 80 108 Q 60 116 40 108 Z" fill="rgba(255,255,255,.9)" />
+            <ellipse cx={60} cy={92} rx={16} ry={8} fill="#E8D78C" />
+            <rect x={44} y={46} width={32} height={18} rx={3} fill={C.violet[3]} />
+          </g>
+        );
+      case 'scan':
+        return (
+          <g>
+            <rect x={6} y={14} width={108} height={92} rx={12} fill="#1D2B33" />
+            <ellipse cx={60} cy={60} rx={34} ry={38} fill="#55607A" />
+            <path d="M 60 24 L 60 96" stroke="#1D2B33" strokeWidth={3} />
+            <circle cx={44} cy={52} r={12} fill={RED} opacity={0.4 + 0.4 * Math.abs(Math.sin(f / 5))} />
+            <rect x={6} y={14 + ((f * 3) % 92)} width={108} height={4} fill="#7CF29A" opacity={0.6} />
+          </g>
+        );
+      case 'heartbreak':
+        return (
+          <g>
+            <path d="M 60 108 C 20 80 6 58 10 38 C 14 16 42 10 60 32 L 52 54 L 66 68 L 56 88 Z" fill={RED} />
+            <path d="M 62 32 C 78 10 106 16 110 38 C 114 58 100 80 64 106 L 72 86 L 62 68 L 74 52 Z" fill={RED} transform={`translate(${4 + Math.min(6, f / 4)} 0)`} />
           </g>
         );
       case 'lungs':

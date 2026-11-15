@@ -1,0 +1,217 @@
+{
+ "id": "murung-selepas-bersalin",
+ "title": "Bukan Sekadar Baby Blues",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[gentle] Baru lahirkan anak... sepatutnya rasa bahagia, kan? Tapi bagi sesetengah ibu, yang datang ialah kesedihan yang tak hilang-hilang.\n\n[storytelling] Nurul, dua puluh sembilan tahun, tiga minggu selepas bersalin. Setiap hari dia menangis. Bayi tidur, tapi dia tetap tak boleh tidur.\n\n[sad] \"Aku ibu yang gagal. Anak aku layak dapat ibu yang lebih baik.\"\n\n[concerned] Suaminya perasan Nurul makin diam, dan jarang mahu dukung bayi. Dia bawa Nurul ke klinik.\n\n[serious] Selepas saringan... Nurul disahkan mengalami kemurungan selepas bersalin.\n\n[warmly] Ini bukan kelemahan, dan bukan salah ibu. Ini lima perkara yang semua keluarga perlu tahu.\n\nSatu. Bezakan dengan baby blues. Ramai ibu rasa sedih dan mudah menangis pada minggu pertama, dan ia hilang sendiri dalam dua minggu.\n\nDua. Tanda kemurungan. Sedih atau kosong lebih dua minggu, hilang minat, rasa bersalah, dan sukar rapat dengan bayi.\n\nTiga. Siapa berisiko. Ibu yang pernah murung, kurang sokongan, tekanan hidup, atau kelahiran yang sukar.\n\nEmpat. Peranan keluarga. Dengar tanpa menghakimi. Bantu jaga bayi, supaya ibu dapat rehat dan tidur.\n\nLima. Rawatan. Terapi bercakap dan ubat jika perlu. Ada ubat yang boleh diambil walaupun sedang menyusu, ikut nasihat doktor.\n\n[relieved] Selepas beberapa bulan rawatan, Nurul kembali tersenyum... sambil mendukung bayinya.\n\n[warmly] Kalau anda atau isteri anda rasa begini, jangan tunggu. Dapatkan rawatan. Kalau ada fikiran untuk mencederakan diri atau bayi, dapatkan bantuan kecemasan segera. Saya Doktor Azren.",
+  "note": "1 take sahaja (pilihan A+). ElevenLabs Flow p2sPgiMNTt8WqWRqC7TE, generation H2bhvVyOCDCR6CuEJkDw, 92.40 s. Muzik diguna semula daripada jenis-nyamuk; 1 SFX baharu."
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "nurul",
+   "marker": "Nurul"
+  },
+  {
+   "id": "gagal",
+   "marker": "Aku ibu"
+  },
+  {
+   "id": "suami",
+   "marker": "Suaminya perasan"
+  },
+  {
+   "id": "diagnosis",
+   "marker": "Selepas saringan"
+  },
+  {
+   "id": "lima",
+   "marker": "Ini bukan kelemahan"
+  },
+  {
+   "id": "blues",
+   "marker": "Satu Bezakan",
+   "n": 1,
+   "label": "Baby blues"
+  },
+  {
+   "id": "tanda",
+   "marker": "Dua Tanda",
+   "n": 2,
+   "label": "Tanda kemurungan"
+  },
+  {
+   "id": "risiko",
+   "marker": "Tiga Siapa",
+   "n": 3,
+   "label": "Siapa berisiko"
+  },
+  {
+   "id": "keluarga",
+   "marker": "Empat Peranan",
+   "n": 4,
+   "label": "Peranan keluarga"
+  },
+  {
+   "id": "rawatan",
+   "marker": "Lima Rawatan",
+   "n": 5,
+   "label": "Rawatan"
+  },
+  {
+   "id": "pulih",
+   "marker": "Selepas beberapa bulan"
+  },
+  {
+   "id": "penutup",
+   "marker": "Kalau anda atau"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat",
+  "Lima"
+ ],
+ "keywords": [
+  "Baru lahirkan anak",
+  "bahagia",
+  "kesedihan",
+  "tak hilang-hilang",
+  "Nurul",
+  "29 tahun",
+  "3 minggu",
+  "bersalin",
+  "menangis",
+  "tak boleh tidur",
+  "ibu yang gagal",
+  "lebih baik",
+  "Suaminya",
+  "diam",
+  "dukung bayi",
+  "klinik",
+  "saringan",
+  "kemurungan selepas bersalin",
+  "bukan kelemahan",
+  "bukan salah ibu",
+  "5 perkara",
+  "keluarga",
+  "baby blues",
+  "sedih",
+  "minggu pertama",
+  "hilang sendiri",
+  "2 minggu",
+  "Tanda kemurungan",
+  "kosong",
+  "hilang minat",
+  "rasa bersalah",
+  "rapat dengan bayi",
+  "Siapa berisiko",
+  "pernah murung",
+  "kurang sokongan",
+  "tekanan hidup",
+  "kelahiran yang sukar",
+  "Peranan keluarga",
+  "Dengar",
+  "tanpa menghakimi",
+  "jaga bayi",
+  "rehat",
+  "tidur",
+  "Terapi bercakap",
+  "ubat",
+  "menyusu",
+  "nasihat doktor",
+  "tersenyum",
+  "mendukung bayinya",
+  "jangan tunggu",
+  "Dapatkan rawatan",
+  "mencederakan diri",
+  "bantuan kecemasan segera",
+  "Dr. Azren",
+  "Rawatan",
+  "Peranan keluarga",
+  "Bezakan"
+ ],
+ "corrections": {
+  "dua puluh sembilan tahun": "29 tahun",
+  "tiga minggu": "3 minggu",
+  "dua minggu": "2 minggu",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.35,
+  "sfx": [
+   {
+    "file": "baby.mp3",
+    "at": "Bayi tidur",
+    "offset": -0.2,
+    "volume": 0.5
+   },
+   {
+    "file": "sting.mp3",
+    "at": "kemurungan selepas bersalin",
+    "offset": 0.1,
+    "volume": 0.8
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu Bezakan",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Tanda",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Siapa",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Peranan",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Lima Rawatan",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "chime.mp3",
+    "at": "tersenyum",
+    "offset": 0,
+    "volume": 0.8
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "KEMURUNGAN SELEPAS BERSALIN",
+  "headline": [
+   "BUKAN",
+   "BABY BLUES"
+  ],
+  "highlight": "Bukan salah ibu",
+  "sub": "5 perkara keluarga perlu tahu",
+  "tags": []
+ }
+}

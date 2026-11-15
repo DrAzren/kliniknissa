@@ -1,6 +1,6 @@
-# 2026-11-16 — 3 video animasi — DRAF, MENUNGGU "OK jana"
+# 2026-11-16 — 3 video animasi — SIAP (pilihan A+ diluluskan)
 
-Belum ada kredit digunakan. Konsep sama dengan video 14 Nov (Remotion `animasi/`, Violet Flat SVG, avatar `dr-azren`, kit `src/topics/_kit/kit.tsx`).
+Pengguna pilih **A+** (suara + 3 SFX baharu, muzik nyamuk diguna semula). Kredit sebenar: 4,555.5 (lihat DAILY_PRODUCTION_REPORT.md). Konsep sama dengan video 14 Nov (Remotion `animasi/`, Violet Flat SVG, avatar `dr-azren`, kit `src/topics/_kit/kit.tsx`).
 
 Topik yang dielakkan (sudah dibuat di mana-mana branch): tiada emosi, OCD, halusinasi, BPD, bipolar, bipolar jenis 2, serangan panik, kemurungan lelaki, eczema, jenis nyamuk, denggi, gout, diabetes teh ais, influenza, hipoglisemia, kencing tikus, asma, sleep apnea, batu karang, darah tinggi, HFMD.
 
@@ -10,7 +10,7 @@ Topik yang dielakkan (sudah dibuat di mana-mana branch): tiada emosi, OCD, halus
 | 02 | VIDEO_02_MENTAL_HEALTH_POSTPARTUM | `murung-selepas-bersalin` | Bukan Sekadar Baby Blues | Nurul, 29 (+ suami, bayi) | 1,523 | ~90–95 s |
 | 03 | VIDEO_03_KESIHATAN_BATUK_KERING_TB | `batuk-kering-tb` | Batuk Lebih 2 Minggu? Mungkin Batuk Kering | Hakim, 38, pekerja kilang (+ isteri) | 1,483 | ~88–92 s |
 
-Skrip penuh: `VIDEO_0N_*/voice_draft.txt`.
+Skrip penuh: `VIDEO_0N_*/narration_script.txt`.
 
 ## Pembetulan kapsyen
 - **01:** "lima puluh lapan tahun" → "58 tahun"; "sembilan sembilan sembilan" → "999"; "dua juta" → "2 juta"; "Doktor Azren" → "Dr. Azren".

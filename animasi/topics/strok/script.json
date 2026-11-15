@@ -1,0 +1,221 @@
+{
+ "id": "strok",
+ "title": "Strok: Setiap Minit Berharga",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[serious] Setiap minit semasa strok... hampir dua juta sel otak mati. Dan setiap minit yang ditunggu, peluang untuk pulih makin tipis.\n\n[storytelling] Puan Salmah, lima puluh lapan tahun, sedang makan malam bersama cucunya. Tiba-tiba, sudu terlepas dari tangannya. [concerned] Mulutnya senget sebelah. Bila dia cuba bercakap, suaranya pelat.\n\n[urgent] Cucunya tak tunggu. Terus telefon sembilan sembilan sembilan.\n\n[serious] Di hospital, imbasan otak sahkan... strok, akibat salur darah ke otak tersumbat.\n\n[warmly] Strok boleh berlaku kepada sesiapa. Ini lima tanda yang anda perlu kenal, dan cepat bertindak.\n\nSatu. Muka. Minta dia senyum. Kalau sebelah muka jatuh atau senget, itu tanda bahaya.\n\nDua. Lengan. Minta dia angkat kedua-dua tangan. Kalau sebelah lemah atau jatuh, jangan abaikan.\n\nTiga. Pertuturan. Cakap pelat, tak jelas, atau tiba-tiba tak faham apa orang cakap.\n\nEmpat. Imbangan dan penglihatan. Pening, hilang imbangan, atau penglihatan kabur secara tiba-tiba.\n\nLima. Masa. Telefon sembilan sembilan sembilan segera. Jangan tunggu ia hilang sendiri. Jangan urut, dan jangan beri makan atau minum.\n\n[reassuring] Rawatan untuk membuka salur darah yang tersumbat paling berkesan dalam beberapa jam pertama. Selepas itu, kawal darah tinggi, kencing manis dan kolesterol, dan berhenti merokok.\n\n[relieved] Puan Salmah sampai ke hospital dalam masa sejam. Selepas rawatan dan fisioterapi, dia kembali berjalan.\n\n[warmly] Nampak tanda strok? Jangan tunggu. Telefon sembilan sembilan sembilan segera. Saya Doktor Azren.",
+  "note": "1 take sahaja (pilihan A+). ElevenLabs Flow p2sPgiMNTt8WqWRqC7TE, generation wENZthV4BCGA3l42BDDH, 86.24 s. Muzik diguna semula daripada jenis-nyamuk; 1 SFX baharu."
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "makan",
+   "marker": "Puan Salmah"
+  },
+  {
+   "id": "telefon",
+   "marker": "Cucunya tak"
+  },
+  {
+   "id": "diagnosis",
+   "marker": "Di hospital"
+  },
+  {
+   "id": "lima",
+   "marker": "Strok boleh"
+  },
+  {
+   "id": "muka",
+   "marker": "Satu Muka",
+   "n": 1,
+   "label": "Muka"
+  },
+  {
+   "id": "lengan",
+   "marker": "Dua Lengan",
+   "n": 2,
+   "label": "Lengan"
+  },
+  {
+   "id": "cakap",
+   "marker": "Tiga Pertuturan",
+   "n": 3,
+   "label": "Pertuturan"
+  },
+  {
+   "id": "imbang",
+   "marker": "Empat Imbangan",
+   "n": 4,
+   "label": "Imbangan & penglihatan"
+  },
+  {
+   "id": "masa",
+   "marker": "Lima Masa",
+   "n": 5,
+   "label": "Masa: 999"
+  },
+  {
+   "id": "rawatan",
+   "marker": "Rawatan untuk"
+  },
+  {
+   "id": "pulih",
+   "marker": "Puan Salmah sampai"
+  },
+  {
+   "id": "penutup",
+   "marker": "Nampak tanda"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat",
+  "Lima"
+ ],
+ "keywords": [
+  "strok",
+  "2 juta sel otak",
+  "setiap minit",
+  "peluang untuk pulih",
+  "Puan Salmah",
+  "58 tahun",
+  "cucunya",
+  "sudu terlepas",
+  "Mulutnya senget",
+  "pelat",
+  "tak tunggu",
+  "999",
+  "hospital",
+  "imbasan otak",
+  "tersumbat",
+  "sesiapa",
+  "5 tanda",
+  "cepat bertindak",
+  "Muka",
+  "senyum",
+  "senget",
+  "tanda bahaya",
+  "Lengan",
+  "kedua-dua tangan",
+  "lemah",
+  "jangan abaikan",
+  "Pertuturan",
+  "tak jelas",
+  "tak faham",
+  "Imbangan",
+  "penglihatan",
+  "Pening",
+  "hilang imbangan",
+  "kabur",
+  "tiba-tiba",
+  "Masa",
+  "segera",
+  "Jangan tunggu",
+  "Jangan urut",
+  "makan atau minum",
+  "membuka salur darah",
+  "beberapa jam pertama",
+  "darah tinggi",
+  "kencing manis",
+  "kolesterol",
+  "berhenti merokok",
+  "dalam masa sejam",
+  "fisioterapi",
+  "kembali berjalan",
+  "Dr. Azren"
+ ],
+ "corrections": {
+  "lima puluh lapan tahun": "58 tahun",
+  "sembilan sembilan sembilan": "999",
+  "dua juta": "2 juta",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.35,
+  "sfx": [
+   {
+    "file": "sting.mp3",
+    "at": "mati",
+    "offset": 0,
+    "volume": 0.7
+   },
+   {
+    "file": "slap.mp3",
+    "at": "sudu terlepas",
+    "offset": 0,
+    "volume": 0.45
+   },
+   {
+    "file": "siren.mp3",
+    "at": "sembilan sembilan sembilan",
+    "offset": 0.3,
+    "volume": 0.7
+   },
+   {
+    "file": "sting.mp3",
+    "at": "strok akibat",
+    "offset": 0.1,
+    "volume": 0.8
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu Muka",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Lengan",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Pertuturan",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Imbangan",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Lima Masa",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "chime.mp3",
+    "at": "kembali berjalan",
+    "offset": 0,
+    "volume": 0.8
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "SETIAP MINIT BERHARGA",
+  "headline": [
+   "STROK"
+  ],
+  "highlight": "5 tanda: kenal & bertindak",
+  "sub": "Telefon 999 segera",
+  "tags": []
+ }
+}
