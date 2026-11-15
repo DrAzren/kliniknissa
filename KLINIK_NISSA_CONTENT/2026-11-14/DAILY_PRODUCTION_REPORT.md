@@ -1,7 +1,7 @@
 # Daily production report — 2026-11-14 (VIDEO_04–06, branch `claude/upbeat-wozniak-5k7bfp`)
 VIDEO_01–03 for the same date (sleep apnea, serangan panik, batu karang) were produced in another session on branch `claude/trusting-sagan-des1yl`. This batch is numbered 04–06 so the folders do not clash. If both branches are merged, combine the two `DAILY_PRODUCTION_REPORT.md` files by hand.
 
-Batch scope: three animated videos in the same concept as Bipolar / Eczema / Jenis Nyamuk (Remotion `animasi/`, Violet Flat SVG, avatar `dr-azren`, storytelling hook → doctor → diagnosis → #1–#5 → recovery → "jangan tunggu… saya Doktor Azren"). Topics were chosen so they do not repeat any topic already produced on any branch. The user approved **option A**: voice only. Background music and SFX were **reused** from `jenis-nyamuk` (no new music, no new SFX). No Talian HEAL line (user's instruction). **No clinic CTA.** **Not scheduled** on Metricool.
+Batch scope: three animated videos in the same concept as Bipolar / Eczema / Jenis Nyamuk (Remotion `animasi/`, Violet Flat SVG, avatar `dr-azren`, storytelling hook → doctor → diagnosis → #1–#5 → recovery → "jangan tunggu… saya Doktor Azren"). Topics were chosen so they do not repeat any topic already produced on any branch. The user approved **option A**: voice only. Background music and SFX were **reused** from `jenis-nyamuk` (no new music, no new SFX). No Talian HEAL line (user's instruction). **No clinic CTA.** **Scheduled** on Metricool on 2026-11-15 at the user's request (see below).
 
 Shared new code: `animasi/src/topics/_kit/kit.tsx` (scene helpers, ~45 new SVG icons, diagnosis stamp, `PointScene` for #N scenes, `FiveIntro`, `Closing`). Story characters are defined in each topic's `scenes.tsx`; Dr. Azren's drawing is unchanged. Topics registered in `src/topics/index.ts`.
 
@@ -43,3 +43,12 @@ Shared new code: `animasi/src/topics/_kit/kit.tsx` (scene helpers, ~45 new SVG i
 ## Notes / open items
 - Pronunciation could not be checked automatically (Scribe output is aligned to the script text). Please listen for: hipertensi, strok, "seratus enam puluh lapan, per seratus", "major", antidepresan, HFMD, enterovirus, "E V tujuh puluh satu".
 - Music was composed for the mosquito video (light, playful). It sits at −16 dB under the voice. For the depression video it may feel slightly bright; a new track would cost ~1,500 credits.
+
+## Scheduling (2026-11-15, at the user's request)
+Metricool brand Klinik Nissa (7840561), FB Reel + IG Reel + TikTok, custom thumbnail, caption = `caption_instagram.txt`. AI-generated label OFF (IG `isAiGenerated=false`, TikTok `isAigc=false`), TikTok commercial content OFF (own brand / third party). Made-for-kids only exists for YouTube, which this brand does not have. Times from Metricool best-time data for Sunday (FB/TikTok peak 18:00, then 19:00, then 16:00–17:00).
+| Time (MYT) | Video | Metricool post |
+|---|---|---|
+| 16:40 | VIDEO_06 HFMD | 428645510 |
+| 18:10 | VIDEO_04 Darah Tinggi | 428645580 |
+| 19:40 | VIDEO_05 Lelaki Murung | 428645621 |
+Media uploaded to Higgsfield storage for a public URL (free, 0 credits). Status: PENDING until published.

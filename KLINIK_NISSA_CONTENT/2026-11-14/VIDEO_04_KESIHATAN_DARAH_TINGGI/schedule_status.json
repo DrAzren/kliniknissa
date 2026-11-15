@@ -1,13 +1,30 @@
 {
  "video_id": "2026-11-14_VIDEO_04_KESIHATAN_DARAH_TINGGI_darah-tinggi",
- "status": "READY_NOT_SCHEDULED",
+ "status": "SCHEDULED",
  "approval_gate": {
   "medical_accuracy": "PENDING (medical_references.md, items marked 'Semak')",
   "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
   "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding)",
-  "publishing_instruction": "Not scheduled. User asked not to schedule on Metricool unless requested."
+  "publishing_instruction": "User instructed (2026-11-15) to schedule the 3 videos today at the best times; AI-generated label OFF, commercial content OFF, made-for-kids OFF (no YouTube on this brand, so no made-for-kids field applies)"
  },
- "scheduled_posts": [],
+ "scheduled_posts": [
+  {
+   "metricool_post_id": 428645580,
+   "uuid": "-1697644783464331598",
+   "publication": "2026-11-15T18:10:00 Asia/Kuala_Lumpur",
+   "networks": {
+    "facebook": "REEL / PENDING",
+    "instagram": "REEL, showReelOnFeed, isAiGenerated=false / PENDING",
+    "tiktok": "PUBLIC, isAigc=false, commercial (own brand / third party) = false, title 'Darah tinggi: pembunuh senyap' / PENDING"
+   },
+   "autoPublish": true,
+   "caption_file": "caption_instagram.txt",
+   "source_media": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JY4YdIKVikfVoQnvogqPkiBhNk/bfd689d8-1e0b-4eb6-9013-c71115ecf7cf.mp4",
+   "media": "https://static.metricool.com/planner/202611/7705651-file-13064507397068333912.mp4",
+   "thumbnail": "https://static.metricool.com/planner/202611/7705651-file-16417424522352303885.jpeg",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7840561&openWithPostUuid=-1697644783464331598"
+  }
+ ],
  "elevenlabs": {
   "flow_id": "0xZVIRu6C9JvIGXB6mY0",
   "tts_generation_id": "cQX2RpmvqIn5fAjoRGdW",
@@ -16,5 +33,11 @@
   "sfx": "reused jenis-nyamuk/sfx (0 credits)",
   "scribe_credits": 0
  },
- "higgsfield_credits": 0
+ "higgsfield_credits": 0,
+ "notes": "Times from Metricool best-time data for Sunday 15 Nov (hours left after 14:53 MYT): FB and TikTok peak at 18:00, then 19:00, then 16:00-17:00; Instagram data too sparse. Media hosted on the user's Higgsfield storage (free upload, 0 credits); Metricool copied it to its own storage. Medical review still pending.",
+ "metricool_brand": {
+  "label": "Klinik Nissa",
+  "brandId": 7840561,
+  "timezone": "Asia/Kuala_Lumpur"
+ }
 }
