@@ -1,13 +1,30 @@
 {
  "video_id": "2026-11-16_VIDEO_01_KESIHATAN_STROK_strok",
- "status": "READY_NOT_SCHEDULED",
+ "status": "SCHEDULED",
  "approval_gate": {
   "medical_accuracy": "PENDING (medical_references.md, items marked 'Semak')",
   "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
   "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding)",
-  "publishing_instruction": "Not scheduled. Schedule on Metricool only when the user asks."
+  "publishing_instruction": "User instructed (2026-11-15) to schedule on Metricool for 2026-11-16 at the best times; AI-generated label OFF, commercial content OFF (same settings as 2026-11-15; made-for-kids applies only to YouTube, which this brand does not have)"
  },
- "scheduled_posts": [],
+ "scheduled_posts": [
+  {
+   "metricool_post_id": 428860803,
+   "uuid": "4838502329081678944",
+   "publication": "2026-11-16T10:20:00 Asia/Kuala_Lumpur",
+   "networks": {
+    "facebook": "REEL / PENDING",
+    "instagram": "REEL, showReelOnFeed, isAiGenerated=false / PENDING",
+    "tiktok": "PUBLIC, isAigc=false, commercial (own brand / third party) = false, title 'Strok: setiap minit berharga' / PENDING"
+   },
+   "autoPublish": true,
+   "caption_file": "caption_instagram.txt",
+   "source_media": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JY4YdIKVikfVoQnvogqPkiBhNk/cac11df9-af9b-4be6-829c-685ca1b306e4.mp4",
+   "media": "https://static.metricool.com/planner/202611/7705651-file-13314153555958635822.mp4",
+   "thumbnail": "https://static.metricool.com/planner/202611/7705651-file-17896319167810593336.jpeg",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7840561&openWithPostUuid=4838502329081678944"
+  }
+ ],
  "elevenlabs": {
   "flow_id": "p2sPgiMNTt8WqWRqC7TE",
   "tts_generation_id": "wENZthV4BCGA3l42BDDH",
@@ -20,5 +37,11 @@
   "music": "reused jenis-nyamuk/music.mp3 (0 credits)",
   "scribe_credits": 0
  },
- "higgsfield_credits": 0
+ "higgsfield_credits": 0,
+ "notes": "Times from Metricool best-time data for Monday (FB+IG+TikTok combined): 12:00 and 18:00 highest, then 10:00, then 17:00. Media hosted on the user's Higgsfield storage (free upload, 0 credits); Metricool copied it to its own storage. Medical review still pending.",
+ "metricool_brand": {
+  "label": "Klinik Nissa",
+  "brandId": 7840561,
+  "timezone": "Asia/Kuala_Lumpur"
+ }
 }

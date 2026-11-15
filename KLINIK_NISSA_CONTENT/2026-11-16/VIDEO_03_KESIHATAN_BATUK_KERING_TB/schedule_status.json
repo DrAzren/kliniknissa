@@ -1,13 +1,30 @@
 {
  "video_id": "2026-11-16_VIDEO_03_KESIHATAN_BATUK_KERING_TB_batuk-kering-tb",
- "status": "READY_NOT_SCHEDULED",
+ "status": "SCHEDULED",
  "approval_gate": {
   "medical_accuracy": "PENDING (medical_references.md, items marked 'Semak')",
   "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
   "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding)",
-  "publishing_instruction": "Not scheduled. Schedule on Metricool only when the user asks."
+  "publishing_instruction": "User instructed (2026-11-15) to schedule on Metricool for 2026-11-16 at the best times; AI-generated label OFF, commercial content OFF (same settings as 2026-11-15; made-for-kids applies only to YouTube, which this brand does not have)"
  },
- "scheduled_posts": [],
+ "scheduled_posts": [
+  {
+   "metricool_post_id": 428861122,
+   "uuid": "3215828378101367069",
+   "publication": "2026-11-16T12:40:00 Asia/Kuala_Lumpur",
+   "networks": {
+    "facebook": "REEL / PENDING",
+    "instagram": "REEL, showReelOnFeed, isAiGenerated=false / PENDING",
+    "tiktok": "PUBLIC, isAigc=false, commercial (own brand / third party) = false, title 'Batuk lebih 2 minggu? Mungkin batuk kering' / PENDING"
+   },
+   "autoPublish": true,
+   "caption_file": "caption_instagram.txt",
+   "source_media": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JY4YdIKVikfVoQnvogqPkiBhNk/b07e01f3-0243-468e-a67a-47f0d70b2127.mp4",
+   "media": "https://static.metricool.com/planner/202611/7705651-file-3364126577736656646.mp4",
+   "thumbnail": "https://static.metricool.com/planner/202611/7705651-file-11916808707478446256.jpeg",
+   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7840561&openWithPostUuid=3215828378101367069"
+  }
+ ],
  "elevenlabs": {
   "flow_id": "p2sPgiMNTt8WqWRqC7TE",
   "tts_generation_id": "vIS7rEM0vRG19Tuag2ii",
@@ -20,5 +37,11 @@
   "music": "reused jenis-nyamuk/music.mp3 (0 credits)",
   "scribe_credits": 0
  },
- "higgsfield_credits": 0
+ "higgsfield_credits": 0,
+ "notes": "Times from Metricool best-time data for Monday (FB+IG+TikTok combined): 12:00 and 18:00 highest, then 10:00, then 17:00. Media hosted on the user's Higgsfield storage (free upload, 0 credits); Metricool copied it to its own storage. Medical review still pending.",
+ "metricool_brand": {
+  "label": "Klinik Nissa",
+  "brandId": 7840561,
+  "timezone": "Asia/Kuala_Lumpur"
+ }
 }

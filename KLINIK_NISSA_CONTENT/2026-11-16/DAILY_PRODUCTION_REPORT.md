@@ -1,5 +1,5 @@
 # Daily production report — 2026-11-16 (produced 2026-11-15, branch `claude/upbeat-wozniak-5k7bfp`)
-Three animated videos in the same concept as the previous batches (Remotion `animasi/`, Violet Flat SVG, avatar `dr-azren`, hook → story → diagnosis → #1–#5 → recovery → "jangan tunggu… saya Doktor Azren"). Topics checked against every branch so none repeat. User approved **option A+**: new voice (1 take each) + 3 new short SFX; music **reused** from `jenis-nyamuk`. No Talian HEAL line. **No clinic CTA.** **Not scheduled.**
+Three animated videos in the same concept as the previous batches (Remotion `animasi/`, Violet Flat SVG, avatar `dr-azren`, hook → story → diagnosis → #1–#5 → recovery → "jangan tunggu… saya Doktor Azren"). Topics checked against every branch so none repeat. User approved **option A+**: new voice (1 take each) + 3 new short SFX; music **reused** from `jenis-nyamuk`. No Talian HEAL line. **No clinic CTA.** **Scheduled** on Metricool at the user's request (see below).
 
 Shared code: `animasi/src/topics/_kit/kit.tsx` gained 10 icons (ambulance, droop face, arms, dizzy, chest x-ray, baby, mask, sputum pot, brain scan, broken heart). Topics registered in `src/topics/index.ts`.
 
@@ -39,3 +39,12 @@ Shared code: `animasi/src/topics/_kit/kit.tsx` gained 10 icons (ambulance, droop
 
 ## Notes
 - Pronunciation could not be checked automatically (Scribe aligns to the script text). Please listen for: strok, "sembilan sembilan sembilan", fisioterapi, "baby blues", tuberkulosis, "x-ray", kahak.
+
+## Scheduling (requested 2026-11-15)
+Metricool brand Klinik Nissa (7840561), FB Reel + IG Reel + TikTok, custom thumbnail, caption = `caption_instagram.txt`. AI-generated label OFF (IG `isAiGenerated=false`, TikTok `isAigc=false`), TikTok commercial content OFF. Times from Metricool best-time data for Monday (FB+IG+TikTok combined: 12:00 and 18:00 highest, then 10:00, then 17:00).
+| Time (MYT) | Video | Metricool post |
+|---|---|---|
+| 10:20 | VIDEO_01 Strok | 428860803 |
+| 12:40 | VIDEO_03 Batuk kering TB | 428861122 |
+| 18:20 | VIDEO_02 Bukan sekadar baby blues | 428861185 |
+A worker restart interrupted the first scheduling attempt; the scheduled list was checked before retrying, so there are no duplicates. Media uploaded to Higgsfield storage for a public URL (free, 0 credits). Status: PENDING until published.
