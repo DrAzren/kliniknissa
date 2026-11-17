@@ -1,0 +1,226 @@
+{
+ "id": "adhd-dewasa",
+ "title": "Bukan Malas, Mungkin ADHD",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[curious] Selalu hilang kunci? Kerja bertimbun, tapi asyik tangguh? Mungkin bukan malas... mungkin ADHD.\n\n[storytelling] Danial, dua puluh tujuh tahun, pereka grafik. Dia pandai dan kreatif, tapi selalu terlepas tarikh akhir.\n\n[concerned] Mesyuarat baru lima minit, fikirannya sudah melayang. Dia suka mencelah orang bercakap, dan beli barang tanpa fikir panjang. [tired] \"Kenapa aku tak macam orang lain?\"\n\n[worried] Selepas ditegur ketua buat kali ketiga, dia jumpa doktor.\n\n[serious] Selepas penilaian, termasuk sejarah sejak kecil... Danial disahkan ADHD dewasa.\n\n[warmly] ADHD bukan hanya pada kanak-kanak, dan bukan tanda malas. Ini lima perkara yang anda perlu tahu.\n\nSatu. Sukar fokus. Mudah terganggu, cuai dalam kerja, kerap hilang barang, dan lupa janji.\n\nDua. Gelisah. Pada orang dewasa, hiperaktif selalunya rasa resah di dalam, susah duduk diam, atau asyik bergerak.\n\nTiga. Impulsif. Mencelah perbualan, buat keputusan terburu-buru, dan sukar menunggu giliran.\n\nEmpat. Bermula sejak kecil. Semua orang sesekali lupa. Tapi pada ADHD, tanda sudah ada sejak kecil, dan mengganggu kerja, belajar atau hubungan.\n\nLima. Rawatan. Ubat, terapi, dan strategi harian seperti senarai tugas dan peringatan telefon, boleh banyak membantu.\n\n[relieved] Kini Danial guna jadual dan peringatan, dan dia siapkan projek sebelum tarikh akhir.\n\n[warmly] Kalau tanda ini berlarutan dan mengganggu hidup, jangan tunggu. Dapatkan penilaian. Saya Doktor Azren.",
+  "note": "1 take sahaja (pilihan A+). ElevenLabs Flow eWWyeKlaLbyFmpCDzvwq, generation FUDRvt758pSOeB1QaJkv, 87.44 s. Muzik diguna semula daripada jenis-nyamuk."
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "danial",
+   "marker": "Danial dua"
+  },
+  {
+   "id": "mesyuarat",
+   "marker": "Mesyuarat baru"
+  },
+  {
+   "id": "ketua",
+   "marker": "Selepas ditegur"
+  },
+  {
+   "id": "diagnosis",
+   "marker": "Selepas penilaian"
+  },
+  {
+   "id": "lima",
+   "marker": "ADHD bukan"
+  },
+  {
+   "id": "fokus",
+   "marker": "Satu Sukar",
+   "n": 1,
+   "label": "Sukar fokus"
+  },
+  {
+   "id": "gelisah",
+   "marker": "Dua Gelisah",
+   "n": 2,
+   "label": "Gelisah"
+  },
+  {
+   "id": "impulsif",
+   "marker": "Tiga Impulsif",
+   "n": 3,
+   "label": "Impulsif"
+  },
+  {
+   "id": "kecil",
+   "marker": "Empat Bermula",
+   "n": 4,
+   "label": "Bermula sejak kecil"
+  },
+  {
+   "id": "rawatan",
+   "marker": "Lima Rawatan",
+   "n": 5,
+   "label": "Rawatan"
+  },
+  {
+   "id": "pulih",
+   "marker": "Kini Danial"
+  },
+  {
+   "id": "penutup",
+   "marker": "Kalau tanda ini"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat",
+  "Lima"
+ ],
+ "keywords": [
+  "hilang kunci",
+  "bertimbun",
+  "tangguh",
+  "bukan malas",
+  "ADHD",
+  "Danial",
+  "27 tahun",
+  "pereka grafik",
+  "pandai",
+  "kreatif",
+  "tarikh akhir",
+  "Mesyuarat",
+  "5 minit",
+  "melayang",
+  "mencelah",
+  "fikir panjang",
+  "orang lain",
+  "ditegur",
+  "kali ketiga",
+  "doktor",
+  "penilaian",
+  "sejarah sejak kecil",
+  "ADHD dewasa",
+  "bukan hanya",
+  "kanak-kanak",
+  "tanda malas",
+  "5 perkara",
+  "Sukar fokus",
+  "terganggu",
+  "cuai",
+  "hilang barang",
+  "lupa janji",
+  "Gelisah",
+  "hiperaktif",
+  "resah di dalam",
+  "duduk diam",
+  "bergerak",
+  "Impulsif",
+  "Mencelah perbualan",
+  "terburu-buru",
+  "menunggu giliran",
+  "Bermula sejak kecil",
+  "sesekali lupa",
+  "sejak kecil",
+  "kerja",
+  "belajar",
+  "hubungan",
+  "Rawatan",
+  "Ubat",
+  "terapi",
+  "strategi harian",
+  "senarai tugas",
+  "peringatan telefon",
+  "jadual",
+  "peringatan",
+  "siapkan projek",
+  "berlarutan",
+  "mengganggu hidup",
+  "jangan tunggu",
+  "Dapatkan penilaian",
+  "Dr. Azren"
+ ],
+ "corrections": {
+  "dua puluh tujuh tahun": "27 tahun",
+  "lima minit": "5 minit",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.35,
+  "sfx": [
+   {
+    "file": "keys.mp3",
+    "at": "hilang kunci",
+    "offset": -0.2,
+    "volume": 0.6
+   },
+   {
+    "file": "slap.mp3",
+    "at": "ditegur",
+    "offset": 0,
+    "volume": 0.45
+   },
+   {
+    "file": "sting.mp3",
+    "at": "ADHD dewasa",
+    "offset": 0.1,
+    "volume": 0.8
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu Sukar",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Gelisah",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Impulsif",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Bermula",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Lima Rawatan",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "chime.mp3",
+    "at": "siapkan projek",
+    "offset": 0,
+    "volume": 0.8
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "SELALU LUPA & TANGGUH?",
+  "headline": [
+   "BUKAN",
+   "MALAS"
+  ],
+  "highlight": "Mungkin ADHD dewasa",
+  "sub": "5 perkara anda perlu tahu",
+  "tags": []
+ }
+}

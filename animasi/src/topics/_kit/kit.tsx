@@ -133,7 +133,8 @@ export type KIconName =
   | 'pill' | 'calendar' | 'truck' | 'phone' | 'laptop' | 'ball' | 'bed' | 'storm' | 'back' | 'stomach' | 'talk' | 'empty'
   | 'warning' | 'virus' | 'saliva' | 'sneeze' | 'palm' | 'sole' | 'mouth' | 'hospital' | 'toy' | 'cup' | 'nocup' | 'bowl'
   | 'zzz' | 'bolt' | 'vomit' | 'bottle' | 'question' | 'smile' | 'clock' | 'school' | 'poop' | 'lungs' | 'drop'
-  | 'ambulance' | 'droop' | 'arms' | 'dizzy' | 'xray' | 'baby' | 'mask' | 'sputum' | 'scan' | 'heartbreak';
+  | 'ambulance' | 'droop' | 'arms' | 'dizzy' | 'xray' | 'baby' | 'mask' | 'sputum' | 'scan' | 'heartbreak'
+  | 'chili' | 'burger' | 'coffee' | 'keys' | 'checklist' | 'bell' | 'cart' | 'camera' | 'recovery' | 'reflux';
 
 export const KIcon: React.FC<{name: KIconName; size?: number; f?: number; text?: string}> = ({name, size = 120, f = 0, text}) => {
   const w = '#fff', nv = C.navy, y = C.yellow;
@@ -642,6 +643,106 @@ export const KIcon: React.FC<{name: KIconName; size?: number; f?: number; text?:
             <path d="M 62 32 C 78 10 106 16 110 38 C 114 58 100 80 64 106 L 72 86 L 62 68 L 74 52 Z" fill={RED} transform={`translate(${4 + Math.min(6, f / 4)} 0)`} />
           </g>
         );
+      case 'chili':
+        return (
+          <g>
+            <path d="M 30 30 Q 20 70 50 100 Q 70 116 96 106 Q 70 96 60 70 Q 52 46 44 30 Z" fill={RED} />
+            <path d="M 34 30 Q 30 14 44 8 M 34 30 Q 40 24 46 30" stroke={LEAF} strokeWidth={7} fill="none" strokeLinecap="round" />
+            <path d="M 40 44 Q 36 64 48 82" stroke="#fff" strokeWidth={5} fill="none" strokeLinecap="round" opacity={0.5} />
+          </g>
+        );
+      case 'burger':
+        return (
+          <g>
+            <path d="M 14 56 Q 14 20 60 20 Q 106 20 106 56 Z" fill="#E0A04A" />
+            {[[40, 34], [60, 30], [78, 36]].map(([x, yy], i) => <ellipse key={i} cx={x} cy={yy} rx={4} ry={2.5} fill="#FFF3C4" />)}
+            <rect x={10} y={56} width={100} height={10} rx={5} fill={LEAF} />
+            <rect x={12} y={66} width={96} height={16} rx={6} fill="#7A3E22" />
+            <path d="M 12 82 L 108 82 L 100 90 L 20 90 Z" fill={y} />
+            <path d="M 14 90 L 106 90 Q 106 106 60 106 Q 14 106 14 90 Z" fill="#E0A04A" />
+          </g>
+        );
+      case 'coffee':
+        return (
+          <g>
+            <path d="M 20 44 L 90 44 L 82 108 L 28 108 Z" fill={w} />
+            <path d="M 90 56 Q 112 56 108 76 Q 104 92 86 90" stroke={w} strokeWidth={8} fill="none" />
+            <ellipse cx={55} cy={46} rx={34} ry={6} fill="#6B4226" />
+            {[0, 1, 2].map((i) => <path key={i} d={`M ${40 + i * 15} 34 Q ${34 + i * 15} 22 ${42 + i * 15} 10`} stroke="#C9CED8" strokeWidth={4} fill="none" strokeLinecap="round" opacity={0.4 + 0.4 * Math.abs(Math.sin(f / 6 + i))} />)}
+          </g>
+        );
+      case 'keys':
+        return (
+          <g transform={`rotate(${Math.sin(f / 5) * 10} 40 30)`}>
+            <circle cx={40} cy={30} r={16} fill="none" stroke="#C9CED8" strokeWidth={6} />
+            <rect x={36} y={44} width={10} height={60} rx={4} fill={y} />
+            <rect x={46} y={80} width={14} height={8} fill={y} /><rect x={46} y={94} width={10} height={8} fill={y} />
+            <rect x={60} y={40} width={10} height={50} rx={4} fill="#C9CED8" transform="rotate(-30 40 30)" />
+          </g>
+        );
+      case 'checklist':
+        return (
+          <g>
+            <rect x={18} y={10} width={84} height={104} rx={10} fill={w} />
+            <rect x={42} y={4} width={36} height={14} rx={6} fill={C.violet[3]} />
+            {[0, 1, 2].map((i) => (
+              <g key={i}>
+                <rect x={28} y={32 + i * 26} width={16} height={16} rx={4} fill={i < Math.min(3, Math.floor(f / 10)) ? C.green : '#DAD6EE'} />
+                <rect x={52} y={36 + i * 26} width={40} height={8} rx={4} fill="#C9CED8" />
+              </g>
+            ))}
+          </g>
+        );
+      case 'bell':
+        return (
+          <g transform={`rotate(${Math.sin(f / 2) * 12} 60 20)`}>
+            <path d="M 60 14 Q 92 14 92 56 L 92 80 L 102 92 L 18 92 L 28 80 L 28 56 Q 28 14 60 14 Z" fill={y} />
+            <circle cx={60} cy={102} r={10} fill={y} />
+            <circle cx={92} cy={24} r={12} fill={RED} />
+          </g>
+        );
+      case 'cart':
+        return (
+          <g>
+            <path d="M 6 20 L 24 20 L 38 80 L 96 80 L 108 36 L 30 36" stroke={w} strokeWidth={7} fill="none" strokeLinejoin="round" />
+            <rect x={40} y={40} width={22} height={34} fill={C.labelPink} /><rect x={66} y={46} width={30} height={28} fill={C.green} />
+            <circle cx={46} cy={98} r={9} fill={w} /><circle cx={88} cy={98} r={9} fill={w} />
+          </g>
+        );
+      case 'camera':
+        return (
+          <g>
+            <rect x={8} y={34} width={80} height={60} rx={12} fill={w} />
+            <path d="M 88 52 L 114 38 L 114 90 L 88 76 Z" fill={w} />
+            <circle cx={48} cy={64} r={18} fill={C.violet[1]} /><circle cx={48} cy={64} r={8} fill="#1D2B33" />
+            <circle cx={22} cy={46} r={6} fill={Math.floor(f / 10) % 2 ? RED : '#7A1F3D'} />
+          </g>
+        );
+      case 'recovery':
+        return (
+          <g>
+            <rect x={4} y={92} width={112} height={10} rx={5} fill={C.violet[3]} />
+            <circle cx={24} cy={70} r={16} fill={SKIN} />
+            <path d="M 40 70 Q 70 58 96 74 L 96 90 L 40 90 Z" fill="#7FC4F2" />
+            <path d="M 50 72 L 40 50" stroke={SKIN} strokeWidth={9} strokeLinecap="round" />
+            <path d="M 90 88 L 104 70" stroke="#5B6B8C" strokeWidth={10} strokeLinecap="round" />
+            <path d="M 18 66 L 26 68" stroke="#1E1A24" strokeWidth={3} strokeLinecap="round" />
+          </g>
+        );
+      case 'reflux': {
+        const up = (f % 40) / 40;
+        return (
+          <g>
+            <rect x={50} y={4} width={20} height={64} rx={10} fill="#F2B3C6" />
+            <path d="M 46 62 Q 14 70 20 94 Q 30 116 64 112 Q 104 106 100 78 Q 96 58 70 62 Z" fill="#F29CBC" />
+            <path d="M 30 92 Q 60 100 92 86 L 92 100 Q 60 114 30 104 Z" fill="#B6E36A" opacity={0.85} />
+            {[0, 1, 2].map((i) => {
+              const t = (up + i / 3) % 1;
+              return <circle key={i} cx={60} cy={64 - t * 56} r={6 - t * 2} fill="#B6E36A" opacity={1 - t * 0.6} />;
+            })}
+          </g>
+        );
+      }
       case 'lungs':
         return (
           <g>

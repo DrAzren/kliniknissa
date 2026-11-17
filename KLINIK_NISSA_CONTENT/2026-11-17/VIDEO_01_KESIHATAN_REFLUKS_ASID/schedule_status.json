@@ -1,0 +1,24 @@
+{
+ "video_id": "2026-11-17_VIDEO_01_KESIHATAN_REFLUKS_ASID_refluks-asid",
+ "status": "READY_NOT_SCHEDULED",
+ "approval_gate": {
+  "medical_accuracy": "PENDING (medical_references.md, items marked 'Semak')",
+  "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
+  "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding)",
+  "publishing_instruction": "Not scheduled. Schedule on Metricool only when the user asks."
+ },
+ "scheduled_posts": [],
+ "elevenlabs": {
+  "flow_id": "eWWyeKlaLbyFmpCDzvwq",
+  "tts_generation_id": "4D5eluTbPCDTnbNhatYr",
+  "tts_credits": 1616.8,
+  "sfx": {
+   "file": "acid.mp3",
+   "generation_id": "LtfZZBq3jvk7tg7JLR9A",
+   "credits": 6.7
+  },
+  "music": "reused jenis-nyamuk/music.mp3 (0 credits)",
+  "scribe_credits": 0
+ },
+ "higgsfield_credits": 0
+}

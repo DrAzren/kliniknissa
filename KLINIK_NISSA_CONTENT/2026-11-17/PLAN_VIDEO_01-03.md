@@ -1,6 +1,6 @@
-# 2026-11-17 — 3 video animasi — DRAF, MENUNGGU "OK jana"
+# 2026-11-17 — 3 video animasi — SIAP (pilihan A+ diluluskan)
 
-Belum ada kredit digunakan. Konsep sama (Remotion `animasi/`, Violet Flat SVG, avatar `dr-azren`, kit `src/topics/_kit/kit.tsx`).
+Pengguna pilih **A+** (suara + 2 SFX baharu; muzik & siren diguna semula). Kredit sebenar: 4,570.9 (lihat DAILY_PRODUCTION_REPORT.md). Konsep sama (Remotion `animasi/`, Violet Flat SVG, avatar `dr-azren`, kit `src/topics/_kit/kit.tsx`).
 
 Topik dielakkan (sudah dibuat di mana-mana branch): tiada emosi, OCD, halusinasi, BPD, bipolar, bipolar jenis 2, serangan panik, kemurungan lelaki, kemurungan selepas bersalin, eczema, jenis nyamuk, denggi, gout, diabetes teh ais, influenza, hipoglisemia, kencing tikus, asma, sleep apnea, batu karang, darah tinggi, HFMD, strok, batuk kering TB.
 
@@ -10,7 +10,7 @@ Topik dielakkan (sudah dibuat di mana-mana branch): tiada emosi, OCD, halusinasi
 | 02 | VIDEO_02_MENTAL_HEALTH_ADHD_DEWASA | `adhd-dewasa` | Bukan Malas, Mungkin ADHD | Danial, 27, pereka grafik | 1,449 | ~82–88 s |
 | 03 | VIDEO_03_KANAK_KANAK_SAWAN_DEMAM | `sawan-demam` | Anak Kejang Ketika Demam: Apa Perlu Buat? | Adam, 18 bulan + ibu | 1,492 | ~84–90 s |
 
-Skrip penuh: `VIDEO_0N_*/voice_draft.txt`.
+Skrip penuh: `VIDEO_0N_*/narration_script.txt`.
 
 ## Pembetulan kapsyen
 - **01:** "tiga puluh enam tahun" → "36 tahun"; "tiga minggu" → "3 minggu"; "dua hingga tiga jam" → "2–3 jam"; "sembilan sembilan sembilan" → "999"; "Doktor Azren" → "Dr. Azren".

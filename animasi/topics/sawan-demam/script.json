@@ -1,0 +1,216 @@
+{
+ "id": "sawan-demam",
+ "title": "Anak Kejang Ketika Demam: Apa Perlu Buat?",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[urgent] Anak demam... tiba-tiba badannya kejang, mata ke atas, dan tak sedar. Apa anda perlu buat?\n\n[storytelling] Adam, lapan belas bulan, demam panas sejak pagi. Petang itu, dalam dukungan ibunya, badannya tiba-tiba keras dan tersentak-sentak.\n\n[worried] Ibunya panik, dan cuba masukkan sudu ke dalam mulut Adam. [concerned] Kejang berhenti dalam dua minit, dan mereka terus ke hospital.\n\n[serious] Doktor periksa, dan sahkan... Adam mengalami sawan demam.\n\n[warmly] Sawan demam biasanya berlaku pada kanak-kanak umur enam bulan hingga lima tahun. Ini lima perkara yang ibu bapa perlu tahu.\n\nSatu. Tempat selamat. Jauhkan anak daripada benda keras, dan baringkan secara mengiring.\n\nDua. Jangan masukkan apa-apa ke dalam mulut. Bukan sudu, bukan jari. Dan jangan tahan pergerakannya.\n\nTiga. Lihat jam. Catat berapa lama kejang berlaku. Kalau boleh, rakam video untuk doktor.\n\nEmpat. Telefon sembilan sembilan sembilan jika kejang lebih lima minit, anak susah bernafas, atau tidak sedar selepas kejang berhenti.\n\nLima. Selepas kejang pertama, bawa anak ke hospital, supaya punca demam dapat diperiksa.\n\n[reassuring] Kebanyakan sawan demam berhenti sendiri dalam beberapa minit, tidak merosakkan otak, dan bukan epilepsi. Sesetengah anak boleh mengalaminya lagi apabila demam semula, jadi ibu bapa perlu tahu langkah ini.\n\n[relieved] Adam pulih selepas demamnya dirawat, dan kembali aktif bermain.\n\n[warmly] Anak kejang ketika demam? Jangan tunggu. Dapatkan rawatan segera. Saya Doktor Azren.",
+  "note": "1 take sahaja (pilihan A+). ElevenLabs Flow eWWyeKlaLbyFmpCDzvwq, generation OamXiLj2SirE1Hgb01O2, 84.48 s. Muzik diguna semula daripada jenis-nyamuk."
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "adam",
+   "marker": "Adam lapan"
+  },
+  {
+   "id": "panik",
+   "marker": "Ibunya panik"
+  },
+  {
+   "id": "diagnosis",
+   "marker": "Doktor periksa"
+  },
+  {
+   "id": "lima",
+   "marker": "Sawan demam biasanya"
+  },
+  {
+   "id": "selamat",
+   "marker": "Satu Tempat",
+   "n": 1,
+   "label": "Tempat selamat"
+  },
+  {
+   "id": "mulut",
+   "marker": "Dua Jangan",
+   "n": 2,
+   "label": "Jangan masukkan apa-apa"
+  },
+  {
+   "id": "jam",
+   "marker": "Tiga Lihat",
+   "n": 3,
+   "label": "Lihat jam"
+  },
+  {
+   "id": "telefon",
+   "marker": "Empat Telefon",
+   "n": 4,
+   "label": "Bila telefon 999"
+  },
+  {
+   "id": "hospital",
+   "marker": "Lima Selepas",
+   "n": 5,
+   "label": "Ke hospital"
+  },
+  {
+   "id": "tenang",
+   "marker": "Kebanyakan sawan"
+  },
+  {
+   "id": "pulih",
+   "marker": "Adam pulih"
+  },
+  {
+   "id": "penutup",
+   "marker": "Anak kejang ketika"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat",
+  "Lima"
+ ],
+ "keywords": [
+  "Anak demam",
+  "kejang",
+  "mata ke atas",
+  "tak sedar",
+  "Apa anda perlu buat",
+  "Adam",
+  "18 bulan",
+  "demam panas",
+  "dukungan",
+  "keras",
+  "tersentak-sentak",
+  "panik",
+  "sudu",
+  "mulut",
+  "2 minit",
+  "hospital",
+  "sawan demam",
+  "6 bulan – 5 tahun",
+  "5 perkara",
+  "ibu bapa",
+  "Tempat selamat",
+  "benda keras",
+  "mengiring",
+  "Jangan masukkan",
+  "Bukan sudu",
+  "bukan jari",
+  "jangan tahan",
+  "Lihat jam",
+  "berapa lama",
+  "rakam video",
+  "999",
+  "5 minit",
+  "susah bernafas",
+  "tidak sedar",
+  "kejang pertama",
+  "punca demam",
+  "berhenti sendiri",
+  "beberapa minit",
+  "tidak merosakkan otak",
+  "bukan epilepsi",
+  "lagi",
+  "demam semula",
+  "langkah ini",
+  "pulih",
+  "aktif bermain",
+  "Jangan tunggu",
+  "rawatan segera",
+  "Dr. Azren"
+ ],
+ "corrections": {
+  "lapan belas bulan": "18 bulan",
+  "dua minit": "2 minit",
+  "enam bulan hingga lima tahun": "6 bulan – 5 tahun",
+  "lima minit": "5 minit",
+  "sembilan sembilan sembilan": "999",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.35,
+  "sfx": [
+   {
+    "file": "sting.mp3",
+    "at": "kejang",
+    "offset": 0,
+    "volume": 0.7
+   },
+   {
+    "file": "siren.mp3",
+    "at": "terus ke hospital",
+    "offset": 0,
+    "volume": 0.55
+   },
+   {
+    "file": "sting.mp3",
+    "at": "sawan demam",
+    "offset": 0.1,
+    "volume": 0.8
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu Tempat",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Jangan",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Lihat",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Telefon",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Lima Selepas",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "chime.mp3",
+    "at": "aktif bermain",
+    "offset": 0,
+    "volume": 0.8
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "ANAK KEJANG KETIKA DEMAM?",
+  "headline": [
+   "SAWAN",
+   "DEMAM"
+  ],
+  "highlight": "5 langkah ibu bapa perlu tahu",
+  "sub": "Lebih 5 minit? Telefon 999",
+  "tags": []
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "video_id": "2026-11-17_VIDEO_03_KANAK_KANAK_SAWAN_DEMAM_sawan-demam",
+ "status": "READY_NOT_SCHEDULED",
+ "approval_gate": {
+  "medical_accuracy": "PENDING (medical_references.md, items marked 'Semak')",
+  "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
+  "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding)",
+  "publishing_instruction": "Not scheduled. Schedule on Metricool only when the user asks."
+ },
+ "scheduled_posts": [],
+ "elevenlabs": {
+  "flow_id": "eWWyeKlaLbyFmpCDzvwq",
+  "tts_generation_id": "OamXiLj2SirE1Hgb01O2",
+  "tts_credits": 1491.9,
+  "sfx": {
+   "file": "siren.mp3 (diguna semula, 0 kredit)",
+   "generation_id": "—",
+   "credits": 0
+  },
+  "music": "reused jenis-nyamuk/music.mp3 (0 credits)",
+  "scribe_credits": 0
+ },
+ "higgsfield_credits": 0
+}

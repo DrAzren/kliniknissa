@@ -1,0 +1,233 @@
+{
+ "id": "refluks-asid",
+ "title": "Dada Panas Lepas Makan? Mungkin Refluks Asid",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[serious] Dada terasa panas terbakar selepas makan... ramai sangka sakit jantung. Ramai juga yang abaikan, kerana sangka ia gastrik biasa.\n\n[storytelling] Amir, tiga puluh enam tahun, pegawai bank. Setiap malam dia makan lewat, minum kopi, dan terus baring depan televisyen.\n\n[concerned] Dadanya terasa pedih. Ada rasa masam naik ke tekak, dan batuk waktu malam tak berhenti. [worried] Selepas tiga minggu, dia akhirnya ke klinik.\n\n[serious] Doktor pastikan ia bukan masalah jantung... dan sahkan Amir menghidap penyakit refluks asid.\n\n[warmly] Refluks asid berlaku bila asid perut naik semula ke saluran makanan. Ini lima perkara yang anda perlu tahu.\n\nSatu. Tanda. Pedih ulu hati, dada terasa panas, rasa masam atau pahit di tekak, kerap sendawa, dan batuk malam.\n\nDua. Pencetus. Makan berlebihan, makan lewat malam, makanan berlemak atau pedas, kopi, merokok, dan berat badan berlebihan.\n\nTiga. Jangan terus baring. Jangan makan dalam dua hingga tiga jam sebelum tidur, dan tinggikan kepala katil sedikit.\n\nEmpat. Ubat. Doktor boleh beri ubat untuk kurangkan asid. Jangan makan ubat tahan sakit sesuka hati, kerana ia boleh memburukkan perut.\n\nLima. Tanda bahaya. Sukar menelan, muntah darah, najis hitam, atau berat badan turun tanpa sebab. Dapatkan rawatan segera.\n\n[serious] Ingat, sakit dada yang menjalar ke lengan atau rahang, dengan sesak nafas dan berpeluh, mungkin serangan jantung. Telefon sembilan sembilan sembilan.\n\n[relieved] Selepas makan lebih awal dan ubah tabiat, Amir kini tidur lena tanpa pedih di dada.\n\n[warmly] Pedih ulu hati berulang? Jangan tunggu. Dapatkan pemeriksaan. Saya Doktor Azren.",
+  "note": "1 take sahaja (pilihan A+). ElevenLabs Flow eWWyeKlaLbyFmpCDzvwq, generation 4D5eluTbPCDTnbNhatYr, 97.04 s. Muzik diguna semula daripada jenis-nyamuk."
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "amir",
+   "marker": "Amir tiga"
+  },
+  {
+   "id": "pedih",
+   "marker": "Dadanya terasa"
+  },
+  {
+   "id": "diagnosis",
+   "marker": "Doktor pastikan"
+  },
+  {
+   "id": "lima",
+   "marker": "Refluks asid berlaku"
+  },
+  {
+   "id": "tanda",
+   "marker": "Satu Tanda",
+   "n": 1,
+   "label": "Tanda"
+  },
+  {
+   "id": "pencetus",
+   "marker": "Dua Pencetus",
+   "n": 2,
+   "label": "Pencetus"
+  },
+  {
+   "id": "baring",
+   "marker": "Tiga Jangan",
+   "n": 3,
+   "label": "Jangan terus baring"
+  },
+  {
+   "id": "ubat",
+   "marker": "Empat Ubat",
+   "n": 4,
+   "label": "Ubat"
+  },
+  {
+   "id": "bahaya",
+   "marker": "Lima Tanda",
+   "n": 5,
+   "label": "Tanda bahaya"
+  },
+  {
+   "id": "jantung",
+   "marker": "Ingat sakit"
+  },
+  {
+   "id": "pulih",
+   "marker": "Selepas makan"
+  },
+  {
+   "id": "penutup",
+   "marker": "Pedih ulu hati berulang"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat",
+  "Lima"
+ ],
+ "keywords": [
+  "panas terbakar",
+  "sakit jantung",
+  "abaikan",
+  "gastrik biasa",
+  "Amir",
+  "36 tahun",
+  "pegawai bank",
+  "makan lewat",
+  "kopi",
+  "baring",
+  "pedih",
+  "masam",
+  "tekak",
+  "batuk",
+  "3 minggu",
+  "klinik",
+  "bukan masalah jantung",
+  "refluks asid",
+  "asid perut",
+  "saluran makanan",
+  "5 perkara",
+  "Tanda",
+  "Pedih ulu hati",
+  "dada terasa panas",
+  "pahit",
+  "sendawa",
+  "batuk malam",
+  "Pencetus",
+  "berlebihan",
+  "lewat malam",
+  "berlemak",
+  "pedas",
+  "merokok",
+  "berat badan",
+  "Jangan terus baring",
+  "2–3 jam",
+  "sebelum tidur",
+  "kepala katil",
+  "Ubat",
+  "kurangkan asid",
+  "ubat tahan sakit",
+  "memburukkan perut",
+  "Tanda bahaya",
+  "Sukar menelan",
+  "muntah darah",
+  "najis hitam",
+  "tanpa sebab",
+  "rawatan segera",
+  "lengan",
+  "rahang",
+  "sesak nafas",
+  "berpeluh",
+  "serangan jantung",
+  "999",
+  "makan lebih awal",
+  "ubah tabiat",
+  "tidur lena",
+  "Jangan tunggu",
+  "pemeriksaan",
+  "Dr. Azren"
+ ],
+ "corrections": {
+  "tiga puluh enam tahun": "36 tahun",
+  "tiga minggu": "3 minggu",
+  "dua hingga tiga jam": "2–3 jam",
+  "sembilan sembilan sembilan": "999",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.35,
+  "sfx": [
+   {
+    "file": "acid.mp3",
+    "at": "terbakar",
+    "offset": -0.2,
+    "volume": 0.6
+   },
+   {
+    "file": "acid.mp3",
+    "at": "pedih",
+    "offset": -0.1,
+    "volume": 0.5
+   },
+   {
+    "file": "sting.mp3",
+    "at": "refluks asid",
+    "offset": 0.1,
+    "volume": 0.8
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu Tanda",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Pencetus",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Jangan",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Ubat",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Lima Tanda",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "sting.mp3",
+    "at": "serangan jantung",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "chime.mp3",
+    "at": "tidur lena",
+    "offset": 0,
+    "volume": 0.8
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "DADA PANAS LEPAS MAKAN?",
+  "headline": [
+   "REFLUKS",
+   "ASID"
+  ],
+  "highlight": "Bukan sekadar gastrik",
+  "sub": "5 perkara + tanda bahaya",
+  "tags": []
+ }
+}

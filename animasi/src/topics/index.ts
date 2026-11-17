@@ -41,6 +41,18 @@ import {SCENES as S10} from './batuk-kering-tb/scenes';
 import {Cover as Cover10} from './batuk-kering-tb/Cover';
 import script10 from '../../topics/batuk-kering-tb/script.json';
 import words10 from '../../topics/batuk-kering-tb/words.json';
+import {SCENES as S11} from './refluks-asid/scenes';
+import {Cover as Cover11} from './refluks-asid/Cover';
+import script11 from '../../topics/refluks-asid/script.json';
+import words11 from '../../topics/refluks-asid/words.json';
+import {SCENES as S12} from './adhd-dewasa/scenes';
+import {Cover as Cover12} from './adhd-dewasa/Cover';
+import script12 from '../../topics/adhd-dewasa/script.json';
+import words12 from '../../topics/adhd-dewasa/words.json';
+import {SCENES as S13} from './sawan-demam/scenes';
+import {Cover as Cover13} from './sawan-demam/Cover';
+import script13 from '../../topics/sawan-demam/script.json';
+import words13 from '../../topics/sawan-demam/words.json';
 
 export type Topic = {
   script: ScriptFile;
@@ -60,5 +72,8 @@ export const TOPICS: Record<string, Topic> = {
   'strok': {script: script8 as ScriptFile, words: words8 as WordsFile, scenes: S8, Cover: Cover8},
   'murung-selepas-bersalin': {script: script9 as ScriptFile, words: words9 as WordsFile, scenes: S9, Cover: Cover9},
   'batuk-kering-tb': {script: script10 as ScriptFile, words: words10 as WordsFile, scenes: S10, Cover: Cover10},
+  'refluks-asid': {script: script11 as ScriptFile, words: words11 as WordsFile, scenes: S11, Cover: Cover11},
+  'adhd-dewasa': {script: script12 as ScriptFile, words: words12 as WordsFile, scenes: S12, Cover: Cover12},
+  'sawan-demam': {script: script13 as ScriptFile, words: words13 as WordsFile, scenes: S13, Cover: Cover13},
   'hfmd': {script: script7 as ScriptFile, words: words7 as WordsFile, scenes: S7, Cover: Cover7},
 };
