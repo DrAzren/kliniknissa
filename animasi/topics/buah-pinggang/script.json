@@ -1,0 +1,212 @@
+{
+ "id": "buah-pinggang",
+ "title": "Buah Pinggang Rosak Tanpa Sakit",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[serious] Tiada sakit, tiada tanda... tapi buah pinggang mungkin sudah lama rosak. Kenapa ramai tak sedar?\n\n[storytelling] Encik Rahim, lima puluh dua tahun, ada kencing manis dan darah tinggi sejak sepuluh tahun lalu. Ubat diambil bila ingat sahaja. Lutut sakit? Dia beli ubat tahan sakit sendiri.\n\n[worried] Kebelakangan ini, dia cepat penat, kakinya bengkak, dan kerap bangun kencing waktu malam.\n\n[serious] Doktor buat ujian air kencing dan ujian darah, dan sahkan... Encik Rahim menghidap penyakit buah pinggang kronik.\n\n[warmly] Di Malaysia, kencing manis ialah punca utama pesakit baharu memerlukan dialisis. Ini lima perkara yang perlu anda tahu.\n\nSatu. Penyakit senyap. Peringkat awal biasanya tiada tanda. Bila kaki bengkak atau sesak nafas, kerosakan mungkin sudah teruk.\n\nDua. Kenali risiko. Kencing manis, darah tinggi, penyakit jantung, dan ahli keluarga yang ada sakit buah pinggang.\n\nTiga. Saringan setiap tahun. Jika berisiko, buat ujian air kencing dan ujian darah sekurang-kurangnya setahun sekali.\n\nEmpat. Kawal gula dan tekanan darah. Makan ubat setiap hari seperti yang dipreskripsi, dan kurangkan garam.\n\nLima. Hati-hati dengan ubat tahan sakit. Jangan ambil ubat anti-radang dalam jangka panjang tanpa nasihat doktor. Produk yang tidak jelas kandungannya juga boleh merosakkan buah pinggang.\n\n[reassuring] Jika dikesan awal, kerosakan boleh diperlahankan, dan keperluan dialisis boleh dilewatkan atau dielakkan.\n\n[relieved] Encik Rahim kini makan ubat setiap hari, kurangkan garam, dan buat pemeriksaan berkala.\n\n[warmly] Ada kencing manis atau darah tinggi? Jangan tunggu bengkak. Buat saringan buah pinggang. Saya Doktor Azren.",
+  "note": "1 take sahaja (pilihan A+). ElevenLabs Flow MBS8cyv1CMq3ifoNyfnV, generation NS2LLDA5dilf9Npi0zYx, 97.84 s. Muzik diguna semula daripada jenis-nyamuk."
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "rahim",
+   "marker": "Encik Rahim lima"
+  },
+  {
+   "id": "tanda",
+   "marker": "Kebelakangan ini"
+  },
+  {
+   "id": "diagnosis",
+   "marker": "Doktor buat"
+  },
+  {
+   "id": "lima",
+   "marker": "Di Malaysia"
+  },
+  {
+   "id": "senyap",
+   "marker": "Satu Penyakit",
+   "n": 1,
+   "label": "Penyakit senyap"
+  },
+  {
+   "id": "risiko",
+   "marker": "Dua Kenali",
+   "n": 2,
+   "label": "Kenali risiko"
+  },
+  {
+   "id": "saringan",
+   "marker": "Tiga Saringan",
+   "n": 3,
+   "label": "Saringan setiap tahun"
+  },
+  {
+   "id": "kawal",
+   "marker": "Empat Kawal",
+   "n": 4,
+   "label": "Kawal gula & tekanan darah"
+  },
+  {
+   "id": "ubat",
+   "marker": "Lima Hati-hati",
+   "n": 5,
+   "label": "Hati-hati ubat tahan sakit"
+  },
+  {
+   "id": "awal",
+   "marker": "Jika dikesan"
+  },
+  {
+   "id": "pulih",
+   "marker": "Encik Rahim kini"
+  },
+  {
+   "id": "penutup",
+   "marker": "Ada kencing manis atau"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat",
+  "Lima"
+ ],
+ "keywords": [
+  "Tiada sakit",
+  "tiada tanda",
+  "buah pinggang",
+  "lama rosak",
+  "Encik Rahim",
+  "52 tahun",
+  "kencing manis",
+  "darah tinggi",
+  "10 tahun",
+  "bila ingat",
+  "ubat tahan sakit",
+  "sendiri",
+  "cepat penat",
+  "bengkak",
+  "kencing waktu malam",
+  "ujian air kencing",
+  "ujian darah",
+  "penyakit buah pinggang kronik",
+  "punca utama",
+  "dialisis",
+  "5 perkara",
+  "Penyakit senyap",
+  "tiada tanda",
+  "sesak nafas",
+  "sudah teruk",
+  "Kenali risiko",
+  "penyakit jantung",
+  "ahli keluarga",
+  "Saringan setiap tahun",
+  "setahun sekali",
+  "Kawal gula",
+  "tekanan darah",
+  "setiap hari",
+  "kurangkan garam",
+  "Hati-hati",
+  "anti-radang",
+  "jangka panjang",
+  "nasihat doktor",
+  "tidak jelas kandungannya",
+  "dikesan awal",
+  "diperlahankan",
+  "dilewatkan",
+  "dielakkan",
+  "pemeriksaan berkala",
+  "Jangan tunggu bengkak",
+  "saringan buah pinggang",
+  "Dr. Azren"
+ ],
+ "corrections": {
+  "lima puluh dua tahun": "52 tahun",
+  "sepuluh tahun": "10 tahun",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.35,
+  "sfx": [
+   {
+    "file": "sting.mp3",
+    "at": "lama rosak",
+    "offset": 0,
+    "volume": 0.6
+   },
+   {
+    "file": "slap.mp3",
+    "at": "bengkak",
+    "offset": 0,
+    "volume": 0.45
+   },
+   {
+    "file": "sting.mp3",
+    "at": "buah pinggang kronik",
+    "offset": 0.1,
+    "volume": 0.8
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu Penyakit",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Kenali",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Saringan",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Kawal",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Lima Hati-hati",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "chime.mp3",
+    "at": "berkala",
+    "offset": 0,
+    "volume": 0.8
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "TIADA SAKIT, TAPI ROSAK?",
+  "headline": [
+   "BUAH",
+   "PINGGANG"
+  ],
+  "highlight": "Penyakit senyap: 5 perkara perlu tahu",
+  "sub": "Diabetes / darah tinggi? Buat saringan",
+  "tags": []
+ }
+}

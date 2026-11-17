@@ -134,7 +134,8 @@ export type KIconName =
   | 'warning' | 'virus' | 'saliva' | 'sneeze' | 'palm' | 'sole' | 'mouth' | 'hospital' | 'toy' | 'cup' | 'nocup' | 'bowl'
   | 'zzz' | 'bolt' | 'vomit' | 'bottle' | 'question' | 'smile' | 'clock' | 'school' | 'poop' | 'lungs' | 'drop'
   | 'ambulance' | 'droop' | 'arms' | 'dizzy' | 'xray' | 'baby' | 'mask' | 'sputum' | 'scan' | 'heartbreak'
-  | 'chili' | 'burger' | 'coffee' | 'keys' | 'checklist' | 'bell' | 'cart' | 'camera' | 'recovery' | 'reflux';
+  | 'chili' | 'burger' | 'coffee' | 'keys' | 'checklist' | 'bell' | 'cart' | 'camera' | 'recovery' | 'reflux'
+  | 'soda' | 'sachet' | 'soap' | 'diaper' | 'urine' | 'swell';
 
 export const KIcon: React.FC<{name: KIconName; size?: number; f?: number; text?: string}> = ({name, size = 120, f = 0, text}) => {
   const w = '#fff', nv = C.navy, y = C.yellow;
@@ -740,6 +741,66 @@ export const KIcon: React.FC<{name: KIconName; size?: number; f?: number; text?:
               const t = (up + i / 3) % 1;
               return <circle key={i} cx={60} cy={64 - t * 56} r={6 - t * 2} fill="#B6E36A" opacity={1 - t * 0.6} />;
             })}
+          </g>
+        );
+      }
+      case 'soda':
+        return (
+          <g>
+            <rect x={30} y={14} width={60} height={98} rx={12} fill={RED} />
+            <rect x={36} y={8} width={48} height={10} rx={5} fill="#C9CED8" />
+            <rect x={30} y={44} width={60} height={30} fill="#fff" />
+            <text x={60} y={66} fontFamily={FONT} fontWeight={800} fontSize={18} fill={RED} textAnchor="middle">FIZZ</text>
+            {[0, 1, 2, 3].map((i) => { const t = ((f + i * 9) % 36) / 36; return <circle key={i} cx={44 + i * 10} cy={10 - t * 24} r={3 + (i % 2)} fill="#fff" opacity={1 - t} />; })}
+          </g>
+        );
+      case 'sachet':
+        return (
+          <g>
+            <path d="M 22 10 L 98 10 L 98 110 L 22 110 Z" fill="#fff" />
+            <path d="M 22 10 L 98 10 L 98 22 L 22 22 Z" fill={C.green} />
+            {[0, 1, 2, 3, 4, 5].map((i) => <path key={i} d={`M ${26 + i * 12} 22 l 6 6 l 6 -6`} stroke={C.green} strokeWidth={3} fill="none" />)}
+            <text x={60} y={72} fontFamily={FONT} fontWeight={800} fontSize={30} fill={nv} textAnchor="middle">ORS</text>
+            <rect x={34} y={84} width={52} height={8} rx={4} fill="#9FD6F7" />
+          </g>
+        );
+      case 'soap':
+        return (
+          <g>
+            <rect x={14} y={50} width={92} height={54} rx={20} fill="#F7B2CF" />
+            <rect x={24} y={58} width={50} height={10} rx={5} fill="#fff" opacity={0.6} />
+            {[[30, 34, 12], [58, 22, 16], [88, 34, 10], [74, 8, 8]].map(([x, yy, r], i) => (
+              <circle key={i} cx={x} cy={yy - ((f + i * 6) % 30) * 0.3} r={r} fill="rgba(255,255,255,.35)" stroke="#fff" strokeWidth={3} />
+            ))}
+          </g>
+        );
+      case 'diaper':
+        return (
+          <g>
+            <path d="M 10 30 L 110 30 L 104 62 Q 80 70 72 104 L 48 104 Q 40 70 16 62 Z" fill="#fff" />
+            <rect x={10} y={30} width={100} height={12} rx={4} fill="#9FD6F7" />
+            <circle cx={22} cy={50} r={6} fill={y} /><circle cx={98} cy={50} r={6} fill={y} />
+          </g>
+        );
+      case 'urine':
+        return (
+          <g>
+            <rect x={28} y={14} width={64} height={14} rx={5} fill="#C9CED8" />
+            <path d="M 32 28 L 88 28 L 84 110 L 36 110 Z" fill="rgba(255,255,255,.85)" />
+            <path d="M 34 58 L 86 58 L 84 108 L 36 108 Z" fill="#F6D54A" />
+            <rect x={64} y={36} width={16} height={6} rx={3} fill={C.violet[3]} />
+          </g>
+        );
+      case 'swell': {
+        const b = 1 + 0.06 * Math.abs(Math.sin(f / 6));
+        return (
+          <g>
+            <path d="M 40 4 L 72 4 L 74 60" fill="none" />
+            <rect x={42} y={4} width={30} height={60} fill={SKIN} />
+            <g transform={`translate(60 82) scale(${b}) translate(-60 -82)`}>
+              <path d="M 34 52 Q 30 82 40 100 Q 50 114 96 112 Q 114 110 110 96 Q 104 86 82 82 Q 78 60 80 52 Z" fill={SKIN} />
+            </g>
+            <path d="M 50 84 q 6 4 12 0 M 50 94 q 6 4 12 0" stroke="#C69270" strokeWidth={4} fill="none" strokeLinecap="round" />
           </g>
         );
       }

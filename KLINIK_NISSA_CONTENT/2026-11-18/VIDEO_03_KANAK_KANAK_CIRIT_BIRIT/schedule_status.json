@@ -1,0 +1,25 @@
+{
+ "video_id": "2026-11-18_VIDEO_03_KANAK_KANAK_CIRIT_BIRIT_cirit-birit-anak",
+ "status": "READY_NOT_SCHEDULED",
+ "approval_gate": {
+  "medical_accuracy": "PENDING (medical_references.md, items marked 'Semak')",
+  "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
+  "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding)",
+  "publishing_instruction": "Not scheduled. Schedule on Metricool only when the user asks."
+ },
+ "scheduled_posts": [],
+ "elevenlabs": {
+  "flow_id": "MBS8cyv1CMq3ifoNyfnV",
+  "tts_generation_id": "W12bVhd7WxQZGkzS7aEa",
+  "tts_credits": 1416.9,
+  "tts_duration_s": 84.08,
+  "sfx": {
+   "file": "pour.mp3 (air dituang, 2 s)",
+   "generation_id": "aX4u4v8cSEGR9N8iQqT6",
+   "credits": 6.7
+  },
+  "music": "reused jenis-nyamuk/music.mp3 (0 credits)",
+  "scribe_credits": 0
+ },
+ "higgsfield_credits": 0
+}

@@ -1,0 +1,225 @@
+{
+ "id": "kebimbangan-gad",
+ "title": "Risau Setiap Hari? Mungkin Gangguan Kebimbangan",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[anxious] Risau tentang semua perkara... setiap hari, sampai tak boleh tidur. Adakah ini normal?\n\n[storytelling] Farah, tiga puluh satu tahun, seorang guru. Dia risau tentang kerja, duit, kesihatan ibunya, malah perkara kecil seperti terlewat lima minit.\n\n[worried] Sudah lebih setahun begini. Bahunya tegang, dia cepat marah, sukar fokus, dan tidurnya terganggu. Dia sangka ini cuma stres biasa.\n\n[serious] Doktor periksa punca lain seperti masalah tiroid, kemudian sahkan... Farah menghidap gangguan kebimbangan menyeluruh.\n\n[warmly] Risau itu normal. Tapi bila ia berlebihan dan sukar dikawal, ia boleh jadi penyakit. Ini lima tanda dan fakta yang perlu anda tahu.\n\nSatu. Risau berlebihan tentang banyak perkara, hampir setiap hari, sekurang-kurangnya enam bulan.\n\nDua. Sukar dikawal. Anda tahu risau itu keterlaluan, tapi tak boleh berhenti.\n\nTiga. Tanda pada badan. Gelisah, cepat penat, otot tegang, sukar fokus, dan susah tidur.\n\nEmpat. Ia mengganggu hidup. Kerja, pelajaran, atau hubungan mula terjejas.\n\nLima. Ia boleh dirawat. Terapi kognitif tingkah laku, ubat jika perlu, senaman, dan latihan relaksasi. Jangan ambil ubat penenang tanpa preskripsi.\n\n[reassuring] Gangguan kebimbangan bukan tanda anda lemah. Ramai pulih dengan rawatan yang betul.\n\n[relieved] Selepas beberapa bulan terapi, Farah kembali tidur lena, dan lebih tenang di sekolah.\n\n[warmly] Risau setiap hari sampai mengganggu hidup? Jangan tunggu. Dapatkan bantuan. Saya Doktor Azren.",
+  "note": "1 take sahaja (pilihan A+). ElevenLabs Flow MBS8cyv1CMq3ifoNyfnV, generation kLRJtwE0MKBAjPmqmkPC, 85.92 s. Muzik diguna semula daripada jenis-nyamuk."
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "farah",
+   "marker": "Farah tiga"
+  },
+  {
+   "id": "setahun",
+   "marker": "Sudah lebih setahun"
+  },
+  {
+   "id": "diagnosis",
+   "marker": "Doktor periksa"
+  },
+  {
+   "id": "lima",
+   "marker": "Risau itu normal"
+  },
+  {
+   "id": "berlebihan",
+   "marker": "Satu Risau",
+   "n": 1,
+   "label": "Risau berlebihan"
+  },
+  {
+   "id": "kawal",
+   "marker": "Dua Sukar",
+   "n": 2,
+   "label": "Sukar dikawal"
+  },
+  {
+   "id": "badan",
+   "marker": "Tiga Tanda",
+   "n": 3,
+   "label": "Tanda pada badan"
+  },
+  {
+   "id": "ganggu",
+   "marker": "Empat Ia",
+   "n": 4,
+   "label": "Mengganggu hidup"
+  },
+  {
+   "id": "rawat",
+   "marker": "Lima Ia",
+   "n": 5,
+   "label": "Boleh dirawat"
+  },
+  {
+   "id": "lemah",
+   "marker": "Gangguan kebimbangan bukan"
+  },
+  {
+   "id": "pulih",
+   "marker": "Selepas beberapa bulan"
+  },
+  {
+   "id": "penutup",
+   "marker": "Risau setiap hari sampai"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat",
+  "Lima"
+ ],
+ "keywords": [
+  "Risau",
+  "semua perkara",
+  "setiap hari",
+  "tak boleh tidur",
+  "normal",
+  "Farah",
+  "31 tahun",
+  "guru",
+  "kerja",
+  "duit",
+  "kesihatan ibunya",
+  "perkara kecil",
+  "terlewat 5 minit",
+  "lebih setahun",
+  "Bahunya tegang",
+  "cepat marah",
+  "sukar fokus",
+  "terganggu",
+  "stres biasa",
+  "punca lain",
+  "tiroid",
+  "gangguan kebimbangan menyeluruh",
+  "Risau itu normal",
+  "berlebihan",
+  "sukar dikawal",
+  "penyakit",
+  "5 tanda dan fakta",
+  "Risau berlebihan",
+  "banyak perkara",
+  "hampir setiap hari",
+  "6 bulan",
+  "Sukar dikawal",
+  "keterlaluan",
+  "tak boleh berhenti",
+  "Tanda pada badan",
+  "Gelisah",
+  "cepat penat",
+  "otot tegang",
+  "susah tidur",
+  "mengganggu hidup",
+  "Kerja",
+  "pelajaran",
+  "hubungan",
+  "terjejas",
+  "boleh dirawat",
+  "Terapi kognitif tingkah laku",
+  "ubat jika perlu",
+  "senaman",
+  "latihan relaksasi",
+  "ubat penenang",
+  "tanpa preskripsi",
+  "bukan tanda anda lemah",
+  "Ramai pulih",
+  "rawatan yang betul",
+  "tidur lena",
+  "lebih tenang",
+  "Jangan tunggu",
+  "Dapatkan bantuan",
+  "Dr. Azren"
+ ],
+ "corrections": {
+  "tiga puluh satu tahun": "31 tahun",
+  "lima minit": "5 minit",
+  "enam bulan": "6 bulan",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.35,
+  "sfx": [
+   {
+    "file": "tick.mp3",
+    "at": "Risau",
+    "offset": 0,
+    "volume": 0.55
+   },
+   {
+    "file": "tick.mp3",
+    "at": "terlewat",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "sting.mp3",
+    "at": "gangguan kebimbangan menyeluruh",
+    "offset": 0.1,
+    "volume": 0.8
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu Risau",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Sukar",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Tanda",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Ia",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Lima Ia",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "chime.mp3",
+    "at": "tidur lena",
+    "offset": 0,
+    "volume": 0.8
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "RISAU SETIAP HARI?",
+  "headline": [
+   "BUKAN",
+   "STRES BIASA"
+  ],
+  "highlight": "Gangguan kebimbangan: 5 tanda",
+  "sub": "Lebih 6 bulan & mengganggu hidup?",
+  "tags": []
+ }
+}
