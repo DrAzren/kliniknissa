@@ -1,5 +1,5 @@
 # Daily production report — 2026-11-17 (branch `claude/upbeat-wozniak-5k7bfp`)
-Three animated videos in the same concept as the previous batches (Remotion `animasi/`, Violet Flat SVG, avatar `dr-azren`, hook → story → diagnosis → #1–#5 → recovery → "jangan tunggu… saya Doktor Azren"). Topics checked against every branch (25 earlier topics) so none repeat. User approved **option A+**: new voice (1 take each) + 2 new short SFX; music reused from `jenis-nyamuk`; siren reused from `strok`. No helpline line. **No clinic CTA.** **Not scheduled.**
+Three animated videos in the same concept as the previous batches (Remotion `animasi/`, Violet Flat SVG, avatar `dr-azren`, hook → story → diagnosis → #1–#5 → recovery → "jangan tunggu… saya Doktor Azren"). Topics checked against every branch (25 earlier topics) so none repeat. User approved **option A+**: new voice (1 take each) + 2 new short SFX; music reused from `jenis-nyamuk`; siren reused from `strok`. No helpline line. **No clinic CTA.** **Scheduled** on Metricool at the user's request (see below).
 
 Shared code: `animasi/src/topics/_kit/kit.tsx` gained 10 icons (chili, burger, coffee, keys, checklist, bell, cart, camera, recovery position, reflux). Topics registered in `src/topics/index.ts`.
 
@@ -37,3 +37,14 @@ Shared code: `animasi/src/topics/_kit/kit.tsx` gained 10 icons (chili, burger, c
 
 ## Notes
 - Pronunciation could not be checked automatically. Please listen for: refluks, televisyen, ADHD, hiperaktif, impulsif, sawan, epilepsi, "sembilan sembilan sembilan".
+
+## Scheduling (Metricool, brand Klinik Nissa, Asia/Kuala_Lumpur)
+Requested 2026-11-17 ~09:30: "jadualkan ke metricool. pilih 3 waktu terbaik" → "hari ini". Facebook Reel + Instagram Reel (shown on feed) + TikTok (public), auto-publish, caption = `caption_instagram.txt`. AI-generated label OFF (IG `isAiGenerated`, TikTok `isAigc`), commercial content OFF (TikTok own brand / third party), TikTok auto-music OFF. Made-for-kids: not applicable (no YouTube on this brand).
+
+| Time (MYT) | Video | Metricool post id | Why this slot |
+|---|---|---|---|
+| Tue 17 Nov 12:40 | VIDEO_01 Refluks Asid | 430894968 | Lunch: FB 12:00 peak, TikTok 12:00; topic about eating |
+| Tue 17 Nov 18:10 | VIDEO_03 Sawan Demam | 430895791 | After work: FB 16–18, TikTok 18:00 peak, IG 17:47; parents at home |
+| Tue 17 Nov 20:40 | VIDEO_02 ADHD Dewasa | 430895877 | Night: IG 20:51 peak, TikTok 19:00+; adults relaxing |
+
+Media uploaded to the user's Higgsfield storage (free `media_upload`, 0 credits) for public URLs; Metricool copied them to its own storage. Medical review is still pending: please check before 12:40.
