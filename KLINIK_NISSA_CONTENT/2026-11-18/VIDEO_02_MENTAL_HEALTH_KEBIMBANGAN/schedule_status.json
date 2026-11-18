@@ -1,25 +1,48 @@
 {
- "video_id": "2026-11-18_VIDEO_02_MENTAL_HEALTH_KEBIMBANGAN_kebimbangan-gad",
- "status": "READY_NOT_SCHEDULED",
- "approval_gate": {
-  "medical_accuracy": "PENDING (medical_references.md, items marked 'Semak')",
-  "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
-  "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding)",
-  "publishing_instruction": "Not scheduled. Schedule on Metricool only when the user asks."
- },
- "scheduled_posts": [],
- "elevenlabs": {
-  "flow_id": "MBS8cyv1CMq3ifoNyfnV",
-  "tts_generation_id": "kLRJtwE0MKBAjPmqmkPC",
-  "tts_credits": 1460.9,
-  "tts_duration_s": 85.92,
-  "sfx": {
-   "file": "tick.mp3 (jam berdetik, 2 s)",
-   "generation_id": "ubtgUYQjeP6DoTaWga0w",
-   "credits": 6.7
+  "video_id": "2026-11-18_VIDEO_02_MENTAL_HEALTH_KEBIMBANGAN_kebimbangan-gad",
+  "status": "SCHEDULED",
+  "approval_gate": {
+    "medical_accuracy": "PENDING (medical_references.md, items marked 'Semak')",
+    "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
+    "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding)",
+    "publishing_instruction": "User reviewed the videos and instructed (2026-11-18: 'jadualkan hari ini') to schedule today on Metricool at the best times; AI-generated label OFF, commercial content OFF (made-for-kids applies only to YouTube, which this brand does not have)"
   },
-  "music": "reused jenis-nyamuk/music.mp3 (0 credits)",
-  "scribe_credits": 0
- },
- "higgsfield_credits": 0
+  "scheduled_posts": [
+    {
+      "metricool_post_id": 432350442,
+      "uuid": "8183433659672251798",
+      "publication": "2026-11-18 20:40 Asia/Kuala_Lumpur",
+      "networks": {
+        "facebook": "REEL / PENDING",
+        "instagram": "REEL, showReelOnFeed, isAiGenerated=false / PENDING",
+        "tiktok": "PUBLIC, isAigc=false, commercial (own brand / third party) = false, title 'Risau setiap hari? Mungkin gangguan kebimbangan' / PENDING"
+      },
+      "autoPublish": true,
+      "caption_file": "caption_instagram.txt",
+      "source_media": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JY4YdIKVikfVoQnvogqPkiBhNk/c512ace2-acaa-4458-b4b0-583ac8b4b0b9.mp4",
+      "media": "https://static.metricool.com/planner/202611/7705651-file-8741235040602833002.mp4",
+      "thumbnail": "https://static.metricool.com/planner/202611/7705651-file-15567536921962853131.jpeg",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7840561&openWithPostUuid=8183433659672251798"
+    }
+  ],
+  "elevenlabs": {
+    "flow_id": "MBS8cyv1CMq3ifoNyfnV",
+    "tts_generation_id": "kLRJtwE0MKBAjPmqmkPC",
+    "tts_credits": 1460.9,
+    "tts_duration_s": 85.92,
+    "sfx": {
+      "file": "tick.mp3 (jam berdetik, 2 s)",
+      "generation_id": "ubtgUYQjeP6DoTaWga0w",
+      "credits": 6.7
+    },
+    "music": "reused jenis-nyamuk/music.mp3 (0 credits)",
+    "scribe_credits": 0
+  },
+  "higgsfield_credits": 0,
+  "notes": "Times from Metricool best-time data for Wednesday (FB peak 12:00 and 10-11, 16-18; TikTok 18:00 and 12:00; IG flat ~44-45 from 15:00 to 21:00). Media hosted on the user's Higgsfield storage (free upload, 0 credits); Metricool copied it to its own storage. Medical review still pending.",
+  "metricool_brand": {
+    "label": "Klinik Nissa",
+    "brandId": 7840561,
+    "timezone": "Asia/Kuala_Lumpur"
+  }
 }

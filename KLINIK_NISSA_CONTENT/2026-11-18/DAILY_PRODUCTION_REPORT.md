@@ -1,5 +1,5 @@
 # Daily production report — 2026-11-18 (branch `claude/upbeat-wozniak-5k7bfp`)
-Three animated videos in the same concept as the previous batches (Remotion `animasi/`, Violet Flat SVG, avatar `dr-azren`, hook → story → diagnosis → #1–#5 → recovery → "jangan tunggu… saya Doktor Azren"). Topics checked against every branch (28 earlier topics) so none repeat. User approved **option A+**: new voice (1 take each) + 2 new short SFX; music reused from `jenis-nyamuk`; baby cry reused from `murung-selepas-bersalin`. No helpline line. **No clinic CTA.** **Not scheduled.**
+Three animated videos in the same concept as the previous batches (Remotion `animasi/`, Violet Flat SVG, avatar `dr-azren`, hook → story → diagnosis → #1–#5 → recovery → "jangan tunggu… saya Doktor Azren"). Topics checked against every branch (28 earlier topics) so none repeat. User approved **option A+**: new voice (1 take each) + 2 new short SFX; music reused from `jenis-nyamuk`; baby cry reused from `murung-selepas-bersalin`. No helpline line. **No clinic CTA.** **Scheduled** on Metricool at the user's request after review (see below).
 
 Shared code: `animasi/src/topics/_kit/kit.tsx` gained 6 icons (soda can, ORS sachet, soap, diaper, urine sample, swollen foot). Topics registered in `src/topics/index.ts`.
 
@@ -38,3 +38,14 @@ Shared code: `animasi/src/topics/_kit/kit.tsx` gained 6 icons (soda can, ORS sac
 ## Notes
 - Pronunciation could not be checked automatically. Please listen for: dialisis, dipreskripsi, anti-radang, tiroid, "kognitif tingkah laku", relaksasi, preskripsi, dehidrasi, "rehidrasi oral", "O-R-S", cengkung.
 - Remaining credit balance could not be read (ElevenLabs usage tool needs extra connector permission).
+
+## Scheduling (Metricool, brand Klinik Nissa, Asia/Kuala_Lumpur)
+Requested 2026-11-18 ~12:00 after the user reviewed the videos: "jadualkan hari ini". Facebook Reel + Instagram Reel (shown on feed) + TikTok (public), auto-publish, caption = `caption_instagram.txt`. AI-generated label OFF (IG `isAiGenerated`, TikTok `isAigc`), commercial content OFF (TikTok own brand / third party), TikTok auto-music OFF. Made-for-kids: not applicable (no YouTube on this brand).
+
+| Time (MYT) | Video | Metricool post id | Why this slot |
+|---|---|---|---|
+| Wed 18 Nov 12:40 | VIDEO_01 Buah Pinggang | 432350176 | Lunch: FB 12:00 top hour of the day, TikTok 12:00 second best |
+| Wed 18 Nov 18:10 | VIDEO_03 Cirit-Birit Anak | 432350315 | After work: TikTok 18:00 top hour, FB 16–18, IG 18:00; parents at home |
+| Wed 18 Nov 20:40 | VIDEO_02 Kebimbangan | 432350442 | Night: IG 20:00 high, TikTok/FB still active; quieter time for a mental-health topic |
+
+Media uploaded to the user's Higgsfield storage (free `media_upload`, 0 credits) for public URLs; Metricool copied them to its own storage. Medical review is still pending: please check before 12:40.

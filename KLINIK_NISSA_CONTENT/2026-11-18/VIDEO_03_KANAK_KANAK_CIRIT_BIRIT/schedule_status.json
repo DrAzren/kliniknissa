@@ -1,25 +1,48 @@
 {
- "video_id": "2026-11-18_VIDEO_03_KANAK_KANAK_CIRIT_BIRIT_cirit-birit-anak",
- "status": "READY_NOT_SCHEDULED",
- "approval_gate": {
-  "medical_accuracy": "PENDING (medical_references.md, items marked 'Semak')",
-  "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
-  "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding)",
-  "publishing_instruction": "Not scheduled. Schedule on Metricool only when the user asks."
- },
- "scheduled_posts": [],
- "elevenlabs": {
-  "flow_id": "MBS8cyv1CMq3ifoNyfnV",
-  "tts_generation_id": "W12bVhd7WxQZGkzS7aEa",
-  "tts_credits": 1416.9,
-  "tts_duration_s": 84.08,
-  "sfx": {
-   "file": "pour.mp3 (air dituang, 2 s)",
-   "generation_id": "aX4u4v8cSEGR9N8iQqT6",
-   "credits": 6.7
+  "video_id": "2026-11-18_VIDEO_03_KANAK_KANAK_CIRIT_BIRIT_cirit-birit-anak",
+  "status": "SCHEDULED",
+  "approval_gate": {
+    "medical_accuracy": "PENDING (medical_references.md, items marked 'Semak')",
+    "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
+    "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding)",
+    "publishing_instruction": "User reviewed the videos and instructed (2026-11-18: 'jadualkan hari ini') to schedule today on Metricool at the best times; AI-generated label OFF, commercial content OFF (made-for-kids applies only to YouTube, which this brand does not have)"
   },
-  "music": "reused jenis-nyamuk/music.mp3 (0 credits)",
-  "scribe_credits": 0
- },
- "higgsfield_credits": 0
+  "scheduled_posts": [
+    {
+      "metricool_post_id": 432350315,
+      "uuid": "-4048232396030195460",
+      "publication": "2026-11-18 18:10 Asia/Kuala_Lumpur",
+      "networks": {
+        "facebook": "REEL / PENDING",
+        "instagram": "REEL, showReelOnFeed, isAiGenerated=false / PENDING",
+        "tiktok": "PUBLIC, isAigc=false, commercial (own brand / third party) = false, title 'Anak cirit-birit: bila jadi bahaya?' / PENDING"
+      },
+      "autoPublish": true,
+      "caption_file": "caption_instagram.txt",
+      "source_media": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JY4YdIKVikfVoQnvogqPkiBhNk/0267b9e0-6882-46a9-bd2d-2b53d5c23ec6.mp4",
+      "media": "https://static.metricool.com/planner/202611/7705651-file-6450133329141783975.mp4",
+      "thumbnail": "https://static.metricool.com/planner/202611/7705651-file-16964392467174399659.jpeg",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7840561&openWithPostUuid=-4048232396030195460"
+    }
+  ],
+  "elevenlabs": {
+    "flow_id": "MBS8cyv1CMq3ifoNyfnV",
+    "tts_generation_id": "W12bVhd7WxQZGkzS7aEa",
+    "tts_credits": 1416.9,
+    "tts_duration_s": 84.08,
+    "sfx": {
+      "file": "pour.mp3 (air dituang, 2 s)",
+      "generation_id": "aX4u4v8cSEGR9N8iQqT6",
+      "credits": 6.7
+    },
+    "music": "reused jenis-nyamuk/music.mp3 (0 credits)",
+    "scribe_credits": 0
+  },
+  "higgsfield_credits": 0,
+  "notes": "Times from Metricool best-time data for Wednesday (FB peak 12:00 and 10-11, 16-18; TikTok 18:00 and 12:00; IG flat ~44-45 from 15:00 to 21:00). Media hosted on the user's Higgsfield storage (free upload, 0 credits); Metricool copied it to its own storage. Medical review still pending.",
+  "metricool_brand": {
+    "label": "Klinik Nissa",
+    "brandId": 7840561,
+    "timezone": "Asia/Kuala_Lumpur"
+  }
 }
