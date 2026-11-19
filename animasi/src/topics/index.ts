@@ -65,6 +65,18 @@ import {SCENES as S16} from './cirit-birit-anak/scenes';
 import {Cover as Cover16} from './cirit-birit-anak/Cover';
 import script16 from '../../topics/cirit-birit-anak/script.json';
 import words16 from '../../topics/cirit-birit-anak/words.json';
+import {SCENES as S17} from './kolesterol/scenes';
+import {Cover as Cover17} from './kolesterol/Cover';
+import script17 from '../../topics/kolesterol/script.json';
+import words17 from '../../topics/kolesterol/words.json';
+import {SCENES as S18} from './insomnia/scenes';
+import {Cover as Cover18} from './insomnia/Cover';
+import script18 from '../../topics/insomnia/script.json';
+import words18 from '../../topics/insomnia/words.json';
+import {SCENES as S19} from './bayi-kuning/scenes';
+import {Cover as Cover19} from './bayi-kuning/Cover';
+import script19 from '../../topics/bayi-kuning/script.json';
+import words19 from '../../topics/bayi-kuning/words.json';
 
 export type Topic = {
   script: ScriptFile;
@@ -90,5 +102,8 @@ export const TOPICS: Record<string, Topic> = {
   'buah-pinggang': {script: script14 as ScriptFile, words: words14 as WordsFile, scenes: S14, Cover: Cover14},
   'kebimbangan-gad': {script: script15 as ScriptFile, words: words15 as WordsFile, scenes: S15, Cover: Cover15},
   'cirit-birit-anak': {script: script16 as ScriptFile, words: words16 as WordsFile, scenes: S16, Cover: Cover16},
+  'kolesterol': {script: script17 as ScriptFile, words: words17 as WordsFile, scenes: S17, Cover: Cover17},
+  'insomnia': {script: script18 as ScriptFile, words: words18 as WordsFile, scenes: S18, Cover: Cover18},
+  'bayi-kuning': {script: script19 as ScriptFile, words: words19 as WordsFile, scenes: S19, Cover: Cover19},
   'hfmd': {script: script7 as ScriptFile, words: words7 as WordsFile, scenes: S7, Cover: Cover7},
 };

@@ -135,7 +135,8 @@ export type KIconName =
   | 'zzz' | 'bolt' | 'vomit' | 'bottle' | 'question' | 'smile' | 'clock' | 'school' | 'poop' | 'lungs' | 'drop'
   | 'ambulance' | 'droop' | 'arms' | 'dizzy' | 'xray' | 'baby' | 'mask' | 'sputum' | 'scan' | 'heartbreak'
   | 'chili' | 'burger' | 'coffee' | 'keys' | 'checklist' | 'bell' | 'cart' | 'camera' | 'recovery' | 'reflux'
-  | 'soda' | 'sachet' | 'soap' | 'diaper' | 'urine' | 'swell';
+  | 'soda' | 'sachet' | 'soap' | 'diaper' | 'urine' | 'swell'
+  | 'artery' | 'wok' | 'veg' | 'moon' | 'car' | 'sun' | 'photolamp';
 
 export const KIcon: React.FC<{name: KIconName; size?: number; f?: number; text?: string}> = ({name, size = 120, f = 0, text}) => {
   const w = '#fff', nv = C.navy, y = C.yellow;
@@ -804,6 +805,68 @@ export const KIcon: React.FC<{name: KIconName; size?: number; f?: number; text?:
           </g>
         );
       }
+      case 'artery': {
+        const k = Math.min(1, Math.max(0, f / 90));
+        return (
+          <g>
+            <rect x={4} y={30} width={112} height={60} rx={30} fill="#E07A93" />
+            <rect x={4} y={40} width={112} height={40} rx={20} fill="#8C1C3A" />
+            <path d={`M 40 40 Q 60 ${40 + 18 * k} 80 40 Z`} fill={y} />
+            <path d={`M 50 80 Q 66 ${80 - 12 * k} 84 80 Z`} fill={y} />
+            {[0, 1, 2].map((i) => <circle key={i} cx={((f * 2 + i * 40) % 120)} cy={60} r={5} fill="#E8475F" />)}
+          </g>
+        );
+      }
+      case 'wok':
+        return (
+          <g>
+            <path d="M 8 56 L 96 56 Q 92 96 52 98 Q 12 96 8 56 Z" fill="#3A3550" />
+            <rect x={94} y={52} width={24} height={9} rx={4} fill="#7A5230" />
+            {[[30, 50], [52, 46], [72, 50]].map(([x, yy], i) => <ellipse key={i} cx={x} cy={yy} rx={10} ry={6} fill="#E7A63B" />)}
+            {[0, 1, 2, 3].map((i) => { const t = ((f + i * 7) % 28) / 28; return <circle key={i} cx={24 + i * 18} cy={40 - t * 30} r={3} fill="#fff" opacity={1 - t} />; })}
+          </g>
+        );
+      case 'veg':
+        return (
+          <g>
+            <path d="M 60 112 Q 20 90 24 54 Q 40 64 60 100 Z" fill="#3FAF6E" />
+            <path d="M 60 112 Q 100 90 96 54 Q 80 64 60 100 Z" fill="#2E8C55" />
+            <path d="M 60 112 Q 50 60 60 12 Q 70 60 60 112 Z" fill="#5CC985" />
+            <path d="M 60 104 L 60 30" stroke="#E8F7EE" strokeWidth={3} />
+          </g>
+        );
+      case 'moon':
+        return (
+          <g>
+            <path d="M 78 10 A 50 50 0 1 0 110 78 A 40 40 0 1 1 78 10 Z" fill={y} />
+            {[[20, 22], [100, 30], [30, 100]].map(([x, yy], i) => <circle key={i} cx={x} cy={yy} r={3 + (i % 2)} fill="#fff" opacity={0.5 + 0.5 * Math.abs(Math.sin(f / 8 + i))} />)}
+          </g>
+        );
+      case 'car':
+        return (
+          <g>
+            <path d="M 10 76 L 18 50 Q 22 40 34 40 L 84 40 Q 96 40 102 50 L 112 76 Z" fill={C.labelPink} />
+            <rect x={6} y={70} width={110} height={22} rx={8} fill={C.labelPink} />
+            <path d="M 30 48 L 56 48 L 56 66 L 24 66 Z M 62 48 L 90 48 L 96 66 L 62 66 Z" fill="#9FD6F7" />
+            <circle cx={32} cy={94} r={12} fill="#1D2B33" /><circle cx={90} cy={94} r={12} fill="#1D2B33" />
+          </g>
+        );
+      case 'sun':
+        return (
+          <g transform={`rotate(${f * 1.5} 60 60)`}>
+            {Array.from({length: 10}).map((_, i) => <rect key={i} x={57} y={2} width={6} height={18} rx={3} fill="#F7A23B" transform={`rotate(${i * 36} 60 60)`} />)}
+            <circle cx={60} cy={60} r={30} fill={y} />
+          </g>
+        );
+      case 'photolamp':
+        return (
+          <g>
+            <rect x={14} y={8} width={92} height={22} rx={8} fill="#DDE3F0" />
+            {[0, 1, 2, 3].map((i) => <rect key={i} x={22 + i * 20} y={14} width={14} height={10} rx={3} fill="#4FA3FF" />)}
+            <path d="M 18 30 L 4 96 L 116 96 L 102 30 Z" fill="#4FA3FF" opacity={0.25 + 0.1 * Math.sin(f / 5)} />
+            <rect x={6} y={96} width={108} height={14} rx={6} fill="#fff" />
+          </g>
+        );
       case 'lungs':
         return (
           <g>
