@@ -1,0 +1,212 @@
+{
+ "id": "bayi-kuning",
+ "title": "Bayi Kuning: Bila Perlu Risau?",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[concerned] Bayi baru lahir nampak kuning... normal, atau bahaya?\n\n[storytelling] Bayi Danish, empat hari, nampak semakin kuning. Neneknya kata, jemur saja di bawah matahari pagi.\n\n[worried] Hari kelima, kuning sudah sampai ke kaki, dan Danish asyik tidur, tak mahu menyusu.\n\n[serious] Doktor periksa paras bilirubin, dan sahkan... Danish mengalami jaundis bayi yang perlu dirawat dengan fototerapi.\n\n[warmly] Kebanyakan bayi kuning tidak berbahaya, tapi ada yang perlu dirawat segera. Ini lima perkara yang ibu bapa perlu tahu.\n\nSatu. Kuning dalam dua puluh empat jam pertama selepas lahir tidak normal. Segera jumpa doktor.\n\nDua. Lihat di mana kuning. Kuning yang merebak dari muka hingga ke perut, tangan, dan kaki menandakan paras yang tinggi.\n\nTiga. Awasi tanda bahaya. Bayi terlalu mengantuk, tak mahu menyusu, menangis nyaring, atau badan kejang dan melengkung.\n\nEmpat. Jangan jemur bayi di bawah matahari sebagai rawatan. Bayi boleh terlecur atau kepanasan, dan rawatan sebenar tertangguh. Rawatan yang betul ialah fototerapi.\n\nLima. Kuning lebih dua minggu, atau najis pucat dan air kencing gelap, perlu diperiksa doktor.\n\n[reassuring] Susukan bayi dengan kerap, dan hadir pemeriksaan selepas bersalin seperti dijadualkan. Kebanyakan bayi pulih sepenuhnya dengan rawatan awal.\n\n[relieved] Selepas dua hari fototerapi, Danish kembali menyusu dengan kuat.\n\n[warmly] Bayi kuning dan lemah? Jangan tunggu. Dapatkan rawatan segera. Saya Doktor Azren.",
+  "note": "1 take sahaja (pilihan A+). ElevenLabs Flow bHpXHWCxVWp0nidDij0u, generation elcLeEKtcQDfctpMHZZm, 85.04 s. Muzik diguna semula daripada jenis-nyamuk."
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "danish",
+   "marker": "Bayi Danish"
+  },
+  {
+   "id": "hari5",
+   "marker": "Hari kelima"
+  },
+  {
+   "id": "diagnosis",
+   "marker": "Doktor periksa"
+  },
+  {
+   "id": "lima",
+   "marker": "Kebanyakan bayi kuning"
+  },
+  {
+   "id": "awal",
+   "marker": "Satu Kuning",
+   "n": 1,
+   "label": "Kuning dalam 24 jam"
+  },
+  {
+   "id": "lihat",
+   "marker": "Dua Lihat",
+   "n": 2,
+   "label": "Lihat di mana kuning"
+  },
+  {
+   "id": "bahaya",
+   "marker": "Tiga Awasi",
+   "n": 3,
+   "label": "Tanda bahaya"
+  },
+  {
+   "id": "jemur",
+   "marker": "Empat Jangan",
+   "n": 4,
+   "label": "Jangan jemur bayi"
+  },
+  {
+   "id": "lama",
+   "marker": "Lima Kuning",
+   "n": 5,
+   "label": "Kuning lebih 2 minggu"
+  },
+  {
+   "id": "susu",
+   "marker": "Susukan bayi"
+  },
+  {
+   "id": "pulih",
+   "marker": "Selepas dua hari"
+  },
+  {
+   "id": "penutup",
+   "marker": "Bayi kuning dan lemah"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat",
+  "Lima"
+ ],
+ "keywords": [
+  "Bayi baru lahir",
+  "kuning",
+  "normal",
+  "bahaya",
+  "Danish",
+  "4 hari",
+  "semakin kuning",
+  "jemur",
+  "matahari pagi",
+  "Hari kelima",
+  "sampai ke kaki",
+  "asyik tidur",
+  "tak mahu menyusu",
+  "bilirubin",
+  "jaundis bayi",
+  "fototerapi",
+  "tidak berbahaya",
+  "dirawat segera",
+  "5 perkara",
+  "ibu bapa",
+  "24 jam pertama",
+  "tidak normal",
+  "Segera jumpa doktor",
+  "Lihat di mana kuning",
+  "muka",
+  "perut",
+  "tangan",
+  "kaki",
+  "paras yang tinggi",
+  "Awasi tanda bahaya",
+  "terlalu mengantuk",
+  "menangis nyaring",
+  "kejang",
+  "melengkung",
+  "Jangan jemur bayi",
+  "terlecur",
+  "kepanasan",
+  "tertangguh",
+  "2 minggu",
+  "najis pucat",
+  "air kencing gelap",
+  "Susukan bayi",
+  "kerap",
+  "pemeriksaan selepas bersalin",
+  "pulih sepenuhnya",
+  "rawatan awal",
+  "2 hari",
+  "menyusu dengan kuat",
+  "Jangan tunggu",
+  "rawatan segera",
+  "Dr. Azren"
+ ],
+ "corrections": {
+  "empat hari": "4 hari",
+  "dua puluh empat jam": "24 jam",
+  "dua minggu": "2 minggu",
+  "dua hari": "2 hari",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.35,
+  "sfx": [
+   {
+    "file": "baby.mp3",
+    "at": "tak mahu menyusu",
+    "offset": 0,
+    "volume": 0.45
+   },
+   {
+    "file": "sting.mp3",
+    "at": "jaundis",
+    "offset": 0,
+    "volume": 0.8
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu Kuning",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Lihat",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Awasi",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Jangan",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Lima Kuning",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "chime.mp3",
+    "at": "kuat",
+    "offset": 0,
+    "volume": 0.8
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "BAYI BARU LAHIR KUNING?",
+  "headline": [
+   "BILA PERLU",
+   "RISAU?"
+  ],
+  "highlight": "5 perkara ibu bapa perlu tahu",
+  "sub": "Kuning dalam 24 jam? Segera ke klinik",
+  "tags": []
+ }
+}

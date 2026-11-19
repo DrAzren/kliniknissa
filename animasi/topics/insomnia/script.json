@@ -1,0 +1,217 @@
+{
+ "id": "insomnia",
+ "title": "Susah Tidur Setiap Malam? Mungkin Insomnia",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[tired] Baring di katil berjam-jam, tapi mata tetap segar... Adakah anda juga begini?\n\n[storytelling] Hafiz, tiga puluh lapan tahun, penyelia kilang. Setiap malam dia sukar tidur, kerap terjaga, dan bangun terlalu awal. Sebelum tidur, dia minum kopi dan main telefon di atas katil.\n\n[worried] Sudah empat bulan begini. Siang hari dia letih, cepat marah, dan hampir terlelap semasa memandu.\n\n[serious] Doktor menilai, dan sahkan... Hafiz mengalami insomnia kronik.\n\n[warmly] Insomnia boleh dirawat. Ini lima perkara yang perlu anda tahu.\n\nSatu. Kenali insomnia. Sukar tidur, kerap terjaga, atau bangun terlalu awal, sekurang-kurangnya tiga malam seminggu, selama tiga bulan.\n\nDua. Tetapkan waktu. Tidur dan bangun pada waktu yang sama setiap hari, termasuk hujung minggu.\n\nTiga. Jaga bilik tidur. Gelap, senyap, dan sejuk. Jauhkan telefon sekurang-kurangnya sejam sebelum tidur.\n\nEmpat. Elakkan kafein, rokok, dan makan berat pada waktu malam. Kalau tak boleh tidur selepas dua puluh minit, bangun dan buat aktiviti yang tenang.\n\nLima. Terapi kognitif tingkah laku untuk insomnia ialah rawatan utama. Ubat tidur hanya untuk jangka pendek, dengan preskripsi doktor.\n\n[reassuring] Insomnia juga boleh berkait dengan kemurungan, kebimbangan, atau masalah kesihatan lain. Doktor boleh bantu mencari puncanya.\n\n[relieved] Kini Hafiz tidur lebih lena, dan bangun dengan segar.\n\n[warmly] Susah tidur sampai mengganggu hidup? Jangan tunggu. Dapatkan bantuan. Saya Doktor Azren.",
+  "note": "1 take sahaja (pilihan A+). ElevenLabs Flow bHpXHWCxVWp0nidDij0u, generation Ut7s9vpRYvB8w1118uO8, 89.36 s. Muzik diguna semula daripada jenis-nyamuk."
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "hafiz",
+   "marker": "Hafiz tiga"
+  },
+  {
+   "id": "letih",
+   "marker": "Sudah empat"
+  },
+  {
+   "id": "diagnosis",
+   "marker": "Doktor menilai"
+  },
+  {
+   "id": "lima",
+   "marker": "Insomnia boleh dirawat"
+  },
+  {
+   "id": "kenali",
+   "marker": "Satu Kenali",
+   "n": 1,
+   "label": "Kenali insomnia"
+  },
+  {
+   "id": "waktu",
+   "marker": "Dua Tetapkan",
+   "n": 2,
+   "label": "Tetapkan waktu tidur"
+  },
+  {
+   "id": "bilik",
+   "marker": "Tiga Jaga",
+   "n": 3,
+   "label": "Jaga bilik tidur"
+  },
+  {
+   "id": "elak",
+   "marker": "Empat Elakkan",
+   "n": 4,
+   "label": "Elak kafein & rokok"
+  },
+  {
+   "id": "rawat",
+   "marker": "Lima Terapi",
+   "n": 5,
+   "label": "Terapi CBT-I"
+  },
+  {
+   "id": "punca",
+   "marker": "Insomnia juga"
+  },
+  {
+   "id": "pulih",
+   "marker": "Kini Hafiz"
+  },
+  {
+   "id": "penutup",
+   "marker": "Susah tidur sampai"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat",
+  "Lima"
+ ],
+ "keywords": [
+  "berjam-jam",
+  "mata tetap segar",
+  "begini",
+  "Hafiz",
+  "38 tahun",
+  "penyelia kilang",
+  "sukar tidur",
+  "kerap terjaga",
+  "bangun terlalu awal",
+  "kopi",
+  "telefon",
+  "4 bulan",
+  "letih",
+  "cepat marah",
+  "terlelap semasa memandu",
+  "insomnia kronik",
+  "boleh dirawat",
+  "5 perkara",
+  "Kenali insomnia",
+  "3 malam seminggu",
+  "3 bulan",
+  "Tetapkan waktu",
+  "waktu yang sama",
+  "hujung minggu",
+  "Jaga bilik tidur",
+  "Gelap",
+  "senyap",
+  "sejuk",
+  "Jauhkan telefon",
+  "sejam",
+  "kafein",
+  "rokok",
+  "makan berat",
+  "20 minit",
+  "aktiviti yang tenang",
+  "Terapi kognitif tingkah laku",
+  "rawatan utama",
+  "Ubat tidur",
+  "jangka pendek",
+  "preskripsi doktor",
+  "kemurungan",
+  "kebimbangan",
+  "mencari puncanya",
+  "tidur lebih lena",
+  "segar",
+  "mengganggu hidup",
+  "Jangan tunggu",
+  "Dapatkan bantuan",
+  "Dr. Azren"
+ ],
+ "corrections": {
+  "tiga puluh lapan tahun": "38 tahun",
+  "empat bulan": "4 bulan",
+  "tiga malam": "3 malam",
+  "tiga bulan": "3 bulan",
+  "dua puluh minit": "20 minit",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.35,
+  "sfx": [
+   {
+    "file": "tick.mp3",
+    "at": "berjam-jam",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "alarm.mp3",
+    "at": "bangun terlalu",
+    "offset": 0,
+    "volume": 0.45
+   },
+   {
+    "file": "sting.mp3",
+    "at": "insomnia kronik",
+    "offset": 0.1,
+    "volume": 0.8
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu Kenali",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Tetapkan",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Jaga",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Elakkan",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Lima Terapi",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "chime.mp3",
+    "at": "dengan segar",
+    "offset": 0,
+    "volume": 0.8
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "SUSAH TIDUR SETIAP MALAM?",
+  "headline": [
+   "MUNGKIN",
+   "INSOMNIA"
+  ],
+  "highlight": "5 perkara perlu anda tahu",
+  "sub": "3 malam seminggu, 3 bulan? Dapatkan bantuan",
+  "tags": []
+ }
+}
