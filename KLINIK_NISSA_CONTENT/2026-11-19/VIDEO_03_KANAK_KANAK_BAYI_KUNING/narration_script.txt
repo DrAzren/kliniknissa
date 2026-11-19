@@ -1,0 +1,29 @@
+# Bayi Kuning: Bila Perlu Risau? — narration DRAFT (Dr Azren, ElevenLabs eleven_v4, 1 take) — 1454 aksara, MENUNGGU 'OK jana'
+# Tag [ ] ialah arahan emosi (tidak dibaca). Kapsyen: "empat hari" -> "4 hari", "dua puluh empat jam" -> "24 jam", "dua minggu" -> "2 minggu", "dua hari" -> "2 hari", "Doktor Azren" -> "Dr. Azren".
+# Penutup pada skrin: "Video ini untuk pendidikan, bukan diagnosis."
+
+[concerned] Bayi baru lahir nampak kuning... normal, atau bahaya?
+
+[storytelling] Bayi Danish, empat hari, nampak semakin kuning. Neneknya kata, jemur saja di bawah matahari pagi.
+
+[worried] Hari kelima, kuning sudah sampai ke kaki, dan Danish asyik tidur, tak mahu menyusu.
+
+[serious] Doktor periksa paras bilirubin, dan sahkan... Danish mengalami jaundis bayi yang perlu dirawat dengan fototerapi.
+
+[warmly] Kebanyakan bayi kuning tidak berbahaya, tapi ada yang perlu dirawat segera. Ini lima perkara yang ibu bapa perlu tahu.
+
+Satu. Kuning dalam dua puluh empat jam pertama selepas lahir tidak normal. Segera jumpa doktor.
+
+Dua. Lihat di mana kuning. Kuning yang merebak dari muka hingga ke perut, tangan, dan kaki menandakan paras yang tinggi.
+
+Tiga. Awasi tanda bahaya. Bayi terlalu mengantuk, tak mahu menyusu, menangis nyaring, atau badan kejang dan melengkung.
+
+Empat. Jangan jemur bayi di bawah matahari sebagai rawatan. Bayi boleh terlecur atau kepanasan, dan rawatan sebenar tertangguh. Rawatan yang betul ialah fototerapi.
+
+Lima. Kuning lebih dua minggu, atau najis pucat dan air kencing gelap, perlu diperiksa doktor.
+
+[reassuring] Susukan bayi dengan kerap, dan hadir pemeriksaan selepas bersalin seperti dijadualkan. Kebanyakan bayi pulih sepenuhnya dengan rawatan awal.
+
+[relieved] Selepas dua hari fototerapi, Danish kembali menyusu dengan kuat.
+
+[warmly] Bayi kuning dan lemah? Jangan tunggu. Dapatkan rawatan segera. Saya Doktor Azren.

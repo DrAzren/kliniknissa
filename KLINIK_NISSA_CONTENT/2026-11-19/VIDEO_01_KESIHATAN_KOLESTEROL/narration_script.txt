@@ -1,0 +1,29 @@
+# Kolesterol Tinggi: Tiada Tanda, Tapi Bahaya — narration DRAFT (Dr Azren, ElevenLabs eleven_v4, 1 take) — 1482 aksara, MENUNGGU 'OK jana'
+# Tag [ ] ialah arahan emosi (tidak dibaca). Kapsyen: "empat puluh lima tahun" -> "45 tahun", "lima puluh tahun" -> "50 tahun", "L-D-L" -> "LDL", "Doktor Azren" -> "Dr. Azren".
+# Penutup pada skrin: "Video ini untuk pendidikan, bukan diagnosis."
+
+[serious] Badan nampak sihat, tiada sakit... tapi salur darah mungkin sedang tersumbat. Kenapa?
+
+[storytelling] Puan Rosnah, empat puluh lima tahun, seorang kerani. Hampir setiap hari dia makan makanan bergoreng dan bersantan. Dia tak pernah periksa darah, sebab rasa sihat.
+
+[worried] Bulan lalu, abangnya diserang sakit jantung pada umur lima puluh tahun. Rosnah mula risau.
+
+[serious] Doktor buat ujian darah, dan sahkan... Puan Rosnah ada kolesterol tinggi.
+
+[warmly] Kolesterol tinggi biasanya tiada tanda. Ini lima perkara yang perlu anda tahu.
+
+Satu. Kenali kolesterol jahat. L-D-L yang tinggi boleh melekat pada dinding salur darah, dan membentuk plak.
+
+Dua. Risikonya serius. Plak boleh menyebabkan serangan jantung dan strok.
+
+Tiga. Buat ujian darah. Lebih-lebih lagi jika ada kencing manis, darah tinggi, berat berlebihan, merokok, atau sejarah keluarga penyakit jantung awal.
+
+Empat. Ubah gaya hidup. Kurangkan makanan bergoreng, berlemak dan bersantan, perbanyakkan sayur, bersenam, dan berhenti merokok.
+
+Lima. Ubat jika perlu. Doktor mungkin beri ubat penurun kolesterol mengikut tahap risiko anda. Jangan berhenti makan ubat tanpa berbincang dengan doktor.
+
+[reassuring] Dengan rawatan yang betul, risiko serangan jantung dan strok boleh dikurangkan.
+
+[relieved] Puan Rosnah kini masak lebih sihat, berjalan pantas setiap petang, dan buat pemeriksaan berkala.
+
+[warmly] Rasa sihat bukan bermakna kolesterol normal. Jangan tunggu. Buat ujian darah. Saya Doktor Azren.
