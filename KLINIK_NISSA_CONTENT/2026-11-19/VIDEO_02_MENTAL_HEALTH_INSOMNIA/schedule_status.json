@@ -1,0 +1,25 @@
+{
+ "video_id": "2026-11-19_VIDEO_02_MENTAL_HEALTH_INSOMNIA_insomnia",
+ "status": "READY_NOT_SCHEDULED",
+ "approval_gate": {
+  "medical_accuracy": "PENDING (medical_references.md, items marked 'Semak')",
+  "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
+  "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding)",
+  "publishing_instruction": "Not scheduled. Schedule on Metricool only when the user asks."
+ },
+ "scheduled_posts": [],
+ "elevenlabs": {
+  "flow_id": "bHpXHWCxVWp0nidDij0u",
+  "tts_generation_id": "Ut7s9vpRYvB8w1118uO8",
+  "tts_credits": 1467.9,
+  "tts_duration_s": 89.36,
+  "sfx": {
+   "file": "alarm.mp3 (jam loceng, 2 s); tick.mp3 diguna semula",
+   "generation_id": "ZzSJrLnCBZd81ZfyR4FN",
+   "credits": 6.7
+  },
+  "music": "reused jenis-nyamuk/music.mp3 (0 credits)",
+  "scribe_credits": 0
+ },
+ "higgsfield_credits": 0
+}

@@ -1,0 +1,25 @@
+{
+ "video_id": "2026-11-19_VIDEO_03_KANAK_KANAK_BAYI_KUNING_bayi-kuning",
+ "status": "READY_NOT_SCHEDULED",
+ "approval_gate": {
+  "medical_accuracy": "PENDING (medical_references.md, items marked 'Semak')",
+  "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
+  "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding)",
+  "publishing_instruction": "Not scheduled. Schedule on Metricool only when the user asks."
+ },
+ "scheduled_posts": [],
+ "elevenlabs": {
+  "flow_id": "bHpXHWCxVWp0nidDij0u",
+  "tts_generation_id": "elcLeEKtcQDfctpMHZZm",
+  "tts_credits": 1453.9,
+  "tts_duration_s": 85.04,
+  "sfx": {
+   "file": "Tiada SFX baharu (baby.mp3 diguna semula, 0 kredit)",
+   "generation_id": "—",
+   "credits": 0
+  },
+  "music": "reused jenis-nyamuk/music.mp3 (0 credits)",
+  "scribe_credits": 0
+ },
+ "higgsfield_credits": 0
+}
