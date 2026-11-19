@@ -1,25 +1,48 @@
 {
- "video_id": "2026-11-19_VIDEO_02_MENTAL_HEALTH_INSOMNIA_insomnia",
- "status": "READY_NOT_SCHEDULED",
- "approval_gate": {
-  "medical_accuracy": "PENDING (medical_references.md, items marked 'Semak')",
-  "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
-  "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding)",
-  "publishing_instruction": "Not scheduled. Schedule on Metricool only when the user asks."
- },
- "scheduled_posts": [],
- "elevenlabs": {
-  "flow_id": "bHpXHWCxVWp0nidDij0u",
-  "tts_generation_id": "Ut7s9vpRYvB8w1118uO8",
-  "tts_credits": 1467.9,
-  "tts_duration_s": 89.36,
-  "sfx": {
-   "file": "alarm.mp3 (jam loceng, 2 s); tick.mp3 diguna semula",
-   "generation_id": "ZzSJrLnCBZd81ZfyR4FN",
-   "credits": 6.7
+  "video_id": "2026-11-19_VIDEO_02_MENTAL_HEALTH_INSOMNIA_insomnia",
+  "status": "SCHEDULED",
+  "approval_gate": {
+    "medical_accuracy": "PENDING (medical_references.md, items marked 'Semak')",
+    "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
+    "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding)",
+    "publishing_instruction": "User instructed (2026-11-19: 'jadualkan hari ini') to schedule today on Metricool at the best times; AI-generated label OFF, commercial content OFF (made-for-kids applies only to YouTube, which this brand does not have)"
   },
-  "music": "reused jenis-nyamuk/music.mp3 (0 credits)",
-  "scribe_credits": 0
- },
- "higgsfield_credits": 0
+  "scheduled_posts": [
+    {
+      "metricool_post_id": 433818736,
+      "uuid": "8825176396164974505",
+      "publication": "2026-11-19 21:10 Asia/Kuala_Lumpur",
+      "networks": {
+        "facebook": "REEL / PENDING",
+        "instagram": "REEL, showReelOnFeed, isAiGenerated=false / PENDING",
+        "tiktok": "PUBLIC, isAigc=false, commercial (own brand / third party) = false, title 'Susah tidur setiap malam? Mungkin insomnia' / PENDING"
+      },
+      "autoPublish": true,
+      "caption_file": "caption_instagram.txt",
+      "source_media": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JY4YdIKVikfVoQnvogqPkiBhNk/3daf8a45-f6c7-42d1-ad99-53028f7b7f08.mp4",
+      "media": "https://static.metricool.com/planner/202611/7705651-file-1930040785013732867.mp4",
+      "thumbnail": "https://static.metricool.com/planner/202611/7705651-file-15781771755250399086.jpeg",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7840561&openWithPostUuid=8825176396164974505"
+    }
+  ],
+  "elevenlabs": {
+    "flow_id": "bHpXHWCxVWp0nidDij0u",
+    "tts_generation_id": "Ut7s9vpRYvB8w1118uO8",
+    "tts_credits": 1467.9,
+    "tts_duration_s": 89.36,
+    "sfx": {
+      "file": "alarm.mp3 (jam loceng, 2 s); tick.mp3 diguna semula",
+      "generation_id": "ZzSJrLnCBZd81ZfyR4FN",
+      "credits": 6.7
+    },
+    "music": "reused jenis-nyamuk/music.mp3 (0 credits)",
+    "scribe_credits": 0
+  },
+  "higgsfield_credits": 0,
+  "notes": "Scheduled at ~14:30 MYT, so morning/noon peaks had passed. Times from Metricool best-time data for Thursday (FB 18:00 > 17:00 > 16:00; TikTok 18:00 > 16:00 > 17:00; IG 17:00 > 16:00/18:00 > 20:00 > 21:00). Media hosted on the user's Higgsfield storage (free upload, 0 credits); Metricool copied it to its own storage. Medical review still pending.",
+  "metricool_brand": {
+    "label": "Klinik Nissa",
+    "brandId": 7840561,
+    "timezone": "Asia/Kuala_Lumpur"
+  }
 }

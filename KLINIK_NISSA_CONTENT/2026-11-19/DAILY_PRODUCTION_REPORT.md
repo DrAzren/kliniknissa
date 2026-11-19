@@ -1,5 +1,5 @@
 # Daily production report — 2026-11-19 (branch `claude/upbeat-wozniak-5k7bfp`)
-Three animated videos in the same concept as the previous batches (Remotion `animasi/`, Violet Flat SVG, avatar `dr-azren`, hook → story → diagnosis → #1–#5 → recovery → "jangan tunggu… saya Doktor Azren"). Topics checked against every branch (31 earlier topics) so none repeat. User approved **option A+**: new voice (1 take each) + 2 new short SFX; music reused from `jenis-nyamuk`; ticking clock reused from `kebimbangan-gad`; baby cry reused from `murung-selepas-bersalin`. No helpline line. **No clinic CTA.** **Not scheduled.**
+Three animated videos in the same concept as the previous batches (Remotion `animasi/`, Violet Flat SVG, avatar `dr-azren`, hook → story → diagnosis → #1–#5 → recovery → "jangan tunggu… saya Doktor Azren"). Topics checked against every branch (31 earlier topics) so none repeat. User approved **option A+**: new voice (1 take each) + 2 new short SFX; music reused from `jenis-nyamuk`; ticking clock reused from `kebimbangan-gad`; baby cry reused from `murung-selepas-bersalin`. No helpline line. **No clinic CTA.** **Scheduled** on Metricool at the user's request (see below).
 
 Shared code: `animasi/src/topics/_kit/kit.tsx` gained 7 icons (artery with plaque, wok, vegetables, moon, car, sun, phototherapy lamp). Topics registered in `src/topics/index.ts`.
 
@@ -89,3 +89,14 @@ Shared code: `animasi/src/topics/_kit/kit.tsx` gained 7 icons (artery with plaqu
 - Two worker restarts happened while the SFX nodes were being prepared. Before running anything, the flow was checked: both nodes were still `not_run`. Each SFX was then run once only, so there was no double charge.
 - Pronunciation could not be checked automatically. Please listen for: "L-D-L", bersantan, kafein, "kognitif tingkah laku", preskripsi, bilirubin, jaundis, fototerapi, melengkung.
 - Remaining credit balance could not be read (the ElevenLabs usage tool needs extra connector permission).
+
+## Scheduling (Metricool, brand Klinik Nissa, Asia/Kuala_Lumpur)
+Requested 2026-11-19 ~14:25: "jadualkan hari ini". Facebook Reel + Instagram Reel (shown on feed) + TikTok (public), auto-publish, caption = `caption_instagram.txt`. AI-generated label OFF (IG `isAiGenerated`, TikTok `isAigc`), commercial content OFF (TikTok own brand / third party), TikTok auto-music OFF. Made-for-kids: not applicable (no YouTube on this brand).
+
+| Time (MYT) | Video | Metricool post id | Why this slot |
+|---|---|---|---|
+| Thu 19 Nov 16:40 | VIDEO_01 Kolesterol | 433818445 | IG 16–17 (top hours), TikTok 16:00, FB 16–17 |
+| Thu 19 Nov 18:10 | VIDEO_03 Bayi Kuning | 433818581 | TikTok & FB 18:00 (top of the day), IG 18:00; parents home after work |
+| Thu 19 Nov 21:10 | VIDEO_02 Insomnia | 433818736 | IG 21:00 still high; bedtime fits the topic |
+
+Morning and noon peaks had already passed when scheduling was requested. Media uploaded to the user's Higgsfield storage (free `media_upload`, 0 credits); Metricool copied it to its own storage. Medical review is still pending: please check before 16:40.
