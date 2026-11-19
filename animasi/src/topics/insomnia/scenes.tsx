@@ -27,11 +27,11 @@ const Digital: React.FC<{f: number; from: number; size?: number}> = ({f, from, s
 /** Katil dengan Hafiz berbaring (separuh badan) dan mata terbuka. */
 const Bed: React.FC<{f: number; x: number; y: number; w: number; awake?: boolean}> = ({f, x, y, w, awake = true}) => (
   <div style={{position: 'absolute', left: x, top: y, width: w, height: w * 0.62}}>
-    <div style={{position: 'absolute', left: w * 0.08, top: w * 0.05, transform: `rotate(-8deg)`}}>
+    <div style={{position: 'absolute', left: w * 0.08, top: -w * 0.08, transform: `rotate(-8deg)`}}>
       <Who preset={HAFIZ} x={0} y={0} w={w * 0.5} mood={awake ? 'tired' : 'happy'} pose="down" seed={9} />
     </div>
-    <div style={{position: 'absolute', left: 0, top: w * 0.3, width: w, height: w * 0.22, background: '#6157C5', borderRadius: 24}} />
-    <div style={{position: 'absolute', left: w * 0.25, top: w * 0.26, width: w * 0.75, height: w * 0.2, background: '#8DB8E8', borderRadius: 20}} />
+    <div style={{position: 'absolute', left: 0, top: w * 0.36, width: w, height: w * 0.2, background: '#6157C5', borderRadius: 24}} />
+    <div style={{position: 'absolute', left: w * 0.06, top: w * 0.33, width: w * 0.94, height: w * 0.2, background: '#8DB8E8', borderRadius: 20}} />
     <div style={{position: 'absolute', left: -10, top: w * 0.05, width: 26, height: w * 0.52, background: '#3A3460', borderRadius: 10}} />
     {!awake ? <div style={{position: 'absolute', left: w * 0.55, top: -w * 0.05}}><KIcon name="zzz" size={w * 0.25} f={f} /></div> : null}
   </div>
@@ -117,7 +117,7 @@ export const Diagnosis: React.FC<SceneProps> = (p) => {
       {before ? <Pop at={2} style={{left: 0, width: 1080, top: 720, display: 'flex', justifyContent: 'center'}}><IconPill icon={<KIcon name="checklist" size={56} />} text="Penilaian tidur" size={44} /></Pop> : null}
       <Who preset={p.preset} x={20} y={1040} w={460} mood="neutral" pose={before ? 'chin' : 'point'} />
       <Who preset={HAFIZ} x={600} y={1060} w={420} mood={before ? 'tired' : 'sad'} pose="clasp" seed={9} />
-      <Stamp f={f} a={aStamp} top="DIAGNOSIS" big="INSOMNIA KRONIK" bigSize={92} y={580} />
+      <Stamp f={f} a={aStamp} top="DIAGNOSIS" big="INSOMNIA" sub="Kronik" bigSize={110} y={580} />
     </Camera>
   );
 };

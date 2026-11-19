@@ -83,7 +83,6 @@ export const Danish: React.FC<SceneProps> = (p) => {
   const f = useCurrentFrame();
   const aKun = at(p, 'kuning', 2.6);
   const aJem = at(p, 'jemur', 4.6);
-  const aPagi = at(p, 'pagi', 6.0);
   return (
     <Camera dur={p.dur} to={1.08} panX={-20}>
       <AbsoluteFill style={{background: BG(C.violet[0], C.pink[0])}} />
@@ -94,8 +93,8 @@ export const Danish: React.FC<SceneProps> = (p) => {
       <div style={{position: 'absolute', left: 300, top: 1150}}><Newborn w={200} level={1} f={f} /></div>
       <Who preset={NENEK} x={580} y={960} w={420} mood="happy" pose="point" seed={11} />
       <Pop at={aJem} style={{left: 700, top: 640}}><KIcon name="sun" size={200} f={f} /></Pop>
-      {f >= aPagi + 10 ? <div style={{position: 'absolute', left: 690, top: 630}}><Cross f={f - aPagi - 10} size={220} /></div> : null}
-      <Pop at={aPagi + 14} style={{left: 560, top: 870}}><Pill text="SALAH! Jangan jemur" bg={RED} size={40} /></Pop>
+      {f >= aJem + 18 ? <div style={{position: 'absolute', left: 690, top: 630}}><Cross f={f - aJem - 18} size={220} /></div> : null}
+      <Pop at={aJem + 24} style={{left: 500, top: 870}}><Pill text="SALAH! Jangan jemur" bg={RED} size={36} /></Pop>
     </Camera>
   );
 };
@@ -137,7 +136,7 @@ export const Diagnosis: React.FC<SceneProps> = (p) => {
       <Who preset={p.preset} x={20} y={1040} w={460} mood="neutral" pose={before ? 'chin' : 'point'} />
       <div style={{position: 'absolute', left: 640, top: 1040}}><KIcon name="photolamp" size={340} f={f} /></div>
       <div style={{position: 'absolute', left: 740, top: 1150}}><Newborn w={150} level={3} f={f} /></div>
-      <Stamp f={f} a={aStamp} top="DIAGNOSIS" big="JAUNDIS BAYI" sub={f >= aFoto ? 'Rawatan: fototerapi' : undefined} bigSize={110} y={560} />
+      <Stamp f={f} a={aStamp} top="DIAGNOSIS" big="JAUNDIS BAYI" sub={f >= aFoto ? 'Rawatan: fototerapi' : undefined} bigSize={92} y={560} />
     </Camera>
   );
 };

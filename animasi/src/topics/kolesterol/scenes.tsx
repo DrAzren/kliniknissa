@@ -88,7 +88,7 @@ export const Abang: React.FC<SceneProps> = (p) => {
       <Pop at={aUmur} style={{left: 60, top: 680}}><Pill text="Pada umur 50 tahun" bg={C.navy} color={C.yellow} size={44} /></Pop>
       <div style={{position: 'absolute', left: 640, top: 820}}><KIcon name="heart" size={300} f={f * 2} /></div>
       <Who preset={ROSNAH} x={80} y={960} w={480} mood={f >= aRisau ? 'shock' : 'sad'} pose="clasp" seed={6} />
-      <Pop at={aRisau} style={{left: 600, top: 1200}}><Pill text="Rosnah mula risau" bg={C.labelPink} size={42} /></Pop>
+      <Pop at={aRisau} style={{left: 520, top: 1200}}><Pill text="Rosnah mula risau" bg={C.labelPink} size={38} /></Pop>
     </Camera>
   );
 };
@@ -114,7 +114,7 @@ export const Diagnosis: React.FC<SceneProps> = (p) => {
       ) : null}
       <Who preset={p.preset} x={20} y={1040} w={460} mood="neutral" pose={before ? 'chin' : 'point'} />
       <Who preset={ROSNAH} x={600} y={1060} w={420} mood={before ? 'neutral' : 'sad'} pose="clasp" seed={6} />
-      <Stamp f={f} a={aStamp} top="DIAGNOSIS" big="KOLESTEROL TINGGI" bigSize={84} y={580} />
+      <Stamp f={f} a={aStamp} top="DIAGNOSIS" big="KOLESTEROL" sub="Tinggi" bigSize={100} y={580} />
     </Camera>
   );
 };
@@ -143,7 +143,7 @@ export const Ldl: React.FC<SceneProps> = (p) => {
       title="KOLESTEROL JAHAT"
       titleSize={82}
       bg={BG(C.night[1], C.violet[0])}
-      hero={<Vessel f={f} w={380} k={interpolate(f, [40, 160], [0.2, 1], clamp)} />}
+      hero={<Vessel f={f} w={330} k={interpolate(f, [40, 160], [0.2, 1], clamp)} />}
       items={[
         {a: at(p, 'ldl', 2.3), icon: <KIcon name="drop" size={76} />, text: 'LDL tinggi', bg: RED},
         {a: at(p, 'melekat', 3.6), icon: <KIcon name="artery" size={76} f={f} />, text: 'Melekat pada salur darah', size: 36},
@@ -242,7 +242,7 @@ export const Kurang: React.FC<SceneProps> = (p) => {
       titleSize={82}
       bg={BG(C.night[1], '#1F4A4A')}
       glow={C.green}
-      hero={<Vessel f={f} w={380} k={0.15} />}
+      hero={<Vessel f={f} w={330} k={0.15} />}
       items={[
         {a: at(p, 'rawatan', 0.5), icon: <Check size={70} />, text: 'Rawatan yang betul', bg: C.green},
         {a: at(p, 'dikurangkan', 3.4), icon: <KIcon name="heart" size={76} f={f} />, text: 'Jantung & strok: risiko turun', size: 34},
@@ -266,7 +266,7 @@ export const Pulih: React.FC<SceneProps> = (p) => {
       {[{a: aMasak, i: <KIcon name="veg" size={60} />, t: 'Masak lebih sihat'}, {a: aJalan, i: <KIcon name="shoe" size={60} />, t: 'Jalan pantas setiap petang'}, {a: aBerkala, i: <KIcon name="calendar" size={60} />, t: 'Pemeriksaan berkala'}].map((x, k) => (
         <Pop key={k} at={x.a} style={{left: 60, top: 680 + k * 112}} origin="left center"><IconPill icon={x.i} text={x.t} size={38} /></Pop>
       ))}
-      <div style={{position: 'absolute', left: 520 + Math.sin(f / 10) * 30, top: 1000}}><Who preset={ROSNAH} x={0} y={0} w={460} mood="happy" pose="wave" seed={6} /></div>
+      <div style={{position: 'absolute', left: 470 + Math.sin(f / 10) * 30, top: 1000}}><Who preset={ROSNAH} x={0} y={0} w={460} mood="happy" pose="wave" seed={6} /></div>
       <div style={{position: 'absolute', left: 120, top: 1150}}><KIcon name="veg" size={220} /></div>
       <Burst f={f} a={aBerkala} x={760} y={1060} />
     </Camera>
