@@ -1,0 +1,31 @@
+# Sakit Kepala: Bila Jadi Bahaya? — narration DRAFT (Dr Azren, ElevenLabs eleven_v4, 1 take) — 1375 aksara, MENUNGGU 'OK jana'
+# Tag [ ] ialah arahan emosi (tidak dibaca). Kapsyen: "empat puluh dua tahun" -> "42 tahun", "lima puluh tahun" -> "50 tahun", "sembilan sembilan sembilan" -> "999", "Doktor Azren" -> "Dr. Azren".
+# Penutup pada skrin: "Video ini untuk pendidikan, bukan diagnosis."
+
+[serious] Sakit kepala biasa... atau tanda kecemasan? Ini cara membezakannya.
+
+[storytelling] Puan Zarina, empat puluh dua tahun, sedang menyidai kain. Tiba-tiba, kepalanya sakit seperti dihentak, paling teruk dalam hidupnya.
+
+[worried] Dia muntah, tengkuknya terasa keras, dan dia mahu makan ubat tahan sakit sahaja. Suaminya terus bawa dia ke hospital.
+
+[serious] Imbasan otak dibuat, dan doktor sahkan... ada pendarahan dalam otak.
+
+[warmly] Kebanyakan sakit kepala tidak berbahaya. Tapi ada lima tanda bahaya yang perlu anda tahu.
+
+Satu. Sakit kepala yang datang tiba-tiba dan sangat teruk, memuncak dalam beberapa minit.
+
+Dua. Sakit kepala dengan demam, tengkuk keras, atau ruam.
+
+Tiga. Sakit kepala dengan lemah sebelah badan, pelat, penglihatan kabur, keliru, atau pengsan.
+
+Empat. Sakit kepala selepas kecederaan kepala.
+
+Lima. Sakit kepala baharu yang makin teruk, terutama selepas umur lima puluh tahun, atau sering bangun tidur dengan sakit kepala dan muntah.
+
+[serious] Jika ada tanda ini, segera ke hospital atau telefon sembilan sembilan sembilan.
+
+[reassuring] Untuk sakit kepala biasa, rehat, minum air, dan jangan terlalu kerap makan ubat tahan sakit, kerana ia boleh menyebabkan sakit kepala berulang.
+
+[relieved] Puan Zarina dirawat segera, dan kini sudah pulih.
+
+[warmly] Sakit kepala luar biasa? Jangan tunggu. Dapatkan rawatan segera. Saya Doktor Azren.
