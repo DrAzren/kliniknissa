@@ -136,7 +136,8 @@ export type KIconName =
   | 'ambulance' | 'droop' | 'arms' | 'dizzy' | 'xray' | 'baby' | 'mask' | 'sputum' | 'scan' | 'heartbreak'
   | 'chili' | 'burger' | 'coffee' | 'keys' | 'checklist' | 'bell' | 'cart' | 'camera' | 'recovery' | 'reflux'
   | 'soda' | 'sachet' | 'soap' | 'diaper' | 'urine' | 'swell'
-  | 'artery' | 'wok' | 'veg' | 'moon' | 'car' | 'sun' | 'photolamp';
+  | 'artery' | 'wok' | 'veg' | 'moon' | 'car' | 'sun' | 'photolamp'
+  | 'battery' | 'waves' | 'lifejacket' | 'fence' | 'cpr' | 'headache';
 
 export const KIcon: React.FC<{name: KIconName; size?: number; f?: number; text?: string}> = ({name, size = 120, f = 0, text}) => {
   const w = '#fff', nv = C.navy, y = C.yellow;
@@ -865,6 +866,69 @@ export const KIcon: React.FC<{name: KIconName; size?: number; f?: number; text?:
             {[0, 1, 2, 3].map((i) => <rect key={i} x={22 + i * 20} y={14} width={14} height={10} rx={3} fill="#4FA3FF" />)}
             <path d="M 18 30 L 4 96 L 116 96 L 102 30 Z" fill="#4FA3FF" opacity={0.25 + 0.1 * Math.sin(f / 5)} />
             <rect x={6} y={96} width={108} height={14} rx={6} fill="#fff" />
+          </g>
+        );
+      case 'battery': {
+        const lvl = Math.max(0, Math.min(1, text ? Number(text) / 100 : 0.15));
+        const col = lvl < 0.25 ? RED : lvl < 0.6 ? y : C.green;
+        return (
+          <g>
+            <rect x={8} y={30} width={96} height={60} rx={12} fill="none" stroke={w} strokeWidth={8} />
+            <rect x={104} y={48} width={10} height={24} rx={4} fill={w} />
+            <rect x={18} y={40} width={76 * lvl} height={40} rx={6} fill={col} opacity={lvl < 0.25 ? 0.6 + 0.4 * Math.abs(Math.sin(f / 5)) : 1} />
+          </g>
+        );
+      }
+      case 'waves':
+        return (
+          <g>
+            {[0, 1, 2].map((i) => (
+              <path key={i} d={`M 0 ${40 + i * 28} q 15 -12 30 0 t 30 0 t 30 0 t 30 0`} transform={`translate(${-((f * 1.5 + i * 10) % 30)} 0)`} stroke={i === 0 ? '#9FD6F7' : WATER} strokeWidth={9} fill="none" strokeLinecap="round" />
+            ))}
+          </g>
+        );
+      case 'lifejacket':
+        return (
+          <g>
+            <path d="M 30 14 L 50 14 Q 60 30 70 14 L 90 14 L 104 40 L 98 110 L 22 110 L 16 40 Z" fill="#F7A23B" />
+            <path d="M 50 14 Q 60 34 70 14 L 70 110 L 50 110 Z" fill="#E0812A" />
+            {[52, 76].map((yy) => <rect key={yy} x={22} y={yy} width={76} height={8} fill="#E8EDF5" />)}
+            {[56, 80].map((yy) => <rect key={yy} x={56} y={yy - 4} width={8} height={16} rx={2} fill="#1D2B33" />)}
+          </g>
+        );
+      case 'fence':
+        return (
+          <g>
+            <rect x={6} y={44} width={108} height={10} rx={3} fill="#C98C64" />
+            <rect x={6} y={84} width={108} height={10} rx={3} fill="#C98C64" />
+            {[12, 38, 64, 90].map((x) => <path key={x} d={`M ${x} 112 L ${x} 30 L ${x + 9} 18 L ${x + 18} 30 L ${x + 18} 112 Z`} fill="#E8B48C" />)}
+          </g>
+        );
+      case 'cpr': {
+        const push = Math.abs(Math.sin(f / 3)) * 6;
+        return (
+          <g>
+            <rect x={4} y={86} width={112} height={12} rx={6} fill={C.violet[3]} />
+            <circle cx={22} cy={74} r={14} fill={SKIN} />
+            <rect x={36} y={66} width={70} height={22} rx={10} fill="#7FC4F2" />
+            <g transform={`translate(0 ${push})`}>
+              <rect x={54} y={22} width={12} height={46} rx={6} fill={SKIN} />
+              <rect x={68} y={22} width={12} height={46} rx={6} fill={SKIN} />
+              <ellipse cx={67} cy={66} rx={16} ry={7} fill={SKIN} />
+            </g>
+          </g>
+        );
+      }
+      case 'headache':
+        return (
+          <g>
+            <circle cx={60} cy={64} r={40} fill={SKIN} />
+            <path d="M 24 50 Q 30 18 60 18 Q 92 18 98 50 Q 86 34 60 34 Q 36 34 24 50 Z" fill="#2A1C24" />
+            <path d="M 42 66 L 52 62 M 78 66 L 68 62" stroke="#1E1A24" strokeWidth={5} strokeLinecap="round" />
+            <path d="M 48 86 Q 60 78 72 86" stroke="#1E1A24" strokeWidth={5} fill="none" strokeLinecap="round" />
+            {[[14, 20], [96, 14], [104, 44]].map(([x, yy], i) => (
+              <path key={i} d={`M ${x} ${yy} l -6 12 l 8 0 l -6 12`} stroke={RED} strokeWidth={5} fill="none" strokeLinejoin="round" opacity={0.4 + 0.6 * Math.abs(Math.sin(f / 4 + i))} />
+            ))}
           </g>
         );
       case 'lungs':

@@ -77,6 +77,18 @@ import {SCENES as S19} from './bayi-kuning/scenes';
 import {Cover as Cover19} from './bayi-kuning/Cover';
 import script19 from '../../topics/bayi-kuning/script.json';
 import words19 from '../../topics/bayi-kuning/words.json';
+import {SCENES as S20} from './sakit-kepala/scenes';
+import {Cover as Cover20} from './sakit-kepala/Cover';
+import script20 from '../../topics/sakit-kepala/script.json';
+import words20 from '../../topics/sakit-kepala/words.json';
+import {SCENES as S21} from './burnout/scenes';
+import {Cover as Cover21} from './burnout/Cover';
+import script21 from '../../topics/burnout/script.json';
+import words21 from '../../topics/burnout/words.json';
+import {SCENES as S22} from './lemas/scenes';
+import {Cover as Cover22} from './lemas/Cover';
+import script22 from '../../topics/lemas/script.json';
+import words22 from '../../topics/lemas/words.json';
 
 export type Topic = {
   script: ScriptFile;
@@ -105,5 +117,8 @@ export const TOPICS: Record<string, Topic> = {
   'kolesterol': {script: script17 as ScriptFile, words: words17 as WordsFile, scenes: S17, Cover: Cover17},
   'insomnia': {script: script18 as ScriptFile, words: words18 as WordsFile, scenes: S18, Cover: Cover18},
   'bayi-kuning': {script: script19 as ScriptFile, words: words19 as WordsFile, scenes: S19, Cover: Cover19},
+  'sakit-kepala': {script: script20 as ScriptFile, words: words20 as WordsFile, scenes: S20, Cover: Cover20},
+  'burnout': {script: script21 as ScriptFile, words: words21 as WordsFile, scenes: S21, Cover: Cover21},
+  'lemas': {script: script22 as ScriptFile, words: words22 as WordsFile, scenes: S22, Cover: Cover22},
   'hfmd': {script: script7 as ScriptFile, words: words7 as WordsFile, scenes: S7, Cover: Cover7},
 };
