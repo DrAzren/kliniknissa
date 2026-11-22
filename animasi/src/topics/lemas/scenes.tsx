@@ -97,8 +97,8 @@ export const Tenggelam: React.FC<SceneProps> = (p) => {
       <Sinking f={f} x={400} surface={1100} depth={depth} w={280} />
       <Pop at={aGel} style={{left: 60, top: 560}}><IconPill icon={<KIcon name="waves" size={56} f={f} />} text="Tergelincir ke bahagian dalam" size={36} bg={RED} color="#fff" /></Pop>
       <Pop at={aSuara} style={{left: 60, top: 670}}><IconPill icon={<div style={{position: 'relative'}}><KIcon name="talk" size={56} f={f} /><div style={{position: 'absolute', left: 0, top: 0}}><Cross f={30} size={56} /></div></div>} text="Tenggelam tanpa suara" size={38} /></Pop>
-      <Pop at={aPeny} style={{left: 640, top: 760}}><Who preset={PENYELAMAT} x={0} y={0} w={380} mood="shock" pose="point" seed={17} /></Pop>
-      <Pop at={aPeny + 6} style={{left: 600, top: 680}}><Pill text="Penyelamat!" bg={C.green} size={40} /></Pop>
+      <Pop at={aPeny} style={{left: 640, top: 880}}><Who preset={PENYELAMAT} x={0} y={0} w={380} mood="shock" pose="point" seed={17} /></Pop>
+      <Pop at={aPeny + 6} style={{left: 680, top: 790}}><Pill text="Penyelamat!" bg={C.green} size={40} /></Pop>
     </Camera>
   );
 };
@@ -272,7 +272,7 @@ export const Pulih: React.FC<SceneProps> = (p) => {
       <Pop at={aSisi} style={{left: 60, top: 680}}><IconPill icon={<KIcon name="lifejacket" size={56} />} text="Ayah sentiasa di sisi" size={42} /></Pop>
       <Who preset={AYAH} x={160} y={920} w={460} mood="happy" pose="clasp" seed={16} />
       <div style={{position: 'absolute', left: 580, top: 1080}}><Who preset={IRFAN} x={0} y={0} w={280} mood="happy" pose="wave" seed={15} /></div>
-      <div style={{position: 'absolute', left: 640, top: 1180}}><KIcon name="lifejacket" size={160} /></div>
+      <div style={{position: 'absolute', left: 650, top: 1270}}><KIcon name="lifejacket" size={140} /></div>
       <Burst f={f} a={aSisi} x={600} y={1100} />
     </Camera>
   );

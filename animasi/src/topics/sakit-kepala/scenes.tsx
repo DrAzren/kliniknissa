@@ -87,7 +87,7 @@ export const Muntah: React.FC<SceneProps> = (p) => {
       </Pop>
       <Who preset={ZARINA} x={40} y={980} w={440} mood="sad" pose="chin" seed={12} />
       <Pop at={aSuami} style={{left: 520, top: 960}}><Who preset={SUAMI} x={0} y={0} w={440} mood="shock" pose="point" seed={13} /></Pop>
-      <Pop at={aSuami + 12} style={{left: 600, top: 840}}><IconPill icon={<KIcon name="hospital" size={56} />} text="Terus ke hospital" size={38} bg={C.green} color="#fff" /></Pop>
+      <Pop at={aSuami + 12} style={{left: 540, top: 840}}><IconPill icon={<KIcon name="hospital" size={56} />} text="Terus ke hospital" size={34} bg={C.green} color="#fff" /></Pop>
     </Camera>
   );
 };

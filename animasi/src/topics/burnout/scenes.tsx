@@ -47,8 +47,8 @@ export const Aina: React.FC<SceneProps> = (p) => {
       <AbsoluteFill style={{background: BG(C.violet[0], C.pink[0])}} />
       <div style={{position: 'absolute', left: 0, top: 1420, width: 1080, height: 500, background: '#DDE3F0'}} />
       <Pop at={0} style={{left: 60, top: 560}}><Pill text="Aina, 34 tahun, jururawat" bg={C.navy} color={C.yellow} size={48} /></Pop>
-      <Pop at={aBulan} style={{left: 60, top: 680}}><IconPill icon={<KIcon name="calendar" size={56} />} text="Berbulan-bulan" size={40} /></Pop>
-      <Pop at={aSyif} style={{left: 450, top: 680}}><IconPill icon={<KIcon name="clock" size={56} f={f * 4} />} text="Syif panjang" size={40} bg={RED} color="#fff" /></Pop>
+      <Pop at={aBulan} style={{left: 60, top: 680}}><IconPill icon={<KIcon name="calendar" size={52} />} text="Berbulan-bulan" size={36} /></Pop>
+      <Pop at={aSyif} style={{left: 500, top: 680}}><IconPill icon={<KIcon name="clock" size={52} f={f * 4} />} text="Syif panjang" size={36} bg={RED} color="#fff" /></Pop>
       <Pop at={aRakan} style={{left: 60, top: 800}}><IconPill icon={<KIcon name="person" size={56} />} text="Ganti rakan yang cuti" size={38} /></Pop>
       <Who preset={AINA} x={60} y={960} w={460} mood="neutral" pose="clasp" seed={14} />
       <div style={{position: 'absolute', left: 600, top: 1000}}><KIcon name="hospital" size={360} /></div>
@@ -71,10 +71,10 @@ export const Letih: React.FC<SceneProps> = (p) => {
       <NightSky seed={53} top="transparent" bottom="transparent" stars={40} glow={C.violet[3]} />
       {items.map((it, i) => <Pop key={i} at={it.a} style={{left: 60, top: 560 + i * 115}} origin="left center"><IconPill icon={it.i} text={it.t} size={38} bg={C.navy} color="#fff" /></Pop>)}
       <Who preset={AINA} x={60} y={980} w={460} mood="tired" pose="down" seed={14} />
-      <Pop at={aCuti} style={{left: 560, top: 960}}>
+      <Pop at={aCuti} style={{left: 470, top: 960}}>
         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 10}}>
           <div style={{position: 'relative'}}><KIcon name="sun" size={200} f={f} /><div style={{position: 'absolute', left: 0, top: 0}}><Cross f={f - aCuti} size={200} /></div></div>
-          <Pill text="Cuti seminggu tak membantu" bg={RED} size={32} />
+          <Pill text="Cuti seminggu tak membantu" bg={RED} size={28} />
         </div>
       </Pop>
     </Camera>
