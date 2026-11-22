@@ -1,0 +1,220 @@
+{
+ "id": "sakit-kepala",
+ "title": "Sakit Kepala: Bila Jadi Bahaya?",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[serious] Sakit kepala biasa... atau tanda kecemasan? Ini cara membezakannya.\n\n[storytelling] Puan Zarina, empat puluh dua tahun, sedang menyidai kain. Tiba-tiba, kepalanya sakit seperti dihentak, paling teruk dalam hidupnya.\n\n[worried] Dia muntah, tengkuknya terasa keras, dan dia mahu makan ubat tahan sakit sahaja. Suaminya terus bawa dia ke hospital.\n\n[serious] Imbasan otak dibuat, dan doktor sahkan... ada pendarahan dalam otak.\n\n[warmly] Kebanyakan sakit kepala tidak berbahaya. Tapi ada lima tanda bahaya yang perlu anda tahu.\n\nSatu. Sakit kepala yang datang tiba-tiba dan sangat teruk, memuncak dalam beberapa minit.\n\nDua. Sakit kepala dengan demam, tengkuk keras, atau ruam.\n\nTiga. Sakit kepala dengan lemah sebelah badan, pelat, penglihatan kabur, keliru, atau pengsan.\n\nEmpat. Sakit kepala selepas kecederaan kepala.\n\nLima. Sakit kepala baharu yang makin teruk, terutama selepas umur lima puluh tahun, atau sering bangun tidur dengan sakit kepala dan muntah.\n\n[serious] Jika ada tanda ini, segera ke hospital atau telefon sembilan sembilan sembilan.\n\n[reassuring] Untuk sakit kepala biasa, rehat, minum air, dan jangan terlalu kerap makan ubat tahan sakit, kerana ia boleh menyebabkan sakit kepala berulang.\n\n[relieved] Puan Zarina dirawat segera, dan kini sudah pulih.\n\n[warmly] Sakit kepala luar biasa? Jangan tunggu. Dapatkan rawatan segera. Saya Doktor Azren.",
+  "note": "1 take sahaja (pilihan A). ElevenLabs Flow Fnm0kRut4YgOkadR0b7I, generation woMx5CYaa2BVqml1ubIx, 80.96 s. Muzik dan SFX diguna semula."
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "zarina",
+   "marker": "Puan Zarina empat"
+  },
+  {
+   "id": "muntah",
+   "marker": "Dia muntah"
+  },
+  {
+   "id": "diagnosis",
+   "marker": "Imbasan otak"
+  },
+  {
+   "id": "lima",
+   "marker": "Kebanyakan sakit kepala"
+  },
+  {
+   "id": "tiba",
+   "marker": "Satu Sakit",
+   "n": 1,
+   "label": "Tiba-tiba & sangat teruk"
+  },
+  {
+   "id": "demam",
+   "marker": "Dua Sakit",
+   "n": 2,
+   "label": "Demam, tengkuk keras, ruam"
+  },
+  {
+   "id": "saraf",
+   "marker": "Tiga Sakit",
+   "n": 3,
+   "label": "Lemah, pelat, kabur, keliru"
+  },
+  {
+   "id": "cedera",
+   "marker": "Empat Sakit",
+   "n": 4,
+   "label": "Selepas kecederaan kepala"
+  },
+  {
+   "id": "baharu",
+   "marker": "Lima Sakit",
+   "n": 5,
+   "label": "Baharu & makin teruk"
+  },
+  {
+   "id": "segera",
+   "marker": "Jika ada tanda"
+  },
+  {
+   "id": "biasa",
+   "marker": "Untuk sakit kepala"
+  },
+  {
+   "id": "pulih",
+   "marker": "Puan Zarina dirawat"
+  },
+  {
+   "id": "penutup",
+   "marker": "Sakit kepala luar"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat",
+  "Lima"
+ ],
+ "keywords": [
+  "Sakit kepala biasa",
+  "tanda kecemasan",
+  "membezakannya",
+  "Puan Zarina",
+  "42 tahun",
+  "Tiba-tiba",
+  "dihentak",
+  "paling teruk",
+  "muntah",
+  "tengkuknya terasa keras",
+  "ubat tahan sakit",
+  "hospital",
+  "Imbasan otak",
+  "pendarahan dalam otak",
+  "tidak berbahaya",
+  "5 tanda bahaya",
+  "tiba-tiba",
+  "sangat teruk",
+  "memuncak",
+  "beberapa minit",
+  "demam",
+  "tengkuk keras",
+  "ruam",
+  "lemah sebelah badan",
+  "pelat",
+  "penglihatan kabur",
+  "keliru",
+  "pengsan",
+  "kecederaan kepala",
+  "baharu",
+  "makin teruk",
+  "50 tahun",
+  "bangun tidur",
+  "999",
+  "rehat",
+  "minum air",
+  "jangan terlalu kerap",
+  "sakit kepala berulang",
+  "dirawat segera",
+  "pulih",
+  "luar biasa",
+  "Jangan tunggu",
+  "rawatan segera",
+  "Dr. Azren"
+ ],
+ "corrections": {
+  "empat puluh dua tahun": "42 tahun",
+  "lima puluh tahun": "50 tahun",
+  "sembilan sembilan sembilan": "999",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.35,
+  "sfx": [
+   {
+    "file": "sting.mp3",
+    "at": "dihentak",
+    "offset": 0,
+    "volume": 0.7
+   },
+   {
+    "file": "siren.mp3",
+    "at": "terus bawa",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "sting.mp3",
+    "at": "pendarahan",
+    "offset": 0,
+    "volume": 0.8
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu Sakit",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Sakit",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Sakit",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Sakit",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Lima Sakit",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "slap.mp3",
+    "at": "segera ke hospital",
+    "offset": 0,
+    "volume": 0.45
+   },
+   {
+    "file": "chime.mp3",
+    "at": "sudah pulih",
+    "offset": 0,
+    "volume": 0.8
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "SAKIT KEPALA BIASA ATAU KECEMASAN?",
+  "headline": [
+   "SAKIT",
+   "KEPALA"
+  ],
+  "highlight": "5 tanda bahaya perlu tahu",
+  "sub": "Tiba-tiba & paling teruk? Telefon 999",
+  "tags": []
+ }
+}

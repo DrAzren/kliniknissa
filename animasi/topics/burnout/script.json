@@ -1,0 +1,212 @@
+{
+ "id": "burnout",
+ "title": "Penat Yang Tak Hilang? Mungkin Burnout",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[tired] Penat... walaupun sudah tidur. Kerja yang dulu anda suka, kini terasa kosong.\n\n[storytelling] Aina, tiga puluh empat tahun, seorang jururawat. Berbulan-bulan dia bekerja syif panjang, menggantikan rakan yang cuti.\n\n[worried] Dia mula rasa letih sepanjang masa, sinis terhadap kerja, dan rasa dirinya tak mampu lagi. Bercuti seminggu pun tak membantu.\n\n[serious] Doktor menilai, dan sahkan... Aina mengalami burnout akibat tekanan kerja.\n\n[warmly] Burnout boleh berlaku kepada sesiapa sahaja. Ini lima perkara yang perlu anda tahu.\n\nSatu. Keletihan melampau. Tenaga terasa habis, walaupun selepas berehat.\n\nDua. Menjauh dari kerja. Rasa sinis, negatif, atau tidak peduli lagi.\n\nTiga. Rasa tidak mampu. Prestasi kerja menurun, dan keyakinan diri hilang.\n\nEmpat. Punca utamanya ialah tekanan kerja berpanjangan yang tidak diurus. Pertubuhan Kesihatan Sedunia menganggapnya fenomena pekerjaan, bukan kelemahan diri.\n\nLima. Bertindak awal. Bincang beban kerja dengan majikan, tetapkan had waktu kerja, cukupkan tidur, bersenam, dan dapatkan sokongan.\n\n[reassuring] Jika tanda berterusan, atau anda rasa murung dan hilang minat dalam semua perkara, jumpa doktor. Burnout boleh bertindih dengan kemurungan.\n\n[relieved] Selepas beban kerjanya diubah suai, Aina kembali bertenaga, dan tersenyum semula.\n\n[warmly] Penat yang tak hilang-hilang? Jangan tunggu. Dapatkan bantuan. Saya Doktor Azren.",
+  "note": "1 take sahaja (pilihan A). ElevenLabs Flow Fnm0kRut4YgOkadR0b7I, generation VIg8sTnbaOQvS6O4CZl7, 82.88 s. Muzik dan SFX diguna semula."
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "aina",
+   "marker": "Aina tiga"
+  },
+  {
+   "id": "letih",
+   "marker": "Dia mula"
+  },
+  {
+   "id": "diagnosis",
+   "marker": "Doktor menilai"
+  },
+  {
+   "id": "lima",
+   "marker": "Burnout boleh"
+  },
+  {
+   "id": "habis",
+   "marker": "Satu Keletihan",
+   "n": 1,
+   "label": "Keletihan melampau"
+  },
+  {
+   "id": "jauh",
+   "marker": "Dua Menjauh",
+   "n": 2,
+   "label": "Menjauh dari kerja"
+  },
+  {
+   "id": "mampu",
+   "marker": "Tiga Rasa",
+   "n": 3,
+   "label": "Rasa tidak mampu"
+  },
+  {
+   "id": "punca",
+   "marker": "Empat Punca",
+   "n": 4,
+   "label": "Fenomena pekerjaan (WHO)"
+  },
+  {
+   "id": "tindak",
+   "marker": "Lima Bertindak",
+   "n": 5,
+   "label": "Bertindak awal"
+  },
+  {
+   "id": "doktor",
+   "marker": "Jika tanda"
+  },
+  {
+   "id": "pulih",
+   "marker": "Selepas beban"
+  },
+  {
+   "id": "penutup",
+   "marker": "Penat yang tak"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat",
+  "Lima"
+ ],
+ "keywords": [
+  "Penat",
+  "sudah tidur",
+  "kosong",
+  "Aina",
+  "34 tahun",
+  "jururawat",
+  "Berbulan-bulan",
+  "syif panjang",
+  "letih sepanjang masa",
+  "sinis",
+  "tak mampu lagi",
+  "Bercuti seminggu",
+  "burnout",
+  "tekanan kerja",
+  "sesiapa sahaja",
+  "5 perkara",
+  "Keletihan melampau",
+  "Tenaga terasa habis",
+  "Menjauh dari kerja",
+  "negatif",
+  "tidak peduli",
+  "Rasa tidak mampu",
+  "Prestasi kerja menurun",
+  "keyakinan diri",
+  "tekanan kerja berpanjangan",
+  "tidak diurus",
+  "Pertubuhan Kesihatan Sedunia",
+  "fenomena pekerjaan",
+  "bukan kelemahan diri",
+  "Bertindak awal",
+  "beban kerja",
+  "majikan",
+  "had waktu kerja",
+  "cukupkan tidur",
+  "bersenam",
+  "sokongan",
+  "berterusan",
+  "murung",
+  "hilang minat",
+  "jumpa doktor",
+  "kemurungan",
+  "diubah suai",
+  "bertenaga",
+  "tersenyum",
+  "tak hilang-hilang",
+  "Jangan tunggu",
+  "Dapatkan bantuan",
+  "Dr. Azren"
+ ],
+ "corrections": {
+  "tiga puluh empat tahun": "34 tahun",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.35,
+  "sfx": [
+   {
+    "file": "tick.mp3",
+    "at": "Penat",
+    "offset": 0,
+    "volume": 0.45
+   },
+   {
+    "file": "alarm.mp3",
+    "at": "syif",
+    "offset": 0,
+    "volume": 0.4
+   },
+   {
+    "file": "sting.mp3",
+    "at": "burnout akibat",
+    "offset": 0,
+    "volume": 0.8
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu Keletihan",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Menjauh",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Rasa",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Punca",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Lima Bertindak",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "chime.mp3",
+    "at": "tersenyum",
+    "offset": 0,
+    "volume": 0.8
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "PENAT YANG TAK HILANG-HILANG?",
+  "headline": [
+   "MUNGKIN",
+   "BURNOUT"
+  ],
+  "highlight": "5 perkara perlu anda tahu",
+  "sub": "Letih, sinis & rasa tak mampu?",
+  "tags": []
+ }
+}

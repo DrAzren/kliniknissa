@@ -1,0 +1,218 @@
+{
+ "id": "lemas",
+ "title": "Lemas Berlaku Senyap dan Pantas",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[urgent] Lemas tidak berbunyi. Tiada jeritan, tiada lambaian... dan ia berlaku dalam masa beberapa saat.\n\n[storytelling] Cuti sekolah. Irfan, empat tahun, bermain di tepi kolam renang. Ayahnya leka membalas mesej di telefon.\n\n[worried] Irfan tergelincir ke bahagian yang dalam, dan tenggelam tanpa suara. Mujur seorang penyelamat nampak, dan terus menariknya keluar.\n\n[serious] Irfan diberi bantuan pernafasan, dan dibawa ke hospital. Doktor kata... beberapa saat lagi, keadaannya boleh jadi lebih teruk.\n\n[warmly] Lemas ialah antara punca utama kematian kanak-kanak. Ini lima perkara yang ibu bapa perlu tahu.\n\nSatu. Awasi sentiasa. Kanak-kanak kecil mesti berada dalam jangkauan tangan anda. Simpan telefon.\n\nDua. Lemas berlaku senyap. Anak mungkin tidak menjerit atau melambai, jadi jangan tunggu bunyi.\n\nTiga. Tutup dan pagar. Pagar kolam, tutup tong air, dan kosongkan baldi serta besen selepas digunakan.\n\nEmpat. Jauhi air bahaya. Jangan biar anak bermain air banjir, sungai atau pantai tanpa pengawasan, dan pakai jaket keselamatan.\n\nLima. Ajar anak berenang dan keselamatan air. Ibu bapa pula, belajar C-P-R.\n\n[serious] Jika anak lemas, keluarkan dari air, telefon sembilan sembilan sembilan, dan mulakan C-P-R jika dia tidak bernafas. Walaupun nampak pulih, bawa ke hospital.\n\n[relieved] Irfan pulih sepenuhnya, dan kini ayahnya sentiasa berada di sisinya.\n\n[warmly] Cuti sekolah, banyak aktiviti air. Jangan leka. Awasi anak anda. Saya Doktor Azren.",
+  "note": "1 take sahaja (pilihan A). ElevenLabs Flow Fnm0kRut4YgOkadR0b7I, generation 14jZCDPtifteKMEj7dLv, 88.16 s. Muzik dan SFX diguna semula."
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "irfan",
+   "marker": "Cuti sekolah Irfan"
+  },
+  {
+   "id": "tenggelam",
+   "marker": "Irfan tergelincir"
+  },
+  {
+   "id": "hospital",
+   "marker": "Irfan diberi"
+  },
+  {
+   "id": "lima",
+   "marker": "Lemas ialah"
+  },
+  {
+   "id": "awasi",
+   "marker": "Satu Awasi",
+   "n": 1,
+   "label": "Awasi sentiasa"
+  },
+  {
+   "id": "senyap",
+   "marker": "Dua Lemas",
+   "n": 2,
+   "label": "Lemas berlaku senyap"
+  },
+  {
+   "id": "pagar",
+   "marker": "Tiga Tutup",
+   "n": 3,
+   "label": "Tutup & pagar"
+  },
+  {
+   "id": "jauhi",
+   "marker": "Empat Jauhi",
+   "n": 4,
+   "label": "Jauhi air bahaya"
+  },
+  {
+   "id": "ajar",
+   "marker": "Lima Ajar",
+   "n": 5,
+   "label": "Berenang & belajar CPR"
+  },
+  {
+   "id": "cpr",
+   "marker": "Jika anak lemas"
+  },
+  {
+   "id": "pulih",
+   "marker": "Irfan pulih"
+  },
+  {
+   "id": "penutup",
+   "marker": "Cuti sekolah banyak"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat",
+  "Lima"
+ ],
+ "keywords": [
+  "Lemas tidak berbunyi",
+  "Tiada jeritan",
+  "tiada lambaian",
+  "beberapa saat",
+  "Cuti sekolah",
+  "Irfan",
+  "4 tahun",
+  "kolam renang",
+  "leka",
+  "telefon",
+  "tergelincir",
+  "bahagian yang dalam",
+  "tenggelam tanpa suara",
+  "penyelamat",
+  "menariknya keluar",
+  "bantuan pernafasan",
+  "hospital",
+  "lebih teruk",
+  "punca utama kematian",
+  "kanak-kanak",
+  "5 perkara",
+  "ibu bapa",
+  "Awasi sentiasa",
+  "jangkauan tangan",
+  "Simpan telefon",
+  "Lemas berlaku senyap",
+  "menjerit",
+  "melambai",
+  "jangan tunggu bunyi",
+  "Tutup dan pagar",
+  "Pagar kolam",
+  "tong air",
+  "baldi",
+  "besen",
+  "Jauhi air bahaya",
+  "air banjir",
+  "sungai",
+  "pantai",
+  "pengawasan",
+  "jaket keselamatan",
+  "berenang",
+  "keselamatan air",
+  "CPR",
+  "keluarkan dari air",
+  "999",
+  "tidak bernafas",
+  "nampak pulih",
+  "pulih sepenuhnya",
+  "di sisinya",
+  "Jangan leka",
+  "Awasi anak anda",
+  "Dr. Azren"
+ ],
+ "corrections": {
+  "empat tahun": "4 tahun",
+  "C-P-R": "CPR",
+  "sembilan sembilan sembilan": "999",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.35,
+  "sfx": [
+   {
+    "file": "splash.mp3",
+    "at": "tergelincir",
+    "offset": 0.3,
+    "volume": 0.6
+   },
+   {
+    "file": "sting.mp3",
+    "at": "tanpa suara",
+    "offset": 0,
+    "volume": 0.7
+   },
+   {
+    "file": "siren.mp3",
+    "at": "hospital",
+    "offset": 0,
+    "volume": 0.45
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu Awasi",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Lemas",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Tutup",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Jauhi",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Lima Ajar",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "chime.mp3",
+    "at": "sisinya",
+    "offset": 0,
+    "volume": 0.8
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "CUTI SEKOLAH, AKTIVITI AIR",
+  "headline": [
+   "LEMAS",
+   "SENYAP"
+  ],
+  "highlight": "5 langkah lindungi anak",
+  "sub": "Tiada jeritan, tiada lambaian",
+  "tags": []
+ }
+}
