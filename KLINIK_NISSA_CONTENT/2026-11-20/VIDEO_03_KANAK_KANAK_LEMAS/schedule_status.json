@@ -1,25 +1,48 @@
 {
- "video_id": "2026-11-20_VIDEO_03_KANAK_KANAK_LEMAS_lemas",
- "status": "READY_NOT_SCHEDULED",
- "approval_gate": {
-  "medical_accuracy": "PENDING (medical_references.md, items marked 'Semak')",
-  "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
-  "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding)",
-  "publishing_instruction": "Not scheduled. Schedule on Metricool only when the user asks."
- },
- "scheduled_posts": [],
- "elevenlabs": {
-  "flow_id": "Fnm0kRut4YgOkadR0b7I",
-  "tts_generation_id": "14jZCDPtifteKMEj7dLv",
-  "tts_credits": 1458.9,
-  "tts_duration_s": 88.16,
-  "sfx": {
-   "file": "splash (pour.mp3) & siren.mp3 diguna semula (0 kredit)",
-   "generation_id": "—",
-   "credits": 0
+  "video_id": "2026-11-20_VIDEO_03_KANAK_KANAK_LEMAS_lemas",
+  "status": "SCHEDULED",
+  "approval_gate": {
+    "medical_accuracy": "PENDING (medical_references.md, items marked 'Semak')",
+    "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
+    "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding)",
+    "publishing_instruction": "User instructed (2026-11-22: 'cari waktu terbaik esok dan jadualkan esok') to schedule on Metricool for 23 Nov at the best times; AI-generated label OFF, commercial content OFF (made-for-kids applies only to YouTube, which this brand does not have)"
   },
-  "music": "reused jenis-nyamuk/music.mp3 (0 credits)",
-  "scribe_credits": 0
- },
- "higgsfield_credits": 0
+  "scheduled_posts": [
+    {
+      "metricool_post_id": 437522722,
+      "uuid": "-7599403169483634782",
+      "publication": "2026-11-23 18:10 Asia/Kuala_Lumpur",
+      "networks": {
+        "facebook": "REEL / PENDING",
+        "instagram": "REEL, showReelOnFeed, isAiGenerated=false / PENDING",
+        "tiktok": "PUBLIC, isAigc=false, commercial (own brand / third party) = false, title 'Lemas berlaku senyap dan pantas' / PENDING"
+      },
+      "autoPublish": true,
+      "caption_file": "caption_instagram.txt",
+      "source_media": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JY4YdIKVikfVoQnvogqPkiBhNk/90182d69-59bd-433b-b5eb-1a570ba36978.mp4",
+      "media": "https://static.metricool.com/planner/202611/7840561-file-12534659716684720193.mp4",
+      "thumbnail": "https://static.metricool.com/planner/202611/7840561-file-14709656953289366519.jpeg",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7840561&openWithPostUuid=-7599403169483634782"
+    }
+  ],
+  "elevenlabs": {
+    "flow_id": "Fnm0kRut4YgOkadR0b7I",
+    "tts_generation_id": "14jZCDPtifteKMEj7dLv",
+    "tts_credits": 1458.9,
+    "tts_duration_s": 88.16,
+    "sfx": {
+      "file": "splash (pour.mp3) & siren.mp3 diguna semula (0 kredit)",
+      "generation_id": "—",
+      "credits": 0
+    },
+    "music": "reused jenis-nyamuk/music.mp3 (0 credits)",
+    "scribe_credits": 0
+  },
+  "higgsfield_credits": 0,
+  "notes": "Times from Metricool best-time data for Monday (FB 10:00 > 12:00 > 11:00 > 17:00; TikTok 18:00 > 10:00 > 12:00; IG 18:00 = 20:00 > 16:00). Media hosted on the user's Higgsfield storage (free upload, 0 credits); Metricool copied it to its own storage. Medical review still pending.",
+  "metricool_brand": {
+    "label": "Klinik Nissa",
+    "brandId": 7840561,
+    "timezone": "Asia/Kuala_Lumpur"
+  }
 }

@@ -1,5 +1,5 @@
 # Daily production report — 2026-11-20 batch (produced 2026-11-22, branch `claude/upbeat-wozniak-5k7bfp`)
-Three animated videos in the same concept as the previous batches (Remotion `animasi/`, Violet Flat SVG, avatar `dr-azren`, hook → story → diagnosis → #1–#5 → recovery → "jangan tunggu… saya Doktor Azren"). Ideas were proposed on 20 Nov; the user approved on 22 Nov ("hasilkan tiga2 video ini") without naming an option, so the cheapest option **A** was used: new voice (1 take each), **no new SFX, no new music** (music from `jenis-nyamuk`, siren from `strok`, water from `cirit-birit-anak`, tick from `kebimbangan-gad`, alarm from `insomnia`). Topics checked against every branch (34 earlier topics) so none repeat. No helpline line. **No clinic CTA.** **Not scheduled.**
+Three animated videos in the same concept as the previous batches (Remotion `animasi/`, Violet Flat SVG, avatar `dr-azren`, hook → story → diagnosis → #1–#5 → recovery → "jangan tunggu… saya Doktor Azren"). Ideas were proposed on 20 Nov; the user approved on 22 Nov ("hasilkan tiga2 video ini") without naming an option, so the cheapest option **A** was used: new voice (1 take each), **no new SFX, no new music** (music from `jenis-nyamuk`, siren from `strok`, water from `cirit-birit-anak`, tick from `kebimbangan-gad`, alarm from `insomnia`). Topics checked against every branch (34 earlier topics) so none repeat. No helpline line. **No clinic CTA.** **Scheduled** on Metricool for 23 Nov at the user's request (see below).
 
 Shared code: `animasi/src/topics/_kit/kit.tsx` gained 6 icons (battery with level, water waves, life jacket, fence, CPR, headache). Topics registered in `src/topics/index.ts`.
 
@@ -78,3 +78,14 @@ Shared code: `animasi/src/topics/_kit/kit.tsx` gained 6 icons (battery with leve
 - Folder date is 2026-11-20 (the day the ideas were proposed); production happened on 2026-11-22.
 - Pronunciation could not be checked automatically. Please listen for: "sembilan sembilan sembilan", pendarahan, pelat, burnout, sinis, "Pertubuhan Kesihatan Sedunia", "C-P-R", penyelamat.
 - Remaining credit balance could not be read (the ElevenLabs usage tool needs extra connector permission).
+
+## Scheduling (Metricool, brand Klinik Nissa, Asia/Kuala_Lumpur)
+Requested 2026-11-22 ~20:30: "cari waktu terbaik esok dan jadualkan esok". Facebook Reel + Instagram Reel (shown on feed) + TikTok (public), auto-publish, caption = `caption_instagram.txt`. AI-generated label OFF (IG `isAiGenerated`, TikTok `isAigc`), commercial content OFF (TikTok own brand / third party), TikTok auto-music OFF. Made-for-kids: not applicable (no YouTube on this brand).
+
+| Time (MYT) | Video | Metricool post id | Why this slot |
+|---|---|---|---|
+| Mon 23 Nov 10:10 | VIDEO_01 Sakit Kepala | 437522630 | FB 10:00 (top hour of the day), TikTok 10:00 (2nd) |
+| Mon 23 Nov 18:10 | VIDEO_03 Lemas | 437522722 | TikTok 18:00 (top), IG 18:00 (top), FB 17–18; parents home after work |
+| Mon 23 Nov 20:40 | VIDEO_02 Burnout | 437522814 | IG 20:00 (joint top); end of the first workday of the week fits the topic |
+
+Media uploaded to the user's Higgsfield storage (free `media_upload`, 0 credits; sizes verified equal to local files); Metricool copied it to its own storage. Medical review is still pending: please check before 10:10 on 23 Nov.
