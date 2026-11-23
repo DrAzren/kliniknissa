@@ -1,5 +1,5 @@
 # Daily production report — 2026-11-24 batch (produced 2026-11-23, branch `claude/upbeat-wozniak-5k7bfp`)
-Three animated videos in the same concept as the previous batches (Remotion `animasi/`, Violet Flat SVG, avatar `dr-azren`, hook → story → diagnosis → #1–#5 → recovery → "jangan tunggu… saya Doktor Azren"). The user approved option **A+** ("+ A, ditambah 2 SFX baharu ~4,378"): new voice (1 take each), **2 new short SFX** (pill bottle rattle, digital thermometer beep), music reused from `jenis-nyamuk`. Topics checked against all 37 earlier topics, so none repeat. No helpline line. **No clinic CTA.** **Not scheduled** (schedule on Metricool only when the user asks).
+Three animated videos in the same concept as the previous batches (Remotion `animasi/`, Violet Flat SVG, avatar `dr-azren`, hook → story → diagnosis → #1–#5 → recovery → "jangan tunggu… saya Doktor Azren"). The user approved option **A+** ("+ A, ditambah 2 SFX baharu ~4,378"): new voice (1 take each), **2 new short SFX** (pill bottle rattle, digital thermometer beep), music reused from `jenis-nyamuk`. Topics checked against all 37 earlier topics, so none repeat. No helpline line. **No clinic CTA.** **Scheduled** on Metricool for 24 Nov at the user's request (see below).
 
 Shared code: `animasi/src/topics/_kit/kit.tsx` gained 9 icons:
 - syringe
@@ -75,7 +75,7 @@ Topics are registered in `src/topics/index.ts` (`kanser-serviks`, `mitos-antidep
 - `caption_facebook.txt`, `caption_instagram.txt`, `caption_tiktok.txt` (no hashtags)
 - `storyboard.md`
 - `medical_references.md`
-- `schedule_status.json` (status `READY_NOT_SCHEDULED`)
+- `schedule_status.json` 
 
 ## Usage (verified from tool responses)
 - **ElevenLabs:** **≈4,377.0 credits** (estimate before approval: ~4,378 for option A+)
@@ -90,3 +90,14 @@ Topics are registered in `src/topics/index.ts` (`kanser-serviks`, `mitos-antidep
 - Folder date is 2026-11-24 (the planned posting day); production happened on 2026-11-23.
 - Pronunciation could not be checked automatically. Please listen for: "H-P-V", pra-kanser, keputihan, antidepresan, khayal, kebergantungan, parasetamol, kebah, "tiga puluh sembilan darjah".
 - The remaining credit balance could not be read (the ElevenLabs usage tool needs extra connector permission).
+
+## Scheduling (Metricool, brand Klinik Nissa, Asia/Kuala_Lumpur)
+Requested 2026-11-23 ~21:00: "cari waktu terbaik esok dan jadualkan esok". Facebook Reel + Instagram Reel (shown on feed) + TikTok (public), auto-publish, caption = `caption_instagram.txt`, custom thumbnail. AI-generated label OFF (IG `isAiGenerated`, TikTok `isAigc`), commercial content OFF (TikTok own brand / third party), TikTok auto-music OFF. Made-for-kids: not applicable (no YouTube on this brand).
+
+| Time (MYT) | Video | Metricool post id | Why this slot |
+|---|---|---|---|
+| Tue 24 Nov 10:10 | VIDEO_01 Kanser Serviks | 438760604 | FB 10:00 (top hour of the day), TikTok 10:00 (top) |
+| Tue 24 Nov 12:20 | VIDEO_02 Mitos Antidepresan | 438762591 | FB 12:00 (2nd), TikTok 12:00 (3rd); lunch break |
+| Tue 24 Nov 18:10 | VIDEO_03 Anak Demam | 438762746 | IG 18:00 (top), TikTok 18:00 (2nd); parents home after work |
+
+Media uploaded to the user's Higgsfield storage (free `media_upload`, 0 credits; sizes verified equal to local files); Metricool copied it to its own storage. Medical review is still pending: please check before 10:10 on 24 Nov.
