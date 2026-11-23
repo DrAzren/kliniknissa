@@ -1,0 +1,214 @@
+{
+ "id": "mitos-antidepresan",
+ "title": "Ubat Kemurungan Buat Ketagih? Ini Faktanya",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[curious] Ubat kemurungan buat ketagih? Kena makan seumur hidup? Mari kita betulkan mitos ini.\n\n[storytelling] Encik Kamal, empat puluh tahun, juruteknik. Doktor sahkan dia menghidap kemurungan, dan memberinya ubat antidepresan.\n\n[worried] Tapi Kamal takut. Kawannya kata, ubat itu buat ketagih, dan tak boleh berhenti. Dia simpan ubat itu di dalam laci.\n\n[serious] Dua bulan kemudian, kemurungannya bertambah teruk. Dia kembali berjumpa doktor, dan berbincang secara terbuka.\n\n[warmly] Ramai yang takut seperti Kamal. Ini lima fakta tentang ubat kemurungan.\n\nSatu. Antidepresan bukan ubat ketagihan. Ia tidak membuat anda khayal, dan tidak menyebabkan keinginan untuk menambah dos.\n\nDua. Ia mengambil masa. Kesan biasanya mula terasa selepas beberapa minggu, jadi teruskan seperti yang diarahkan.\n\nTiga. Kesan sampingan biasanya ringan, dan sering berkurang. Beritahu doktor jika ada masalah.\n\nEmpat. Jangan berhenti mendadak. Berhenti tiba-tiba boleh menyebabkan simptom yang tidak selesa. Kurangkan dos secara berperingkat bersama doktor.\n\nLima. Ubat penenang berbeza. Sesetengah ubat penenang dan ubat tidur boleh menyebabkan kebergantungan, jadi ia hanya untuk jangka pendek.\n\n[reassuring] Ubat bukan satu-satunya rawatan. Terapi bercakap dan sokongan keluarga juga penting.\n\n[relieved] Kamal kini mengambil ubat dengan betul, mengikuti sesi terapi, dan semakin pulih.\n\n[warmly] Ada keraguan tentang ubat anda? Jangan berhenti sendiri. Bincang dengan doktor. Saya Doktor Azren.",
+  "note": "1 take sahaja (pilihan A+). ElevenLabs Flow XREJc6AQFfErqwHkqdjf, generation dg0M8FM8NhSbKnoz7kTC, 86.64 s. Muzik diguna semula; SFX baharu pills.mp3 (t2sUwrA5wPTgEOJkgcYR)."
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "kamal",
+   "marker": "Encik Kamal"
+  },
+  {
+   "id": "takut",
+   "marker": "Tapi Kamal"
+  },
+  {
+   "id": "teruk",
+   "marker": "Dua bulan kemudian"
+  },
+  {
+   "id": "lima",
+   "marker": "Ramai yang"
+  },
+  {
+   "id": "ketagih",
+   "marker": "Satu Antidepresan",
+   "n": 1,
+   "label": "Bukan ubat ketagihan"
+  },
+  {
+   "id": "masa",
+   "marker": "Dua Ia",
+   "n": 2,
+   "label": "Ia mengambil masa"
+  },
+  {
+   "id": "sampingan",
+   "marker": "Tiga Kesan",
+   "n": 3,
+   "label": "Kesan sampingan ringan"
+  },
+  {
+   "id": "henti",
+   "marker": "Empat Jangan",
+   "n": 4,
+   "label": "Jangan berhenti mendadak"
+  },
+  {
+   "id": "penenang",
+   "marker": "Lima Ubat",
+   "n": 5,
+   "label": "Ubat penenang berbeza"
+  },
+  {
+   "id": "terapi",
+   "marker": "Ubat bukan"
+  },
+  {
+   "id": "pulih",
+   "marker": "Kamal kini"
+  },
+  {
+   "id": "penutup",
+   "marker": "Ada keraguan"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat",
+  "Lima"
+ ],
+ "keywords": [
+  "ketagih",
+  "seumur hidup",
+  "mitos",
+  "Kamal",
+  "40 tahun",
+  "juruteknik",
+  "kemurungan",
+  "antidepresan",
+  "takut",
+  "tak boleh berhenti",
+  "laci",
+  "2 bulan",
+  "bertambah teruk",
+  "berbincang",
+  "terbuka",
+  "5 fakta",
+  "bukan ubat ketagihan",
+  "khayal",
+  "menambah dos",
+  "mengambil masa",
+  "beberapa minggu",
+  "teruskan",
+  "Kesan sampingan",
+  "ringan",
+  "berkurang",
+  "Beritahu doktor",
+  "berhenti mendadak",
+  "tidak selesa",
+  "berperingkat",
+  "Ubat penenang",
+  "ubat tidur",
+  "kebergantungan",
+  "jangka pendek",
+  "satu-satunya rawatan",
+  "Terapi bercakap",
+  "sokongan keluarga",
+  "dengan betul",
+  "sesi terapi",
+  "semakin pulih",
+  "keraguan",
+  "Jangan berhenti sendiri",
+  "Bincang dengan doktor",
+  "Dr. Azren"
+ ],
+ "corrections": {
+  "empat puluh tahun": "40 tahun",
+  "Dua bulan": "2 bulan",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.35,
+  "sfx": [
+   {
+    "file": "pills.mp3",
+    "at": "simpan ubat",
+    "offset": 0,
+    "volume": 0.6
+   },
+   {
+    "file": "slap.mp3",
+    "at": "laci",
+    "offset": 0,
+    "volume": 0.35
+   },
+   {
+    "file": "sting.mp3",
+    "at": "bertambah teruk",
+    "offset": 0,
+    "volume": 0.7
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu Antidepresan",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Ia",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Kesan",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Jangan",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Lima Ubat",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pills.mp3",
+    "at": "Kamal kini",
+    "offset": 0,
+    "volume": 0.4
+   },
+   {
+    "file": "chime.mp3",
+    "at": "semakin pulih",
+    "offset": 0,
+    "volume": 0.8
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "UBAT KEMURUNGAN BUAT KETAGIH?",
+  "headline": [
+   "MITOS",
+   "ANTIDEPRESAN"
+  ],
+  "highlight": "5 fakta perlu anda tahu",
+  "sub": "Jangan berhenti sendiri",
+  "tags": []
+ }
+}

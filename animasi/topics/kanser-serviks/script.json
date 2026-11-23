@@ -1,0 +1,199 @@
+{
+ "id": "kanser-serviks",
+ "title": "Kanser Serviks: Saringan Sebelum Terlambat",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[serious] Kanser serviks boleh dicegah... tapi ramai wanita tak pernah buat saringan. Kenapa?\n\n[storytelling] Puan Hidayah, tiga puluh lapan tahun, peniaga kain. Dia tak pernah buat saringan, sebab tiada sakit, dan rasa malu.\n\n[worried] Bulan lalu, kawan baiknya disahkan menghidap kanser serviks. Hidayah mula risau, lalu pergi ke klinik.\n\n[serious] Ujian H-P-V dibuat, dan doktor sahkan... ada perubahan sel pada pangkal rahim, di peringkat pra-kanser.\n\n[warmly] Kerana dikesan awal, ia boleh dirawat sebelum menjadi kanser. Ini lima perkara yang perlu anda tahu.\n\nSatu. Punca utama. Hampir semua kanser serviks berpunca daripada jangkitan H-P-V yang berpanjangan.\n\nDua. Peringkat awal biasanya tiada tanda. Jangan tunggu sakit untuk buat saringan.\n\nTiga. Buat saringan. Wanita berumur tiga puluh hingga enam puluh lima tahun digalakkan buat ujian H-P-V, dan ada pilihan mengambil sampel sendiri.\n\nEmpat. Kenali tanda amaran. Pendarahan selepas hubungan suami isteri, di antara haid, atau selepas putus haid, dan keputihan yang luar biasa.\n\nLima. Vaksin H-P-V melindungi. Ia diberi kepada pelajar perempuan di sekolah, dan wanita dewasa boleh bertanya kepada doktor.\n\n[reassuring] Jika keputusan ujian positif, jangan panik. Ia bukan bermaksud kanser, tapi perlu pemeriksaan lanjut.\n\n[relieved] Puan Hidayah dirawat awal, dan kini mengingatkan kawan-kawannya supaya buat saringan.\n\n[warmly] Sudah lama tak buat saringan? Jangan tunggu. Buat ujian H-P-V. Saya Doktor Azren.",
+  "note": "1 take sahaja (pilihan A+). ElevenLabs Flow XREJc6AQFfErqwHkqdjf, generation ED5ubCLK31EzoW7Hq00N, 86.08 s. Muzik dan SFX diguna semula."
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "hidayah",
+   "marker": "Puan Hidayah tiga"
+  },
+  {
+   "id": "risau",
+   "marker": "Bulan lalu"
+  },
+  {
+   "id": "diagnosis",
+   "marker": "Ujian HPV dibuat"
+  },
+  {
+   "id": "lima",
+   "marker": "Kerana dikesan"
+  },
+  {
+   "id": "punca",
+   "marker": "Satu Punca",
+   "n": 1,
+   "label": "Punca utama: HPV"
+  },
+  {
+   "id": "senyap",
+   "marker": "Dua Peringkat",
+   "n": 2,
+   "label": "Awal tiada tanda"
+  },
+  {
+   "id": "saringan",
+   "marker": "Tiga Buat",
+   "n": 3,
+   "label": "Buat saringan"
+  },
+  {
+   "id": "amaran",
+   "marker": "Empat Kenali",
+   "n": 4,
+   "label": "Kenali tanda amaran"
+  },
+  {
+   "id": "vaksin",
+   "marker": "Lima Vaksin",
+   "n": 5,
+   "label": "Vaksin HPV"
+  },
+  {
+   "id": "positif",
+   "marker": "Jika keputusan"
+  },
+  {
+   "id": "pulih",
+   "marker": "Puan Hidayah dirawat"
+  },
+  {
+   "id": "penutup",
+   "marker": "Sudah lama"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat",
+  "Lima"
+ ],
+ "keywords": [
+  "Kanser serviks",
+  "dicegah",
+  "tak pernah buat saringan",
+  "Hidayah",
+  "38 tahun",
+  "peniaga kain",
+  "malu",
+  "kawan baiknya",
+  "risau",
+  "klinik",
+  "HPV",
+  "perubahan sel",
+  "pangkal rahim",
+  "pra-kanser",
+  "dikesan awal",
+  "dirawat",
+  "5 perkara",
+  "Punca utama",
+  "jangkitan",
+  "berpanjangan",
+  "tiada tanda",
+  "Jangan tunggu sakit",
+  "Buat saringan",
+  "30–65 tahun",
+  "ujian HPV",
+  "sampel sendiri",
+  "tanda amaran",
+  "Pendarahan",
+  "hubungan suami isteri",
+  "antara haid",
+  "putus haid",
+  "keputihan",
+  "luar biasa",
+  "Vaksin HPV",
+  "melindungi",
+  "pelajar perempuan",
+  "wanita dewasa",
+  "positif",
+  "jangan panik",
+  "bukan bermaksud kanser",
+  "pemeriksaan lanjut",
+  "dirawat awal",
+  "supaya buat saringan",
+  "Jangan tunggu",
+  "Dr. Azren"
+ ],
+ "corrections": {
+  "tiga puluh lapan tahun": "38 tahun",
+  "tiga puluh hingga enam puluh lima tahun": "30–65 tahun",
+  "H-P-V": "HPV",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.35,
+  "sfx": [
+   {
+    "file": "sting.mp3",
+    "at": "peringkat pra-kanser",
+    "offset": 0,
+    "volume": 0.75
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu Punca",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Peringkat",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Buat",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Kenali",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Lima Vaksin",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "chime.mp3",
+    "at": "Hidayah dirawat",
+    "offset": 0,
+    "volume": 0.8
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "TAK PERNAH BUAT SARINGAN?",
+  "headline": [
+   "KANSER",
+   "SERVIKS"
+  ],
+  "highlight": "5 perkara perlu anda tahu",
+  "sub": "Boleh dicegah & dikesan awal",
+  "tags": []
+ }
+}

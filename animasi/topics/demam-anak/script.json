@@ -1,0 +1,217 @@
+{
+ "id": "demam-anak",
+ "title": "Anak Demam: Bila Perlu Jumpa Doktor?",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[concerned] Anak demam tinggi... perlu ke hospital, atau boleh dirawat di rumah?\n\n[storytelling] Hana, tiga tahun, demam sejak semalam. Suhu badannya tiga puluh sembilan darjah. Ibunya panik, dan mahu minta antibiotik.\n\n[warmly] Tapi Hana masih mahu minum, masih bermain, dan ketawa bila suhunya turun.\n\n[serious] Doktor periksa, dan sahkan... Hana mengalami jangkitan virus, dan tidak memerlukan antibiotik.\n\n[warmly] Demam ialah cara badan melawan jangkitan. Ini lima perkara yang ibu bapa perlu tahu.\n\nSatu. Lihat keadaan anak, bukan angka suhu sahaja. Anak yang masih aktif dan mahu minum, biasanya tidak membimbangkan.\n\nDua. Bayi bawah tiga bulan dengan suhu tiga puluh lapan darjah atau lebih, perlu segera dibawa ke hospital.\n\nTiga. Awasi tanda bahaya. Sangat lemah atau sukar dikejutkan, sesak nafas, ruam yang tidak hilang bila ditekan, kejang, atau kurang kencing.\n\nEmpat. Demam lima hari atau lebih, perlu diperiksa doktor.\n\nLima. Di rumah, beri banyak minum, pakaikan baju nipis, dan beri parasetamol ikut dos berat badan jika anak tidak selesa. Tak perlu tuam dengan air sejuk.\n\n[reassuring] Kebanyakan demam kanak-kanak disebabkan virus, dan sembuh sendiri dalam beberapa hari. Antibiotik tidak membantu jangkitan virus.\n\n[relieved] Selepas tiga hari, demam Hana kebah, dan dia kembali ceria.\n\n[warmly] Anak demam dan ada tanda bahaya? Jangan tunggu. Dapatkan rawatan segera. Saya Doktor Azren.",
+  "note": "1 take sahaja (pilihan A+). ElevenLabs Flow XREJc6AQFfErqwHkqdjf, generation alpiO7Swr4JSn8KpsmQJ, 83.12 s. Muzik diguna semula; SFX baharu beep.mp3 (PDDydSlzuR2RqUgcnfEV)."
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "hana",
+   "marker": "Hana tiga"
+  },
+  {
+   "id": "main",
+   "marker": "Tapi Hana"
+  },
+  {
+   "id": "diagnosis",
+   "marker": "Doktor periksa"
+  },
+  {
+   "id": "lima",
+   "marker": "Demam ialah"
+  },
+  {
+   "id": "keadaan",
+   "marker": "Satu Lihat",
+   "n": 1,
+   "label": "Lihat keadaan anak"
+  },
+  {
+   "id": "bayi",
+   "marker": "Dua Bayi",
+   "n": 2,
+   "label": "Bayi bawah 3 bulan"
+  },
+  {
+   "id": "bahaya",
+   "marker": "Tiga Awasi",
+   "n": 3,
+   "label": "Awasi tanda bahaya"
+  },
+  {
+   "id": "limahari",
+   "marker": "Empat Demam",
+   "n": 4,
+   "label": "Demam 5 hari atau lebih"
+  },
+  {
+   "id": "rumah",
+   "marker": "Lima Di",
+   "n": 5,
+   "label": "Penjagaan di rumah"
+  },
+  {
+   "id": "virus",
+   "marker": "Kebanyakan demam"
+  },
+  {
+   "id": "pulih",
+   "marker": "Selepas tiga"
+  },
+  {
+   "id": "penutup",
+   "marker": "Anak demam dan"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat",
+  "Lima"
+ ],
+ "keywords": [
+  "demam tinggi",
+  "hospital",
+  "di rumah",
+  "Hana",
+  "3 tahun",
+  "39°C",
+  "panik",
+  "antibiotik",
+  "masih mahu minum",
+  "bermain",
+  "ketawa",
+  "jangkitan virus",
+  "tidak memerlukan antibiotik",
+  "melawan jangkitan",
+  "5 perkara",
+  "keadaan anak",
+  "angka suhu",
+  "aktif",
+  "tidak membimbangkan",
+  "Bayi",
+  "3 bulan",
+  "38°C",
+  "segera",
+  "tanda bahaya",
+  "Sangat lemah",
+  "sukar dikejutkan",
+  "sesak nafas",
+  "ruam",
+  "ditekan",
+  "kejang",
+  "kurang kencing",
+  "5 hari",
+  "diperiksa doktor",
+  "banyak minum",
+  "baju nipis",
+  "parasetamol",
+  "dos berat badan",
+  "tidak selesa",
+  "air sejuk",
+  "virus",
+  "sembuh sendiri",
+  "tidak membantu",
+  "3 hari",
+  "kebah",
+  "ceria",
+  "Jangan tunggu",
+  "rawatan segera",
+  "Dr. Azren"
+ ],
+ "corrections": {
+  "tiga tahun": "3 tahun",
+  "tiga puluh sembilan darjah": "39°C",
+  "tiga bulan": "3 bulan",
+  "tiga puluh lapan darjah": "38°C",
+  "lima hari": "5 hari",
+  "tiga hari": "3 hari",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.35,
+  "sfx": [
+   {
+    "file": "beep.mp3",
+    "at": "Suhu badannya",
+    "offset": 0,
+    "volume": 0.55
+   },
+   {
+    "file": "beep.mp3",
+    "at": "dengan suhu",
+    "offset": 0,
+    "volume": 0.4
+   },
+   {
+    "file": "sting.mp3",
+    "at": "Awasi tanda",
+    "offset": 0,
+    "volume": 0.6
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu Lihat",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Bayi",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Awasi",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Demam",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Lima Di",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "chime.mp3",
+    "at": "kembali ceria",
+    "offset": 0,
+    "volume": 0.8
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "ANAK DEMAM TINGGI?",
+  "headline": [
+   "BILA PERLU",
+   "JUMPA DOKTOR?"
+  ],
+  "highlight": "5 perkara ibu bapa perlu tahu",
+  "sub": "Lihat keadaan anak, bukan suhu sahaja",
+  "tags": []
+ }
+}
