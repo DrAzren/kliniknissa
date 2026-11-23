@@ -1,0 +1,27 @@
+{
+  "video_id": "2026-11-24_VIDEO_01_KESIHATAN_KANSER_SERVIKS_kanser-serviks",
+  "status": "READY_NOT_SCHEDULED",
+  "approval_gate": {
+    "medical_accuracy": "PENDING (medical_references.md, items marked 'Semak')",
+    "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
+    "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding)",
+    "publishing_instruction": "Not scheduled. Schedule on Metricool only when the user asks (AI-generated label OFF, commercial content OFF)."
+  },
+  "scheduled_posts": [],
+  "suggested_tiktok_title": "Kanser serviks: buat saringan HPV",
+  "elevenlabs": {
+    "flow_id": "XREJc6AQFfErqwHkqdjf",
+    "tts_generation_id": "ED5ubCLK31EzoW7Hq00N",
+    "tts_credits": 1473.9,
+    "tts_duration_s": 86.08,
+    "sfx": {
+      "file": "diguna semula sahaja (0 kredit)",
+      "generation_id": "—",
+      "credits": 0
+    },
+    "music": "reused jenis-nyamuk/music.mp3 (0 credits)",
+    "scribe_credits": 0
+  },
+  "higgsfield_credits": 0,
+  "notes": "Medical review still pending."
+}

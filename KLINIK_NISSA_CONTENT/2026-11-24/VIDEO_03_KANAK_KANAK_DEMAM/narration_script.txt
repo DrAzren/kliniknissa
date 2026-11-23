@@ -1,4 +1,4 @@
-# Anak Demam: Bila Perlu Jumpa Doktor? — narration DRAFT (Dr Azren, ElevenLabs eleven_v4, 1 take) — 1408 aksara, MENUNGGU 'OK jana'
+# Anak Demam: Bila Perlu Jumpa Doktor? — narration (Dr Azren, ElevenLabs eleven_v4, 1 take, 83.12 s, generation alpiO7Swr4JSn8KpsmQJ)
 # Tag [ ] ialah arahan emosi (tidak dibaca). Kapsyen: "tiga tahun" -> "3 tahun", "tiga puluh sembilan darjah" -> "39°C", "tiga bulan" -> "3 bulan", "tiga puluh lapan darjah" -> "38°C", "lima hari" -> "5 hari", "tiga hari" -> "3 hari", "Doktor Azren" -> "Dr. Azren".
 # Penutup pada skrin: "Video ini untuk pendidikan, bukan diagnosis."
 
