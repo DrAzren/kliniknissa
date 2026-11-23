@@ -1,4 +1,6 @@
-# 2026-11-24 — 3 video animasi — DRAF, MENUNGGU "OK jana" (0 kredit digunakan)
+# 2026-11-24 — 3 video animasi — SIAP (dihasilkan 23 Nov, pilihan A+)
+
+Pengguna lulus "+ A, ditambah 2 SFX baharu ~4,378". Suara 1 take setiap satu, 2 SFX baharu (botol pil, bip termometer), muzik diguna semula. Kredit sebenar: ≈4,377.0 (lihat DAILY_PRODUCTION_REPORT.md).
 
 Konsep sama seperti batch sebelum ini:
 - Remotion `animasi/`, gaya Violet Flat SVG, avatar `dr-azren`, kit `src/topics/_kit/kit.tsx`.
