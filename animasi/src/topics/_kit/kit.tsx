@@ -137,7 +137,8 @@ export type KIconName =
   | 'chili' | 'burger' | 'coffee' | 'keys' | 'checklist' | 'bell' | 'cart' | 'camera' | 'recovery' | 'reflux'
   | 'soda' | 'sachet' | 'soap' | 'diaper' | 'urine' | 'swell'
   | 'artery' | 'wok' | 'veg' | 'moon' | 'car' | 'sun' | 'photolamp'
-  | 'battery' | 'waves' | 'lifejacket' | 'fence' | 'cpr' | 'headache';
+  | 'battery' | 'waves' | 'lifejacket' | 'fence' | 'cpr' | 'headache'
+  | 'syringe' | 'testkit' | 'cells' | 'uterus' | 'dthermo' | 'rash' | 'drawer' | 'pillbottle' | 'shirt';
 
 export const KIcon: React.FC<{name: KIconName; size?: number; f?: number; text?: string}> = ({name, size = 120, f = 0, text}) => {
   const w = '#fff', nv = C.navy, y = C.yellow;
@@ -929,6 +930,112 @@ export const KIcon: React.FC<{name: KIconName; size?: number; f?: number; text?:
             {[[14, 20], [96, 14], [104, 44]].map(([x, yy], i) => (
               <path key={i} d={`M ${x} ${yy} l -6 12 l 8 0 l -6 12`} stroke={RED} strokeWidth={5} fill="none" strokeLinejoin="round" opacity={0.4 + 0.6 * Math.abs(Math.sin(f / 4 + i))} />
             ))}
+          </g>
+        );
+      case 'syringe':
+        return (
+          <g transform="rotate(-40 60 60)">
+            <rect x={50} y={4} width={20} height={8} rx={3} fill={w} />
+            <rect x={57} y={10} width={6} height={18} fill={w} />
+            <rect x={36} y={26} width={48} height={8} rx={4} fill={w} />
+            <rect x={42} y={34} width={36} height={58} rx={6} fill="#E8F4FF" stroke={w} strokeWidth={4} />
+            <rect x={46} y={58} width={28} height={30} rx={3} fill="#4FA3FF" opacity={0.85} />
+            {[44, 54, 64, 74].map((yy) => <rect key={yy} x={42} y={yy} width={12} height={3} fill={C.violet[3]} />)}
+            <rect x={56} y={92} width={8} height={10} fill={w} />
+            <path d="M 59 102 L 61 102 L 60 118 Z" fill="#C9D4E5" stroke="#C9D4E5" strokeWidth={2} />
+          </g>
+        );
+      case 'testkit':
+        return (
+          <g>
+            <g transform="rotate(14 74 62)">
+              <rect x={62} y={10} width={26} height={16} rx={4} fill={C.labelPink} />
+              <path d="M 64 26 L 86 26 L 86 96 Q 86 110 75 110 Q 64 110 64 96 Z" fill={w} />
+              <path d="M 64 70 L 86 70 L 86 96 Q 86 110 75 110 Q 64 110 64 96 Z" fill="#BFE3F7" />
+              <rect x={64} y={40} width={22} height={18} fill="#E8EDF5" />
+            </g>
+            <g transform={`rotate(${-28 + 4 * Math.sin(f / 6)} 30 104)`}>
+              <rect x={27} y={18} width={6} height={88} rx={3} fill="#F7F1E3" />
+              <ellipse cx={30} cy={16} rx={9} ry={13} fill={w} />
+            </g>
+          </g>
+        );
+      case 'cells': {
+        const bad = 0.55 + 0.45 * Math.abs(Math.sin(f / 6));
+        return (
+          <g>
+            {[[30, 34], [70, 26], [100, 56], [26, 80], [90, 96]].map(([cx, cy], i) => (
+              <g key={i}><circle cx={cx} cy={cy} r={20} fill="#F7D6E6" /><circle cx={cx + 2} cy={cy - 2} r={7} fill="#D2638E" /></g>
+            ))}
+            <path d="M 46 52 Q 62 40 76 54 Q 88 68 72 82 Q 58 92 46 80 Q 36 66 46 52 Z" fill={y} opacity={bad} />
+            <circle cx={58} cy={64} r={8} fill={RED} /><circle cx={68} cy={74} r={5} fill={RED} />
+          </g>
+        );
+      }
+      case 'uterus':
+        return (
+          <g>
+            <path d="M 10 30 Q 12 18 24 22 Q 34 26 40 34 L 80 34 Q 86 26 96 22 Q 108 18 110 30" stroke="#F29CBC" strokeWidth={8} fill="none" strokeLinecap="round" />
+            <circle cx={10} cy={36} r={8} fill="#F7B6CE" /><circle cx={110} cy={36} r={8} fill="#F7B6CE" />
+            <path d="M 36 32 Q 60 26 84 32 Q 86 64 70 78 L 70 92 L 50 92 L 50 78 Q 34 64 36 32 Z" fill="#F29CBC" />
+            <path d="M 46 40 Q 60 36 74 40 Q 74 60 62 70 L 58 70 Q 46 60 46 40 Z" fill="#D2638E" />
+            <rect x={48} y={88} width={24} height={20} rx={8} fill={y} opacity={0.6 + 0.4 * Math.abs(Math.sin(f / 6))} />
+            <rect x={54} y={104} width={12} height={14} rx={4} fill="#F29CBC" />
+          </g>
+        );
+      case 'dthermo': {
+        const hot = text ? Number(text) >= 38 : true;
+        return (
+          <g transform="rotate(-30 60 60)">
+            <rect x={44} y={4} width={32} height={86} rx={14} fill={w} />
+            <rect x={49} y={14} width={22} height={34} rx={4} fill={hot ? '#FFE3E8' : '#E3F7EA'} />
+            <text x={60} y={36} fontSize={13} fontFamily="Montserrat, sans-serif" fontWeight={900} textAnchor="middle" fill={hot ? RED : C.green} transform="rotate(90 60 32)">{text ?? '39.0'}</text>
+            <circle cx={60} cy={62} r={6} fill="#4FA3FF" />
+            <rect x={56} y={88} width={8} height={26} rx={4} fill="#C9D4E5" />
+            <circle cx={60} cy={114} r={5} fill="#C9D4E5" />
+          </g>
+        );
+      }
+      case 'rash':
+        return (
+          <g>
+            <path d="M 8 30 Q 60 16 112 30 L 112 112 L 8 112 Z" fill={SKIN} />
+            {[[28, 52], [52, 44], [80, 54], [36, 82], [66, 74], [92, 88], [50, 100]].map(([cx, cy], i) => <circle key={i} cx={cx} cy={cy} r={6} fill="#B8324B" />)}
+            <g transform={`translate(${4 * Math.sin(f / 8)} 0)`}>
+              <circle cx={64} cy={70} r={30} fill="#DFF3FF" opacity={0.55} stroke={w} strokeWidth={6} />
+            </g>
+          </g>
+        );
+      case 'drawer': {
+        const open = Math.max(0, Math.min(1, text ? Number(text) : 1));
+        return (
+          <g>
+            <rect x={8} y={20} width={104} height={92} rx={8} fill="#C98C64" />
+            <rect x={16} y={70} width={88} height={34} rx={4} fill="#A8714D" />
+            <g transform={`translate(0 ${-34 * (1 - open)})`} opacity={open > 0.05 ? 1 : 0}>
+              <rect x={14} y={30} width={92} height={36} rx={4} fill="#E8B48C" />
+              <rect x={30} y={36} width={22} height={16} rx={3} fill={w} />
+              <rect x={30} y={36} width={22} height={6} rx={3} fill={C.labelPink} />
+            </g>
+            <rect x={48} y={82} width={24} height={8} rx={4} fill="#6B442C" />
+          </g>
+        );
+      }
+      case 'pillbottle':
+        return (
+          <g>
+            <rect x={32} y={8} width={56} height={20} rx={6} fill={C.labelPink} />
+            <rect x={28} y={28} width={64} height={84} rx={12} fill="#F7A23B" opacity={0.9} />
+            <rect x={34} y={50} width={52} height={36} rx={4} fill={w} />
+            <path d="M 42 62 L 78 62 M 42 74 L 66 74" stroke={C.violet[3]} strokeWidth={5} strokeLinecap="round" />
+          </g>
+        );
+      case 'shirt':
+        return (
+          <g>
+            <path d="M 40 14 Q 60 28 80 14 L 112 34 L 98 56 L 88 50 L 88 110 L 32 110 L 32 50 L 22 56 L 8 34 Z" fill="#BFE3F7" />
+            <path d="M 40 14 Q 60 28 80 14" stroke={w} strokeWidth={6} fill="none" />
+            {[50, 72, 94].map((yy) => <path key={yy} d={`M 40 ${yy} q 10 -6 20 0 t 20 0`} stroke={w} strokeWidth={4} fill="none" opacity={0.7} />)}
           </g>
         );
       case 'lungs':

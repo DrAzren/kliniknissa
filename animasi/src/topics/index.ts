@@ -89,6 +89,18 @@ import {SCENES as S22} from './lemas/scenes';
 import {Cover as Cover22} from './lemas/Cover';
 import script22 from '../../topics/lemas/script.json';
 import words22 from '../../topics/lemas/words.json';
+import {SCENES as S23} from './kanser-serviks/scenes';
+import {Cover as Cover23} from './kanser-serviks/Cover';
+import script23 from '../../topics/kanser-serviks/script.json';
+import words23 from '../../topics/kanser-serviks/words.json';
+import {SCENES as S24} from './mitos-antidepresan/scenes';
+import {Cover as Cover24} from './mitos-antidepresan/Cover';
+import script24 from '../../topics/mitos-antidepresan/script.json';
+import words24 from '../../topics/mitos-antidepresan/words.json';
+import {SCENES as S25} from './demam-anak/scenes';
+import {Cover as Cover25} from './demam-anak/Cover';
+import script25 from '../../topics/demam-anak/script.json';
+import words25 from '../../topics/demam-anak/words.json';
 
 export type Topic = {
   script: ScriptFile;
@@ -120,5 +132,8 @@ export const TOPICS: Record<string, Topic> = {
   'sakit-kepala': {script: script20 as ScriptFile, words: words20 as WordsFile, scenes: S20, Cover: Cover20},
   'burnout': {script: script21 as ScriptFile, words: words21 as WordsFile, scenes: S21, Cover: Cover21},
   'lemas': {script: script22 as ScriptFile, words: words22 as WordsFile, scenes: S22, Cover: Cover22},
+  'kanser-serviks': {script: script23 as ScriptFile, words: words23 as WordsFile, scenes: S23, Cover: Cover23},
+  'mitos-antidepresan': {script: script24 as ScriptFile, words: words24 as WordsFile, scenes: S24, Cover: Cover24},
+  'demam-anak': {script: script25 as ScriptFile, words: words25 as WordsFile, scenes: S25, Cover: Cover25},
   'hfmd': {script: script7 as ScriptFile, words: words7 as WordsFile, scenes: S7, Cover: Cover7},
 };
