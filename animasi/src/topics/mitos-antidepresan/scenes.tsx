@@ -34,8 +34,8 @@ export const Intro: React.FC<SceneProps> = (p) => {
       <NightSky seed={311} glow={C.violet[3]} />
       <Glow x={540} y={1050} r={460} color={C.labelPink} opacity={0.18} />
       <Pop at={0.1} style={{left: 60, top: 560}}><IconPill icon={<KIcon name="pillbottle" size={60} />} text="Ubat kemurungan…" size={44} /></Pop>
-      <Pop at={aKet} style={{left: 60, top: 690}}><Pill text="Buat ketagih?" bg={RED} size={52} /></Pop>
-      <Pop at={aSeumur} style={{left: 470, top: 690}}><Pill text="Seumur hidup?" bg={RED} size={52} /></Pop>
+      <Pop at={aKet} style={{left: 60, top: 690}}><Pill text="Buat ketagih?" bg={RED} size={44} /></Pop>
+      <Pop at={aSeumur} style={{left: 540, top: 690}}><Pill text="Seumur hidup?" bg={RED} size={44} /></Pop>
       <Who preset={KAMAL} x={300} y={1000} w={480} mood="curious" pose="chin" seed={31} />
       <Pop at={aBetul} style={{left: 140, top: 840}}><Tag /></Pop>
       {f >= aBetul + 8 ? <div style={{position: 'absolute', left: 140, top: 820, width: 220, height: 120}}><Cross f={f - aBetul - 8} size={150} /></div> : null}
@@ -270,7 +270,7 @@ export const Pulih: React.FC<SceneProps> = (p) => {
       <Pop at={aPulih - 4} style={{left: 60, top: 800}}><Pill text="Semakin pulih!" bg={C.green} size={54} /></Pop>
       <Who preset={KAMAL} x={300} y={960} w={480} mood="happy" pose="wave" seed={31} />
       <div style={{position: 'absolute', left: 800, top: 940}}><KIcon name="sun" size={220} f={f} /></div>
-      <Burst f={f} a={aPulih} x={540} y={1060} />
+      <Burst f={f} a={aPulih} x={820} y={1000} />
     </Camera>
   );
 };

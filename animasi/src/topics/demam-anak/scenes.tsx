@@ -65,12 +65,12 @@ export const HanaScene: React.FC<SceneProps> = (p) => {
       <AbsoluteFill style={{background: BG(C.violet[0], C.pink[0])}} />
       <div style={{position: 'absolute', left: 0, top: 1420, width: 1080, height: 500, background: '#C98C64'}} />
       <Pop at={0} style={{left: 60, top: 560}}><Pill text="Hana, 3 tahun" bg={C.navy} color={C.yellow} size={52} /></Pop>
-      <Pop at={1.4} style={{left: 480, top: 560}}><IconPill icon={<KIcon name="calendar" size={52} f={f} />} text="Demam sejak semalam" size={32} /></Pop>
+      <Pop at={1.4} style={{left: 60, top: 670}}><IconPill icon={<KIcon name="calendar" size={52} f={f} />} text="Demam sejak semalam" size={34} /></Pop>
       <Pop at={aSuhu} style={{left: 640, top: 700}}><KIcon name="dthermo" size={260} text="39.0" /></Pop>
       <Pop at={aSuhu + 6} style={{left: 640, top: 960}}><Pill text="39°C" bg={RED} size={60} /></Pop>
-      <Pop at={aPanik} style={{left: 60, top: 680}}><Pill text="Ibu panik" bg={RED} size={46} /></Pop>
-      <Pop at={aAnti} style={{left: 60, top: 790}}><IconPill icon={<KIcon name="pill" size={56} />} text="Mahu antibiotik" size={38} /></Pop>
-      <Who preset={IBU} x={40} y={960} w={460} mood={f >= aPanik ? 'shock' : 'neutral'} pose="clasp" seed={4} />
+      <Pop at={aPanik} style={{left: 60, top: 780}}><Pill text="Ibu panik" bg={RED} size={46} /></Pop>
+      <Pop at={aAnti} style={{left: 60, top: 880}}><IconPill icon={<KIcon name="pill" size={56} />} text="Mahu antibiotik" size={38} /></Pop>
+      <Who preset={IBU} x={40} y={1010} w={440} mood={f >= aPanik ? 'shock' : 'neutral'} pose="clasp" seed={4} />
       <Hana x={480} y={1170} w={260} f={f} hot />
     </Camera>
   );
@@ -111,7 +111,7 @@ export const Diagnosis: React.FC<SceneProps> = (p) => {
       <Who preset={p.preset} x={20} y={1040} w={460} mood="neutral" pose={f < aStamp ? 'chin' : 'point'} />
       <Who preset={IBU} x={560} y={1020} w={420} mood={f >= aAnti ? 'happy' : 'neutral'} pose="clasp" seed={4} />
       <Hana x={760} y={1250} w={220} f={f} mood="neutral" />
-      <Stamp f={f} a={aStamp} top="DIAGNOSIS" big="JANGKITAN VIRUS" sub="Tak perlu antibiotik" bigSize={92} y={560} />
+      <Stamp f={f} a={aStamp} top="DIAGNOSIS" big="JANGKITAN VIRUS" sub="Tak perlu antibiotik" bigSize={80} y={560} />
     </Camera>
   );
 };
@@ -286,7 +286,7 @@ export const Pulih: React.FC<SceneProps> = (p) => {
       <Thermo x={720} y={640} size={240} t={temp} />
       <Who preset={IBU} x={40} y={980} w={440} mood="happy" pose="clasp" seed={4} />
       <Hana x={500} y={1100} w={330} f={f} mood="happy" pose="wave" />
-      <Pop at={aCeria} style={{left: 520, top: 960}}><Pill text="Kembali ceria!" bg={C.yellow} color={C.navy} size={44} /></Pop>
+      <Pop at={aCeria} style={{left: 60, top: 800}}><Pill text="Kembali ceria!" bg={C.yellow} color={C.navy} size={44} /></Pop>
       <Burst f={f} a={aCeria} x={660} y={1160} />
     </Camera>
   );

@@ -134,7 +134,7 @@ export const Diagnosis: React.FC<SceneProps> = (p) => {
       ) : null}
       <Who preset={p.preset} x={20} y={1040} w={460} mood="neutral" pose={f < aSel ? 'chin' : 'point'} />
       <Who preset={HIDAYAH} x={600} y={1060} w={420} mood={f >= aStamp ? 'shock' : 'neutral'} pose="clasp" seed={21} />
-      <Stamp f={f} a={aStamp} top="PANGKAL RAHIM" big="PRA-KANSER" sub="Perubahan sel awal" bigSize={128} y={560} />
+      <Stamp f={f} a={aStamp} top="PANGKAL RAHIM" big="PRA-KANSER" sub="Perubahan sel awal" bigSize={104} y={560} />
     </Camera>
   );
 };
