@@ -1,0 +1,29 @@
+# Anak Demam: Bila Perlu Jumpa Doktor? — narration DRAFT (Dr Azren, ElevenLabs eleven_v4, 1 take) — 1408 aksara, MENUNGGU 'OK jana'
+# Tag [ ] ialah arahan emosi (tidak dibaca). Kapsyen: "tiga tahun" -> "3 tahun", "tiga puluh sembilan darjah" -> "39°C", "tiga bulan" -> "3 bulan", "tiga puluh lapan darjah" -> "38°C", "lima hari" -> "5 hari", "tiga hari" -> "3 hari", "Doktor Azren" -> "Dr. Azren".
+# Penutup pada skrin: "Video ini untuk pendidikan, bukan diagnosis."
+
+[concerned] Anak demam tinggi... perlu ke hospital, atau boleh dirawat di rumah?
+
+[storytelling] Hana, tiga tahun, demam sejak semalam. Suhu badannya tiga puluh sembilan darjah. Ibunya panik, dan mahu minta antibiotik.
+
+[warmly] Tapi Hana masih mahu minum, masih bermain, dan ketawa bila suhunya turun.
+
+[serious] Doktor periksa, dan sahkan... Hana mengalami jangkitan virus, dan tidak memerlukan antibiotik.
+
+[warmly] Demam ialah cara badan melawan jangkitan. Ini lima perkara yang ibu bapa perlu tahu.
+
+Satu. Lihat keadaan anak, bukan angka suhu sahaja. Anak yang masih aktif dan mahu minum, biasanya tidak membimbangkan.
+
+Dua. Bayi bawah tiga bulan dengan suhu tiga puluh lapan darjah atau lebih, perlu segera dibawa ke hospital.
+
+Tiga. Awasi tanda bahaya. Sangat lemah atau sukar dikejutkan, sesak nafas, ruam yang tidak hilang bila ditekan, kejang, atau kurang kencing.
+
+Empat. Demam lima hari atau lebih, perlu diperiksa doktor.
+
+Lima. Di rumah, beri banyak minum, pakaikan baju nipis, dan beri parasetamol ikut dos berat badan jika anak tidak selesa. Tak perlu tuam dengan air sejuk.
+
+[reassuring] Kebanyakan demam kanak-kanak disebabkan virus, dan sembuh sendiri dalam beberapa hari. Antibiotik tidak membantu jangkitan virus.
+
+[relieved] Selepas tiga hari, demam Hana kebah, dan dia kembali ceria.
+
+[warmly] Anak demam dan ada tanda bahaya? Jangan tunggu. Dapatkan rawatan segera. Saya Doktor Azren.
