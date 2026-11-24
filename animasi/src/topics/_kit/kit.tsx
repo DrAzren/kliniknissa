@@ -138,7 +138,8 @@ export type KIconName =
   | 'soda' | 'sachet' | 'soap' | 'diaper' | 'urine' | 'swell'
   | 'artery' | 'wok' | 'veg' | 'moon' | 'car' | 'sun' | 'photolamp'
   | 'battery' | 'waves' | 'lifejacket' | 'fence' | 'cpr' | 'headache'
-  | 'syringe' | 'testkit' | 'cells' | 'uterus' | 'dthermo' | 'rash' | 'drawer' | 'pillbottle' | 'shirt';
+  | 'syringe' | 'testkit' | 'cells' | 'uterus' | 'dthermo' | 'rash' | 'drawer' | 'pillbottle' | 'shirt'
+  | 'stairs' | 'steak' | 'rbc' | 'spiral' | 'notebook' | 'grape' | 'nuts' | 'backblow' | 'thrust' | 'chest2';
 
 export const KIcon: React.FC<{name: KIconName; size?: number; f?: number; text?: string}> = ({name, size = 120, f = 0, text}) => {
   const w = '#fff', nv = C.navy, y = C.yellow;
@@ -1038,6 +1039,124 @@ export const KIcon: React.FC<{name: KIconName; size?: number; f?: number; text?:
             {[50, 72, 94].map((yy) => <path key={yy} d={`M 40 ${yy} q 10 -6 20 0 t 20 0`} stroke={w} strokeWidth={4} fill="none" opacity={0.7} />)}
           </g>
         );
+      case 'stairs':
+        return (
+          <g>
+            <path d="M 6 112 L 6 92 L 30 92 L 30 70 L 54 70 L 54 48 L 78 48 L 78 26 L 102 26 L 102 112 Z" fill="#C9D4E5" />
+            <path d="M 6 92 L 30 92 L 30 70 L 54 70 L 54 48 L 78 48 L 78 26 L 102 26" stroke={w} strokeWidth={5} fill="none" strokeLinejoin="round" />
+            <path d="M 104 8 l 8 -6 M 108 20 l 10 0" stroke={y} strokeWidth={5} strokeLinecap="round" opacity={0.5 + 0.5 * Math.abs(Math.sin(f / 4))} />
+          </g>
+        );
+      case 'steak':
+        return (
+          <g>
+            <path d="M 18 40 Q 30 14 66 20 Q 104 26 104 58 Q 104 92 66 98 Q 26 104 16 76 Q 10 58 18 40 Z" fill="#C2414F" />
+            <path d="M 30 44 Q 40 30 64 32 Q 90 36 90 58 Q 88 80 62 84 Q 36 86 30 70 Z" fill="#E0606E" />
+            <circle cx={58} cy={58} r={9} fill="#F7E3E6" />
+            <path d="M 40 56 Q 50 48 60 60 M 66 70 Q 76 62 84 72" stroke="#F7C1C8" strokeWidth={4} fill="none" strokeLinecap="round" />
+          </g>
+        );
+      case 'rbc': {
+        const n = Math.max(1, Math.min(5, text ? Number(text) : 5));
+        const pos = [[34, 40], [80, 36], [56, 70], [26, 90], [90, 86]];
+        return (
+          <g>
+            {pos.map(([cx, cy], i) => (
+              <g key={i} opacity={i < n ? 1 : 0.15} transform={`translate(0 ${Math.sin(f / 8 + i) * 3})`}>
+                <ellipse cx={cx} cy={cy} rx={22} ry={18} fill={RED} />
+                <ellipse cx={cx} cy={cy} rx={10} ry={7} fill="#A8303F" />
+              </g>
+            ))}
+          </g>
+        );
+      }
+      case 'spiral': {
+        const r = (f * 3) % 360;
+        return (
+          <g transform={`rotate(${r} 60 60)`}>
+            <path d="M 60 60 m 0 -6 a 6 6 0 1 1 -6 6 a 12 12 0 1 1 12 12 a 20 20 0 1 1 -20 -20 a 30 30 0 1 1 30 30 a 42 42 0 1 1 -42 -42" stroke={C.violet[4]} strokeWidth={7} fill="none" strokeLinecap="round" />
+          </g>
+        );
+      }
+      case 'notebook':
+        return (
+          <g>
+            <rect x={22} y={10} width={80} height={102} rx={8} fill={w} />
+            <rect x={22} y={10} width={16} height={102} rx={6} fill={C.labelPink} />
+            {[34, 52, 70, 88].map((yy, i) => <rect key={yy} x={46} y={yy} width={i === 3 ? 26 : 46} height={6} rx={3} fill="#C9D4E5" />)}
+            <g transform={`translate(${Math.sin(f / 5) * 4} 0) rotate(35 96 70)`}>
+              <rect x={90} y={30} width={10} height={60} rx={3} fill={y} />
+              <path d="M 90 90 L 100 90 L 95 102 Z" fill="#E8B48C" />
+            </g>
+          </g>
+        );
+      case 'grape':
+        return (
+          <g>
+            <path d="M 60 16 Q 64 6 76 4" stroke="#6B442C" strokeWidth={5} fill="none" strokeLinecap="round" />
+            <path d="M 62 14 Q 80 8 88 20 Q 74 24 62 14 Z" fill={C.green} />
+            {[[48, 34], [72, 34], [36, 56], [60, 56], [84, 56], [48, 78], [72, 78], [60, 100]].map(([cx, cy], i) => (
+              <g key={i}><circle cx={cx} cy={cy} r={14} fill="#8E5BC6" /><circle cx={cx - 4} cy={cy - 5} r={4} fill="#fff" opacity={0.5} /></g>
+            ))}
+          </g>
+        );
+      case 'nuts':
+        return (
+          <g>
+            {[[36, 50, -20], [76, 44, 15], [52, 84, 40], [88, 86, -10]].map(([cx, cy, r], i) => (
+              <g key={i} transform={`rotate(${r} ${cx} ${cy})`}>
+                <ellipse cx={cx} cy={cy} rx={20} ry={14} fill="#D9A05B" />
+                <path d={`M ${cx - 12} ${cy} Q ${cx} ${cy - 6} ${cx + 12} ${cy}`} stroke="#A8713A" strokeWidth={3} fill="none" />
+              </g>
+            ))}
+          </g>
+        );
+      case 'backblow': {
+        const hit = Math.abs(Math.sin(f / 3));
+        return (
+          <g>
+            <path d="M 20 70 Q 40 50 80 58 L 96 66 Q 100 78 88 82 L 30 86 Q 14 84 20 70 Z" fill="#F29CBC" />
+            <circle cx={100} cy={72} r={14} fill={SKIN} />
+            <path d="M 8 98 L 112 98" stroke="#C98C64" strokeWidth={8} strokeLinecap="round" />
+            <g transform={`translate(0 ${-14 * hit})`}>
+              <ellipse cx={54} cy={44} rx={16} ry={10} fill={SKIN} />
+              <rect x={50} y={8} width={12} height={34} rx={6} fill={SKIN} />
+            </g>
+            <path d="M 40 38 l -10 -6 M 70 36 l 10 -6" stroke={y} strokeWidth={4} strokeLinecap="round" opacity={1 - hit} />
+          </g>
+        );
+      }
+      case 'thrust': {
+        const push = Math.abs(Math.sin(f / 3)) * 6;
+        return (
+          <g>
+            <circle cx={56} cy={22} r={14} fill={SKIN} />
+            <rect x={38} y={36} width={36} height={50} rx={14} fill="#F29CBC" />
+            <rect x={42} y={84} width={12} height={30} rx={6} fill="#4F79C7" />
+            <rect x={58} y={84} width={12} height={30} rx={6} fill="#4F79C7" />
+            <g transform={`translate(${-push} ${-push / 2})`}>
+              <path d="M 112 50 Q 90 54 72 66" stroke="#C9926A" strokeWidth={12} fill="none" strokeLinecap="round" />
+              <circle cx={70} cy={66} r={10} fill="#C9926A" />
+            </g>
+            <path d="M 60 62 l -10 -8 M 62 74 l -12 2" stroke={y} strokeWidth={4} strokeLinecap="round" />
+          </g>
+        );
+      }
+      case 'chest2': {
+        const push = Math.abs(Math.sin(f / 3)) * 5;
+        return (
+          <g>
+            <rect x={6} y={92} width={108} height={10} rx={5} fill={C.violet[3]} />
+            <circle cx={28} cy={74} r={16} fill={SKIN} />
+            <rect x={42} y={64} width={56} height={26} rx={12} fill="#F7D6E6" />
+            <g transform={`translate(0 ${push})`}>
+              <rect x={62} y={30} width={8} height={36} rx={4} fill="#C9926A" />
+              <rect x={72} y={30} width={8} height={36} rx={4} fill="#C9926A" />
+              <rect x={56} y={10} width={30} height={24} rx={10} fill="#C9926A" />
+            </g>
+          </g>
+        );
+      }
       case 'lungs':
         return (
           <g>
