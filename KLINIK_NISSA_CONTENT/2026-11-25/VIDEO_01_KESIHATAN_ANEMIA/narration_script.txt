@@ -1,0 +1,29 @@
+# Kurang Darah? Kenali Anemia Kekurangan Zat Besi — narration DRAFT (Dr Azren, ElevenLabs eleven_v4, 1 take) — 1400 aksara, MENUNGGU 'OK jana'
+# Tag [ ] ialah arahan emosi (tidak dibaca). Kapsyen: "tiga puluh dua tahun" -> "32 tahun", "tiga bulan" -> "3 bulan", "Doktor Azren" -> "Dr. Azren".
+# Penutup pada skrin: "Video ini untuk pendidikan, bukan diagnosis."
+
+[curious] Selalu letih, pucat, dan cepat semput? Mungkin anda kurang darah.
+
+[storytelling] Cikgu Nurul, tiga puluh dua tahun. Sejak beberapa bulan, dia cepat penat, kepala pening, dan termengah-mengah bila naik tangga ke kelas.
+
+[worried] Dia sangka cuma kurang tidur. Tapi haidnya juga banyak setiap bulan.
+
+[serious] Ujian darah dibuat, dan doktor sahkan... Nurul mengalami anemia kekurangan zat besi.
+
+[warmly] Anemia boleh dikesan dengan ujian darah yang mudah. Ini lima perkara yang perlu anda tahu.
+
+Satu. Kenali tanda. Letih, pucat, sesak nafas, jantung berdebar, dan pening.
+
+Dua. Punca biasa ialah kehilangan darah seperti haid yang banyak, keperluan lebih semasa hamil, atau makanan yang kurang zat besi.
+
+Tiga. Jangan teka sendiri. Buat ujian darah untuk sahkan, dan cari puncanya. Lelaki, dan wanita yang sudah putus haid, perlu disiasat lebih lanjut.
+
+Empat. Ambil pil zat besi seperti yang diarahkan. Najis boleh jadi hitam, dan ada yang sembelit. Teruskan walaupun sudah rasa lebih baik.
+
+Lima. Makan sumber zat besi seperti daging merah, hati, ikan, kekacang, dan sayur hijau. Elak minum teh atau kopi bersama makanan.
+
+[reassuring] Kebanyakan anemia kekurangan zat besi boleh dirawat, bila puncanya diketahui.
+
+[relieved] Selepas tiga bulan, Nurul kembali bertenaga, dan naik tangga tanpa semput.
+
+[warmly] Selalu letih dan pucat? Jangan tunggu. Buat ujian darah. Saya Doktor Azren.
