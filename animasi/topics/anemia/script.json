@@ -1,0 +1,214 @@
+{
+ "id": "anemia",
+ "title": "Kurang Darah? Kenali Anemia Kekurangan Zat Besi",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[curious] Selalu letih, pucat, dan cepat semput? Mungkin anda kurang darah.\n\n[storytelling] Cikgu Nurul, tiga puluh dua tahun. Sejak beberapa bulan, dia cepat penat, kepala pening, dan termengah-mengah bila naik tangga ke kelas.\n\n[worried] Dia sangka cuma kurang tidur. Tapi haidnya juga banyak setiap bulan.\n\n[serious] Ujian darah dibuat, dan doktor sahkan... Nurul mengalami anemia kekurangan zat besi.\n\n[warmly] Anemia boleh dikesan dengan ujian darah yang mudah. Ini lima perkara yang perlu anda tahu.\n\nSatu. Kenali tanda. Letih, pucat, sesak nafas, jantung berdebar, dan pening.\n\nDua. Punca biasa ialah kehilangan darah seperti haid yang banyak, keperluan lebih semasa hamil, atau makanan yang kurang zat besi.\n\nTiga. Jangan teka sendiri. Buat ujian darah untuk sahkan, dan cari puncanya. Lelaki, dan wanita yang sudah putus haid, perlu disiasat lebih lanjut.\n\nEmpat. Ambil pil zat besi seperti yang diarahkan. Najis boleh jadi hitam, dan ada yang sembelit. Teruskan walaupun sudah rasa lebih baik.\n\nLima. Makan sumber zat besi seperti daging merah, hati, ikan, kekacang, dan sayur hijau. Elak minum teh atau kopi bersama makanan.\n\n[reassuring] Kebanyakan anemia kekurangan zat besi boleh dirawat, bila puncanya diketahui.\n\n[relieved] Selepas tiga bulan, Nurul kembali bertenaga, dan naik tangga tanpa semput.\n\n[warmly] Selalu letih dan pucat? Jangan tunggu. Buat ujian darah. Saya Doktor Azren.",
+  "note": "1 take sahaja (pilihan A+). ElevenLabs Flow IsEd0zP4bAC0RQbPrVxU, generation xDXqLuA1IYONBx5gAV8I, 84.88 s. Muzik diguna semula; SFX baharu heart.mp3 (rdJlejW6M08V7myUXr6k)."
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "nurul",
+   "marker": "Cikgu Nurul"
+  },
+  {
+   "id": "haid",
+   "marker": "Dia sangka"
+  },
+  {
+   "id": "diagnosis",
+   "marker": "Ujian darah dibuat"
+  },
+  {
+   "id": "lima",
+   "marker": "Anemia boleh"
+  },
+  {
+   "id": "tanda",
+   "marker": "Satu Kenali",
+   "n": 1,
+   "label": "Kenali tanda"
+  },
+  {
+   "id": "punca",
+   "marker": "Dua Punca",
+   "n": 2,
+   "label": "Punca biasa"
+  },
+  {
+   "id": "ujian",
+   "marker": "Tiga Jangan",
+   "n": 3,
+   "label": "Buat ujian darah"
+  },
+  {
+   "id": "pil",
+   "marker": "Empat Ambil",
+   "n": 4,
+   "label": "Pil zat besi"
+  },
+  {
+   "id": "makan",
+   "marker": "Lima Makan",
+   "n": 5,
+   "label": "Makanan kaya zat besi"
+  },
+  {
+   "id": "rawat",
+   "marker": "Kebanyakan anemia"
+  },
+  {
+   "id": "pulih",
+   "marker": "Selepas tiga"
+  },
+  {
+   "id": "penutup",
+   "marker": "Selalu letih dan"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat",
+  "Lima"
+ ],
+ "keywords": [
+  "letih",
+  "pucat",
+  "semput",
+  "kurang darah",
+  "Cikgu Nurul",
+  "32 tahun",
+  "cepat penat",
+  "pening",
+  "termengah-mengah",
+  "kurang tidur",
+  "haidnya",
+  "banyak",
+  "Ujian darah",
+  "anemia kekurangan zat besi",
+  "anemia",
+  "ujian darah yang mudah",
+  "5 perkara",
+  "Kenali tanda",
+  "sesak nafas",
+  "jantung berdebar",
+  "kehilangan darah",
+  "haid yang banyak",
+  "hamil",
+  "kurang zat besi",
+  "Jangan teka sendiri",
+  "cari puncanya",
+  "Lelaki",
+  "putus haid",
+  "disiasat lebih lanjut",
+  "pil zat besi",
+  "diarahkan",
+  "hitam",
+  "sembelit",
+  "Teruskan",
+  "daging merah",
+  "hati",
+  "ikan",
+  "kekacang",
+  "sayur hijau",
+  "teh",
+  "kopi",
+  "boleh dirawat",
+  "puncanya diketahui",
+  "3 bulan",
+  "bertenaga",
+  "tanpa semput",
+  "Jangan tunggu",
+  "Buat ujian darah",
+  "Dr. Azren"
+ ],
+ "corrections": {
+  "tiga puluh dua tahun": "32 tahun",
+  "tiga bulan": "3 bulan",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.35,
+  "sfx": [
+   {
+    "file": "heart.mp3",
+    "at": "termengah-mengah",
+    "offset": 0,
+    "volume": 0.45
+   },
+   {
+    "file": "sting.mp3",
+    "at": "mengalami anemia",
+    "offset": 0,
+    "volume": 0.7
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu Kenali",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Punca",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Jangan",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Ambil",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Lima Makan",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "heart.mp3",
+    "at": "jantung berdebar",
+    "offset": 0,
+    "volume": 0.55
+   },
+   {
+    "file": "chime.mp3",
+    "at": "kembali bertenaga",
+    "offset": 0,
+    "volume": 0.8
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "SELALU LETIH & PUCAT?",
+  "headline": [
+   "KURANG",
+   "DARAH?"
+  ],
+  "highlight": "5 perkara perlu anda tahu",
+  "sub": "Anemia kekurangan zat besi",
+  "tags": []
+ }
+}

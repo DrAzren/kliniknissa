@@ -1,0 +1,216 @@
+{
+ "id": "tercekik",
+ "title": "Anak Tercekik: Apa Perlu Buat?",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[concerned] Anak tiba-tiba tak boleh bercakap, batuk, atau bernafas semasa makan? Dia mungkin tercekik.\n\n[storytelling] Danish, dua tahun, makan anggur sambil berlari di ruang tamu. Tiba-tiba dia terhenti, memegang leher, dan bibirnya mula kebiruan.\n\n[worried] Ibunya panik, dan cuba mengorek mulut Danish dengan jari. Itu boleh menolak objek lebih dalam.\n\n[serious] Ayahnya segera beri tepukan di belakang, dan tekanan perut. Anggur itu tercampak keluar, dan Danish dibawa ke hospital untuk diperiksa.\n\n[warmly] Tercekik boleh berlaku dalam beberapa saat. Ini lima perkara yang ibu bapa perlu tahu.\n\nSatu. Jika anak masih boleh batuk kuat, galakkan dia terus batuk, dan perhatikan.\n\nDua. Jika batuk tidak berkesan, untuk anak lebih setahun: beri lima tepukan di belakang, kemudian lima tekanan perut. Ulang.\n\nTiga. Untuk bayi bawah setahun: lima tepukan belakang, dan lima tekanan dada. Jangan buat tekanan perut pada bayi.\n\nEmpat. Jika anak tidak sedar, hubungi sembilan sembilan sembilan, dan mulakan C-P-R.\n\nLima. Cegah. Potong anggur memanjang, jangan beri kacang kepada kanak-kanak kecil, simpan mainan kecil, dan pastikan anak duduk semasa makan.\n\n[reassuring] Walaupun objek sudah keluar, bawa anak ke doktor untuk diperiksa.\n\n[relieved] Danish kini sihat, dan makan sambil duduk di meja bersama keluarga.\n\n[warmly] Ibu bapa, belajarlah pertolongan cemas. Jangan tunggu. Saya Doktor Azren.",
+  "note": "1 take sahaja (pilihan A+). ElevenLabs Flow IsEd0zP4bAC0RQbPrVxU, generation Sv0EM9jMhNCpYDWS1xYK, 81.36 s. Muzik diguna semula; SFX baharu choke.mp3 (8DWFTz7apDvPKb6HIrNq)."
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "danish",
+   "marker": "Danish dua"
+  },
+  {
+   "id": "panik",
+   "marker": "Ibunya panik"
+  },
+  {
+   "id": "tolong",
+   "marker": "Ayahnya segera"
+  },
+  {
+   "id": "lima",
+   "marker": "Tercekik boleh"
+  },
+  {
+   "id": "batuk",
+   "marker": "Satu Jika",
+   "n": 1,
+   "label": "Masih batuk kuat?"
+  },
+  {
+   "id": "besar",
+   "marker": "Dua Jika",
+   "n": 2,
+   "label": "Anak lebih 1 tahun"
+  },
+  {
+   "id": "bayi",
+   "marker": "Tiga Untuk",
+   "n": 3,
+   "label": "Bayi bawah 1 tahun"
+  },
+  {
+   "id": "pengsan",
+   "marker": "Empat Jika",
+   "n": 4,
+   "label": "Tidak sedar: 999 + CPR"
+  },
+  {
+   "id": "cegah",
+   "marker": "Lima Cegah",
+   "n": 5,
+   "label": "Cegah tercekik"
+  },
+  {
+   "id": "periksa",
+   "marker": "Walaupun objek"
+  },
+  {
+   "id": "pulih",
+   "marker": "Danish kini"
+  },
+  {
+   "id": "penutup",
+   "marker": "Ibu bapa belajarlah"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat",
+  "Lima"
+ ],
+ "keywords": [
+  "tak boleh bercakap",
+  "batuk",
+  "bernafas",
+  "tercekik",
+  "Danish",
+  "2 tahun",
+  "anggur",
+  "berlari",
+  "memegang leher",
+  "kebiruan",
+  "panik",
+  "mengorek mulut",
+  "lebih dalam",
+  "tepukan di belakang",
+  "tekanan perut",
+  "tercampak keluar",
+  "hospital",
+  "beberapa saat",
+  "5 perkara",
+  "batuk kuat",
+  "galakkan",
+  "perhatikan",
+  "tidak berkesan",
+  "lebih setahun",
+  "lima tepukan",
+  "lima tekanan perut",
+  "Ulang",
+  "bayi bawah setahun",
+  "tekanan dada",
+  "Jangan buat tekanan perut",
+  "tidak sedar",
+  "999",
+  "CPR",
+  "Cegah",
+  "memanjang",
+  "kacang",
+  "mainan kecil",
+  "duduk semasa makan",
+  "bawa anak ke doktor",
+  "sihat",
+  "duduk",
+  "pertolongan cemas",
+  "Jangan tunggu",
+  "Dr. Azren"
+ ],
+ "corrections": {
+  "dua tahun": "2 tahun",
+  "sembilan sembilan sembilan": "999",
+  "C-P-R": "CPR",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.35,
+  "sfx": [
+   {
+    "file": "choke.mp3",
+    "at": "terhenti",
+    "offset": 0,
+    "volume": 0.7
+   },
+   {
+    "file": "sting.mp3",
+    "at": "kebiruan",
+    "offset": 0,
+    "volume": 0.55
+   },
+   {
+    "file": "slap.mp3",
+    "at": "tepukan di belakang",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu Jika",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Jika",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Untuk",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Jika",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Lima Cegah",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "siren.mp3",
+    "at": "sembilan sembilan sembilan",
+    "offset": 0,
+    "volume": 0.3
+   },
+   {
+    "file": "chime.mp3",
+    "at": "kini sihat",
+    "offset": 0,
+    "volume": 0.8
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "ANAK TAK BOLEH BERNAFAS?",
+  "headline": [
+   "ANAK",
+   "TERCEKIK!"
+  ],
+  "highlight": "5 perkara ibu bapa perlu tahu",
+  "sub": "Tepukan belakang & tekanan perut",
+  "tags": []
+ }
+}

@@ -1,0 +1,202 @@
+{
+ "id": "overthinking",
+ "title": "Overthinking: Kenapa Otak Tak Boleh Berhenti?",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[curious] Otak tak boleh berhenti berfikir, terutama bila nak tidur? Itu tanda overthinking.\n\n[storytelling] Farah, dua puluh sembilan tahun, eksekutif pemasaran. Setiap malam, dia ulang semula perbualan di pejabat, dan bayangkan semua perkara yang boleh jadi salah.\n\n[worried] Dia tidur lewat, bangun penat, dan makin sukar membuat keputusan.\n\n[serious] Doktor menilai, dan menerangkan... Farah terperangkap dalam fikiran berulang tanpa penyelesaian, yang berkait dengan kebimbangan.\n\n[warmly] Ramai yang mengalaminya. Ini lima perkara yang perlu anda tahu.\n\nSatu. Berfikir itu normal. Merancang membawa kepada tindakan, tetapi fikir berlebihan hanya berpusing di tempat yang sama.\n\nDua. Ia boleh mengganggu tidur, dan berkait dengan kebimbangan serta kemurungan.\n\nTiga. Tetapkan masa risau. Lima belas minit sehari untuk menulis kerisauan anda. Di luar masa itu, tangguhkan dahulu.\n\nEmpat. Tanya diri: boleh saya buat sesuatu? Jika boleh, rancang satu langkah kecil. Jika tidak, alihkan perhatian kepada aktiviti lain.\n\nLima. Jaga badan. Bersenam, kurangkan kafein, dan letak telefon sebelum tidur.\n\n[reassuring] Jika fikiran berulang ini berterusan, mengganggu kerja, atau anda rasa putus asa, jumpa doktor. Terapi bercakap boleh membantu.\n\n[relieved] Selepas beberapa minggu, Farah tidur lebih lena, dan lebih tenang membuat keputusan.\n\n[warmly] Fikiran tak berhenti? Jangan pendam sendiri. Dapatkan bantuan. Saya Doktor Azren.",
+  "note": "1 take sahaja (pilihan A+). ElevenLabs Flow IsEd0zP4bAC0RQbPrVxU, generation 8KK5Hm1fraISAcyeCDeK, 84.32 s. Muzik dan SFX diguna semula."
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "farah",
+   "marker": "Farah dua"
+  },
+  {
+   "id": "lewat",
+   "marker": "Dia tidur lewat"
+  },
+  {
+   "id": "diagnosis",
+   "marker": "Doktor menilai"
+  },
+  {
+   "id": "lima",
+   "marker": "Ramai yang"
+  },
+  {
+   "id": "normal",
+   "marker": "Satu Berfikir",
+   "n": 1,
+   "label": "Merancang vs fikir berlebihan"
+  },
+  {
+   "id": "kesan",
+   "marker": "Dua Ia",
+   "n": 2,
+   "label": "Ganggu tidur & emosi"
+  },
+  {
+   "id": "masa",
+   "marker": "Tiga Tetapkan",
+   "n": 3,
+   "label": "Tetapkan masa risau"
+  },
+  {
+   "id": "tanya",
+   "marker": "Empat Tanya",
+   "n": 4,
+   "label": "Boleh saya buat sesuatu?"
+  },
+  {
+   "id": "badan",
+   "marker": "Lima Jaga",
+   "n": 5,
+   "label": "Jaga badan"
+  },
+  {
+   "id": "doktor",
+   "marker": "Jika fikiran"
+  },
+  {
+   "id": "pulih",
+   "marker": "Selepas beberapa"
+  },
+  {
+   "id": "penutup",
+   "marker": "Fikiran tak berhenti"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat",
+  "Lima"
+ ],
+ "keywords": [
+  "Otak tak boleh berhenti",
+  "tidur",
+  "overthinking",
+  "Farah",
+  "29 tahun",
+  "eksekutif pemasaran",
+  "Setiap malam",
+  "ulang semula",
+  "salah",
+  "tidur lewat",
+  "bangun penat",
+  "sukar membuat keputusan",
+  "fikiran berulang",
+  "tanpa penyelesaian",
+  "kebimbangan",
+  "5 perkara",
+  "normal",
+  "Merancang",
+  "tindakan",
+  "fikir berlebihan",
+  "berpusing",
+  "mengganggu tidur",
+  "kemurungan",
+  "masa risau",
+  "15 minit",
+  "menulis",
+  "tangguhkan",
+  "boleh saya buat sesuatu",
+  "langkah kecil",
+  "alihkan perhatian",
+  "Jaga badan",
+  "Bersenam",
+  "kafein",
+  "telefon",
+  "berterusan",
+  "putus asa",
+  "jumpa doktor",
+  "Terapi bercakap",
+  "lebih lena",
+  "lebih tenang",
+  "Jangan pendam sendiri",
+  "Dapatkan bantuan",
+  "Dr. Azren"
+ ],
+ "corrections": {
+  "dua puluh sembilan tahun": "29 tahun",
+  "Lima belas minit": "15 minit",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.35,
+  "sfx": [
+   {
+    "file": "tick.mp3",
+    "at": "Setiap malam",
+    "offset": 0,
+    "volume": 0.45
+   },
+   {
+    "file": "sting.mp3",
+    "at": "terperangkap",
+    "offset": 0,
+    "volume": 0.6
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu Berfikir",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Ia",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Tetapkan",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Tanya",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Lima Jaga",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "chime.mp3",
+    "at": "lebih lena",
+    "offset": 0,
+    "volume": 0.8
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "OTAK TAK BOLEH BERHENTI?",
+  "headline": [
+   "OVER-",
+   "THINKING"
+  ],
+  "highlight": "5 perkara perlu anda tahu",
+  "sub": "Cara hadapi fikiran berulang",
+  "tags": []
+ }
+}
