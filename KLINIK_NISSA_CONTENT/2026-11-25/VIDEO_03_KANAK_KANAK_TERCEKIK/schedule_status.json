@@ -1,0 +1,27 @@
+{
+  "video_id": "2026-11-25_VIDEO_03_KANAK_KANAK_TERCEKIK_tercekik",
+  "status": "READY_NOT_SCHEDULED",
+  "approval_gate": {
+    "medical_accuracy": "PENDING (medical_references.md, items marked 'Semak')",
+    "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
+    "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding)",
+    "publishing_instruction": "Not scheduled. Schedule on Metricool only when the user asks (AI-generated label OFF, commercial content OFF)."
+  },
+  "scheduled_posts": [],
+  "suggested_tiktok_title": "Anak tercekik: apa perlu buat?",
+  "elevenlabs": {
+    "flow_id": "IsEd0zP4bAC0RQbPrVxU",
+    "tts_generation_id": "Sv0EM9jMhNCpYDWS1xYK",
+    "tts_credits": 1396.86,
+    "tts_duration_s": 81.36,
+    "sfx": {
+      "file": "choke.mp3 baharu (2 s)",
+      "generation_id": "8DWFTz7apDvPKb6HIrNq",
+      "credits": 6.67
+    },
+    "music": "reused jenis-nyamuk/music.mp3 (0 credits)",
+    "scribe_credits": 0
+  },
+  "higgsfield_credits": 0,
+  "notes": "Medical review still pending."
+}

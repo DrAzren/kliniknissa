@@ -1,0 +1,27 @@
+{
+  "video_id": "2026-11-25_VIDEO_01_KESIHATAN_ANEMIA_anemia",
+  "status": "READY_NOT_SCHEDULED",
+  "approval_gate": {
+    "medical_accuracy": "PENDING (medical_references.md, items marked 'Semak')",
+    "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
+    "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding)",
+    "publishing_instruction": "Not scheduled. Schedule on Metricool only when the user asks (AI-generated label OFF, commercial content OFF)."
+  },
+  "scheduled_posts": [],
+  "suggested_tiktok_title": "Selalu letih & pucat? Mungkin anemia",
+  "elevenlabs": {
+    "flow_id": "IsEd0zP4bAC0RQbPrVxU",
+    "tts_generation_id": "xDXqLuA1IYONBx5gAV8I",
+    "tts_credits": 1399.86,
+    "tts_duration_s": 84.88,
+    "sfx": {
+      "file": "heart.mp3 baharu (2 s)",
+      "generation_id": "rdJlejW6M08V7myUXr6k",
+      "credits": 6.67
+    },
+    "music": "reused jenis-nyamuk/music.mp3 (0 credits)",
+    "scribe_credits": 0
+  },
+  "higgsfield_credits": 0,
+  "notes": "Medical review still pending."
+}
