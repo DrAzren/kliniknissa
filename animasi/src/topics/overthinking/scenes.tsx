@@ -39,7 +39,7 @@ export const Intro: React.FC<SceneProps> = (p) => {
         <IconPill icon={<MIcon name="brain" size={60} f={f} />} text="Otak tak boleh berhenti…" size={46} />
       </Pop>
       <Pop at={aTidur} style={{left: 60, top: 680}}><IconPill icon={<KIcon name="moon" size={56} f={f} />} text="Terutama bila nak tidur" size={38} /></Pop>
-      <div style={{position: 'absolute', left: 420, top: 760}}><KIcon name="spiral" size={240} f={f} /></div>
+      <div style={{position: 'absolute', left: 760, top: 800}}><KIcon name="spiral" size={220} f={f} /></div>
       <Who preset={FARAH} x={300} y={1000} w={480} mood="tired" pose="chin" seed={51} />
       <Pop at={aOver} style={{left: 0, width: 1080, top: 1500, display: 'flex', justifyContent: 'center'}}>
         <Pill text="OVERTHINKING" bg={C.labelPink} size={64} />
@@ -103,7 +103,6 @@ export const Diagnosis: React.FC<SceneProps> = (p) => {
       <Who preset={p.preset} x={20} y={1040} w={460} mood="neutral" pose={f < aStamp ? 'chin' : 'point'} />
       <Who preset={FARAH} x={600} y={1060} w={420} mood={f >= aStamp ? 'curious' : 'sad'} pose="clasp" seed={51} />
       <Stamp f={f} a={aStamp} top="FIKIRAN BERULANG" big="OVERTHINKING" sub="Berkait kebimbangan" bigSize={96} y={560} />
-      {f >= aStamp + 20 ? <div style={{position: 'absolute', left: 820, top: 900}}><KIcon name="spiral" size={180} f={f} /></div> : null}
     </Camera>
   );
 };
