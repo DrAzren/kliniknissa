@@ -1,14 +1,30 @@
 {
   "video_id": "2026-11-25_VIDEO_01_KESIHATAN_ANEMIA_anemia",
-  "status": "READY_NOT_SCHEDULED",
+  "status": "SCHEDULED",
   "approval_gate": {
     "medical_accuracy": "PENDING (medical_references.md, items marked 'Semak')",
     "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
     "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding)",
-    "publishing_instruction": "Not scheduled. Schedule on Metricool only when the user asks (AI-generated label OFF, commercial content OFF)."
+    "publishing_instruction": "User instructed (2026-11-24: 'cari waktu terbaik esok dan jadualkan esok') to schedule on Metricool for 25 Nov at the best times; AI-generated label OFF, commercial content OFF (made-for-kids applies only to YouTube, which this brand does not have)"
   },
-  "scheduled_posts": [],
-  "suggested_tiktok_title": "Selalu letih & pucat? Mungkin anemia",
+  "scheduled_posts": [
+    {
+      "metricool_post_id": 439988722,
+      "uuid": "3025614117892279882",
+      "publication": "2026-11-25 10:10 Asia/Kuala_Lumpur",
+      "networks": {
+        "facebook": "REEL / PENDING",
+        "instagram": "REEL, showReelOnFeed, isAiGenerated=false / PENDING",
+        "tiktok": "PUBLIC, isAigc=false, commercial (own brand / third party) = false, title 'Selalu letih & pucat? Mungkin anemia' / PENDING"
+      },
+      "autoPublish": true,
+      "caption_file": "caption_instagram.txt",
+      "source_media": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JY4YdIKVikfVoQnvogqPkiBhNk/641395a7-af1a-4156-be5f-fcd73a06e0b6.mp4",
+      "media": "https://static.metricool.com/planner/202611/7840561-file-11075263413916507685.mp4",
+      "thumbnail": "https://static.metricool.com/planner/202611/7840561-file-6293010242013299111.jpeg",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7840561&openWithPostUuid=3025614117892279882"
+    }
+  ],
   "elevenlabs": {
     "flow_id": "IsEd0zP4bAC0RQbPrVxU",
     "tts_generation_id": "xDXqLuA1IYONBx5gAV8I",
@@ -23,5 +39,10 @@
     "scribe_credits": 0
   },
   "higgsfield_credits": 0,
-  "notes": "Medical review still pending."
+  "notes": "Times from Metricool best-time data for Wednesday (FB 12:00 > 10:00 > 11:00; TikTok 10:00 > 18:00 > 12:00; IG 18:00 > 17:00 > 13:00/16:00). Media hosted on the user's Higgsfield storage (free upload, 0 credits; sizes verified equal to local files); Metricool copied it to its own storage. Medical review still pending.",
+  "metricool_brand": {
+    "label": "Klinik Nissa",
+    "brandId": 7840561,
+    "timezone": "Asia/Kuala_Lumpur"
+  }
 }

@@ -8,7 +8,7 @@ The user approved option **A+** ("+ A, ditambah 2 SFX baharu"):
 - **2 new short SFX:** fast heartbeat, toddler choking/cough.
 - Music reused from `jenis-nyamuk`.
 
-Topics checked against all 40 earlier topics; none repeat. No helpline line. **No clinic CTA.** **Not scheduled** (Metricool only when the user asks).
+Topics checked against all 40 earlier topics; none repeat. No helpline line. **No clinic CTA.** **Scheduled** on Metricool for 25 Nov at the user's request (see below).
 
 Shared code: `animasi/src/topics/_kit/kit.tsx` gained 10 icons:
 - stairs
@@ -88,7 +88,7 @@ Topics registered in `src/topics/index.ts`: `anemia`, `overthinking`, `tercekik`
 - `caption_facebook.txt`, `caption_instagram.txt`, `caption_tiktok.txt` (no hashtags)
 - `storyboard.md`
 - `medical_references.md`
-- `schedule_status.json` (status `READY_NOT_SCHEDULED`)
+- `schedule_status.json`
 
 ## Usage (verified from tool responses)
 - **ElevenLabs:** **≈4,240.9 credits** (estimate before approval: ~4,241 for option A+)
@@ -103,3 +103,14 @@ Topics registered in `src/topics/index.ts`: `anemia`, `overthinking`, `tercekik`
 - Folder date is 2026-11-25 (the planned posting day); production happened on 2026-11-24.
 - Pronunciation could not be checked automatically. Please listen for: overthinking, termengah-mengah, kekacang, "C-P-R", "sembilan sembilan sembilan".
 - Remaining credit balance could not be read (the ElevenLabs usage tool needs extra connector permission).
+
+## Scheduling (Metricool, brand Klinik Nissa, Asia/Kuala_Lumpur)
+Requested 2026-11-24 ~17:00: "cari waktu terbaik esok dan jadualkan esok". Facebook Reel + Instagram Reel (shown on feed) + TikTok (public), auto-publish, caption = `caption_instagram.txt`, custom thumbnail. AI-generated label OFF (IG `isAiGenerated`, TikTok `isAigc`), commercial content OFF (TikTok own brand / third party), TikTok auto-music OFF. Made-for-kids: not applicable (no YouTube on this brand).
+
+| Time (MYT) | Video | Metricool post id | Why this slot |
+|---|---|---|---|
+| Wed 25 Nov 10:10 | VIDEO_01 Anemia | 439988722 | TikTok 10:00 (top), FB 10:00 (2nd) |
+| Wed 25 Nov 12:20 | VIDEO_02 Overthinking | 439989132 | FB 12:00 (top hour of the day), TikTok 12:00 (3rd), IG 12:00 strong; lunch break |
+| Wed 25 Nov 18:10 | VIDEO_03 Anak Tercekik | 439989512 | IG 18:00 (top), TikTok 18:00 (2nd); parents home before dinner |
+
+Media uploaded to the user's Higgsfield storage (free `media_upload`, 0 credits; sizes verified equal to local files); Metricool copied it to its own storage. Medical review is still pending: please check before 10:10 on 25 Nov, especially the first-aid steps in VIDEO_03.
