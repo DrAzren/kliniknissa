@@ -1,0 +1,199 @@
+{
+ "id": "anak-skrin",
+ "title": "Anak & Skrin: Berapa Lama Yang Sesuai?",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[concerned] Anak kecil asyik dengan telefon, sampai tak mahu bercakap? Berapa lama masa skrin yang sesuai?\n\n[storytelling] Adik Aqil, dua tahun. Setiap kali dia menangis, ibunya beri telefon supaya dia diam. Kini, dia menonton berjam-jam setiap hari.\n\n[worried] Aqil bercakap sedikit sahaja, mudah mengamuk bila telefon diambil, dan sukar tidur.\n\n[serious] Doktor menilai perkembangannya, dan menasihatkan... Aqil perlukan lebih banyak masa bercakap dan bermain, bukan skrin.\n\n[warmly] Otak anak kecil berkembang melalui interaksi. Ini lima perkara yang ibu bapa perlu tahu.\n\nSatu. Bawah dua tahun, masa skrin tidak disyorkan.\n\nDua. Umur dua hingga empat tahun, tidak lebih satu jam sehari. Lebih kurang, lebih baik.\n\nTiga. Tonton bersama anak, pilih kandungan yang sesuai, dan berbual tentang apa yang dilihat.\n\nEmpat. Elakkan skrin semasa makan, dan sebelum tidur. Simpan telefon di luar bilik tidur.\n\nLima. Gantikan dengan bermain, membaca buku, menyanyi, dan berbual. Ibu bapa juga perlu jadi contoh.\n\n[reassuring] Jika anak lambat bercakap, atau kurang berinteraksi, jumpa doktor untuk penilaian awal.\n\n[relieved] Selepas beberapa bulan, Aqil lebih banyak bercakap, dan suka membaca buku bersama ibunya.\n\n[warmly] Kurangkan skrin, tambah masa bersama. Jangan tunggu. Saya Doktor Azren.",
+  "note": "1 take sahaja (pilihan A+). ElevenLabs Flow Wd8AoKU0xDztzLxHdZzT, generation syR1vylWZSv2Z1HbCHai, 75.84 s. Muzik diguna semula; SFX baharu phone.mp3 (st70haoeO5fYSlLLUe8t)."
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "aqil",
+   "marker": "Adik Aqil"
+  },
+  {
+   "id": "amuk",
+   "marker": "Aqil bercakap"
+  },
+  {
+   "id": "diagnosis",
+   "marker": "Doktor menilai"
+  },
+  {
+   "id": "lima",
+   "marker": "Otak anak"
+  },
+  {
+   "id": "bawah2",
+   "marker": "Satu Bawah",
+   "n": 1,
+   "label": "Bawah 2 tahun"
+  },
+  {
+   "id": "dua4",
+   "marker": "Dua Umur",
+   "n": 2,
+   "label": "2–4 tahun: maks 1 jam"
+  },
+  {
+   "id": "bersama",
+   "marker": "Tiga Tonton",
+   "n": 3,
+   "label": "Tonton bersama"
+  },
+  {
+   "id": "elak",
+   "marker": "Empat Elakkan",
+   "n": 4,
+   "label": "Waktu makan & tidur"
+  },
+  {
+   "id": "ganti",
+   "marker": "Lima Gantikan",
+   "n": 5,
+   "label": "Gantikan dengan bermain"
+  },
+  {
+   "id": "nilai",
+   "marker": "Jika anak"
+  },
+  {
+   "id": "pulih",
+   "marker": "Selepas beberapa"
+  },
+  {
+   "id": "penutup",
+   "marker": "Kurangkan skrin"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat",
+  "Lima"
+ ],
+ "keywords": [
+  "telefon",
+  "tak mahu bercakap",
+  "masa skrin",
+  "Adik Aqil",
+  "2 tahun",
+  "menangis",
+  "supaya dia diam",
+  "berjam-jam",
+  "bercakap sedikit",
+  "mengamuk",
+  "sukar tidur",
+  "perkembangannya",
+  "bercakap dan bermain",
+  "bukan skrin",
+  "interaksi",
+  "5 perkara",
+  "tidak disyorkan",
+  "2–4 tahun",
+  "1 jam",
+  "Lebih kurang, lebih baik",
+  "Tonton bersama",
+  "kandungan yang sesuai",
+  "berbual",
+  "semasa makan",
+  "sebelum tidur",
+  "luar bilik tidur",
+  "bermain",
+  "membaca buku",
+  "menyanyi",
+  "contoh",
+  "lambat bercakap",
+  "kurang berinteraksi",
+  "penilaian awal",
+  "banyak bercakap",
+  "membaca buku",
+  "Kurangkan skrin",
+  "tambah masa bersama",
+  "Jangan tunggu",
+  "Dr. Azren"
+ ],
+ "corrections": {
+  "dua hingga empat tahun": "2–4 tahun",
+  "dua tahun": "2 tahun",
+  "satu jam": "1 jam",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.35,
+  "sfx": [
+   {
+    "file": "phone.mp3",
+    "at": "beri telefon",
+    "offset": 0,
+    "volume": 0.55
+   },
+   {
+    "file": "sting.mp3",
+    "at": "mengamuk",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu Bawah",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Umur",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Tonton",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Elakkan",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Lima Gantikan",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "chime.mp3",
+    "at": "banyak bercakap",
+    "offset": 0,
+    "volume": 0.8
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "ANAK ASYIK DENGAN TELEFON?",
+  "headline": [
+   "ANAK &",
+   "SKRIN"
+  ],
+  "highlight": "Berapa lama yang sesuai?",
+  "sub": "Panduan WHO untuk bawah 5 tahun",
+  "tags": []
+ }
+}

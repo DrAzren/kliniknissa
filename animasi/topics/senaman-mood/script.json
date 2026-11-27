@@ -1,0 +1,203 @@
+{
+ "id": "senaman-mood",
+ "title": "Senaman & Mood: Ubat Yang Sering Dilupakan",
+ "voice": {
+  "voice_id": "lN6exnzhuXDOyNQfsVSR",
+  "voice_name": "Dr Azren",
+  "model_id": "eleven_v4",
+  "text": "[curious] Rasa murung dan tak bermaya? Mungkin badan anda perlu bergerak.\n\n[storytelling] Encik Rizal, tiga puluh enam tahun, pegawai bank. Setiap hari selepas kerja, dia hanya duduk di sofa dan menatap telefon.\n\n[worried] Lama-kelamaan, moodnya merosot, dia mudah marah, dan sukar tidur.\n\n[serious] Doktor menilai mood dan tidurnya, dan mencadangkan satu langkah tambahan... senaman secara berkala.\n\n[warmly] Senaman bukan hanya untuk badan. Ini lima perkara yang perlu anda tahu.\n\nSatu. Senaman membantu mengurangkan simptom kemurungan dan kebimbangan, dan memperbaiki tidur.\n\nDua. Sasarkan sekurang-kurangnya seratus lima puluh minit seminggu aktiviti sederhana, seperti jalan laju. Kira-kira tiga puluh minit, lima hari seminggu.\n\nTiga. Mulakan kecil. Sepuluh minit pun sudah baik. Yang penting, konsisten.\n\nEmpat. Pilih aktiviti yang anda suka, dan lebih seronok bersama kawan atau kumpulan.\n\nLima. Senaman melengkapkan rawatan, bukan menggantikannya. Jangan berhenti ubat atau terapi tanpa nasihat doktor.\n\n[reassuring] Jika mood rendah berterusan lebih dua minggu, atau anda hilang minat dalam semua perkara, jumpa doktor.\n\n[relieved] Selepas dua bulan berjalan laju setiap petang, Rizal tidur lebih lena, dan lebih bertenaga.\n\n[warmly] Rasa tak bermaya? Mulakan dengan sepuluh minit hari ini. Saya Doktor Azren.",
+  "note": "1 take sahaja (pilihan A+). ElevenLabs Flow Wd8AoKU0xDztzLxHdZzT, generation OBJI61I1xKE2yb35kTkF, 76.96 s. Muzik dan SFX diguna semula."
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "marker": null
+  },
+  {
+   "id": "rizal",
+   "marker": "Encik Rizal"
+  },
+  {
+   "id": "merosot",
+   "marker": "Lama-kelamaan"
+  },
+  {
+   "id": "diagnosis",
+   "marker": "Doktor menilai"
+  },
+  {
+   "id": "lima",
+   "marker": "Senaman bukan"
+  },
+  {
+   "id": "kurang",
+   "marker": "Satu Senaman",
+   "n": 1,
+   "label": "Kurangkan murung & cemas"
+  },
+  {
+   "id": "minit",
+   "marker": "Dua Sasarkan",
+   "n": 2,
+   "label": "150 minit seminggu"
+  },
+  {
+   "id": "kecil",
+   "marker": "Tiga Mulakan",
+   "n": 3,
+   "label": "Mulakan kecil"
+  },
+  {
+   "id": "suka",
+   "marker": "Empat Pilih",
+   "n": 4,
+   "label": "Aktiviti yang anda suka"
+  },
+  {
+   "id": "lengkap",
+   "marker": "Lima Senaman",
+   "n": 5,
+   "label": "Lengkapkan rawatan"
+  },
+  {
+   "id": "doktor",
+   "marker": "Jika mood"
+  },
+  {
+   "id": "pulih",
+   "marker": "Selepas dua"
+  },
+  {
+   "id": "penutup",
+   "marker": "Rasa tak bermaya"
+  }
+ ],
+ "numberWords": [
+  "Satu",
+  "Dua",
+  "Tiga",
+  "Empat",
+  "Lima"
+ ],
+ "keywords": [
+  "murung",
+  "tak bermaya",
+  "bergerak",
+  "Encik Rizal",
+  "36 tahun",
+  "pegawai bank",
+  "duduk di sofa",
+  "menatap telefon",
+  "moodnya merosot",
+  "mudah marah",
+  "sukar tidur",
+  "senaman secara berkala",
+  "bukan hanya untuk badan",
+  "5 perkara",
+  "kemurungan",
+  "kebimbangan",
+  "memperbaiki tidur",
+  "150 minit",
+  "sederhana",
+  "jalan laju",
+  "30 minit",
+  "lima hari seminggu",
+  "Mulakan kecil",
+  "10 minit",
+  "konsisten",
+  "anda suka",
+  "kawan",
+  "kumpulan",
+  "melengkapkan rawatan",
+  "bukan menggantikannya",
+  "Jangan berhenti ubat",
+  "terapi",
+  "2 minggu",
+  "hilang minat",
+  "jumpa doktor",
+  "2 bulan",
+  "lebih lena",
+  "bertenaga",
+  "hari ini",
+  "Dr. Azren"
+ ],
+ "corrections": {
+  "tiga puluh enam tahun": "36 tahun",
+  "seratus lima puluh minit": "150 minit",
+  "tiga puluh minit": "30 minit",
+  "sepuluh minit": "10 minit",
+  "dua minggu": "2 minggu",
+  "dua bulan": "2 bulan",
+  "Doktor Azren": "Dr. Azren"
+ },
+ "audio": {
+  "music": {
+   "file": "music.mp3",
+   "volume": 0.16,
+   "fadeIn": 0.4,
+   "fadeOut": 2.5,
+   "endVolume": 0.3
+  },
+  "whooshOnCuts": 0.35,
+  "sfx": [
+   {
+    "file": "tick.mp3",
+    "at": "menatap telefon",
+    "offset": 0,
+    "volume": 0.4
+   },
+   {
+    "file": "sting.mp3",
+    "at": "merosot",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Satu Senaman",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Dua Sasarkan",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Tiga Mulakan",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Empat Pilih",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "pop.mp3",
+    "at": "Lima Senaman",
+    "offset": 0,
+    "volume": 0.5
+   },
+   {
+    "file": "chime.mp3",
+    "at": "lebih lena",
+    "offset": 0,
+    "volume": 0.8
+   }
+  ]
+ },
+ "cover": {
+  "kicker": "RASA MURUNG & TAK BERMAYA?",
+  "headline": [
+   "SENAMAN",
+   "& MOOD"
+  ],
+  "highlight": "5 perkara perlu anda tahu",
+  "sub": "Mulakan dengan 10 minit",
+  "tags": []
+ }
+}

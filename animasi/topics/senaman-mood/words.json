@@ -1,0 +1,881 @@
+{
+ "source": "scribe",
+ "duration": 77.009,
+ "words": [
+  {
+   "text": "Rasa",
+   "start": 0.067,
+   "end": 0.32
+  },
+  {
+   "text": "murung",
+   "start": 0.4,
+   "end": 0.8
+  },
+  {
+   "text": "dan",
+   "start": 0.88,
+   "end": 0.96
+  },
+  {
+   "text": "tak",
+   "start": 1.04,
+   "end": 1.12
+  },
+  {
+   "text": "bermaya?",
+   "start": 1.2,
+   "end": 1.92
+  },
+  {
+   "text": "Mungkin",
+   "start": 2.16,
+   "end": 2.64
+  },
+  {
+   "text": "badan",
+   "start": 2.72,
+   "end": 2.88
+  },
+  {
+   "text": "anda",
+   "start": 2.96,
+   "end": 3.12
+  },
+  {
+   "text": "perlu",
+   "start": 3.2,
+   "end": 3.36
+  },
+  {
+   "text": "bergerak.",
+   "start": 3.52,
+   "end": 3.92
+  },
+  {
+   "text": "Encik",
+   "start": 4.32,
+   "end": 4.52
+  },
+  {
+   "text": "Rizal,",
+   "start": 4.56,
+   "end": 5.08
+  },
+  {
+   "text": "tiga",
+   "start": 5.2,
+   "end": 5.36
+  },
+  {
+   "text": "puluh",
+   "start": 5.44,
+   "end": 5.5
+  },
+  {
+   "text": "enam",
+   "start": 5.52,
+   "end": 5.68
+  },
+  {
+   "text": "tahun,",
+   "start": 5.76,
+   "end": 6.24
+  },
+  {
+   "text": "pegawai",
+   "start": 6.32,
+   "end": 6.64
+  },
+  {
+   "text": "bank.",
+   "start": 6.72,
+   "end": 7.04
+  },
+  {
+   "text": "Setiap",
+   "start": 7.36,
+   "end": 7.68
+  },
+  {
+   "text": "hari",
+   "start": 7.76,
+   "end": 8
+  },
+  {
+   "text": "selepas",
+   "start": 8.08,
+   "end": 8.4
+  },
+  {
+   "text": "kerja,",
+   "start": 8.6,
+   "end": 8.96
+  },
+  {
+   "text": "dia",
+   "start": 9.04,
+   "end": 9.12
+  },
+  {
+   "text": "hanya",
+   "start": 9.2,
+   "end": 9.36
+  },
+  {
+   "text": "duduk",
+   "start": 9.4,
+   "end": 9.76
+  },
+  {
+   "text": "di",
+   "start": 9.8,
+   "end": 9.84
+  },
+  {
+   "text": "sofa",
+   "start": 9.92,
+   "end": 10.32
+  },
+  {
+   "text": "dan",
+   "start": 10.4,
+   "end": 10.48
+  },
+  {
+   "text": "menatap",
+   "start": 10.56,
+   "end": 10.96
+  },
+  {
+   "text": "telefon.",
+   "start": 11.08,
+   "end": 11.64
+  },
+  {
+   "text": "Lama-kelamaan,",
+   "start": 11.907,
+   "end": 12.96
+  },
+  {
+   "text": "moodnya",
+   "start": 13.04,
+   "end": 13.28
+  },
+  {
+   "text": "merosot,",
+   "start": 13.4,
+   "end": 14.24
+  },
+  {
+   "text": "dia",
+   "start": 14.32,
+   "end": 14.4
+  },
+  {
+   "text": "mudah",
+   "start": 14.44,
+   "end": 14.64
+  },
+  {
+   "text": "marah,",
+   "start": 14.72,
+   "end": 15.36
+  },
+  {
+   "text": "dan",
+   "start": 15.44,
+   "end": 15.52
+  },
+  {
+   "text": "sukar",
+   "start": 15.6,
+   "end": 16
+  },
+  {
+   "text": "tidur.",
+   "start": 16.08,
+   "end": 16.68
+  },
+  {
+   "text": "Doktor",
+   "start": 16.944,
+   "end": 17.2
+  },
+  {
+   "text": "menilai",
+   "start": 17.28,
+   "end": 17.6
+  },
+  {
+   "text": "mood",
+   "start": 17.68,
+   "end": 17.92
+  },
+  {
+   "text": "dan",
+   "start": 17.96,
+   "end": 18
+  },
+  {
+   "text": "tidurnya,",
+   "start": 18.08,
+   "end": 18.8
+  },
+  {
+   "text": "dan",
+   "start": 18.88,
+   "end": 18.96
+  },
+  {
+   "text": "mencadangkan",
+   "start": 19.013,
+   "end": 19.6
+  },
+  {
+   "text": "satu",
+   "start": 19.68,
+   "end": 20
+  },
+  {
+   "text": "langkah",
+   "start": 20.08,
+   "end": 20.32
+  },
+  {
+   "text": "tambahan...",
+   "start": 20.4,
+   "end": 21.2
+  },
+  {
+   "text": "senaman",
+   "start": 21.32,
+   "end": 21.84
+  },
+  {
+   "text": "secara",
+   "start": 22,
+   "end": 22.32
+  },
+  {
+   "text": "berkala.",
+   "start": 22.4,
+   "end": 22.88
+  },
+  {
+   "text": "Senaman",
+   "start": 23.413,
+   "end": 23.76
+  },
+  {
+   "text": "bukan",
+   "start": 23.8,
+   "end": 24
+  },
+  {
+   "text": "hanya",
+   "start": 24.08,
+   "end": 24.24
+  },
+  {
+   "text": "untuk",
+   "start": 24.32,
+   "end": 24.44
+  },
+  {
+   "text": "badan.",
+   "start": 24.48,
+   "end": 24.96
+  },
+  {
+   "text": "Ini",
+   "start": 25.28,
+   "end": 25.6
+  },
+  {
+   "text": "lima",
+   "start": 25.68,
+   "end": 25.96
+  },
+  {
+   "text": "perkara",
+   "start": 26,
+   "end": 26.4
+  },
+  {
+   "text": "yang",
+   "start": 26.48,
+   "end": 26.56
+  },
+  {
+   "text": "perlu",
+   "start": 26.72,
+   "end": 26.96
+  },
+  {
+   "text": "anda",
+   "start": 27.04,
+   "end": 27.2
+  },
+  {
+   "text": "tahu.",
+   "start": 27.24,
+   "end": 27.8
+  },
+  {
+   "text": "Satu.",
+   "start": 28.08,
+   "end": 28.8
+  },
+  {
+   "text": "Senaman",
+   "start": 28.88,
+   "end": 29.28
+  },
+  {
+   "text": "membantu",
+   "start": 29.36,
+   "end": 29.76
+  },
+  {
+   "text": "mengurangkan",
+   "start": 29.84,
+   "end": 30.4
+  },
+  {
+   "text": "simptom",
+   "start": 30.48,
+   "end": 30.8
+  },
+  {
+   "text": "kemurungan",
+   "start": 30.88,
+   "end": 31.44
+  },
+  {
+   "text": "dan",
+   "start": 31.52,
+   "end": 31.6
+  },
+  {
+   "text": "kebimbangan,",
+   "start": 31.68,
+   "end": 32.48
+  },
+  {
+   "text": "dan",
+   "start": 32.56,
+   "end": 32.64
+  },
+  {
+   "text": "memperbaiki",
+   "start": 32.76,
+   "end": 33.28
+  },
+  {
+   "text": "tidur.",
+   "start": 33.36,
+   "end": 34.08
+  },
+  {
+   "text": "Dua.",
+   "start": 34.12,
+   "end": 34.72
+  },
+  {
+   "text": "Sasarkan",
+   "start": 34.76,
+   "end": 35.28
+  },
+  {
+   "text": "sekurang-kurangnya",
+   "start": 35.36,
+   "end": 36.08
+  },
+  {
+   "text": "seratus",
+   "start": 36.16,
+   "end": 36.64
+  },
+  {
+   "text": "lima",
+   "start": 36.72,
+   "end": 36.88
+  },
+  {
+   "text": "puluh",
+   "start": 36.92,
+   "end": 37.08
+  },
+  {
+   "text": "minit",
+   "start": 37.12,
+   "end": 37.36
+  },
+  {
+   "text": "seminggu",
+   "start": 37.44,
+   "end": 37.84
+  },
+  {
+   "text": "aktiviti",
+   "start": 38,
+   "end": 38.4
+  },
+  {
+   "text": "sederhana,",
+   "start": 38.48,
+   "end": 39.2
+  },
+  {
+   "text": "seperti",
+   "start": 39.28,
+   "end": 39.6
+  },
+  {
+   "text": "jalan",
+   "start": 39.68,
+   "end": 39.92
+  },
+  {
+   "text": "laju.",
+   "start": 40.053,
+   "end": 40.64
+  },
+  {
+   "text": "Kira-kira",
+   "start": 40.693,
+   "end": 41.04
+  },
+  {
+   "text": "tiga",
+   "start": 41.2,
+   "end": 41.36
+  },
+  {
+   "text": "puluh",
+   "start": 41.4,
+   "end": 41.56
+  },
+  {
+   "text": "minit,",
+   "start": 41.6,
+   "end": 42.08
+  },
+  {
+   "text": "lima",
+   "start": 42.16,
+   "end": 42.32
+  },
+  {
+   "text": "hari",
+   "start": 42.4,
+   "end": 42.56
+  },
+  {
+   "text": "seminggu.",
+   "start": 42.6,
+   "end": 43.36
+  },
+  {
+   "text": "Tiga.",
+   "start": 43.4,
+   "end": 44
+  },
+  {
+   "text": "Mulakan",
+   "start": 44.08,
+   "end": 44.4
+  },
+  {
+   "text": "kecil.",
+   "start": 44.48,
+   "end": 45.12
+  },
+  {
+   "text": "Sepuluh",
+   "start": 45.2,
+   "end": 45.4
+  },
+  {
+   "text": "minit",
+   "start": 45.44,
+   "end": 45.76
+  },
+  {
+   "text": "pun",
+   "start": 45.84,
+   "end": 45.92
+  },
+  {
+   "text": "sudah",
+   "start": 46,
+   "end": 46.16
+  },
+  {
+   "text": "baik.",
+   "start": 46.24,
+   "end": 46.72
+  },
+  {
+   "text": "Yang",
+   "start": 46.76,
+   "end": 46.8
+  },
+  {
+   "text": "penting,",
+   "start": 46.88,
+   "end": 47.52
+  },
+  {
+   "text": "konsisten.",
+   "start": 47.6,
+   "end": 48.56
+  },
+  {
+   "text": "Empat.",
+   "start": 48.68,
+   "end": 49.2
+  },
+  {
+   "text": "Pilih",
+   "start": 49.28,
+   "end": 49.44
+  },
+  {
+   "text": "aktiviti",
+   "start": 49.6,
+   "end": 49.92
+  },
+  {
+   "text": "yang",
+   "start": 50,
+   "end": 50.08
+  },
+  {
+   "text": "anda",
+   "start": 50.2,
+   "end": 50.32
+  },
+  {
+   "text": "suka,",
+   "start": 50.36,
+   "end": 50.88
+  },
+  {
+   "text": "dan",
+   "start": 50.96,
+   "end": 51.04
+  },
+  {
+   "text": "lebih",
+   "start": 51.08,
+   "end": 51.28
+  },
+  {
+   "text": "seronok",
+   "start": 51.36,
+   "end": 51.68
+  },
+  {
+   "text": "bersama",
+   "start": 51.76,
+   "end": 52
+  },
+  {
+   "text": "kawan",
+   "start": 52.08,
+   "end": 52.4
+  },
+  {
+   "text": "atau",
+   "start": 52.48,
+   "end": 52.68
+  },
+  {
+   "text": "kumpulan.",
+   "start": 52.72,
+   "end": 53.52
+  },
+  {
+   "text": "Lima.",
+   "start": 53.56,
+   "end": 54.16
+  },
+  {
+   "text": "Senaman",
+   "start": 54.24,
+   "end": 54.64
+  },
+  {
+   "text": "melengkapkan",
+   "start": 54.72,
+   "end": 55.28
+  },
+  {
+   "text": "rawatan,",
+   "start": 55.36,
+   "end": 56
+  },
+  {
+   "text": "bukan",
+   "start": 56.04,
+   "end": 56.4
+  },
+  {
+   "text": "menggantikannya.",
+   "start": 56.453,
+   "end": 57.52
+  },
+  {
+   "text": "Jangan",
+   "start": 57.56,
+   "end": 57.76
+  },
+  {
+   "text": "berhenti",
+   "start": 57.84,
+   "end": 58.16
+  },
+  {
+   "text": "ubat",
+   "start": 58.24,
+   "end": 58.56
+  },
+  {
+   "text": "atau",
+   "start": 58.64,
+   "end": 58.8
+  },
+  {
+   "text": "terapi",
+   "start": 58.88,
+   "end": 59.28
+  },
+  {
+   "text": "tanpa",
+   "start": 59.36,
+   "end": 59.68
+  },
+  {
+   "text": "nasihat",
+   "start": 59.76,
+   "end": 60
+  },
+  {
+   "text": "doktor.",
+   "start": 60.08,
+   "end": 60.8
+  },
+  {
+   "text": "Jika",
+   "start": 60.87,
+   "end": 61.04
+  },
+  {
+   "text": "mood",
+   "start": 61.12,
+   "end": 61.28
+  },
+  {
+   "text": "rendah",
+   "start": 61.36,
+   "end": 61.6
+  },
+  {
+   "text": "berterusan",
+   "start": 61.68,
+   "end": 62.16
+  },
+  {
+   "text": "lebih",
+   "start": 62.24,
+   "end": 62.4
+  },
+  {
+   "text": "dua",
+   "start": 62.48,
+   "end": 62.64
+  },
+  {
+   "text": "minggu,",
+   "start": 62.72,
+   "end": 63.28
+  },
+  {
+   "text": "atau",
+   "start": 63.4,
+   "end": 63.6
+  },
+  {
+   "text": "anda",
+   "start": 63.68,
+   "end": 63.76
+  },
+  {
+   "text": "hilang",
+   "start": 63.84,
+   "end": 64.16
+  },
+  {
+   "text": "minat",
+   "start": 64.28,
+   "end": 64.48
+  },
+  {
+   "text": "dalam",
+   "start": 64.52,
+   "end": 64.72
+  },
+  {
+   "text": "semua",
+   "start": 64.8,
+   "end": 65.12
+  },
+  {
+   "text": "perkara,",
+   "start": 65.2,
+   "end": 65.84
+  },
+  {
+   "text": "jumpa",
+   "start": 65.92,
+   "end": 66.2
+  },
+  {
+   "text": "doktor.",
+   "start": 66.24,
+   "end": 66.96
+  },
+  {
+   "text": "Selepas",
+   "start": 67.166,
+   "end": 67.36
+  },
+  {
+   "text": "dua",
+   "start": 67.44,
+   "end": 67.6
+  },
+  {
+   "text": "bulan",
+   "start": 67.68,
+   "end": 67.92
+  },
+  {
+   "text": "berjalan",
+   "start": 68,
+   "end": 68.32
+  },
+  {
+   "text": "laju",
+   "start": 68.36,
+   "end": 68.64
+  },
+  {
+   "text": "setiap",
+   "start": 68.72,
+   "end": 68.96
+  },
+  {
+   "text": "petang,",
+   "start": 69.08,
+   "end": 69.6
+  },
+  {
+   "text": "Rizal",
+   "start": 69.64,
+   "end": 69.92
+  },
+  {
+   "text": "tidur",
+   "start": 70,
+   "end": 70.16
+  },
+  {
+   "text": "lebih",
+   "start": 70.24,
+   "end": 70.4
+  },
+  {
+   "text": "lena,",
+   "start": 70.48,
+   "end": 71.04
+  },
+  {
+   "text": "dan",
+   "start": 71.12,
+   "end": 71.2
+  },
+  {
+   "text": "lebih",
+   "start": 71.28,
+   "end": 71.6
+  },
+  {
+   "text": "bertenaga.",
+   "start": 71.72,
+   "end": 72.56
+  },
+  {
+   "text": "Rasa",
+   "start": 72.629,
+   "end": 72.8
+  },
+  {
+   "text": "tak",
+   "start": 72.84,
+   "end": 72.92
+  },
+  {
+   "text": "bermaya?",
+   "start": 72.96,
+   "end": 73.68
+  },
+  {
+   "text": "Mulakan",
+   "start": 73.76,
+   "end": 74.08
+  },
+  {
+   "text": "dengan",
+   "start": 74.133,
+   "end": 74.24
+  },
+  {
+   "text": "sepuluh",
+   "start": 74.32,
+   "end": 74.64
+  },
+  {
+   "text": "minit",
+   "start": 74.72,
+   "end": 74.88
+  },
+  {
+   "text": "hari",
+   "start": 74.96,
+   "end": 75.12
+  },
+  {
+   "text": "ini.",
+   "start": 75.24,
+   "end": 75.68
+  },
+  {
+   "text": "Saya",
+   "start": 75.72,
+   "end": 76
+  },
+  {
+   "text": "Doktor",
+   "start": 76.08,
+   "end": 76.32
+  },
+  {
+   "text": "Azren.",
+   "start": 76.4,
+   "end": 76.96
+  }
+ ]
+}
