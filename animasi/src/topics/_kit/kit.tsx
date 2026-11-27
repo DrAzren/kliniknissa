@@ -139,7 +139,8 @@ export type KIconName =
   | 'artery' | 'wok' | 'veg' | 'moon' | 'car' | 'sun' | 'photolamp'
   | 'battery' | 'waves' | 'lifejacket' | 'fence' | 'cpr' | 'headache'
   | 'syringe' | 'testkit' | 'cells' | 'uterus' | 'dthermo' | 'rash' | 'drawer' | 'pillbottle' | 'shirt'
-  | 'stairs' | 'steak' | 'rbc' | 'spiral' | 'notebook' | 'grape' | 'nuts' | 'backblow' | 'thrust' | 'chest2';
+  | 'stairs' | 'steak' | 'rbc' | 'spiral' | 'notebook' | 'grape' | 'nuts' | 'backblow' | 'thrust' | 'chest2'
+  | 'cane' | 'grabbar' | 'mat' | 'slipper' | 'dumbbell' | 'tv' | 'book' | 'music';
 
 export const KIcon: React.FC<{name: KIconName; size?: number; f?: number; text?: string}> = ({name, size = 120, f = 0, text}) => {
   const w = '#fff', nv = C.navy, y = C.yellow;
@@ -1157,6 +1158,79 @@ export const KIcon: React.FC<{name: KIconName; size?: number; f?: number; text?:
           </g>
         );
       }
+      case 'cane':
+        return (
+          <g>
+            <path d="M 70 112 L 70 30 Q 70 10 52 10 Q 36 10 36 26" stroke="#A8714D" strokeWidth={10} fill="none" strokeLinecap="round" />
+            <rect x={62} y={104} width={16} height={10} rx={4} fill="#2A1C24" />
+          </g>
+        );
+      case 'grabbar':
+        return (
+          <g>
+            <rect x={8} y={8} width={104} height={104} rx={10} fill="#DFF3FF" />
+            {[0, 1, 2].map((i) => <path key={i} d={`M 8 ${40 + i * 30} L 112 ${40 + i * 30} M ${40 + i * 30} 8 L ${40 + i * 30} 112`} stroke="#B8D8EE" strokeWidth={2} />)}
+            <rect x={20} y={50} width={80} height={14} rx={7} fill="#C9D4E5" stroke={w} strokeWidth={3} />
+            <rect x={14} y={44} width={12} height={26} rx={4} fill="#9AA8BF" />
+            <rect x={94} y={44} width={12} height={26} rx={4} fill="#9AA8BF" />
+          </g>
+        );
+      case 'mat':
+        return (
+          <g>
+            <rect x={10} y={40} width={100} height={60} rx={14} fill={C.green} />
+            {[0, 1, 2, 3, 4].map((i) => [0, 1, 2].map((j) => <circle key={`${i}${j}`} cx={26 + i * 17} cy={56 + j * 14} r={4} fill="#2E8A57" />))}
+          </g>
+        );
+      case 'slipper':
+        return (
+          <g>
+            <path d="M 30 14 Q 60 6 76 30 L 96 100 Q 96 114 80 114 L 40 114 Q 24 114 22 98 Z" fill="#4F79C7" />
+            <path d="M 26 46 Q 56 36 82 52 L 84 64 Q 56 52 28 60 Z" fill={y} />
+            {[70, 84, 98].map((yy) => <path key={yy} d={`M 34 ${yy} L 88 ${yy}`} stroke="#3A5E9E" strokeWidth={3} />)}
+          </g>
+        );
+      case 'dumbbell': {
+        const lift = Math.sin(f / 6) * 6;
+        return (
+          <g transform={`translate(0 ${lift}) rotate(-15 60 60)`}>
+            <rect x={30} y={54} width={60} height={12} rx={6} fill="#9AA8BF" />
+            <rect x={14} y={36} width={18} height={48} rx={6} fill={C.navy} />
+            <rect x={88} y={36} width={18} height={48} rx={6} fill={C.navy} />
+            <rect x={4} y={44} width={12} height={32} rx={5} fill={C.violet[2]} />
+            <rect x={104} y={44} width={12} height={32} rx={5} fill={C.violet[2]} />
+          </g>
+        );
+      }
+      case 'tv':
+        return (
+          <g>
+            <rect x={8} y={20} width={104} height={70} rx={10} fill={nv} />
+            <rect x={16} y={28} width={88} height={54} rx={6} fill="#4FA3FF" opacity={0.6 + 0.3 * Math.abs(Math.sin(f / 4))} />
+            <circle cx={50} cy={52} r={10} fill={y} /><circle cx={74} cy={58} r={8} fill={C.labelPink} />
+            <rect x={44} y={92} width={32} height={8} fill={nv} />
+            <rect x={30} y={100} width={60} height={8} rx={4} fill={nv} />
+          </g>
+        );
+      case 'book':
+        return (
+          <g>
+            <path d="M 60 30 Q 36 18 10 24 L 10 100 Q 36 94 60 106 Z" fill={w} />
+            <path d="M 60 30 Q 84 18 110 24 L 110 100 Q 84 94 60 106 Z" fill="#F7F1E3" />
+            <path d="M 60 30 L 60 106" stroke="#C9D4E5" strokeWidth={3} />
+            {[44, 58, 72].map((yy) => <path key={yy} d={`M 20 ${yy} Q 36 ${yy - 4} 50 ${yy + 2} M 70 ${yy + 2} Q 84 ${yy - 4} 100 ${yy}`} stroke="#C9D4E5" strokeWidth={4} fill="none" strokeLinecap="round" />)}
+            <circle cx={36} cy={86} r={6} fill={C.labelPink} /><circle cx={86} cy={86} r={6} fill={y} />
+          </g>
+        );
+      case 'music':
+        return (
+          <g transform={`translate(0 ${Math.sin(f / 5) * 4})`}>
+            <path d="M 44 86 L 44 24 L 96 14 L 96 74" stroke={w} strokeWidth={8} fill="none" strokeLinejoin="round" />
+            <path d="M 44 24 L 96 14 L 96 30 L 44 40 Z" fill={w} />
+            <ellipse cx={32} cy={88} rx={16} ry={12} fill={C.labelPink} />
+            <ellipse cx={84} cy={76} rx={16} ry={12} fill={y} />
+          </g>
+        );
       case 'lungs':
         return (
           <g>

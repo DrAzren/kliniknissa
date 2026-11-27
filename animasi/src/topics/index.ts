@@ -113,6 +113,18 @@ import {SCENES as S28} from './tercekik/scenes';
 import {Cover as Cover28} from './tercekik/Cover';
 import script28 from '../../topics/tercekik/script.json';
 import words28 from '../../topics/tercekik/words.json';
+import {SCENES as S29} from './jatuh-warga-emas/scenes';
+import {Cover as Cover29} from './jatuh-warga-emas/Cover';
+import script29 from '../../topics/jatuh-warga-emas/script.json';
+import words29 from '../../topics/jatuh-warga-emas/words.json';
+import {SCENES as S30} from './senaman-mood/scenes';
+import {Cover as Cover30} from './senaman-mood/Cover';
+import script30 from '../../topics/senaman-mood/script.json';
+import words30 from '../../topics/senaman-mood/words.json';
+import {SCENES as S31} from './anak-skrin/scenes';
+import {Cover as Cover31} from './anak-skrin/Cover';
+import script31 from '../../topics/anak-skrin/script.json';
+import words31 from '../../topics/anak-skrin/words.json';
 
 export type Topic = {
   script: ScriptFile;
@@ -150,5 +162,8 @@ export const TOPICS: Record<string, Topic> = {
   'anemia': {script: script26 as ScriptFile, words: words26 as WordsFile, scenes: S26, Cover: Cover26},
   'overthinking': {script: script27 as ScriptFile, words: words27 as WordsFile, scenes: S27, Cover: Cover27},
   'tercekik': {script: script28 as ScriptFile, words: words28 as WordsFile, scenes: S28, Cover: Cover28},
+  'jatuh-warga-emas': {script: script29 as ScriptFile, words: words29 as WordsFile, scenes: S29, Cover: Cover29},
+  'senaman-mood': {script: script30 as ScriptFile, words: words30 as WordsFile, scenes: S30, Cover: Cover30},
+  'anak-skrin': {script: script31 as ScriptFile, words: words31 as WordsFile, scenes: S31, Cover: Cover31},
   'hfmd': {script: script7 as ScriptFile, words: words7 as WordsFile, scenes: S7, Cover: Cover7},
 };
