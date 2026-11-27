@@ -1,4 +1,4 @@
-# Senaman & Mood: Ubat Yang Sering Dilupakan — narration DRAFT (Dr Azren, ElevenLabs eleven_v4, 1 take) — 1319 aksara, MENUNGGU 'OK jana'
+# Senaman & Mood: Ubat Yang Sering Dilupakan — narration (Dr Azren, ElevenLabs eleven_v4, 1 take, 76.96 s, generation OBJI61I1xKE2yb35kTkF)
 # Tag [ ] ialah arahan emosi (tidak dibaca). Kapsyen: "tiga puluh enam tahun" -> "36 tahun", "seratus lima puluh minit" -> "150 minit", "tiga puluh minit" -> "30 minit", "Sepuluh minit" / "sepuluh minit" -> "10 minit", "dua minggu" -> "2 minggu", "dua bulan" -> "2 bulan", "Doktor Azren" -> "Dr. Azren".
 # Penutup pada skrin: "Video ini untuk pendidikan, bukan diagnosis."
 

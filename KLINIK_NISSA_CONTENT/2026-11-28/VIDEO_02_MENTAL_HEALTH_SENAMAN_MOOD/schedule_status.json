@@ -1,0 +1,27 @@
+{
+  "video_id": "2026-11-28_VIDEO_02_MENTAL_HEALTH_SENAMAN_MOOD_senaman-mood",
+  "status": "READY_NOT_SCHEDULED",
+  "approval_gate": {
+    "medical_accuracy": "PENDING (medical_references.md, items marked 'Semak')",
+    "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
+    "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding)",
+    "publishing_instruction": "Not scheduled. Schedule on Metricool only when the user asks (AI-generated label OFF, commercial content OFF)."
+  },
+  "scheduled_posts": [],
+  "suggested_tiktok_title": "Senaman & mood: ubat yang sering dilupakan",
+  "elevenlabs": {
+    "flow_id": "Wd8AoKU0xDztzLxHdZzT",
+    "tts_generation_id": "OBJI61I1xKE2yb35kTkF",
+    "tts_credits": 1318.87,
+    "tts_duration_s": 76.96,
+    "sfx": {
+      "file": "diguna semula sahaja (0 kredit)",
+      "generation_id": "—",
+      "credits": 0
+    },
+    "music": "reused jenis-nyamuk/music.mp3 (0 credits)",
+    "scribe_credits": 0
+  },
+  "higgsfield_credits": 0,
+  "notes": "Medical review still pending."
+}

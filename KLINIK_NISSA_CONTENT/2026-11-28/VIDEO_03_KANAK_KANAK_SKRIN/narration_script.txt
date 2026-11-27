@@ -1,4 +1,4 @@
-# Anak & Skrin: Berapa Lama Yang Sesuai? — narration DRAFT (Dr Azren, ElevenLabs eleven_v4, 1 take) — 1290 aksara, MENUNGGU 'OK jana'
+# Anak & Skrin: Berapa Lama Yang Sesuai? — narration (Dr Azren, ElevenLabs eleven_v4, 1 take, 75.84 s, generation syR1vylWZSv2Z1HbCHai)
 # Tag [ ] ialah arahan emosi (tidak dibaca). Kapsyen: "dua tahun" -> "2 tahun", "dua hingga empat tahun" -> "2–4 tahun", "satu jam" -> "1 jam", "Doktor Azren" -> "Dr. Azren".
 # Penutup pada skrin: "Video ini untuk pendidikan, bukan diagnosis."
 

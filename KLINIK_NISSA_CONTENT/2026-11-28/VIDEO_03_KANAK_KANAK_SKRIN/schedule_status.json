@@ -1,0 +1,27 @@
+{
+  "video_id": "2026-11-28_VIDEO_03_KANAK_KANAK_SKRIN_anak-skrin",
+  "status": "READY_NOT_SCHEDULED",
+  "approval_gate": {
+    "medical_accuracy": "PENDING (medical_references.md, items marked 'Semak')",
+    "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
+    "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding)",
+    "publishing_instruction": "Not scheduled. Schedule on Metricool only when the user asks (AI-generated label OFF, commercial content OFF)."
+  },
+  "scheduled_posts": [],
+  "suggested_tiktok_title": "Anak & skrin: berapa lama yang sesuai?",
+  "elevenlabs": {
+    "flow_id": "Wd8AoKU0xDztzLxHdZzT",
+    "tts_generation_id": "syR1vylWZSv2Z1HbCHai",
+    "tts_credits": 1289.87,
+    "tts_duration_s": 75.84,
+    "sfx": {
+      "file": "phone.mp3 baharu (2 s)",
+      "generation_id": "st70haoeO5fYSlLLUe8t",
+      "credits": 6.67
+    },
+    "music": "reused jenis-nyamuk/music.mp3 (0 credits)",
+    "scribe_credits": 0
+  },
+  "higgsfield_credits": 0,
+  "notes": "Medical review still pending."
+}
