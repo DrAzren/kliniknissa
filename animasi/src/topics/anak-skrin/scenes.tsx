@@ -34,7 +34,7 @@ export const Intro: React.FC<SceneProps> = (p) => {
       <Pop at={0.1} style={{left: 60, top: 560}}><IconPill icon={<KIcon name="phone" size={56} f={f} />} text="Asyik dengan telefon…" size={42} /></Pop>
       <Pop at={1.9} style={{left: 60, top: 680}}><IconPill icon={<KIcon name="talk" size={56} />} text="Tak mahu bercakap?" size={40} bg={RED} color="#fff" /></Pop>
       <Who preset={AQIL} x={380} y={1060} w={330} mood="neutral" pose="clasp" seed={8} />
-      <Glare x={470} y={1140} f={f} size={140} />
+      <Glare x={520} y={1270} f={f} size={130} />
       <Pop at={aBerapa} style={{left: 0, width: 1080, top: 1500, display: 'flex', justifyContent: 'center'}}><Pill text="Berapa lama yang sesuai?" bg={C.yellow} color={C.navy} size={52} /></Pop>
     </Camera>
   );
@@ -57,7 +57,7 @@ export const Aqil: React.FC<SceneProps> = (p) => {
       <Pop at={aJam} style={{left: 60, top: 900}}><IconPill icon={<KIcon name="clock" size={52} f={f * 4} />} text="Berjam-jam setiap hari" size={38} bg={RED} color="#fff" /></Pop>
       <Who preset={IBU} x={40} y={1000} w={420} mood="tired" pose="point" seed={9} />
       <Who preset={AQIL} x={560} y={1140} w={300} mood={hasPhone ? 'neutral' : 'sad'} pose="clasp" seed={8} />
-      {hasPhone ? <Glare x={640} y={1220} f={f} size={120} /> : null}
+      {hasPhone ? <Glare x={680} y={1310} f={f} size={110} /> : null}
     </Camera>
   );
 };

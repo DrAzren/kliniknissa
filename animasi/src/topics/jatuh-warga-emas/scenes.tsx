@@ -61,13 +61,13 @@ export const Hamid: React.FC<SceneProps> = (p) => {
     <Camera dur={p.dur} to={1.08} panX={-20}>
       <AbsoluteFill style={{background: night ? BG(C.night[1], C.violet[1]) : BG(C.violet[0], C.pink[0])}} />
       {night ? <Tiles top={1380} wet={f >= aBasah} /> : <div style={{position: 'absolute', left: 0, top: 1420, width: 1080, height: 500, background: '#C98C64'}} />}
+      {night ? <AbsoluteFill style={{background: 'rgba(10,6,30,0.35)'}} /> : null}
       <Pop at={0} style={{left: 60, top: 560}}><Pill text="Pak Hamid, 72 tahun" bg={C.navy} color={C.yellow} size={48} /></Pop>
       <Pop at={1.6} style={{left: 60, top: 680}}><IconPill icon={<KIcon name="school" size={52} />} text="Pesara guru" size={38} /></Pop>
       <Pop at={aMalam} style={{left: 520, top: 680}}><IconPill icon={<KIcon name="moon" size={52} f={f} />} text="Bangun ke tandas" size={34} /></Pop>
       <Pop at={aBasah} style={{left: 60, top: 800}}><IconPill icon={<KIcon name="drop" size={52} f={f} />} text="Lantai basah" size={38} bg={RED} color="#fff" /></Pop>
       <Pop at={aGelap} style={{left: 480, top: 800}}><IconPill icon={<KIcon name="warning" size={52} />} text="Lampu gelap" size={38} bg={RED} color="#fff" /></Pop>
       <Who preset={HAMID} x={300} y={980} w={460} mood={night ? 'tired' : 'happy'} pose="down" seed={12} />
-      {night ? <AbsoluteFill style={{background: 'rgba(10,6,30,0.35)', pointerEvents: 'none'}} /> : null}
     </Camera>
   );
 };
@@ -83,9 +83,9 @@ export const Tergelincir: React.FC<SceneProps> = (p) => {
       <Tiles top={1300} wet />
       <Pop at={0.1} style={{left: 60, top: 560}}><Pill text="Tergelincir!" bg={RED} size={56} /></Pop>
       <Pop at={aBangun} style={{left: 60, top: 680}}><IconPill icon={<KIcon name="warning" size={56} />} text="Tak boleh bangun" size={40} /></Pop>
-      <Fallen x={140} y={1080} w={420} f={f} />
+      <Fallen x={120} y={1220} w={360} f={f} />
       {f >= aIsteri ? <Who preset={ISTERI} x={600} y={960} w={420} mood="shock" pose="point" seed={5} /> : null}
-      <Pop at={aIsteri} style={{left: 440, top: 800}}><IconPill icon={<KIcon name="person" size={52} />} text="Isteri menjumpainya" size={36} /></Pop>
+      <Pop at={aIsteri} style={{left: 60, top: 800}}><IconPill icon={<KIcon name="person" size={52} />} text="Isteri menjumpainya" size={36} bg={C.navy} color="#fff" /></Pop>
     </Camera>
   );
 };
