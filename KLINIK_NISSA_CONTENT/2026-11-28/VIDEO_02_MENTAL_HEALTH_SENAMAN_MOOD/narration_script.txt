@@ -1,0 +1,29 @@
+# Senaman & Mood: Ubat Yang Sering Dilupakan — narration DRAFT (Dr Azren, ElevenLabs eleven_v4, 1 take) — 1319 aksara, MENUNGGU 'OK jana'
+# Tag [ ] ialah arahan emosi (tidak dibaca). Kapsyen: "tiga puluh enam tahun" -> "36 tahun", "seratus lima puluh minit" -> "150 minit", "tiga puluh minit" -> "30 minit", "Sepuluh minit" / "sepuluh minit" -> "10 minit", "dua minggu" -> "2 minggu", "dua bulan" -> "2 bulan", "Doktor Azren" -> "Dr. Azren".
+# Penutup pada skrin: "Video ini untuk pendidikan, bukan diagnosis."
+
+[curious] Rasa murung dan tak bermaya? Mungkin badan anda perlu bergerak.
+
+[storytelling] Encik Rizal, tiga puluh enam tahun, pegawai bank. Setiap hari selepas kerja, dia hanya duduk di sofa dan menatap telefon.
+
+[worried] Lama-kelamaan, moodnya merosot, dia mudah marah, dan sukar tidur.
+
+[serious] Doktor menilai mood dan tidurnya, dan mencadangkan satu langkah tambahan... senaman secara berkala.
+
+[warmly] Senaman bukan hanya untuk badan. Ini lima perkara yang perlu anda tahu.
+
+Satu. Senaman membantu mengurangkan simptom kemurungan dan kebimbangan, dan memperbaiki tidur.
+
+Dua. Sasarkan sekurang-kurangnya seratus lima puluh minit seminggu aktiviti sederhana, seperti jalan laju. Kira-kira tiga puluh minit, lima hari seminggu.
+
+Tiga. Mulakan kecil. Sepuluh minit pun sudah baik. Yang penting, konsisten.
+
+Empat. Pilih aktiviti yang anda suka, dan lebih seronok bersama kawan atau kumpulan.
+
+Lima. Senaman melengkapkan rawatan, bukan menggantikannya. Jangan berhenti ubat atau terapi tanpa nasihat doktor.
+
+[reassuring] Jika mood rendah berterusan lebih dua minggu, atau anda hilang minat dalam semua perkara, jumpa doktor.
+
+[relieved] Selepas dua bulan berjalan laju setiap petang, Rizal tidur lebih lena, dan lebih bertenaga.
+
+[warmly] Rasa tak bermaya? Mulakan dengan sepuluh minit hari ini. Saya Doktor Azren.
