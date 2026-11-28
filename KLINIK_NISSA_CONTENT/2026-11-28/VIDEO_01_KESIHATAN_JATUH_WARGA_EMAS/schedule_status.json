@@ -1,14 +1,30 @@
 {
   "video_id": "2026-11-28_VIDEO_01_KESIHATAN_JATUH_WARGA_EMAS_jatuh-warga-emas",
-  "status": "READY_NOT_SCHEDULED",
+  "status": "SCHEDULED",
   "approval_gate": {
     "medical_accuracy": "PENDING (medical_references.md, items marked 'Semak')",
     "voice_identity_authorization": "PENDING_CONFIRMATION (cloned voice 'Dr Azren' lN6exnzhuXDOyNQfsVSR, requested by the user)",
     "advertising_compliance_MAB": "NOT_APPLICABLE (no clinic CTA, no clinic branding)",
-    "publishing_instruction": "Not scheduled. Schedule on Metricool only when the user asks (AI-generated label OFF, commercial content OFF)."
+    "publishing_instruction": "User instructed (2026-11-28 ~08:35: 'cari waktu terbaik HARI INI dan post hari ini') to schedule on Metricool for 28 Nov at the best times; AI-generated label OFF, commercial content OFF (made-for-kids applies only to YouTube, which this brand does not have)"
   },
-  "scheduled_posts": [],
-  "suggested_tiktok_title": "Warga emas jatuh: 5 cara mencegahnya",
+  "scheduled_posts": [
+    {
+      "metricool_post_id": 445027584,
+      "uuid": "-3971865742295547212",
+      "publication": "2026-11-28 10:10 Asia/Kuala_Lumpur",
+      "networks": {
+        "facebook": "REEL / PENDING",
+        "instagram": "REEL, showReelOnFeed, isAiGenerated=false / PENDING",
+        "tiktok": "PUBLIC, isAigc=false, commercial (own brand / third party) = false, title 'Warga emas jatuh: 5 cara mencegahnya' / PENDING"
+      },
+      "autoPublish": true,
+      "caption_file": "caption_instagram.txt",
+      "source_media": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JY4YdIKVikfVoQnvogqPkiBhNk/dc0390f0-469f-4bec-ba0a-43828c40b478.mp4",
+      "media": "https://static.metricool.com/planner/202611/7840561-file-3241038785079070978.mp4",
+      "thumbnail": "https://static.metricool.com/planner/202611/7840561-file-14968651929183964800.jpeg",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7840561&openWithPostUuid=-3971865742295547212"
+    }
+  ],
   "elevenlabs": {
     "flow_id": "Wd8AoKU0xDztzLxHdZzT",
     "tts_generation_id": "3ttxIeB9uadLlEVoLb92",
@@ -23,5 +39,10 @@
     "scribe_credits": 0
   },
   "higgsfield_credits": 0,
-  "notes": "Medical review still pending."
+  "notes": "Times from Metricool best-time data for Saturday (FB 10:00 > 11:00 ≈ 12:00; TikTok 10:00 > 12:00 > 18:00; IG 21:00 > 20:00 > 19:00, 18:00 = 11:00). Media hosted on the user's Higgsfield storage (free upload, 0 credits; sizes verified equal to local files); Metricool copied it to its own storage. Medical review still pending.",
+  "metricool_brand": {
+    "label": "Klinik Nissa",
+    "brandId": 7840561,
+    "timezone": "Asia/Kuala_Lumpur"
+  }
 }

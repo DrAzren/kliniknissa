@@ -8,7 +8,7 @@ The user approved option **A+** ("+ A, ditambah 2 SFX baharu"):
 - **2 new short SFX:** fall thud, phone notification.
 - Music reused from `jenis-nyamuk`.
 
-Topics were checked against all 43 earlier topics; none repeat. No helpline line. **No clinic CTA.** **Not scheduled** (Metricool only when the user asks).
+Topics were checked against all 43 earlier topics; none repeat. No helpline line. **No clinic CTA.** **Scheduled** on Metricool for 28 Nov (same day) at the user's request (see below).
 
 Shared code: `animasi/src/topics/_kit/kit.tsx` gained 8 icons: cane, bathroom grab bar, non-slip mat, slipper, dumbbell, TV, book, music notes. Topics registered in `src/topics/index.ts`: `jatuh-warga-emas`, `senaman-mood`, `anak-skrin`.
 
@@ -77,7 +77,7 @@ Shared code: `animasi/src/topics/_kit/kit.tsx` gained 8 icons: cane, bathroom gr
 - `caption_facebook.txt`, `caption_instagram.txt`, `caption_tiktok.txt` (no hashtags)
 - `storyboard.md`
 - `medical_references.md`
-- `schedule_status.json` (status `READY_NOT_SCHEDULED`)
+- `schedule_status.json`
 
 ## Usage (verified from tool responses)
 - **ElevenLabs:** **≈3,923.9 credits** (estimate before approval: ~3,924 for option A+)
@@ -92,3 +92,14 @@ Shared code: `animasi/src/topics/_kit/kit.tsx` gained 8 icons: cane, bathroom gr
 - Folder date is 2026-11-28 (next posting day); production happened on 2026-11-27.
 - Pronunciation could not be checked automatically. Please listen for: fisioterapi, tergelincir, "seratus lima puluh minit", "dua hingga empat tahun", mengamuk.
 - The remaining credit balance could not be read (the ElevenLabs usage tool needs extra connector permission).
+
+## Scheduling (Metricool, brand Klinik Nissa, Asia/Kuala_Lumpur)
+Requested 2026-11-28 ~08:35: "cari waktu terbaik HARI INI dan post hari ini". Facebook Reel + Instagram Reel (shown on feed) + TikTok (public), auto-publish, caption = `caption_instagram.txt`, custom thumbnail. AI-generated label OFF (IG `isAiGenerated`, TikTok `isAigc`), commercial content OFF (TikTok own brand / third party), TikTok auto-music OFF. Made-for-kids: not applicable (no YouTube on this brand).
+
+| Time (MYT) | Video | Metricool post id | Why this slot |
+|---|---|---|---|
+| Sat 28 Nov 10:10 | VIDEO_01 Warga Emas Jatuh | 445027584 | FB 10:00 and TikTok 10:00 are the top hours on Saturday; adult children at home on weekend mornings |
+| Sat 28 Nov 12:20 | VIDEO_03 Anak & Skrin | 445027750 | TikTok 12:00 (2nd), FB 12:00 (3rd); parents free at weekend lunchtime |
+| Sat 28 Nov 18:10 | VIDEO_02 Senaman & Mood | 445027859 | TikTok 18:00 (3rd), IG 18:00 strong, FB evening; fits the "exercise this evening" message |
+
+Media uploaded to the user's Higgsfield storage (free `media_upload`, 0 credits; sizes verified equal to local files); Metricool copied it to its own storage. Medical review is still pending: please check before 10:10 today.
